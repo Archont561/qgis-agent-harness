@@ -1,4 +1,4 @@
-"""What `scripts/cluster/setup.sh` promises about a host it has never seen.
+"""What `.cluster/setup.sh` promises about a host it has never seen.
 
 The script is a shell entry point, so it runs under `bash` rather than the `run` fixture, with a
 PATH whose `nvidia-smi` is a stub: the promise under test is the *decision* the script makes from
@@ -15,17 +15,37 @@ import os
 import pathlib
 import subprocess
 import sys
+from typing import Protocol
 
 import pytest
-from conftest import Write
 
 REPO = pathlib.Path(__file__).resolve().parents[2]
-SETUP = REPO / "scripts" / "cluster" / "setup.sh"
+SETUP = REPO / ".cluster" / "setup.sh"
+
+
+class Write(Protocol):
+    def __call__(self, root: pathlib.Path, rel: str, text: str) -> pathlib.Path:
+        """Write `text` to `root/rel`, creating parents; return the path."""
+
+
+@pytest.fixture(name="write")
+def write_fixture() -> Write:
+    """Local on purpose: a second `conftest.py` in another test tree shadows this one under the
+    module name `conftest`, so a tree whose tests need nothing shared keeps none."""
+
+    def write(root: pathlib.Path, rel: str, text: str) -> pathlib.Path:
+        path = root / rel
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(text, encoding="utf-8")
+        return path
+
+    return write
+
 
 # A bare `command -v` probe: every verb needs these two present before it does anything else.
 STUBS = {
-    "git": '#!/bin/sh\nexit 0\n',
-    "curl": '#!/bin/sh\nexit 0\n',
+    "git": "#!/bin/sh\nexit 0\n",
+    "curl": "#!/bin/sh\nexit 0\n",
 }
 
 
@@ -45,7 +65,7 @@ def _bin(
         gpu = bin_dir / "nvidia-smi"
         gpu.write_text(
             f'#!/bin/sh\ncase "$*" in\n*name*) echo "Stub GPU {vram_mib}MiB" ;;\n'
-            f'*) echo {vram_mib} ;;\nesac\n',
+            f"*) echo {vram_mib} ;;\nesac\n",
             encoding="utf-8",
         )
         gpu.chmod(0o755)

@@ -99,8 +99,10 @@ backlog = { cmd = "bun x --bun backlog", depends-on = ["install"], description =
 [feature.test.tasks]
 # Behavioural: each checker in scripts/ is run as alint runs it, against a throwaway tree.
 test-scripts = { cmd = "pytest scripts/tests", description = "behavioural tests for the alint checkers in scripts/" }
+# The sweep host is not a checker: .cluster/ is proved the same behavioural way, plus Gherkin.
+test-cluster = { cmd = "pytest .cluster/tests", description = "behavioural and BDD tests for the sweep-host tooling in .cluster/" }
 # --cov reads source/paths from experiment/pyproject.toml; the XML is what Codecov ingests.
-test = { cmd = "pytest experiment --cov=experiment/src --cov-report=term-missing --cov-report=xml:coverage.xml", depends-on = ["test-scripts"], description = "both suites + coverage (pytest-bdd, hypothesis)" }
+test = { cmd = "pytest experiment --cov=experiment/src --cov-report=term-missing --cov-report=xml:coverage.xml", depends-on = ["test-scripts", "test-cluster"], description = "all three suites + coverage (pytest-bdd, hypothesis)" }
 cov-upload = { cmd = "codecovcli upload-process --disable-search --fail-on-error -f coverage.xml", description = "upload coverage.xml to Codecov (CI only)" }
 
 [feature.experiment.tasks]

@@ -82,7 +82,7 @@ sweep, and `experiment.yml` prepares the machine before it asks anything of it:
 | `setup` | every push, schedule and dispatch: is the host provisioned, and provision it if not |
 | `cards`, `sweep`, `merge`, `analyse` | the pre-registration gate, the shards, the tidy tables, the statistics |
 
-`setup` sends [`scripts/cluster/setup.sh`](../scripts/cluster/setup.sh) over ssh and runs it with
+`setup` sends [`setup.sh`](../.cluster/setup.sh) over ssh and runs it with
 `bash -s`, so the copy that provisions the host is the one reviewed in this repository and the host
 needs nothing installed first but bash. Its defaults are a configuration block at the top of the
 script, each one a `${VAR:-default}` that the environment overrides, because a script arriving on
@@ -106,7 +106,7 @@ Three secrets drive it — `SSH_TARGET` (`user@host`), `SSH_KEY` (ed25519) and `
 the job does nothing but report when they are absent. The host key is compared rather than accepted,
 and the key file is removed again in a step that runs `if: always()`. To keep a leaked workflow key
 from becoming a shell on a machine that is reachable from the internet, install
-[`scripts/cluster/sweep-ctl`](../scripts/cluster/sweep-ctl) on the host and pin it in
+[`sweep-ctl`](../.cluster/sweep-ctl) on the host and pin it in
 `authorized_keys` as `restrict,command="/opt/sweep-ctl"`: it accepts four verbs and two flags and
 refuses everything else. Host-specific overrides that should not live in git go next to it as
 `environment="MODEL_ID=…"`.

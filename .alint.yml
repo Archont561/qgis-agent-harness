@@ -47,12 +47,16 @@ rules:
   - id: bdd-feature-has-test
     kind: command
     level: error
-    paths: "experiment/features/*.feature"
+    # Two feature trees, each with the tests that bind it: the harness under experiment/, and the
+    # sweep host under .cluster/, which is host tooling rather than part of the instrument.
+    paths:
+      - "experiment/features/*.feature"
+      - ".cluster/features/*.feature"
     command:
       [
         "sh",
         "-c",
-        'grep -rqF -- "{stem}.feature" experiment/tests || { echo "{path} is not referenced by any module under experiment/tests"; exit 1; }',
+        'grep -rqF -- "{stem}.feature" experiment/tests .cluster/tests || { echo "{path} is not referenced by any module under experiment/tests or .cluster/tests"; exit 1; }',
       ]
   # The offline transport is only restorable if its reviewed plan and its launcher survive.
   - id: sandbox-config-exists

@@ -133,7 +133,7 @@ jobs:
           set -eu
           {
             echo '```'
-            ssh -T -o BatchMode=yes "$SSH_TARGET" 'bash -s -- --probe' < scripts/cluster/setup.sh
+            ssh -T -o BatchMode=yes "$SSH_TARGET" 'bash -s -- --probe' < .cluster/setup.sh
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
@@ -148,7 +148,7 @@ jobs:
           SHA: ${{ github.sha }}
         run: |
           set +e
-          ssh -T -o BatchMode=yes "$SSH_TARGET" "bash -s -- --check --sha $SHA" < scripts/cluster/setup.sh
+          ssh -T -o BatchMode=yes "$SSH_TARGET" "bash -s -- --check --sha $SHA" < .cluster/setup.sh
           echo "code=$?" >> "$GITHUB_OUTPUT"
 
       - name: Provision the host
@@ -157,7 +157,7 @@ jobs:
           SSH_TARGET: ${{ secrets.SSH_TARGET }}
           SHA: ${{ github.sha }}
         run: |
-          ssh -T -o BatchMode=yes "$SSH_TARGET" "bash -s -- provision --sha $SHA" < scripts/cluster/setup.sh
+          ssh -T -o BatchMode=yes "$SSH_TARGET" "bash -s -- provision --sha $SHA" < .cluster/setup.sh
 
       - name: Drop the ssh key
         if: always()

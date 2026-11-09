@@ -1,4 +1,4 @@
-"""What `scripts/cluster/sweep-ctl` promises to a host that is reachable from the internet.
+"""What `.cluster/sweep-ctl` promises to a host that is reachable from the internet.
 
 `restrict,command="/opt/sweep-ctl"` in `authorized_keys` decides which *program* an ssh key runs; it
 says nothing about what that program is told, because the client still controls
@@ -16,8 +16,8 @@ import sys
 import pytest
 
 REPO = pathlib.Path(__file__).resolve().parents[2]
-SWEEP_CTL = REPO / "scripts" / "cluster" / "sweep-ctl"
-SETUP = REPO / "scripts" / "cluster" / "setup.sh"
+SWEEP_CTL = REPO / ".cluster" / "sweep-ctl"
+SETUP = REPO / ".cluster" / "setup.sh"
 
 
 def _ctl(tmp_path: pathlib.Path, request: str) -> subprocess.CompletedProcess[str]:
