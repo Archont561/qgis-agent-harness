@@ -46,3 +46,8 @@ its dates in `backlog/docs/`, the settled choices in `backlog/decisions/`.
 
 Contributors — human or agent — start with [AGENTS.md](AGENTS.md). Tests come first, and every
 `.feature` must be wired into a test module.
+
+## License
+
+MIT — see [LICENSE](LICENSE). The thesis text under `thesis/` is licensed with it; the full-text
+transcripts in `thesis/literature/fulltexts/` remain the work of the authors they quote.

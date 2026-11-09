@@ -21,9 +21,8 @@ ignore:
   - __pycache__/**
 
 rules:
-  # OSS-governance boilerplate does not apply to a private research workspace.
-  - id: oss-license-exists
-    level: off
+  # The thesis has one author, so the governance files a community project needs stay off; the
+  # licence is real and MIT, so the rule proving LICENSE is there stays on.
   - id: oss-security-policy-exists
     level: off
   - id: oss-dependency-update-tool

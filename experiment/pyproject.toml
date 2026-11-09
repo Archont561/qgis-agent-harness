@@ -8,7 +8,7 @@ version = "0.3.0"
 description = "MCP vs. code-generation harness for GIS agent evaluation"
 readme = "README.md"
 requires-python = ">=3.12"
-license = { text = "proprietary" }
+license = { text = "MIT" }
 # The runtime stack (QGIS, geopandas, scipy, matplotlib, pytest) comes from pixi, not PyPI — see ../pixi.toml.
 dependencies = []
 
