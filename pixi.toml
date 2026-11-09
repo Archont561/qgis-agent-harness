@@ -97,6 +97,9 @@ skills = { cmd = "bun x --bun skills", depends-on = ["install"], description = "
 backlog = { cmd = "bun x --bun backlog", depends-on = ["install"], description = "backlog CLI against ./backlog" }
 readme = { cmd = "bash scripts/readme.sh", description = "render README.md from .readme/README.md.ejs" }
 readme-check = { cmd = "bash scripts/readme.sh --check", description = "fail when README.md is not the render of the template" }
+# agents-md rewrites only what sits between its markers; --no-symlink keeps a CLAUDE.md symlink out of the tree.
+agents-md = { cmd = "bun x --bun @eugeniughelbur/agents-md@0.1.0 --no-symlink", description = "regenerate the marked sections of AGENTS.md — review the diff before committing it" }
+agents-md-check = { cmd = "bun x --bun @eugeniughelbur/agents-md@0.1.0 --no-symlink --dry-run", description = "report what a refresh of AGENTS.md would change, without writing it" }
 
 [feature.test.tasks]
 # Behavioural: each checker in scripts/ is run as alint runs it, against a throwaway tree.
