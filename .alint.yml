@@ -21,9 +21,8 @@ ignore:
   - __pycache__/**
 
 rules:
-  # OSS-governance boilerplate does not apply to a private research workspace.
-  - id: oss-license-exists
-    level: off
+  # The thesis has one author, so the governance files a community project needs stay off; the
+  # licence is real and MIT, so the rule proving LICENSE is there stays on.
   - id: oss-security-policy-exists
     level: off
   - id: oss-dependency-update-tool
@@ -82,6 +81,7 @@ rules:
     level: error
     paths:
       - "README.md"
+      - "CONTRIBUTING.md"
       - "AGENTS.md"
       - "docs/**/*.md"
       - "experiment/**/*.md"
@@ -98,6 +98,7 @@ rules:
     level: error
     paths:
       - "README.md"
+      - "CONTRIBUTING.md"
       - "AGENTS.md"
       - "docs/**/*.md"
       - "experiment/**/*.md"
@@ -115,6 +116,7 @@ rules:
     level: error
     paths:
       - "README.md"
+      - "CONTRIBUTING.md"
       - "AGENTS.md"
       - "docs/**/*.md"
       - "experiment/**/*.md"
@@ -233,6 +235,14 @@ rules:
     level: error
     paths: "docs/**/*.md"
     command: [python3, scripts/house_style.py, invariants, "{path}"]
+  # The contributor guide is held to the shape the README is (docs/markdown-style.md), in the mode
+  # that checks the `Contributing to <repository>` heading and the environment → commands → commits
+  # loop, with a purpose beside every command.
+  - id: house-contributing-style
+    kind: command
+    level: error
+    paths: ["CONTRIBUTING.md"]
+    command: [python3, scripts/house_style.py, contributing, "{path}"]
   # Labels: `N1` and `N4` are the two catalogue conditions, contributions are C1–C6, currents F1–F6.
   # Pinned to one index file because the checker walks the tree itself — per-file it would spawn N times.
   - id: terminology-labels

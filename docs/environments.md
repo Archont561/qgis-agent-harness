@@ -164,9 +164,11 @@ Error:   × the task 'test' is not available in environment 'qa'
 
 `.alint.yml` extends three bundled rulesets (`oss-baseline`, `python`, `node`), ignores generated
 trees (`node_modules`, `.pixi`, `thesis/literature/fulltexts`, `thesis/literature/search`,
-`backlog`) and switches off six OSS-governance rules that don't fit a private workspace (license,
-SECURITY.md, CODEOWNERS, code of conduct, dependency-update bot, `.nvmrc`). Current state:
-**45 rules pass, 0 violations**.
+`backlog`) and switches off the four OSS-governance rules that do not fit a solo thesis —
+SECURITY.md, CODEOWNERS, a code of conduct and a dependency-update bot — plus `.nvmrc`, because bun
+is the runtime here and pinning a Node version would be a second one. The licence is real: the
+workspace is MIT, `oss-license-exists` is left on, and `experiment/pyproject.toml` says so too.
+Current state: **47 rules pass, 0 violations**.
 
 Eighteen rules are configured here rather than inherited, and they are the ones a bundled ruleset
 cannot know on its own:

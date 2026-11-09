@@ -40,9 +40,15 @@ pixi run render math-slide '\frac{a}{b}' -o slide.pptx   # maths via the archont
 - [Commits and CI](docs/commits.md) — Conventional Commits, hooks, workflows
 - [Agent skills](docs/agents.md) — nine pinned skills, provenance, runtime notes
 - [Backlog](docs/backlog.md) — how work is tracked, what never enters it, known failures
+- [Contributing](CONTRIBUTING.md) — the environment, the commands, the commit convention
 
 Research side: the text and its notes in [`thesis/README.md`](thesis/README.md), the work plan and
 its dates in `backlog/docs/`, the settled choices in `backlog/decisions/`.
 
 Contributors — human or agent — start with [AGENTS.md](AGENTS.md). Tests come first, and every
 `.feature` must be wired into a test module.
+
+## License
+
+MIT — see [LICENSE](LICENSE). The thesis text under `thesis/` is licensed with it; the full-text
+transcripts in `thesis/literature/fulltexts/` remain the work of the authors they quote.
