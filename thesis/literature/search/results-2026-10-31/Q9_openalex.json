@@ -1,0 +1,1402 @@
+[
+ {
+  "id": "W4391472736",
+  "doi": "10.1007/s12061-024-09566-x",
+  "title": "A QGIS Plugin for GIS-based Multicriteria Decision Analysis: an Application of Developing Alternative Future Land-Use Scenarios in Ghana",
+  "year": 2024,
+  "cites": 10
+ },
+ {
+  "id": "W7131251970",
+  "doi": "10.1080/17538947.2026.2633849",
+  "title": "Bridging natural language and GIS: a multi-agent framework for LLM-driven autonomous geospatial analysis",
+  "year": 2026,
+  "cites": 7
+ },
+ {
+  "id": "W3033503930",
+  "doi": "10.1016/j.scitotenv.2020.140033",
+  "title": "Spatial analysis and GIS in the study of COVID-19. A review",
+  "year": 2020,
+  "cites": 657
+ },
+ {
+  "id": "W4385782864",
+  "doi": "10.31235/osf.io/x6tnj",
+  "title": "A QGIS pugin for GIS-based multicriteria decision analysis: An application of developing alternative future land-use scenarios in Ghana",
+  "year": 2023,
+  "cites": 0
+ },
+ {
+  "id": "W4404481617",
+  "doi": "10.1145/3687123.3698286",
+  "title": "Evaluation of Code LLMs on Geospatial Code Generation",
+  "year": 2024,
+  "cites": 31
+ },
+ {
+  "id": "W4388616070",
+  "doi": "10.1080/17538947.2023.2278895",
+  "title": "Autonomous GIS: the next-generation AI-powered GIS",
+  "year": 2023,
+  "cites": 201
+ },
+ {
+  "id": "W4404390520",
+  "doi": "10.48550/arxiv.2411.03205",
+  "title": "GIS Copilot: Towards an Autonomous GIS Agent for Spatial Analysis",
+  "year": 2024,
+  "cites": 3
+ },
+ {
+  "id": "W2512433937",
+  "doi": "10.15781/t2cr5nc55",
+  "title": "HMS-PrePro : a GIS preprocessing tool for extracting geospatial data and preparing HEC-HMS models",
+  "year": 2016,
+  "cites": 0
+ },
+ {
+  "id": "W4413434847",
+  "doi": "10.1080/13658816.2025.2549460",
+  "title": "GeoCogent: an LLM-based agent for geospatial code generation",
+  "year": 2025,
+  "cites": 16
+ },
+ {
+  "id": "W4408167042",
+  "doi": "10.1016/j.jag.2025.104456",
+  "title": "GeoCode-GPT: A large language model for geospatial code generation",
+  "year": 2025,
+  "cites": 43
+ },
+ {
+  "id": "W7124808448",
+  "doi": "10.1080/20964471.2026.2615511",
+  "title": "GeoJSON agents: a multi-agent LLM architecture for geospatial analysis\u2014function calling vs. code generation",
+  "year": 2026,
+  "cites": 11
+ },
+ {
+  "id": "W7214761985",
+  "doi": "10.71052/srb2024/xkdr2247",
+  "title": "Self-evolving Spatial Intelligence - Integrating Large Language Models with GIS for Automated Geospatial Knowledge Discovery and Decision Support",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W2807896083",
+  "doi": "10.1111/tgis.12342",
+  "title": "The limits of GIS: Towards a GIS of place",
+  "year": 2018,
+  "cites": 37
+ },
+ {
+  "id": "W7125427888",
+  "doi": "10.6084/m9.figshare.31120496",
+  "title": "GeoJSON agents: a multi-agent LLM architecture for geospatial analysis\u2014function calling vs. code generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W2616035586",
+  "doi": "10.1016/j.jas.2017.05.008",
+  "title": "Geospatial analysis as experimental archaeology",
+  "year": 2017,
+  "cites": 22
+ },
+ {
+  "id": "W7164388531",
+  "doi": "10.5281/zenodo.20645017",
+  "title": "Bench4GeoCode: A Benchmark for Natural Language to Geospatial Code Generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W154777553",
+  "doi": "10.1007/978-94-015-8745-7_6",
+  "title": "GIS Needs and GIS Software",
+  "year": 1996,
+  "cites": 6
+ },
+ {
+  "id": "W2900729140",
+  "doi": "10.5194/isprs-annals-iv-5-115-2018",
+  "title": "ASSESSMENT OF HYDRO POTENTIAL USING INTEGRATED TOOL IN QGIS",
+  "year": 2018,
+  "cites": 1
+ },
+ {
+  "id": "W4285503473",
+  "doi": "10.1109/incet54531.2022.9825473",
+  "title": "CANSAT : Cancer Surveillance And Analysis Tool Using Geospatial Techniques",
+  "year": 2022,
+  "cites": 0
+ },
+ {
+  "id": "W4415982642",
+  "doi": "10.1080/17538947.2025.2569405",
+  "title": "GeoColab: an LLM-based multi-agent collaborative framework for geospatial code generation",
+  "year": 2025,
+  "cites": 11
+ },
+ {
+  "id": "W3007290213",
+  "doi": "10.5281/zenodo.3676187",
+  "title": "Geospatial Technology for a Better Tomorrow",
+  "year": 2020,
+  "cites": 0
+ },
+ {
+  "id": "W2596846811",
+  "doi": "10.2139/ssrn.2889630",
+  "title": "Application of GIS",
+  "year": 2016,
+  "cites": 7
+ },
+ {
+  "id": "W4410769477",
+  "doi": "10.1080/17538947.2025.2509812",
+  "title": "Chain-of-programming (CoP): empowering large language models for geospatial code generation task",
+  "year": 2025,
+  "cites": 28
+ },
+ {
+  "id": "W4362696977",
+  "doi": "10.1201/9781003307181-11",
+  "title": "GIS and Digital Humanities",
+  "year": 2023,
+  "cites": 0
+ },
+ {
+  "id": "W4416063220",
+  "doi": "10.1080/20964471.2025.2581425",
+  "title": "AutoGEEval++: A multi-level and multi-geospatial-modality automated evaluation framework for large language models in geospatial code generation on Google Earth Engine",
+  "year": 2025,
+  "cites": 8
+ },
+ {
+  "id": "W4405630293",
+  "doi": "10.1016/j.jag.2024.104312",
+  "title": "Geospatial large language model trained with a simulated environment for generating tool-use chains autonomously",
+  "year": 2024,
+  "cites": 34
+ },
+ {
+  "id": "W7134171777",
+  "doi": "10.31223/x54z09",
+  "title": "Bridging Natural Language and Desktop GIS Automation with LLM-Powered GIS Plugins",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4404570107",
+  "doi": "10.48550/arxiv.2411.10753",
+  "title": "Chain-of-Programming (CoP) : Empowering Large Language Models for Geospatial Code Generation",
+  "year": 2024,
+  "cites": 4
+ },
+ {
+  "id": "W7224749068",
+  "doi": "10.1108/gkmc-04-2025-0275",
+  "title": "Large language models in geospatial science",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7104727644",
+  "doi": "10.6084/m9.figshare.30579170",
+  "title": "AutoGEEval++: A multi-level and multi-geospatial-modality automated evaluation framework for large language models in geospatial code generation on Google Earth Engine",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4376311928",
+  "doi": "10.48550/arxiv.2305.06453",
+  "title": "Autonomous GIS: the next-generation AI-powered GIS",
+  "year": 2023,
+  "cites": 3
+ },
+ {
+  "id": "W2082966459",
+  "doi": "10.1007/s00607-013-0339-8",
+  "title": "Personalised code generation from large schema sets for geospatial mobile applications",
+  "year": 2013,
+  "cites": 2
+ },
+ {
+  "id": "W4417350491",
+  "doi": "10.48550/arxiv.2506.10365",
+  "title": "AutoGEEval++: A Multi-Level and Multi-Geospatial-Modality Automated Evaluation Framework for Large Language Models in Geospatial Code Generation on Google Earth Engine",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W4392420740",
+  "doi": "10.4995/wdsa-ccwi2022.2022.14562",
+  "title": "Development of a graph dynamic sectorization tool using QGIS/PostgreSQL to plan and operate water distribution networks",
+  "year": 2022,
+  "cites": 0
+ },
+ {
+  "id": "W4403010755",
+  "doi": "10.3390/ijgi13100348",
+  "title": "ChatGeoAI: Enabling Geospatial Analysis for Public through Natural Language, with Large Language Models",
+  "year": 2024,
+  "cites": 75
+ },
+ {
+  "id": "W4412828904",
+  "doi": "10.1080/10095020.2025.2535523",
+  "title": "Can large language models generate geospatial code?",
+  "year": 2025,
+  "cites": 15
+ },
+ {
+  "id": "W4411337921",
+  "doi": "10.1109/pacificvis64226.2025.00011",
+  "title": "GeoPet: Interactive Prompt Engineering for Enhancing Tool Calling of Large Language Models in Geospatial Tasks",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W261774938",
+  "doi": "",
+  "title": "The New Geospatial Technology Competency Model: Bringing Workforce Needs into Focus",
+  "year": 2010,
+  "cites": 82
+ },
+ {
+  "id": "W1519393268",
+  "doi": "10.1007/978-3-642-02454-2_35",
+  "title": "An Integrative Approach to Geospatial Data Fusion",
+  "year": 2009,
+  "cites": 12
+ },
+ {
+  "id": "W4411804834",
+  "doi": "10.3390/ijgi14070256",
+  "title": "AutoGEEval: A Multimodal and Automated Evaluation Framework for Geospatial Code Generation on GEE with Large Language Models",
+  "year": 2025,
+  "cites": 17
+ },
+ {
+  "id": "W224203893",
+  "doi": "",
+  "title": "SUSTAINABLE DEVELOPMENT BY GIS",
+  "year": 2010,
+  "cites": 14
+ },
+ {
+  "id": "W3010317630",
+  "doi": "10.3390/ijgi9030146",
+  "title": "A Review of Geospatial Semantic Information Modeling and Elicitation Approaches",
+  "year": 2020,
+  "cites": 43
+ },
+ {
+  "id": "W4404310887",
+  "doi": "10.48550/arxiv.2410.18792",
+  "title": "An LLM Agent for Automatic Geospatial Data Analysis",
+  "year": 2024,
+  "cites": 9
+ },
+ {
+  "id": "W2620729784",
+  "doi": "10.1016/j.compenvurbsys.2017.05.003",
+  "title": "A review of the emergent ecosystem of collaborative geospatial tools for addressing environmental challenges",
+  "year": 2017,
+  "cites": 57
+ },
+ {
+  "id": "W7202357943",
+  "doi": "10.1098/rsta.2025.0103",
+  "title": "Generative geospatial modelling with geometric algebra",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W4417302310",
+  "doi": "10.48550/arxiv.2505.12900",
+  "title": "AutoGEEval: A Multimodal and Automated Framework for Geospatial Code Generation on GEE with Large Language Models",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7114895783",
+  "doi": "10.1145/3748636.3763217",
+  "title": "GeoFlow: Agentic Workflow Automation for Geospatial Tasks",
+  "year": 2025,
+  "cites": 5
+ },
+ {
+  "id": "W3199394238",
+  "doi": "10.21079/11681/41881",
+  "title": "Geospatial Suitability Indices Toolbox (GSI Toolbox)",
+  "year": 2021,
+  "cites": 0
+ },
+ {
+  "id": "W7212387459",
+  "doi": "10.1080/17538947.2026.2704301",
+  "title": "AutoGIS: an agent framework for automated geospatial data management and analysis",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W4403483774",
+  "doi": "10.1145/3681763.3698478",
+  "title": "Geospatial Foundation Models: Recent Advances and Applications",
+  "year": 2024,
+  "cites": 4
+ },
+ {
+  "id": "W4244305923",
+  "doi": "10.2307/j.ctv1pzk1fk.12",
+  "title": "The Construction of the Database GIS and the Tools Used in this Book",
+  "year": 2017,
+  "cites": 0
+ },
+ {
+  "id": "W2119298954",
+  "doi": "10.1016/j.cageo.2012.09.027",
+  "title": "Extension of a GIS procedure for calculating the RUSLE equation LS factor",
+  "year": 2012,
+  "cites": 227
+ },
+ {
+  "id": "W4289442575",
+  "doi": "10.29173/istl1748",
+  "title": "Planning for Change: A Maps and Geospatial Information Services Survey.",
+  "year": 2018,
+  "cites": 3
+ },
+ {
+  "id": "W7212394292",
+  "doi": "10.6084/m9.figshare.33653281",
+  "title": "AutoGIS: an agent framework for automated geospatial data management and analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W2027757487",
+  "doi": "10.1016/j.geothermics.2007.12.001",
+  "title": "GIS integration model for geothermal exploration and well siting",
+  "year": 2008,
+  "cites": 119
+ },
+ {
+  "id": "W433465391",
+  "doi": "",
+  "title": "Intelligent positioning : GIS-GPS unification",
+  "year": 2006,
+  "cites": 42
+ },
+ {
+  "id": "W7124239112",
+  "doi": "10.65109/hfzd6332",
+  "title": "MapBot: A Multi-Modal Agent for Geospatial Analysis",
+  "year": 2025,
+  "cites": 4
+ },
+ {
+  "id": "W94695057",
+  "doi": "10.6017/ital.v19i1.10068",
+  "title": "Is This a Geolibrary? A Case of the Idaho Geospatial Data Center",
+  "year": 2017,
+  "cites": 5
+ },
+ {
+  "id": "W1262451382",
+  "doi": "10.1080/00940771.2011.11461789",
+  "title": "Fostering 21st Century Learning with Geospatial Technologies",
+  "year": 2011,
+  "cites": 7
+ },
+ {
+  "id": "W4415697200",
+  "doi": "10.1145/3764915.3770721",
+  "title": "GeoBenchX: Benchmarking LLMs in Agent Solving Multistep Geospatial Tasks",
+  "year": 2025,
+  "cites": 15
+ },
+ {
+  "id": "W2037425847",
+  "doi": "10.4081/gh.2012.120",
+  "title": "An operative dengue risk stratification system in Argentina based on geospatial technology",
+  "year": 2012,
+  "cites": 65
+ },
+ {
+  "id": "W7203652236",
+  "doi": "10.3390/ijgi15080370",
+  "title": "CGD-QCSF: A Code Generation-Driven Query\u2013Computation Separation Framework for Natural Language Geospatial Analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W2794173006",
+  "doi": "10.1093/obo/9780199363445-0081",
+  "title": "Use of GIS in Environmental Science",
+  "year": 2017,
+  "cites": 2
+ },
+ {
+  "id": "W4414610090",
+  "doi": "10.3390/ijgi14100382",
+  "title": "GeoJSEval: An Automated Evaluation Framework for Large Language Models on JavaScript-Based Geospatial Computation and Visualization Code Generation",
+  "year": 2025,
+  "cites": 12
+ },
+ {
+  "id": "W1564367970",
+  "doi": "10.18267/j.aip.60",
+  "title": "Evaluation of Web GIS Applications and their Development Tools Using AHP",
+  "year": 2015,
+  "cites": 0
+ },
+ {
+  "id": "W4409762035",
+  "doi": "10.1016/j.knosys.2025.113624",
+  "title": "Geo-FuB: A method for constructing an Operator-Function knowledge base for geospatial code generation with large language models",
+  "year": 2025,
+  "cites": 18
+ },
+ {
+  "id": "W4323241206",
+  "doi": "10.5220/0011902500003417",
+  "title": "A Survey of Geospatial-Temporal Visualizations for Military Operations",
+  "year": 2023,
+  "cites": 4
+ },
+ {
+  "id": "W2602298655",
+  "doi": "10.1007/978-3-319-55998-8_2",
+  "title": "Creating Web-Based GIS Applications Using Automatic Code Generation Techniques",
+  "year": 2017,
+  "cites": 3
+ },
+ {
+  "id": "W4403580375",
+  "doi": "10.48550/arxiv.2410.09738",
+  "title": "Can Large Language Models Generate Geospatial Code?",
+  "year": 2024,
+  "cites": 5
+ },
+ {
+  "id": "W2908703119",
+  "doi": "10.1007/978-3-030-04750-4_14",
+  "title": "Quest to Define the Knowledge and Skills Needed by Geospatial Professionals",
+  "year": 2019,
+  "cites": 4
+ },
+ {
+  "id": "W4292213016",
+  "doi": "10.21079/11681/45128",
+  "title": "Geospatial suitability indices (GSI) toolbox : user's guide",
+  "year": 2022,
+  "cites": 2
+ },
+ {
+  "id": "W4295781031",
+  "doi": "10.32469/10355/91664",
+  "title": "Design and development of geospatial analytical research knowledgebase (GeoARK)",
+  "year": 2022,
+  "cites": 0
+ },
+ {
+  "id": "W2990956797",
+  "doi": "10.1109/isncc.2019.8909129",
+  "title": "Wildfire Propagation Simulation Tool using Cellular Automata and GIS",
+  "year": 2019,
+  "cites": 13
+ },
+ {
+  "id": "W2529100895",
+  "doi": "10.1016/j.trpro.2016.12.033",
+  "title": "GIS Tools for Analyzing Accidents and Road Design: A Review",
+  "year": 2016,
+  "cites": 53
+ },
+ {
+  "id": "W7127395958",
+  "doi": "10.21608/jwadi.2026.452240.1283",
+  "title": "GIS as an Effective Tool for Modeling and Spatial Analysis in Political Geography",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W2183824288",
+  "doi": "",
+  "title": "Geospatial Metadata Querying and Visualization on the WWW Using",
+  "year": 1996,
+  "cites": 0
+ },
+ {
+  "id": "W72931804",
+  "doi": "",
+  "title": "GIS Spatial Analysis of Segregation Clustering Evolution in Lincoln, Nebraska",
+  "year": 2014,
+  "cites": 0
+ },
+ {
+  "id": "W4410229471",
+  "doi": "10.1109/ingarss61818.2024.10984057",
+  "title": "Framework for the Tree Inventory Management Tool Using Web GIS",
+  "year": 2024,
+  "cites": 0
+ },
+ {
+  "id": "W2512196326",
+  "doi": "10.1007/s41324-016-0042-x",
+  "title": "Geospatial footprint library of geoparsed text from geocrowdsourcing",
+  "year": 2016,
+  "cites": 4
+ },
+ {
+  "id": "W7164851865",
+  "doi": "10.1111/tgis.70324",
+  "title": "GeoPyEval : An Automated Evaluation Framework for Python Code Generation Capabilities of Large Language Models in Geospatial Domains",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W2894176445",
+  "doi": "10.1353/aq.2018.0047",
+  "title": "Where Are We? The Method of Mapping with GIS in Digital Humanities",
+  "year": 2018,
+  "cites": 18
+ },
+ {
+  "id": "W7221834423",
+  "doi": "10.3897/ap.12.e0011",
+  "title": "GIS and Cultural Heritage in Praia, Cape Verde",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202396192",
+  "doi": "10.6084/m9.figshare.33245856",
+  "title": "A Divide-and-Conquer Training Strategy for Multi-Agent Framework for Geospatial Tool Use",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W2094666704",
+  "doi": "10.3130/aijt.13.795",
+  "title": "QUESTIONNAIRE SURVEY FOR LAND USE PLANNING SUPPORT TOOLS USING GIS",
+  "year": 2007,
+  "cites": 0
+ },
+ {
+  "id": "W3161450722",
+  "doi": "10.1201/9781003181293-12",
+  "title": "Open Source Geospatial Technologies for Generation of Water Resource Development Plan",
+  "year": 2021,
+  "cites": 1
+ },
+ {
+  "id": "W3165240024",
+  "doi": "10.1007/978-981-32-9856-9_11",
+  "title": "Integration of Geospatial Technology and Simulation Modelling for Climate Change Studies",
+  "year": 2020,
+  "cites": 4
+ },
+ {
+  "id": "W7220973797",
+  "doi": "10.48550/arxiv.2610.09112",
+  "title": "GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W2163871512",
+  "doi": "10.5897/jgrp.9000067",
+  "title": "gvSIG: A GIS desktop solution for an open SDI",
+  "year": 2008,
+  "cites": 28
+ },
+ {
+  "id": "W2946673571",
+  "doi": "",
+  "title": "Research Guides: Geographic Information Systems (GIS)/Geotechnology: Tutorials/Other GIS guides",
+  "year": 2011,
+  "cites": 0
+ },
+ {
+  "id": "W2403094854",
+  "doi": "10.1371/journal.pone.0155693",
+  "title": "Quantitative, Qualitative and Geospatial Methods to Characterize HIV Risk Environments",
+  "year": 2016,
+  "cites": 21
+ },
+ {
+  "id": "W7203780476",
+  "doi": "10.1016/j.eswa.2026.134105",
+  "title": "CodeGEEnius: an interpretable reasoning large language model for GEE-based geospatial code generation via distillation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W3081510334",
+  "doi": "10.1080/17457300.2020.1811732",
+  "title": "Review of road accident analysis using GIS technique",
+  "year": 2020,
+  "cites": 38
+ },
+ {
+  "id": "W937177429",
+  "doi": "",
+  "title": "3D Visualisation and Analysis ofarchaeological vector and raster data usingopen source geospatial software",
+  "year": 2011,
+  "cites": 0
+ },
+ {
+  "id": "W2793916928",
+  "doi": "10.1007/s10109-018-0265-6",
+  "title": "Towards a framework for geospatial tangible user interfaces in collaborative urban planning",
+  "year": 2018,
+  "cites": 22
+ },
+ {
+  "id": "W4410855805",
+  "doi": "10.1080/10095020.2025.2505556",
+  "title": "GEE-OPs: an operator knowledge base for geospatial code generation on the Google Earth Engine platform powered by large language models",
+  "year": 2025,
+  "cites": 18
+ },
+ {
+  "id": "W2585261696",
+  "doi": "",
+  "title": "GIS & RS Applications in Simulation of Hydrological Process",
+  "year": 2016,
+  "cites": 0
+ },
+ {
+  "id": "W4414781877",
+  "doi": "10.1007/978-3-662-72243-5_13",
+  "title": "Automating Geospatial Vision Tasks with a Large Language Model Agent",
+  "year": 2025,
+  "cites": 3
+ },
+ {
+  "id": "W4414545159",
+  "doi": "10.7860/jcdr/2025/49741.21904",
+  "title": "Geospatial Analysis of Dental Services in Jaipur, Rajasthan, India: A Retrospective Observational Study",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W3033678213",
+  "doi": "",
+  "title": "Enhancing Geospatial Preparedness for Disaster Management through the work of development organisations",
+  "year": 2020,
+  "cites": 1
+ },
+ {
+  "id": "W2294827466",
+  "doi": "10.5220/0005370801130120",
+  "title": "A Geospatial Tangible User Interface to Support Stakeholder Participation in Urban Planning",
+  "year": 2015,
+  "cites": 18
+ },
+ {
+  "id": "W2969836363",
+  "doi": "10.1109/jurse.2019.8808997",
+  "title": "A Satellite-derived Heating- and Cooling-Degrees Geospatial Dataset: Results for Antwerp",
+  "year": 2019,
+  "cites": 0
+ },
+ {
+  "id": "W3212532682",
+  "doi": "10.1007/978-981-16-4629-4_29",
+  "title": "Application of GIS and Geostatistical Interpolation Method for Groundwater Mapping",
+  "year": 2021,
+  "cites": 10
+ },
+ {
+  "id": "W7125284595",
+  "doi": "10.3989/estgeogr.1215",
+  "title": "The GIS spatial data tools used in higher education diploma theses: the case of Poland",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W2610987167",
+  "doi": "",
+  "title": "A GIS-based atmospheric dispersion model",
+  "year": 2009,
+  "cites": 0
+ },
+ {
+  "id": "W2036460421",
+  "doi": "10.1007/s10661-006-9464-6",
+  "title": "Use of USLE/GIS Methodology for Predicting Soil Loss in a Semiarid Agricultural Watershed",
+  "year": 2006,
+  "cites": 150
+ },
+ {
+  "id": "W7197053616",
+  "doi": "",
+  "title": "MultiGlobeQA: A Multilingual and Globally Diverse Benchmark for Geospatial Reasoning",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4205696451",
+  "doi": "10.11361/journalcpij.34.751",
+  "title": "Development of GIS-based Landuse Planning Support Tools Using Personal Computer",
+  "year": 1999,
+  "cites": 0
+ },
+ {
+  "id": "W2910982857",
+  "doi": "10.2175/193864710798208007",
+  "title": "Deploying Geospatial Tools using Open Source Software in The Cloud for a Fast Pace Project",
+  "year": 2010,
+  "cites": 0
+ },
+ {
+  "id": "W4410078151",
+  "doi": "10.1016/j.landurbplan.2025.105396",
+  "title": "The 3\u201330\u2013300 rule Compliance: A geospatial tool for urban planning",
+  "year": 2025,
+  "cites": 17
+ },
+ {
+  "id": "W1984582021",
+  "doi": "10.1016/j.renene.2010.10.037",
+  "title": "PV site suitability analysis using GIS-based spatial fuzzy multi-criteria evaluation",
+  "year": 2011,
+  "cites": 410
+ },
+ {
+  "id": "W4405338180",
+  "doi": "10.1080/13658816.2024.2438937",
+  "title": "GeoTool-GPT: a trainable method for facilitating Large Language Models to master GIS tools",
+  "year": 2024,
+  "cites": 51
+ },
+ {
+  "id": "W4206760826",
+  "doi": "10.54105/ijse.b8008.051121",
+  "title": "Importance and Applications of GIS in Engineering",
+  "year": 2021,
+  "cites": 4
+ },
+ {
+  "id": "W2150160336",
+  "doi": "10.1016/j.ecoleng.2013.12.009",
+  "title": "A GIS based approach for prioritizing dams for potential removal",
+  "year": 2014,
+  "cites": 44
+ },
+ {
+  "id": "W7161294082",
+  "doi": "10.2139/ssrn.6753098",
+  "title": "Towards Autonomous Geospatial Scientific Inquiry: A Multi-Agent AI Co-Scientist Framework",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7112621112",
+  "doi": "",
+  "title": "LEVERAGING GEOSPATIAL INTELLIGENCE TO ENHANCE DALLAS FIRE DEPARTMENT PROGRAMS AND DATA ANALYSIS",
+  "year": 2021,
+  "cites": 0
+ },
+ {
+  "id": "W1997219003",
+  "doi": "10.1371/journal.pone.0121613",
+  "title": "First GIS Analysis of Modern Stone Tools Used by Wild Chimpanzees (Pan troglodytes verus) in Bossou, Guinea, West Africa",
+  "year": 2015,
+  "cites": 67
+ },
+ {
+  "id": "W4244477211",
+  "doi": "10.24036/sjdgge.v1i1.29",
+  "title": "Geospatial Based Coastal Ecotourism Management for Geography Teaching Material Development",
+  "year": 2017,
+  "cites": 2
+ },
+ {
+  "id": "W2581816625",
+  "doi": "10.12737/23071",
+  "title": "GIS-based risk monitoring of zoonotic cestodiasis in human",
+  "year": 2016,
+  "cites": 0
+ },
+ {
+  "id": "W2891676571",
+  "doi": "",
+  "title": "GIS-based incident forecasting.",
+  "year": 2002,
+  "cites": 0
+ },
+ {
+  "id": "W3194447590",
+  "doi": "10.5194/isprs-archives-xlvi-4-w2-2021-1-2021",
+  "title": "FAST ROBUST ARITHMETICS FOR GEOMETRIC ALGORITHMS AND APPLICATIONS TO GIS",
+  "year": 2021,
+  "cites": 4
+ },
+ {
+  "id": "W7197177182",
+  "doi": "",
+  "title": "GIS as a tool used in process of determining acoustic climate urban area",
+  "year": 2011,
+  "cites": 0
+ },
+ {
+  "id": "W4320495950",
+  "doi": "10.52403/ijrr.20230236",
+  "title": "Geographic Information System (GIS) and Healthcare: An Overview",
+  "year": 2023,
+  "cites": 4
+ },
+ {
+  "id": "W2321435057",
+  "doi": "10.1061/41069(360)38",
+  "title": "Simplified GIS for Water Pipeline Management",
+  "year": 2009,
+  "cites": 0
+ },
+ {
+  "id": "W2029256725",
+  "doi": "10.1080/00221341.2012.684356",
+  "title": "Effects of a GIS Course on Self-Assessment of Spatial Habits of Mind (SHOM)",
+  "year": 2013,
+  "cites": 55
+ },
+ {
+  "id": "W4311081197",
+  "doi": "10.1097/aia.0000000000000389",
+  "title": "Geospatial analysis of patients\u2019 social determinants of health for health systems science and disparity research",
+  "year": 2022,
+  "cites": 35
+ },
+ {
+  "id": "W2935394433",
+  "doi": "",
+  "title": "MUSEUM COLLECTIONS MANAGEMENT WITH GOOGLE EARTH AND GIS",
+  "year": 2018,
+  "cites": 1
+ },
+ {
+  "id": "W3157075831",
+  "doi": "10.35940/ijse.b8008.051121",
+  "title": "Importance and Applications of GIS in Engineering",
+  "year": 2021,
+  "cites": 0
+ },
+ {
+  "id": "W2947964748",
+  "doi": "10.1515/jhsem-2018-0046",
+  "title": "Geospatial Preparedness: Empirical Study of Alternative Sources of Information for the Humanitarian Community",
+  "year": 2019,
+  "cites": 4
+ },
+ {
+  "id": "W2129501391",
+  "doi": "10.18624/e-tech.v4i1.181",
+  "title": "Independent Interface for Schematic Diagrams in GIS",
+  "year": 2011,
+  "cites": 0
+ },
+ {
+  "id": "W4251530854",
+  "doi": "10.4995/cit2016.2016.4052",
+  "title": "GIS TOOLS FOR ANALYZING ACCIDENTS AND ROAD DESIGN: A REVIEW",
+  "year": 2016,
+  "cites": 13
+ },
+ {
+  "id": "W7140120879",
+  "doi": "10.18653/v1/2026.findings-eacl.67",
+  "title": "MapAgent: A Hierarchical Agent for Geospatial Reasoning with Dynamic Map Tool Integration",
+  "year": 2026,
+  "cites": 4
+ },
+ {
+  "id": "W4388969364",
+  "doi": "10.3390/en16237760",
+  "title": "Trends and Evolution of the GIS-Based Photovoltaic Potential Calculation",
+  "year": 2023,
+  "cites": 16
+ },
+ {
+  "id": "W4400535986",
+  "doi": "10.1080/08872376.2024.2363113",
+  "title": "Loud and Clear Project: An Introduction to Geospatial Tools for Project-Based Learning",
+  "year": 2024,
+  "cites": 1
+ },
+ {
+  "id": "W3115971066",
+  "doi": "10.1016/j.compenvurbsys.2020.101591",
+  "title": "OGITO, an Open Geospatial Interactive Tool to support collaborative spatial planning with a maptable",
+  "year": 2020,
+  "cites": 20
+ },
+ {
+  "id": "W4414016282",
+  "doi": "10.4314/swj.v20i2.13",
+  "title": "Geospatial mapping for optimizing Right-Of-Way (ROW) acquisition in gas pipeline construction",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7155373800",
+  "doi": "10.48448/9j1x-g729",
+  "title": "MapAgent: A Hierarchical Agent for Geospatial Reasoning with Dynamic Map Tool Integration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7130654464",
+  "doi": "10.1016/j.jag.2026.105195",
+  "title": "GeoAgentic-RAG: A Multi-Agent framework for autonomous geospatial reasoning and visual insight generation with LLM",
+  "year": 2026,
+  "cites": 5
+ },
+ {
+  "id": "W2566031783",
+  "doi": "10.1109/appeec.2016.7779930",
+  "title": "Development of power grid Web3D GIS based on Cesium",
+  "year": 2016,
+  "cites": 11
+ },
+ {
+  "id": "W7172323489",
+  "doi": "10.1080/13658816.2026.2700394",
+  "title": "GEEToker: you can boost LLMs\u2019 JavaScript-based geospatial code generation for Google Earth Engine with a model-agnostic tokenizer",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W3120289721",
+  "doi": "",
+  "title": "Curriculum Development using GIS in Environmental Education",
+  "year": 2004,
+  "cites": 0
+ },
+ {
+  "id": "W2760228539",
+  "doi": "",
+  "title": "GIS-based habitat modeling related to bearded Capuchin monkey tool use",
+  "year": 2006,
+  "cites": 2
+ },
+ {
+  "id": "W2276185277",
+  "doi": "",
+  "title": "Effects of a GIS Course on Three Components of Spatial Literacy",
+  "year": 2012,
+  "cites": 12
+ },
+ {
+  "id": "W176305016",
+  "doi": "",
+  "title": "An Examination of Using EWMA Charts for Monitoring United States Geospatial Data",
+  "year": 2011,
+  "cites": 0
+ },
+ {
+  "id": "W3107399293",
+  "doi": "10.1007/s10109-020-00339-x",
+  "title": "Open geospatial tools for humanitarian data creation, analysis, and learning through the global lens of YouthMappers",
+  "year": 2020,
+  "cites": 25
+ },
+ {
+  "id": "W2810329466",
+  "doi": "10.1080/15236803.2014.12001806",
+  "title": "Incorporating GIS as an Interdisciplinary Pedagogical Tool Throughout an MPA Program",
+  "year": 2014,
+  "cites": 19
+ },
+ {
+  "id": "W2788818519",
+  "doi": "10.7275/r5gt5kc1",
+  "title": "Generating Geospatial Footprints For Geoparsed Text From Crowdsourced Platial Data",
+  "year": 2015,
+  "cites": 0
+ },
+ {
+  "id": "W1558641056",
+  "doi": "10.1007/978-3-642-02454-2_26",
+  "title": "New Prospects in Territorial Resource Management: The Semantic Web GIS",
+  "year": 2009,
+  "cites": 2
+ },
+ {
+  "id": "W2545669665",
+  "doi": "",
+  "title": "Remote Sensing and GIS tools used to analysethe Floristic diversity in South Gujarat",
+  "year": 2014,
+  "cites": 0
+ },
+ {
+  "id": "W3026775273",
+  "doi": "10.7780/kjrs.2019.35.1.12",
+  "title": "Current and Future Status of GIS-based Landslide Susceptibility Mapping: A Literature Review",
+  "year": 2019,
+  "cites": 73
+ },
+ {
+  "id": "W3206517413",
+  "doi": "10.3390/w13202926",
+  "title": "Integrated Geospatial Analysis and Hydrological Modeling for Peak Flow and Volume Simulation in Rwanda",
+  "year": 2021,
+  "cites": 16
+ },
+ {
+  "id": "W4404011735",
+  "doi": "10.1080/23754931.2024.2406470",
+  "title": "Protected areas and disparate data: understanding geospatial data synthesis in poaching mitigation",
+  "year": 2024,
+  "cites": 0
+ },
+ {
+  "id": "W1623130064",
+  "doi": "10.1109/infvis.1996.559225",
+  "title": "Geospatial metadata querying and visualization on the WWW using Java/sup TM/ applets",
+  "year": 2002,
+  "cites": 7
+ },
+ {
+  "id": "W2521777587",
+  "doi": "",
+  "title": "GIS platform for management of shallow geothermal resources",
+  "year": 2016,
+  "cites": 3
+ },
+ {
+  "id": "W4404611656",
+  "doi": "10.1145/3678717.3691275",
+  "title": "ACCEPT: A Context-Sensitive, Configurable, and Extensible Prediction Tool using Grid-based Data Processing and Neural Networks in Geospatial Decision Support",
+  "year": 2024,
+  "cites": 0
+ },
+ {
+  "id": "W2253025538",
+  "doi": "10.2495/mis000251",
+  "title": "GisTool: An Integrated Environment For GIS DataManagement",
+  "year": 2000,
+  "cites": 3
+ },
+ {
+  "id": "W4384929564",
+  "doi": "10.5821/dissertation-2117-96311",
+  "title": "GIS platform for management of shallow geothermal resources",
+  "year": 2016,
+  "cites": 3
+ },
+ {
+  "id": "W576213897",
+  "doi": "",
+  "title": "GIS APPLICATIONS USING DIGITAL ORTHOPHOTO DATA",
+  "year": 2002,
+  "cites": 0
+ },
+ {
+  "id": "W23160574",
+  "doi": "",
+  "title": "Geographical data management in GIS systems",
+  "year": 2009,
+  "cites": 1
+ },
+ {
+  "id": "W4387219772",
+  "doi": "10.4103/ijc.ijc_458_23",
+  "title": "Mapping cancer in India: Implementing GIS for cancer research and registries",
+  "year": 2023,
+  "cites": 7
+ },
+ {
+  "id": "W2746804071",
+  "doi": "10.1061/(asce)ae.1943-5568.0000262",
+  "title": "Integrated CAD and GIS\u2013Based Framework to Support Construction Planning: Case Study",
+  "year": 2017,
+  "cites": 26
+ },
+ {
+  "id": "W2556958098",
+  "doi": "",
+  "title": "A GIS tool for reduction day precipitation to subday",
+  "year": 2015,
+  "cites": 1
+ },
+ {
+  "id": "W4251124892",
+  "doi": "10.1007/978-3-319-95717-3_103",
+  "title": "Early Warning Systems and Geospatial Tools: Managing Disasters for Urban Sustainability",
+  "year": 2020,
+  "cites": 10
+ },
+ {
+  "id": "W2059508346",
+  "doi": "10.1016/j.ecocom.2009.08.006",
+  "title": "An Index of Regional Sustainability: A GIS-based multiple criteria analysis decision support system for progressing sustainability",
+  "year": 2009,
+  "cites": 131
+ },
+ {
+  "id": "W2071656623",
+  "doi": "10.1111/j.1467-9671.2009.01163.x",
+  "title": "Multivariable Value Densification Modeling Using GIS",
+  "year": 2009,
+  "cites": 4
+ },
+ {
+  "id": "W2896513866",
+  "doi": "10.1080/00330124.2018.1479970",
+  "title": "Satellite Navigation and Geospatial Awareness: Long-Term Effects of Using Navigation Tools on Wayfinding and Spatial Orientation",
+  "year": 2018,
+  "cites": 83
+ },
+ {
+  "id": "W4377233192",
+  "doi": "10.1117/12.2666867",
+  "title": "Accuracy evaluation for large-scale map using modern geospatial tools",
+  "year": 2023,
+  "cites": 0
+ },
+ {
+  "id": "W4230907895",
+  "doi": "10.15680/ijirset.2015.0409015",
+  "title": "Remote Sensing and GIS Tools Used for Change Detection Techniques in Chamoli District, Uttarakahnd, India",
+  "year": 2015,
+  "cites": 1
+ },
+ {
+  "id": "W7167359874",
+  "doi": "10.1080/17538947.2026.2687228",
+  "title": "From tool to collaborator: rethinking GIScience as GIS becomes agentic and autonomous",
+  "year": 2026,
+  "cites": 4
+ },
+ {
+  "id": "W4232137446",
+  "doi": "10.1007/978-3-319-71061-7_103-1",
+  "title": "Early Warning Systems and Geospatial Tools: Managing Disasters for Urban Sustainability",
+  "year": 2019,
+  "cites": 8
+ },
+ {
+  "id": "W2382258056",
+  "doi": "",
+  "title": "Organization and Query of GIS Data Based on Oracle Spatial",
+  "year": 2006,
+  "cites": 0
+ },
+ {
+  "id": "W7160954899",
+  "doi": "10.21079/11681/50244",
+  "title": "Geospatial AI (GeoAI) agent stack : router-based orchestration and design rationale",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W2185932912",
+  "doi": "",
+  "title": "SEED COTTON TRANSPORT ANALYSES USING GIS",
+  "year": 2006,
+  "cites": 1
+ },
+ {
+  "id": "W4402349429",
+  "doi": "10.2139/ssrn.4951342",
+  "title": "Geo-Fub: A Method for Constructing an Operator-Function Knowledge Base for Geospatial Code Generation Tasks Using Large Language Models",
+  "year": 2024,
+  "cites": 4
+ },
+ {
+  "id": "W2343993714",
+  "doi": "10.5593/sgem2015/b22/s11.115",
+  "title": "GIS TOOLS USE IN SEARCH OF SUSTAINABILE PROPERTY TAX SOLUTIONS \ufffd ANALYSIS AND NEW RECOMMENDATIONS",
+  "year": 2011,
+  "cites": 0
+ },
+ {
+  "id": "W7131930901",
+  "doi": "",
+  "title": "Improving Urban Planning Tools Using GIS/GPS/OSM Technologies \u0130n Developing Countries,",
+  "year": 2014,
+  "cites": 0
+ },
+ {
+  "id": "W2564592197",
+  "doi": "",
+  "title": "QUESTIONNAIRE SURVEY FOR LAND USE PLANNING SUPPORT TOOLS USING GIS(Urban Planning)",
+  "year": 2007,
+  "cites": 0
+ },
+ {
+  "id": "W2160669537",
+  "doi": "10.3818/jrp.3.2.2001.95",
+  "title": "Using GIS to Analyze Complaints against Police: A Research Note",
+  "year": 2001,
+  "cites": 10
+ },
+ {
+  "id": "W2485841095",
+  "doi": "10.1603/ice.2016.107983",
+  "title": "Enhanced early detection tools using remote sensing and GIS data fusion techniques",
+  "year": 2016,
+  "cites": 0
+ },
+ {
+  "id": "W2142807843",
+  "doi": "",
+  "title": "Evaluating the Potential of Commercial GIS for Accelerator Configuration Management",
+  "year": 2005,
+  "cites": 1
+ },
+ {
+  "id": "W4221004914",
+  "doi": "10.2196/35073",
+  "title": "Investigating Health Context Using a Spatial Data Analytical Tool: Development of a Geospatial Big Data Ecosystem",
+  "year": 2022,
+  "cites": 6
+ },
+ {
+  "id": "W2887471329",
+  "doi": "",
+  "title": "GIS and hydrological modelling for the Upper Scioto River Basin",
+  "year": 2004,
+  "cites": 0
+ },
+ {
+  "id": "W581025651",
+  "doi": "",
+  "title": "Water Usage Geospatial Tool and Maintenance Plan for a Southern California Demonstration Garden",
+  "year": 2012,
+  "cites": 0
+ },
+ {
+  "id": "W4200363547",
+  "doi": "10.1111/tgis.12863",
+  "title": "Annotating OGC web feature services automatically for generating geospatial knowledge graphs",
+  "year": 2021,
+  "cites": 2
+ },
+ {
+  "id": "W4229049079",
+  "doi": "10.1007/s43545-022-00349-0",
+  "title": "Spatial distribution and mapping of COVID-19 pandemic in Afghanistan using GIS technique",
+  "year": 2022,
+  "cites": 15
+ },
+ {
+  "id": "W7118012651",
+  "doi": "10.1007/978-981-95-2601-7_5",
+  "title": "Application of GIS to Analyze Wastewater Pollution and Its Impact on Surrounding Environment",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W4294073813",
+  "doi": "10.1007/s41324-022-00478-x",
+  "title": "Exploring key drivers of forest fires in the Mole National Park of Ghana using geospatial tools",
+  "year": 2022,
+  "cites": 4
+ },
+ {
+  "id": "W2589756684",
+  "doi": "10.1061/(asce)wr.1943-5452.0000754",
+  "title": "GISMOWA: Geospatial Risk-Based Analysis Identifying Water Quality Monitoring Sites in Distribution Systems",
+  "year": 2017,
+  "cites": 9
+ },
+ {
+  "id": "W338109278",
+  "doi": "10.1023/a:1023932829887",
+  "title": "Beyond Ground Truth: GIS and the Environmental Knowledge of Herders, Professional Foresters, and Other Traditional Communities",
+  "year": 2003,
+  "cites": 175
+ },
+ {
+  "id": "W2151503208",
+  "doi": "10.1155/2012/475071",
+  "title": "Appennino: A GIS Tool for Analyzing Wildlife Habitat Use",
+  "year": 2012,
+  "cites": 2
+ },
+ {
+  "id": "W2036575134",
+  "doi": "10.1016/j.tmp.2013.04.002",
+  "title": "Interpretive media that attract park visitors and enhance their experiences: A comparison of modern and traditional tools using GPS tracking and GIS technology",
+  "year": 2013,
+  "cites": 61
+ },
+ {
+  "id": "W2068626379",
+  "doi": "10.3166/rig.22.307-330",
+  "title": "Development of a collaborative geospatial augmented reality system in support of urban design practice",
+  "year": 2012,
+  "cites": 1
+ },
+ {
+  "id": "W7165553604",
+  "doi": "10.62460/tbps/2025.094",
+  "title": "Role of Remote Sensing and GIS in Plant Disease Monitoring",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4396754176",
+  "doi": "10.1007/978-3-031-60796-7_11",
+  "title": "Can Large Language Models Automatically Generate GIS Reports?",
+  "year": 2024,
+  "cites": 6
+ },
+ {
+  "id": "W7154800060",
+  "doi": "",
+  "title": "Workshop report on drought risk to vegetation productivity on the MapX geospatial platform",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W3011163066",
+  "doi": "10.7494/geom.2020.14.1.5",
+  "title": "Application of GIS Tools to Describe the Location of New Registered Parcels",
+  "year": 2020,
+  "cites": 9
+ },
+ {
+  "id": "W1732559213",
+  "doi": "10.5281/zenodo.1058138",
+  "title": "Potential Of Gis To Find Solutions To Space Related Problems In Construction Industry",
+  "year": 2007,
+  "cites": 13
+ },
+ {
+  "id": "W2400816444",
+  "doi": "",
+  "title": "GIS AND WEB-BASED DSS FOR PRELIMINARY TMDL DEVELOPMENT",
+  "year": 2003,
+  "cites": 3
+ },
+ {
+  "id": "W4245774893",
+  "doi": "10.1007/978-3-319-71061-7_103-2",
+  "title": "Early Warning Systems and Geospatial Tools: Managing Disasters for Urban Sustainability",
+  "year": 2019,
+  "cites": 0
+ },
+ {
+  "id": "W3019172839",
+  "doi": "10.1016/j.ecolind.2020.106440",
+  "title": "Delimitation of ecological corridors between conservation units in the Brazilian Cerrado using a GIS and AHP approach",
+  "year": 2020,
+  "cites": 94
+ },
+ {
+  "id": "W112472389",
+  "doi": "",
+  "title": "Trace learning path by mobile technologies as an instructional tool using GPS and GIS in students'field trip to zoo",
+  "year": 2006,
+  "cites": 0
+ }
+]

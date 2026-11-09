@@ -1,0 +1,261 @@
+[
+ {
+  "id": "W7118127934",
+  "doi": "10.6084/m9.figshare.30993490",
+  "title": "QGIS-MCP-Spatial-Analysis-Agent",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125410905",
+  "doi": "10.1117/12.3091756",
+  "title": "MapHub: an OGC web GIS service aggregation and query MCP server for AI agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223570273",
+  "doi": "10.5281/zenodo.23633281",
+  "title": "RustGIS: A fast, free and open-source GIS in pure Rust for mapping, analyzing and sharing geospatial data",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162936683",
+  "doi": "10.5281/zenodo.20470400",
+  "title": "Scope-Differentiated Geospatial Ontology (SDGO): A Geospatial Ontological Commitment Specification",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204834289",
+  "doi": "10.5281/zenodo.22213091",
+  "title": "MapSmith: geospatial processing for AI agents, with verifiable provenance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168364632",
+  "doi": "10.1109/ichms69701.2026.11602360",
+  "title": "A Task-Based Benchmark for Model Context Protocol-Driven Geospatial Dataset Discovery: LLM Agents Vs Human Search",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204700799",
+  "doi": "10.5281/zenodo.22181527",
+  "title": "AI-Driven Geospatial Hydrology: Machine Learning and Decision Support for Surface Water Dynamics",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223572173",
+  "doi": "10.5281/zenodo.23642204",
+  "title": "terrio: Pure-Rust geospatial raster, vector and point cloud data I/O",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7220973797",
+  "doi": "10.48550/arxiv.2610.09112",
+  "title": "GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7118675278",
+  "doi": "10.1109/eicars68214.2025.11320232",
+  "title": "From Digital Infrastructure to Intelligent Services: Practices of Next-Generation Geospatial Platforms",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7213593540",
+  "doi": "10.5281/zenodo.22833797",
+  "title": "Less Context, Better Plans: Evaluating Tool Exposure Strategies in an MCP Server for GNSS Data Acquisition",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164658609",
+  "doi": "10.5281/zenodo.20673849",
+  "title": "GLEN (Geospatial LLM-Enabled Navigator): A reusable library for map-based applications with LLM-powered data analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167844272",
+  "doi": "10.1088/1755-1315/1648/1/012010",
+  "title": "Expert system for spatial planning and permit based on agentic AI with RAG-LLM and Web-GIS: A case study of Special Capital of Jakarta",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164004238",
+  "doi": "10.3390/aieng1010005",
+  "title": "Agentic SWMM: Auditable and Reproducible Stormwater Modelling Workflow with Agent Skills and Model Context Protocol",
+  "year": 2026,
+  "cites": 4
+ },
+ {
+  "id": "W7172286987",
+  "doi": "10.1080/13658816.2026.2715051",
+  "title": "OGSAgent: an MCP-based multi-agent collaboration framework for intelligent GIServices",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204663106",
+  "doi": "10.5194/isprs-archives-l-4-w1-2026-159-2026",
+  "title": "A Comprehensive Disaster Risk Analysis Model With GeoAI",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222803380",
+  "doi": "10.1016/j.aei.2026.105384",
+  "title": "End-to-end climate-aware agentic workflow for urban building energy modelling enabled by large language models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7157641882",
+  "doi": "10.25394/pgs.32105941",
+  "title": "Towards a System and Benchmark for Location-Aware Semantic Querying Using LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164523834",
+  "doi": "10.1145/3802974.3808678",
+  "title": "butterfl.ai: An Exhibit Leveraging Interactive Visualisation to Build Intuition of AI\u2019s Environmental and Productivity Impacts",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204668737",
+  "doi": "10.5194/isprs-archives-l-4-w1-2026-297-2026",
+  "title": "Towards Automated Map JSON Style from Spatial Vector Data Using MCP",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160330550",
+  "doi": "10.48550/arxiv.2605.02092",
+  "title": "NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154480287",
+  "doi": "10.5281/zenodo.19597664",
+  "title": "AI-Hydro: An Open Platform for Autonomous Hydrological and Earth Science Research",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204021002",
+  "doi": "",
+  "title": "Actionable Hydrologic Data to Information with National Water Model-Based Derived Dataset, Cutting-Edge Data Services, and Agentic AI System",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165903890",
+  "doi": "10.48550/arxiv.2606.25647",
+  "title": "Smallholder Farmers on Remote Islands Receiving Retrieval-Grounded Multilingual LLM Assistance and Agronomic Advice",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7162129452",
+  "doi": "10.5281/zenodo.20337280",
+  "title": "Agentic SWMM Workflow",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164677160",
+  "doi": "10.5281/zenodo.20674186",
+  "title": "Trust for Public Land California Explorer",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164673764",
+  "doi": "10.5281/zenodo.20674178",
+  "title": "Public GYE Explorer",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164672769",
+  "doi": "10.5281/zenodo.20674176",
+  "title": "High Seas Explorer",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171494850",
+  "doi": "10.12688/openreseurope.24512.1",
+  "title": "Retrieval-grounded multilingual LLM assistance for island smallholder farmers",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7167826307",
+  "doi": "10.5281/zenodo.21284132",
+  "title": "CA 30x30 Planning & Assessment Tool",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154160849",
+  "doi": "10.5281/zenodo.19558254",
+  "title": "Knowledge Without Tools: Why MCPs Aren't Just for Execution",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223332614",
+  "doi": "10.1016/j.cie.2026.112464",
+  "title": "Towards autonomous freight intermodal optimization via generative AI and agentic digital twins",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7115006976",
+  "doi": "10.5281/zenodo.14984518",
+  "title": "smith6jt-cop/KINTSUGI: v1.2.0",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7161434201",
+  "doi": "10.5281/zenodo.20219609",
+  "title": "R Code for Regional Analysis: GPS-Enabled and Mobile-Optimized Visualization of Haiku Monuments in Mie Prefecture with Leaflet and GSI Satellite Imagery \u5730\u57df\u5206\u6790\u306e\u305f\u3081\u306eR\u30b3\u30fc\u30c9:GPS\u5229\u7528\u30fb\u30b9\u30de\u30db\u5bfe\u5fdc\u306b\u3088\u308b\u4e09\u91cd\u770c\u306e\u53e5\u7891\u306e\u53ef\u8996\u5316(Leaflet\u3068\u5730\u7406\u9662\u885b\u661f\u753b\u50cf\u3092\u4f7f\u7528)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416982487",
+  "doi": "10.1109/access.2026.3698694",
+  "title": "From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review",
+  "year": 2026,
+  "cites": 48
+ },
+ {
+  "id": "W7224009530",
+  "doi": "10.64898/2026.10.22.760550",
+  "title": "An evidence-governed agent harness for spatial transcriptomics prioritizes ICAM-1 as a target in lung fibrosis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161439584",
+  "doi": "10.5281/zenodo.20221728",
+  "title": "R Code for Regional Analysis: GPS-Enabled Interactive Mapping of Ozaki Hosai Haiku Monuments in Tottori City Using Public Open Data with GSI Satellite Imagery \u5730\u57df\u5206\u6790\u306e\u305f\u3081\u306eR\u30b3\u30fc\u30c9:\u516c\u7684\u30aa\u30fc\u30d7\u30f3\u30c7\u30fc\u30bf\u3068\u56fd\u571f\u5730\u7406\u9662\u885b\u661f\u753b\u50cf\u3092\u7528\u3044\u305f\u9ce5\u53d6\u5e02\u30fb\u5c3e\u5d0e\u653e\u54c9\u53e5\u7891\u306e\u30a4\u30f3\u30bf\u30e9\u30af\u30c6\u30a3\u30d6\u30fb\u30de\u30c3\u30d4\u30f3\u30b0",
+  "year": 2026,
+  "cites": 0
+ }
+]

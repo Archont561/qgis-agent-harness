@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 850" width="980" height="850" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/>
+    </marker>
+    <marker id="arrowDash" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1e8449"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="980" height="850" fill="#ffffff"/>
+
+  <text x="490" y="34" text-anchor="middle" font-size="19" font-weight="600" fill="#1b2631">Schemat eksperymentu: jeden przebieg</text>
+  <text x="490" y="56" text-anchor="middle" font-size="12.5" fill="#5d6d7e">40 zadań × 4 warunki rdzenia × 2 modele × 8 powtórzeń = 2 560 przebiegów w rdzeniu, 4 768 w całości</text>
+
+  <!-- karta zadania -->
+  <rect x="40" y="88" width="228" height="72" rx="8" fill="#f4f6f7" stroke="#5d6d7e" stroke-width="1.4"/>
+  <text x="154" y="112" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1b2631">karta zadania (zamrożona)</text>
+  <text x="154" y="131" text-anchor="middle" font-size="11.5" fill="#425466">intencja · dane · predykaty</text>
+  <text x="154" y="148" text-anchor="middle" font-size="11.5" fill="#425466">rodzina P/A/C · tier · min_surface</text>
+
+  <!-- harness -->
+  <rect x="336" y="80" width="392" height="88" rx="8" fill="#eaf2f8" stroke="#1f4e79" stroke-width="1.8"/>
+  <text x="532" y="106" text-anchor="middle" font-size="14.5" font-weight="600" fill="#1f4e79">harness — jedna pętla dla obu ramion</text>
+  <text x="532" y="126" text-anchor="middle" font-size="11.5" fill="#2c3e50">ten sam prompt systemowy · limit 25 tur · budżet tokenów</text>
+  <text x="532" y="144" text-anchor="middle" font-size="11.5" fill="#2c3e50">logowanie każdej tury · losowa kolejność przebiegów</text>
+  <text x="532" y="160" text-anchor="middle" font-size="11.5" fill="#7b241c">← tu jest jedyna różnica: zestaw narzędzi</text>
+
+  <!-- strzałki do ramion -->
+  <line x1="470" y1="168" x2="360" y2="212" stroke="#33475b" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="600" y1="168" x2="710" y2="212" stroke="#33475b" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- ramię katalog -->
+  <rect x="196" y="216" width="290" height="76" rx="8" fill="#f5eef8" stroke="#7d3c98" stroke-width="1.6"/>
+  <text x="341" y="240" text-anchor="middle" font-size="13.5" font-weight="600" fill="#7d3c98">ramię katalog — serwer MCP</text>
+  <text x="341" y="259" text-anchor="middle" font-size="11.5" fill="#4a235a">tools/list → 5 / 15 / 30 narzędzi</text>
+  <text x="341" y="276" text-anchor="middle" font-size="11.5" fill="#4a235a">wywołanie narzędzia + argumenty</text>
+
+  <!-- ramię kod -->
+  <rect x="536" y="216" width="290" height="76" rx="8" fill="#e8f8f5" stroke="#117a65" stroke-width="1.6"/>
+  <text x="681" y="240" text-anchor="middle" font-size="13.5" font-weight="600" fill="#117a65">ramię kod — sandbox</text>
+  <text x="681" y="259" text-anchor="middle" font-size="11.5" fill="#0e6251">run_python(code) → exec()</text>
+  <text x="681" y="276" text-anchor="middle" font-size="11.5" fill="#0e6251">stdout / stderr / exit code</text>
+
+  <!-- strzałki do QGIS -->
+  <line x1="341" y1="292" x2="341" y2="330" stroke="#33475b" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="681" y1="292" x2="681" y2="330" stroke="#33475b" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- QGIS -->
+  <rect x="196" y="334" width="630" height="70" rx="8" fill="#fdf2e9" stroke="#b9770e" stroke-width="1.8"/>
+  <text x="511" y="358" text-anchor="middle" font-size="14.5" font-weight="600" fill="#9c640c">kontener QGIS 3.44 — ten sam w obu ramionach</text>
+  <text x="511" y="378" text-anchor="middle" font-size="11.5" fill="#7e5109">processing.run("native:buffer", …) ≡ qgis_process run native:buffer</text>
+  <text x="511" y="395" text-anchor="middle" font-size="11.5" fill="#7e5109">zmienia się sposób wywołania, nie silnik</text>
+
+  <line x1="511" y1="404" x2="511" y2="440" stroke="#33475b" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- artefakt -->
+  <rect x="316" y="444" width="390" height="62" rx="8" fill="#f2f3f4" stroke="#424949" stroke-width="1.6"/>
+  <text x="511" y="468" text-anchor="middle" font-size="13.5" font-weight="600" fill="#212f3d">artefakt — plik wynikowy</text>
+  <text x="511" y="487" text-anchor="middle" font-size="11.5" fill="#424949">GeoPackage · GeoTIFF · PNG · CSV + SHA-256</text>
+  <text x="511" y="501" text-anchor="middle" font-size="11" fill="#7b241c">oceniamy plik, nie kod i nie plan</text>
+
+  <!-- strzałki do gate i wyroczni -->
+  <line x1="400" y1="506" x2="330" y2="556" stroke="#33475b" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="622" y1="506" x2="692" y2="556" stroke="#33475b" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- gate -->
+  <rect x="130" y="560" width="330" height="76" rx="8" fill="#eafaf1" stroke="#1e8449" stroke-width="1.6"/>
+  <text x="295" y="584" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1e8449">granica walidacji (gate) — widoczna</text>
+  <text x="295" y="603" text-anchor="middle" font-size="11.5" fill="#145a32">typy · CRS · jednostki · czy plik się czyta</text>
+  <text x="295" y="620" text-anchor="middle" font-size="11.5" fill="#145a32">jedna iteracja naprawy</text>
+
+  <!-- wyrocznia -->
+  <rect x="536" y="560" width="330" height="76" rx="8" fill="#fdedec" stroke="#943126" stroke-width="1.6"/>
+  <text x="701" y="584" text-anchor="middle" font-size="13.5" font-weight="600" fill="#943126">wyrocznia — tajna</text>
+  <text x="701" y="603" text-anchor="middle" font-size="11.5" fill="#641e16">predykaty + kontrola negatywna</text>
+  <text x="701" y="620" text-anchor="middle" font-size="11.5" fill="#641e16">agent jej nie widzi</text>
+
+  <!-- pętla naprawy -->
+  <path d="M 130 598 L 78 598 L 78 124 L 332 124" fill="none" stroke="#1e8449" stroke-width="1.5" stroke-dasharray="6 5" marker-end="url(#arrowDash)"/>
+  <text x="86" y="360" font-size="11.5" fill="#1e8449" transform="rotate(-90 86 360)" text-anchor="middle">1 iteracja naprawy → komunikat do agenta</text>
+
+  <!-- scalenie do manifestu -->
+  <line x1="295" y1="636" x2="380" y2="676" stroke="#33475b" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="701" y1="636" x2="616" y2="676" stroke="#33475b" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <rect x="200" y="680" width="580" height="56" rx="8" fill="#eaecee" stroke="#2c3e50" stroke-width="1.6"/>
+  <text x="490" y="703" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1b2631">manifest.csv + runs/raw/&lt;run_id&gt;/result.json</text>
+  <text x="490" y="722" text-anchor="middle" font-size="11.5" fill="#2c3e50">jeden wiersz = jeden przebieg · model, wersja, ziarno, tokeny, czas, status, klasy błędów</text>
+
+  <line x1="490" y1="736" x2="490" y2="762" stroke="#33475b" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <rect x="200" y="766" width="272" height="52" rx="8" fill="#eaf2f8" stroke="#1f4e79" stroke-width="1.6"/>
+  <text x="336" y="788" text-anchor="middle" font-size="13" font-weight="600" fill="#1f4e79">analiza — pandas + pingouin</text>
+  <text x="336" y="806" text-anchor="middle" font-size="11.5" fill="#2c3e50">H1–H7, Holm, TOST, MDE = 9,3 p.p.</text>
+
+  <line x1="472" y1="792" x2="516" y2="792" stroke="#33475b" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <rect x="520" y="766" width="260" height="52" rx="8" fill="#fef9e7" stroke="#9c640c" stroke-width="1.6"/>
+  <text x="650" y="788" text-anchor="middle" font-size="13" font-weight="600" fill="#7e5109">raport-analizy.md</text>
+  <text x="650" y="806" text-anchor="middle" font-size="11.5" fill="#7e5109">generowany, nie pisany ręcznie</text>
+
+  <!-- legenda -->
+  <rect x="40" y="836" width="10" height="10" fill="#eaf2f8" stroke="#1f4e79"/>
+  <text x="56" y="846" font-size="11" fill="#425466">pętla (instrument)</text>
+  <rect x="176" y="836" width="10" height="10" fill="#f5eef8" stroke="#7d3c98"/>
+  <text x="192" y="846" font-size="11" fill="#425466">ramię katalog</text>
+  <rect x="300" y="836" width="10" height="10" fill="#e8f8f5" stroke="#117a65"/>
+  <text x="316" y="846" font-size="11" fill="#425466">ramię kod</text>
+  <rect x="410" y="836" width="10" height="10" fill="#fdf2e9" stroke="#b9770e"/>
+  <text x="426" y="846" font-size="11" fill="#425466">silnik (stały)</text>
+  <rect x="520" y="836" width="10" height="10" fill="#eafaf1" stroke="#1e8449"/>
+  <text x="536" y="846" font-size="11" fill="#425466">granica walidacji (widoczna)</text>
+  <rect x="700" y="836" width="10" height="10" fill="#fdedec" stroke="#943126"/>
+  <text x="716" y="846" font-size="11" fill="#425466">wyrocznia (tajna)</text>
+</svg>

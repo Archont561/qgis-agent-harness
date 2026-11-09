@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "2607.02577v1",
+  "title": "Benchmarking the Benchmarks: A Validity Audit of Tool-Calling Evaluation",
+  "published": "2026-06-30"
+ },
+ {
+  "id": "2604.13519v2",
+  "title": "ToolSpec: Accelerating Tool Calling via Schema-Aware and Retrieval-Augmented Speculative Decoding",
+  "published": "2026-04-15"
+ },
+ {
+  "id": "2608.23635v1",
+  "title": "ToolRobustBench: Stage-Wise Perturbation Evaluation and Failure Diagnosis for Tool-Calling Agents",
+  "published": "2026-08-23"
+ },
+ {
+  "id": "2605.14237v1",
+  "title": "Good to Go: The LOOP Skill Engine That Hits 99% Success and Slashes Token Usage by 99% via One-Shot Recording and Deterministic Replay",
+  "published": "2026-05-14"
+ },
+ {
+  "id": "2512.01559v2",
+  "title": "LLM2Fx-Tools: Tool Calling For Music Post-Production",
+  "published": "2025-12-01"
+ },
+ {
+  "id": "2505.16113v1",
+  "title": "Tools in the Loop: Quantifying Uncertainty of LLM Question Answering Systems That Use Tools",
+  "published": "2025-05-22"
+ },
+ {
+  "id": "2608.07651v1",
+  "title": "An Agentic AI Framework Overcomes Fundamental Limitations of Large Language Models for Glaucoma Detection from Fundus Photography",
+  "published": "2026-08-07"
+ },
+ {
+  "id": "2601.04688v1",
+  "title": "ToolGate: Contract-Grounded and Verified Tool Execution for LLMs",
+  "published": "2026-01-08"
+ },
+ {
+  "id": "2601.19914v2",
+  "title": "Simulating Complex Multi-Turn Tool Calling Interactions in Stateless Execution Environments",
+  "published": "2026-01-06"
+ },
+ {
+  "id": "2604.24621v1",
+  "title": "Evaluation of LLM-Based Software Engineering Tools: Practices, Challenges, and Future Directions",
+  "published": "2026-04-27"
+ },
+ {
+  "id": "2602.16246v3",
+  "title": "Toward Scalable Verifiable Reward: Proxy State-Based Evaluation for Multi-turn Tool-Calling LLM Agents",
+  "published": "2026-02-18"
+ },
+ {
+  "id": "2512.18599v2",
+  "title": "Restore-R1: Efficient Image Restoration Agents via Reinforcement Learning with Multimodal LLM Perceptual Feedback",
+  "published": "2025-12-21"
+ },
+ {
+  "id": "2609.20152v1",
+  "title": "MTVA-Bench: Evaluating the Language Model Inside Cascaded Voice Agents",
+  "published": "2026-09-17"
+ },
+ {
+  "id": "2609.18128v1",
+  "title": "Symbolic Temporal Supervision of LLM Agents Using Contracts",
+  "published": "2026-09-16"
+ },
+ {
+  "id": "2504.20168v1",
+  "title": "MICE for CATs: Model-Internal Confidence Estimation for Calibrating Agents with Tools",
+  "published": "2025-04-28"
+ },
+ {
+  "id": "2602.05883v1",
+  "title": "A Guide to Large Language Models in Modeling and Simulation: From Core Techniques to Critical Challenges",
+  "published": "2026-02-05"
+ },
+ {
+  "id": "2603.18614v2",
+  "title": "ZEBRAARENA: A Diagnostic Simulation Environment for Studying Reasoning-Action Coupling in Tool-Augmented LLMs",
+  "published": "2026-03-19"
+ },
+ {
+  "id": "2504.14571v2",
+  "title": "Prompt-Hacking: The New p-Hacking?",
+  "published": "2025-04-20"
+ },
+ {
+  "id": "2610.07070v1",
+  "title": "Turnslide: Scalable Multi-Turn Data Synthesis by Walking a Finite-State Machine",
+  "published": "2026-10-05"
+ },
+ {
+  "id": "2607.17012v1",
+  "title": "Schema-Bound LLM Control of Scientific Instrumentation through Model Context Protocol Skills",
+  "published": "2026-07-19"
+ },
+ {
+  "id": "2607.04569v2",
+  "title": "LLMs for Agentic Home Energy Management",
+  "published": "2026-07-06"
+ },
+ {
+  "id": "2506.23394v1",
+  "title": "Teaching a Language Model to Speak the Language of Tools",
+  "published": "2025-06-29"
+ },
+ {
+  "id": "2604.11790v2",
+  "title": "ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection",
+  "published": "2026-04-13"
+ },
+ {
+  "id": "2608.10471v1",
+  "title": "RLMOpt: Adaptive Prompt Optimization via Recursive Language Models",
+  "published": "2026-08-11"
+ },
+ {
+  "id": "2601.02577v1",
+  "title": "Orchestral AI: A Framework for Agent Orchestration",
+  "published": "2026-01-05"
+ },
+ {
+  "id": "2505.01259v2",
+  "title": "Digital Pathway Curation (DPC): a pipeline able to assess the reproducibility, consensus and accuracy in biomedical search retrieval by comparing Gemini, PubMed, and Scientific Reviewers",
+  "published": "2025-05-02"
+ },
+ {
+  "id": "2512.12791v2",
+  "title": "Beyond Task Completion: An Assessment Framework for Evaluating Agentic AI Systems",
+  "published": "2025-12-14"
+ },
+ {
+  "id": "2601.17915v2",
+  "title": "Think Locally, Explain Globally: Graph-Guided LLM Investigations via Local Reasoning and Belief Propagation",
+  "published": "2026-01-25"
+ },
+ {
+  "id": "2608.23078v1",
+  "title": "AgentWeave: Routing Before Reasoning for Efficient Function Calling in Tool-Rich Language Models",
+  "published": "2026-08-24"
+ },
+ {
+  "id": "2610.22511v1",
+  "title": "AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems",
+  "published": "2026-10-15"
+ },
+ {
+  "id": "2502.17450v1",
+  "title": "Studying How Configurations Impact Code Generation in LLMs: the Case of ChatGPT",
+  "published": "2025-02-07"
+ },
+ {
+  "id": "2604.22937v1",
+  "title": "AutoPyVerifier: Learning Compact Executable Verifiers for Large Language Model Outputs",
+  "published": "2026-04-24"
+ },
+ {
+  "id": "2610.31096v2",
+  "title": "GeoAgent: Contract-Constrained LLM Agents for Seismic Data Processing",
+  "published": "2026-10-22"
+ },
+ {
+  "id": "2606.09613v3",
+  "title": "AgentServeSim: Serving-System Simulation and Policy Search for LLM Agent Programs",
+  "published": "2026-06-08"
+ },
+ {
+  "id": "2610.20779v1",
+  "title": "Enabling large language model agents for high-fidelity many-body perturbation theory calculations",
+  "published": "2026-10-14"
+ },
+ {
+  "id": "2609.14142v1",
+  "title": "T-SMART: Mechanism-Level Attribution for Tool-Augmented Time-Series Question Answering",
+  "published": "2026-09-12"
+ },
+ {
+  "id": "2605.02682v1",
+  "title": "Hybrid Inspection and Task-Based Access Control in Zero-Trust Agentic AI",
+  "published": "2026-05-04"
+ },
+ {
+  "id": "2512.12801v1",
+  "title": "Fine-Grained Energy Prediction For Parallellized LLM Inference With PIE-P",
+  "published": "2025-12-14"
+ },
+ {
+  "id": "2609.02624v1",
+  "title": "Automated Vulnerability Injection in Smart Contracts Using Large Language Models",
+  "published": "2026-09-02"
+ },
+ {
+  "id": "2607.23722v1",
+  "title": "E-Bench: Benchmarking Multi-Step Tool-Use Agents in Real-World Product Scenarios",
+  "published": "2026-07-26"
+ },
+ {
+  "id": "2608.26197v1",
+  "title": "Harness Engineering for Predictable Agentic Systems: An Empirical Study of Deterministic Execution Constraints",
+  "published": "2026-08-25"
+ },
+ {
+  "id": "2507.02533v2",
+  "title": "Meta-Fair: AI-Assisted Fairness Testing of Large Language Models",
+  "published": "2025-07-03"
+ },
+ {
+  "id": "2610.31148v1",
+  "title": "Prompt Sensitivity in Tool-Augmented Model Comparisons",
+  "published": "2026-10-22"
+ },
+ {
+  "id": "2601.01743v1",
+  "title": "AI Agent Systems: Architectures, Applications, and Evaluation",
+  "published": "2026-01-05"
+ },
+ {
+  "id": "2604.05150v2",
+  "title": "Compiled AI: Deterministic Code Generation for LLM-Based Workflow Automation",
+  "published": "2026-04-06"
+ },
+ {
+  "id": "2607.01972v1",
+  "title": "Object Aligner: A Configurable JSON Schema Similarity Score for Graphs, Applied to LLM Prompt Optimization",
+  "published": "2026-07-02"
+ },
+ {
+  "id": "2608.29596v2",
+  "title": "A Systematic Survey of Agentic Skills: Architecture, Lifecycle, and Security",
+  "published": "2026-08-30"
+ },
+ {
+  "id": "2605.00827v1",
+  "title": "Separating Intelligence from Execution: A Workflow Engine for the Model Context Protocol",
+  "published": "2026-03-13"
+ },
+ {
+  "id": "2607.14456v1",
+  "title": "Beyond Generalist LLMs: Specialist Agentic Systems for Structured Code Workflow Execution",
+  "published": "2026-07-16"
+ },
+ {
+  "id": "2607.05055v1",
+  "title": "Toward Trustworthy Large Language Model Agents in Healthcare",
+  "published": "2026-07-06"
+ },
+ {
+  "id": "2508.02721v2",
+  "title": "Blueprint First, Model Second: A Framework for Deterministic LLM Workflow",
+  "published": "2025-08-01"
+ },
+ {
+  "id": "2508.20737v1",
+  "title": "Rethinking Testing for LLM Applications: Characteristics, Challenges, and a Lightweight Interaction Protocol",
+  "published": "2025-08-28"
+ },
+ {
+  "id": "2511.08798v2",
+  "title": "Structured Uncertainty guided Clarification for LLM Agents",
+  "published": "2025-11-11"
+ },
+ {
+  "id": "2607.17948v1",
+  "title": "Towards Agentic Agent-based Models: Feasibility, Performance, and Statistical Model Checking",
+  "published": "2026-07-20"
+ },
+ {
+  "id": "2609.35833v1",
+  "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
+  "published": "2026-09-24"
+ },
+ {
+  "id": "2605.14038v3",
+  "title": "Model-Adaptive Tool Necessity Reveals the Knowing-Doing Gap in LLM Tool Use",
+  "published": "2026-05-13"
+ },
+ {
+  "id": "2605.19604v1",
+  "title": "Formal Skill: Programmable Runtime Skills for Efficient and Accurate LLM Agents",
+  "published": "2026-05-19"
+ },
+ {
+  "id": "2610.23921v1",
+  "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
+  "published": "2026-10-05"
+ },
+ {
+  "id": "2607.13189v1",
+  "title": "RAGthoven at SemEval-2026 Task 1: A Multi-Stage Pipeline Walks Into a Benchmark and Barely Clears the Bar",
+  "published": "2026-07-14"
+ },
+ {
+  "id": "2603.00846v1",
+  "title": "Tiny-Critic RAG: Empowering Agentic Fallback with Parameter-Efficient Small Language Models",
+  "published": "2026-03-01"
+ },
+ {
+  "id": "2606.04152v1",
+  "title": "Thinking Through Signs: PEEL as a Semiotic Scaffolding for Epistemically Accountable AI-Enabled Research",
+  "published": "2026-06-02"
+ },
+ {
+  "id": "2610.25552v1",
+  "title": "Symbolic Constraint Agents: Mining Formal Tool-Call Constraints to Prevent Agent Errors",
+  "published": "2026-10-18"
+ },
+ {
+  "id": "2605.03034v1",
+  "title": "Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense",
+  "published": "2026-05-04"
+ },
+ {
+  "id": "2503.00481v2",
+  "title": "Challenges in Testing Large Language Model Based Software: A Faceted Taxonomy",
+  "published": "2025-03-01"
+ },
+ {
+  "id": "2502.15493v1",
+  "title": "Programmers Aren't Obsolete Yet: A Syllabus for Teaching CS Students to Responsibly Use Large Language Models for Code Generation",
+  "published": "2025-02-21"
+ },
+ {
+  "id": "2605.09894v1",
+  "title": "Deterministic vs. LLM-Controlled Orchestration for COBOL-to-Python Modernization",
+  "published": "2026-05-11"
+ },
+ {
+  "id": "2504.01400v3",
+  "title": "ToolACE-R: Model-aware Iterative Training and Adaptive Refinement for Tool Learning",
+  "published": "2025-04-02"
+ },
+ {
+  "id": "2503.15547v2",
+  "title": "Prompt Flow Integrity to Prevent Privilege Escalation in LLM Agents",
+  "published": "2025-03-17"
+ },
+ {
+  "id": "2606.18789v1",
+  "title": "PowerAgentBench-SS: A Benchmark for Agentic AI in Power System Steady-State Studies",
+  "published": "2026-06-17"
+ },
+ {
+  "id": "2510.06756v1",
+  "title": "Verifying Memoryless Sequential Decision-making of Large Language Models",
+  "published": "2025-10-08"
+ },
+ {
+  "id": "2610.39608v1",
+  "title": "From Intent to Improvement: Agentic Dataset Search for Better Model Training",
+  "published": "2026-10-29"
+ },
+ {
+  "id": "2610.01508v1",
+  "title": "OverAct: Measuring and Mitigating Proactive Over-Authorization in LLM Tool-Calling Agents",
+  "published": "2026-10-01"
+ },
+ {
+  "id": "2610.09901v1",
+  "title": "A Chat Assistant for Software Exploration in a 3D Software Visualization",
+  "published": "2026-10-07"
+ },
+ {
+  "id": "2601.21558v2",
+  "title": "ASTRA: Automated Synthesis of agentic Trajectories and Reinforcement Arenas",
+  "published": "2026-01-29"
+ },
+ {
+  "id": "2605.26128v1",
+  "title": "The Constraint Tax: Measuring Validity-Correctness Tradeoffs in Structured Outputs for Small Language Models",
+  "published": "2026-05-20"
+ },
+ {
+  "id": "2610.37166v1",
+  "title": "LiveSearch: Questions as Executable Verifier Code for a Live Benchmark of Professional-Source Financial Search Agents",
+  "published": "2026-10-27"
+ },
+ {
+  "id": "2607.00436v1",
+  "title": "PHREEQC-MCQ-200: A Diagnostic Benchmark for Tool-Augmented Scientific Simulator Agents",
+  "published": "2026-07-01"
+ },
+ {
+  "id": "2609.19465v1",
+  "title": "Compositional Reasoning in Language Models under Reinforcement Learning Post-Training",
+  "published": "2026-09-16"
+ },
+ {
+  "id": "2603.07557v1",
+  "title": "AgentRaft: Automated Detection of Data Over-Exposure in LLM Agents",
+  "published": "2026-03-08"
+ },
+ {
+  "id": "2601.15130v1",
+  "title": "The Plausibility Trap: Using Probabilistic Engines for Deterministic Tasks",
+  "published": "2026-01-21"
+ },
+ {
+  "id": "2602.00133v1",
+  "title": "PredictionMarketBench: A SWE-bench-Style Framework for Backtesting Trading Agents on Prediction Markets",
+  "published": "2026-01-28"
+ },
+ {
+  "id": "2603.15372v1",
+  "title": "SKILLS: Structured Knowledge Injection for LLM-Driven Telecommunications Operations",
+  "published": "2026-03-16"
+ },
+ {
+  "id": "2610.14346v2",
+  "title": "Evaluating LLMs as Agentic Workflow Executors in Real-World Customer Support Skills",
+  "published": "2026-10-09"
+ },
+ {
+  "id": "2601.09980v1",
+  "title": "Performance of AI agents based on reasoning language models on ALD process optimization tasks",
+  "published": "2026-01-15"
+ },
+ {
+  "id": "2509.02494v1",
+  "title": "GridMind: LLMs-Powered Agents for Power System Analysis and Operations",
+  "published": "2025-09-02"
+ },
+ {
+  "id": "2607.16200v1",
+  "title": "Deterministic Replay for AI Agent Systems",
+  "published": "2026-04-30"
+ },
+ {
+  "id": "2610.10062v1",
+  "title": "Loud Failures, Quiet Failures: Fault Detection and Recovery in Tool-Using Language Model Agents",
+  "published": "2026-10-07"
+ },
+ {
+  "id": "2510.06664v1",
+  "title": "ToolMem: Enhancing Multimodal Agents with Learnable Tool Capability Memory",
+  "published": "2025-10-08"
+ },
+ {
+  "id": "2511.17673v6",
+  "title": "Bridging Symbolic Control and Neural Reasoning in LLM Agents -- The Structured Cognitive Loop",
+  "published": "2025-11-21"
+ },
+ {
+  "id": "2606.01838v2",
+  "title": "LayerRoute: Input-Conditioned Adaptive Layer Skipping via LoRA Fine-Tuning for Agentic Language Models",
+  "published": "2026-06-01"
+ },
+ {
+  "id": "2605.06483v2",
+  "title": "ReasonSTL: Bridging Natural Language and Signal Temporal Logic via Tool-Augmented Process-Rewarded Learning",
+  "published": "2026-05-07"
+ },
+ {
+  "id": "2608.21057v2",
+  "title": "Designing a Robust LLM-Based Evaluation System for Agentic AI in Drug Discovery Through Human Alignment",
+  "published": "2026-08-21"
+ },
+ {
+  "id": "2610.32135v1",
+  "title": "FacilityAudit-Agent: Beyond Mention-as-Usage for Fine-Grained Facility Contribution Attribution in Astrophysics Publications",
+  "published": "2026-10-23"
+ },
+ {
+  "id": "2608.09290v2",
+  "title": "OpenCodeReview: Determinism over Non-Determinism for Cost-Effective Agent-Based Code Review",
+  "published": "2026-08-10"
+ },
+ {
+  "id": "2608.27496v1",
+  "title": "ROPE: Routed Origin Policy Enforcement against Indirect Prompt Injection",
+  "published": "2026-08-27"
+ },
+ {
+  "id": "2508.02645v1",
+  "title": "Evaluating Variance in Visual Question Answering Benchmarks",
+  "published": "2025-08-04"
+ },
+ {
+  "id": "2607.14108v2",
+  "title": "Eta Given Delta: Defining LLM Tool Efficiency With Marginal Tool Utility",
+  "published": "2026-05-07"
+ },
+ {
+  "id": "2601.03281v1",
+  "title": "$\u03b1^3$-Bench: A Unified Benchmark of Safety, Robustness, and Efficiency for LLM-Based UAV Agents over 6G Networks",
+  "published": "2026-01-01"
+ },
+ {
+  "id": "2607.08010v2",
+  "title": "Tool-Making and Self-Evolving LLM Agents in Low-Latency Systems",
+  "published": "2026-07-09"
+ },
+ {
+  "id": "2603.15840v1",
+  "title": "When Stability Fails: Hidden Failure Modes Of LLMS in Data-Constrained Scientific Decision-Making",
+  "published": "2026-03-16"
+ },
+ {
+  "id": "2603.03018v1",
+  "title": "REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry",
+  "published": "2026-03-03"
+ },
+ {
+  "id": "2608.03890v1",
+  "title": "CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+  "published": "2026-08-04"
+ },
+ {
+  "id": "2508.05427v2",
+  "title": "Large Language Models Transform Organic Synthesis From Reaction Prediction to Automation",
+  "published": "2025-08-07"
+ },
+ {
+  "id": "2608.26114v1",
+  "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
+  "published": "2026-06-05"
+ },
+ {
+  "id": "2504.11703v3",
+  "title": "Progent: Securing AI Agents with Privilege Control",
+  "published": "2025-04-16"
+ },
+ {
+  "id": "2512.19458v2",
+  "title": "VASP Agent: An Agentic Framework for Autonomous First-principles Calculations",
+  "published": "2025-12-22"
+ },
+ {
+  "id": "2601.02370v3",
+  "title": "Variance-Aware LLM Annotation for Strategy Research: Sources, Diagnostics, and a Protocol for Reliable Measurement",
+  "published": "2025-12-02"
+ },
+ {
+  "id": "2511.05912v1",
+  "title": "RadioSim Agent: Combining Large Language Models and Deterministic EM Simulators for Interactive Radio Map Analysis",
+  "published": "2025-11-08"
+ },
+ {
+  "id": "2610.32648v1",
+  "title": "StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents",
+  "published": "2026-10-23"
+ },
+ {
+  "id": "2610.24355v1",
+  "title": "Koi: Evidence-Guided, Self-Calibrating Planning for Multi-Cloud, Heterogeneous LLM Inference Fleets",
+  "published": "2026-10-17"
+ },
+ {
+  "id": "2605.10912v1",
+  "title": "WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation",
+  "published": "2026-05-11"
+ },
+ {
+  "id": "2610.12281v1",
+  "title": "Unlocking the Regulatory Genome by ARGUS: An Evidence-Constrained Agentic Framework for Interpreting Single Nucleotide Variants",
+  "published": "2026-10-08"
+ },
+ {
+  "id": "2606.09500v4",
+  "title": "Deterministic Integrity Gates for LLM-Assisted Clinical Manuscript Preparation: An Auditable Biomedical Informatics Architecture",
+  "published": "2026-06-08"
+ },
+ {
+  "id": "2605.04107v1",
+  "title": "TSCG: Deterministic Tool-Schema Compilation for Agentic LLM Deployments",
+  "published": "2026-05-04"
+ },
+ {
+  "id": "2507.21428v1",
+  "title": "MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Calling in LLM Agent Multi-Turn Conversations",
+  "published": "2025-07-29"
+ },
+ {
+  "id": "2609.28693v1",
+  "title": "Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Role-Scoped Capability Delivery",
+  "published": "2026-09-23"
+ },
+ {
+  "id": "2605.07840v2",
+  "title": "RelAgent: LLM Agents as Data Scientists for Relational Learning",
+  "published": "2026-05-08"
+ },
+ {
+  "id": "2505.00270v2",
+  "title": "Large Language Models as AI Agents for Digital Atoms and Molecules: Catalyzing a New Era in Computational Biophysics",
+  "published": "2025-05-01"
+ },
+ {
+  "id": "2607.04429v1",
+  "title": "evalci: A Python Library for Statistically Rigorous Comparison of Language Model Evaluations",
+  "published": "2026-07-05"
+ },
+ {
+  "id": "2503.10613v1",
+  "title": "CoSTA$\\ast$: Cost-Sensitive Toolpath Agent for Multi-turn Image Editing",
+  "published": "2025-03-13"
+ },
+ {
+  "id": "2505.16340v1",
+  "title": "Improving Chemical Understanding of LLMs via SMILES Parsing",
+  "published": "2025-05-22"
+ },
+ {
+  "id": "2511.11258v1",
+  "title": "KGQuest: Template-Driven QA Generation from Knowledge Graphs with LLM-Based Refinement",
+  "published": "2025-11-14"
+ },
+ {
+  "id": "2607.18241v1",
+  "title": "BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data",
+  "published": "2026-04-17"
+ },
+ {
+  "id": "2610.18457v1",
+  "title": "Kairos: Transactional Security Enforcement at the System Boundary for LLM Agents",
+  "published": "2026-10-13"
+ },
+ {
+  "id": "2607.13071v2",
+  "title": "Compaction as Epistemic Failure: How Agentic LLM Tools Fabricate Confirmed Results from Killed Processes",
+  "published": "2026-07-11"
+ },
+ {
+  "id": "2608.23628v2",
+  "title": "Callability Is Not Operability: Controlled Interface Interventions for LLM Agents",
+  "published": "2026-08-23"
+ },
+ {
+  "id": "2411.09772v1",
+  "title": "Beyond Static Tools: Evaluating Large Language Models for Cryptographic Misuse Detection",
+  "published": "2024-11-14"
+ },
+ {
+  "id": "2509.20086v4",
+  "title": "OLaPh: Optimal Language Phonemizer",
+  "published": "2025-09-24"
+ },
+ {
+  "id": "2508.05192v2",
+  "title": "AI-assisted JSON Schema Creation and Mapping",
+  "published": "2025-08-07"
+ },
+ {
+  "id": "2608.23282v1",
+  "title": "From Natural Language Policies to Executable Obligations: A Verification Harness for Dependable In-Car LLM Agents",
+  "published": "2026-08-24"
+ },
+ {
+  "id": "2601.01609v1",
+  "title": "Structured Decomposition for LLM Reasoning: Cross-Domain Validation and Semantic Web Integration",
+  "published": "2026-01-04"
+ },
+ {
+  "id": "2610.30198v1",
+  "title": "UrQMD-Agent: An LLM-Assisted Framework for Microscopic Tracing of Proton Azimuthal Correlations",
+  "published": "2026-10-21"
+ },
+ {
+  "id": "2508.04448v1",
+  "title": "Large Language Models Versus Static Code Analysis Tools: A Systematic Benchmark for Vulnerability Detection",
+  "published": "2025-08-06"
+ },
+ {
+  "id": "2606.31252v1",
+  "title": "Embodied CAD: Solver-Grounded LLM Agents for Parametric B-Rep Assembly Modeling",
+  "published": "2026-06-30"
+ },
+ {
+  "id": "2607.22761v1",
+  "title": "DRC-Aid: Design-Rule Correction via Agentic Framework utilizing Inference-Time Large Language Models",
+  "published": "2026-07-23"
+ },
+ {
+  "id": "2509.13899v1",
+  "title": "AI as a teaching tool and learning partner",
+  "published": "2025-09-17"
+ },
+ {
+  "id": "2605.08646v2",
+  "title": "PAAC: Privacy-Aware Agentic Device-Cloud Collaboration",
+  "published": "2026-05-09"
+ },
+ {
+  "id": "2606.24609v1",
+  "title": "CONDUCTOR: An LLM-Orchestrated Digital Twin for Uncertainty-Aware Distribution Grid Operations",
+  "published": "2026-06-23"
+ },
+ {
+  "id": "2610.07639v2",
+  "title": "HarnessSecurity-Bench: Do Security Mechanisms Really Protect Coding Agent Harnesses?",
+  "published": "2026-10-06"
+ },
+ {
+  "id": "2607.25155v1",
+  "title": "VeraGrid-Agent: Tool-Augmented LLMs for Distribution Optimal Power Flow at the Grid Edge",
+  "published": "2026-07-28"
+ },
+ {
+  "id": "2605.16338v1",
+  "title": "Vidya: An AI-Driven Modular Pipeline for Archival Automation and Semantic Metadata Enrichment",
+  "published": "2026-05-07"
+ },
+ {
+  "id": "2602.20669v2",
+  "title": "Integrating Domain-Specialized Language Models with AI Measurement Tools for Deterministic Atomic-Resolution Experimentation",
+  "published": "2026-02-24"
+ },
+ {
+  "id": "2605.02384v3",
+  "title": "A Low-Code Approach for the Automatic Personalization of Conversational Agents",
+  "published": "2026-05-04"
+ },
+ {
+  "id": "2604.10008v1",
+  "title": "Raiven: LLM-Based Visualization Authoring via Domain-Specific Language Mediation",
+  "published": "2026-04-11"
+ },
+ {
+  "id": "2609.33731v1",
+  "title": "HTN Planning as a Coordination Layer for Multi-Server MCP Tool Orchestration",
+  "published": "2026-09-27"
+ },
+ {
+  "id": "2605.05424v1",
+  "title": "Evaluating the Reliability of Multiple Large Language Models in Risk Assessment: A CIS Controls Based Approach",
+  "published": "2026-05-06"
+ },
+ {
+  "id": "2610.36221v1",
+  "title": "EREBOTS 4.0: A framework for conversational assistants with A2A agents and MCP tools",
+  "published": "2026-10-26"
+ },
+ {
+  "id": "2602.09372v1",
+  "title": "AgentSkiller: Scaling Generalist Agent Intelligence through Semantically Integrated Cross-Domain Data Synthesis",
+  "published": "2026-02-10"
+ },
+ {
+  "id": "2601.22037v2",
+  "title": "Optimizing Agentic Workflows using Meta-tools",
+  "published": "2026-01-29"
+ },
+ {
+  "id": "2610.10580v1",
+  "title": "A Survey on LLM-Integrated Hardware Design Verification",
+  "published": "2026-10-06"
+ },
+ {
+  "id": "2610.20665v1",
+  "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+  "published": "2026-10-14"
+ },
+ {
+  "id": "2610.39488v1",
+  "title": "InterA11y: Interactive Web Accessibility Error Detection with LLM Agents",
+  "published": "2026-10-29"
+ },
+ {
+  "id": "2601.09749v1",
+  "title": "R-LAM: Reproducibility-Constrained Large Action Models for Scientific Workflow Automation",
+  "published": "2026-01-12"
+ },
+ {
+  "id": "2610.11678v1",
+  "title": "TRACE: Diagnosing Verifier Brittleness in Agentic Evaluation",
+  "published": "2026-10-08"
+ },
+ {
+  "id": "2607.08282v1",
+  "title": "Multi-Agent Firewall Architecture for Privacy Protection of Sensitive Data in Interactions with Language Models",
+  "published": "2026-07-09"
+ },
+ {
+  "id": "2604.18652v2",
+  "title": "From Craft to Kernel: A Governance-First Execution Architecture and Semantic ISA for Agentic Computers",
+  "published": "2026-04-20"
+ },
+ {
+  "id": "2508.05799v1",
+  "title": "AI-Guided Exploration of Large-Scale Codebases",
+  "published": "2025-08-07"
+ },
+ {
+  "id": "2505.20869v1",
+  "title": "Step-Wise Formal Verification for LLM-Based Mathematical Problem Solving",
+  "published": "2025-05-27"
+ },
+ {
+  "id": "2604.23859v3",
+  "title": "Time-Series Forecasting in Safety-Critical Environments: An Open-Source Package for EU-AI-Act-Compliant Development / Zeitreihenprognose in sicherheitskritischen Umgebungen: Ein Open-Source-Paket f\u00fcr die KI-VO-konforme Entwicklung",
+  "published": "2026-04-26"
+ },
+ {
+  "id": "2608.27142v1",
+  "title": "GRAIN: Bridging Name and Narrative Shifts in Real-World Graph Reasoning through Invariance-Rewarded Agentic RL",
+  "published": "2026-08-27"
+ },
+ {
+  "id": "2507.16459v2",
+  "title": "Towards Enforcing Company Policy Adherence in Agentic Workflows",
+  "published": "2025-07-22"
+ },
+ {
+  "id": "2604.21746v1",
+  "title": "Less Is More: Measuring How LLM Involvement affects Chatbot Accuracy in Static Analysis",
+  "published": "2026-04-23"
+ },
+ {
+  "id": "2604.17056v1",
+  "title": "RLM-on-KG: Heuristics First, LLMs When Needed: Adaptive Retrieval Control over Mention Graphs for Scattered Evidence",
+  "published": "2026-04-18"
+ },
+ {
+  "id": "2610.37932v1",
+  "title": "Understanding Large Language Models as Numerical Optimizers",
+  "published": "2026-10-27"
+ },
+ {
+  "id": "2604.04131v1",
+  "title": "Profile-Then-Reason: Bounded Semantic Complexity for Tool-Augmented Language Agents",
+  "published": "2026-04-05"
+ },
+ {
+  "id": "2607.11423v1",
+  "title": "ToFu: A White-Box, Token-Efficient Agent Harness for Researchers",
+  "published": "2026-07-13"
+ },
+ {
+  "id": "2505.20127v2",
+  "title": "Agentic AI Process Observability: Discovering Behavioral Variability",
+  "published": "2025-05-26"
+ },
+ {
+  "id": "2604.26274v1",
+  "title": "Enforcing Benign Trajectories: A Behavioral Firewall for Structured-Workflow AI Agents",
+  "published": "2026-04-29"
+ },
+ {
+  "id": "2610.33182v1",
+  "title": "Spoofing the Toolbox: Optimizing Tool Descriptions to Deceive LLM Agents",
+  "published": "2026-10-23"
+ },
+ {
+  "id": "2602.20513v1",
+  "title": "From Performance to Purpose: A Sociotechnical Taxonomy for Evaluating Large Language Model Utility",
+  "published": "2026-02-24"
+ },
+ {
+  "id": "2603.01589v2",
+  "title": "SafeSci: Safety Evaluation of Large Language Models in Science Domains and Beyond",
+  "published": "2026-03-02"
+ },
+ {
+  "id": "2602.22638v2",
+  "title": "MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios",
+  "published": "2026-02-26"
+ },
+ {
+  "id": "2610.29747v1",
+  "title": "Prompt Injection Through Forensic Evidence: A Taxonomy and Proof of Concept of Anti-Forensic Attacks on LLM-Assisted Digital Investigations",
+  "published": "2026-10-21"
+ },
+ {
+  "id": "2608.19202v1",
+  "title": "Active Inference as Context Acquisition for AI Agents",
+  "published": "2026-06-08"
+ },
+ {
+  "id": "2604.07752v1",
+  "title": "MIMIC-Py: An Extensible Tool for Personality-Driven Automated Game Testing with Large Language Models",
+  "published": "2026-04-09"
+ },
+ {
+  "id": "2608.08281v1",
+  "title": "Exploring LLM Capabilities for Situational Understanding and COLREG compliance on real-world maritime navigation scenarios",
+  "published": "2026-08-08"
+ },
+ {
+  "id": "2606.11256v1",
+  "title": "My Chemical Harness: Evolutionary Molecular Design over Synthetic Pathways with Large Language Model Agents",
+  "published": "2026-06-08"
+ },
+ {
+  "id": "2606.16576v2",
+  "title": "Can Agents Infer Environment from Interaction? Evidence from Agentic Automata Learning",
+  "published": "2026-06-15"
+ },
+ {
+  "id": "2606.02862v1",
+  "title": "Toward a Modular Architecture for Embedded AI Agent Systems at the Edge",
+  "published": "2026-06-01"
+ },
+ {
+  "id": "2608.24039v1",
+  "title": "Design-to-Plan: A Large Language Model-Based Multi-Agent Framework for Manufacturing Process Planning from 3D CAD Models and 2D Engineering Drawings",
+  "published": "2026-08-25"
+ },
+ {
+  "id": "2610.03213v1",
+  "title": "Toward SLM-based agentic task-tool intent matching",
+  "published": "2026-10-02"
+ },
+ {
+  "id": "2608.08793v1",
+  "title": "Evidence-Calibrated Runtime Reconstruction for Agent Skills Across Heterogeneous Coding Agents",
+  "published": "2026-08-09"
+ },
+ {
+  "id": "2411.03486v1",
+  "title": "LLM Generated Distribution-Based Prediction of US Electoral Results, Part I",
+  "published": "2024-11-05"
+ },
+ {
+  "id": "2610.21477v1",
+  "title": "Tool-Augmented Large Language Models for Reliable Medical Calculation from Patient Notes",
+  "published": "2026-10-15"
+ },
+ {
+  "id": "2606.06749v1",
+  "title": "Deterministic access to global viral sequence data enables robust agentic scientific discovery",
+  "published": "2026-06-04"
+ },
+ {
+  "id": "2601.15232v3",
+  "title": "When Agents Fail: A Comprehensive Study of Bugs in LLM Agents with Automated Labeling",
+  "published": "2026-01-21"
+ },
+ {
+  "id": "2509.07939v2",
+  "title": "Guided Reasoning in LLM-Driven Penetration Testing Using Structured Attack Trees",
+  "published": "2025-09-09"
+ },
+ {
+  "id": "2607.08740v1",
+  "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
+  "published": "2026-07-09"
+ },
+ {
+  "id": "2606.21316v1",
+  "title": "Large Language Model-Assisted Framework for BSM Model Building",
+  "published": "2026-06-19"
+ },
+ {
+  "id": "2607.11098v3",
+  "title": "AgentCheck: A Reproduce-Intervene-Mitigate Workbench for LLM Agents over MCP",
+  "published": "2026-07-13"
+ },
+ {
+  "id": "2609.13335v1",
+  "title": "Bridging Thought and Action: Taming Long-Horizon Instability in Open-Source LLM Agents with a MetaTool-Enhanced ROS Framework",
+  "published": "2026-09-11"
+ },
+ {
+  "id": "2607.21412v2",
+  "title": "Euclid-MCP: A Model Context Protocol Server for Deterministic Logical Reasoning via Prolog",
+  "published": "2026-07-23"
+ },
+ {
+  "id": "2601.13880v2",
+  "title": "LifeAgentBench: Benchmarking LLMs for Long-Horizon, Cross-Dimensional Lifestyle Health Reasoning",
+  "published": "2026-01-20"
+ },
+ {
+  "id": "2608.22390v1",
+  "title": "SchemaGUI: A Schema-Driven Benchmark for Controllable GUI Generation Evaluation",
+  "published": "2026-08-23"
+ },
+ {
+  "id": "2607.27674v1",
+  "title": "Can Large Language Models Resolve Real Java Merge Conflicts? An Evaluation with a Calibrated LLM-as-Judge",
+  "published": "2026-07-30"
+ },
+ {
+  "id": "2511.14650v1",
+  "title": "AutoTool: Efficient Tool Selection for Large Language Model Agents",
+  "published": "2025-11-18"
+ },
+ {
+  "id": "2605.06455v2",
+  "title": "PrefixGuard: Online Failure Warning and Trace-Grounded Diagnosis for LLM Agents",
+  "published": "2026-05-07"
+ },
+ {
+  "id": "2606.14805v2",
+  "title": "Knowledge-Based Zero-Replay Debugging of Multi-Agent LLM Traces",
+  "published": "2026-06-11"
+ },
+ {
+  "id": "2510.10675v2",
+  "title": "Simpliflow: A Lightweight Open-Source Framework for Rapid Creation and Deployment of Generative Agentic AI Workflows",
+  "published": "2025-10-12"
+ },
+ {
+  "id": "2512.06716v3",
+  "title": "SIEVE: Selective Integrity Verification and Escalation for Defending LLM Agents against Indirect Prompt Injection",
+  "published": "2025-12-07"
+ }
+]

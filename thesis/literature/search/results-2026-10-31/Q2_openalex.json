@@ -1,0 +1,1206 @@
+[
+ {
+  "id": "W4415109628",
+  "doi": "10.1145/3814959",
+  "title": "Model Context Protocol (MCP) at First Glance: Studying the Security and Maintainability of MCP Servers",
+  "year": 2026,
+  "cites": 18
+ },
+ {
+  "id": "W7162185912",
+  "doi": "10.17605/osf.io/pgdr6",
+  "title": "SbD MCP Server - Ontology-grounded retrieval for GenAI Secure code generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133209403",
+  "doi": "10.5281/zenodo.18832505",
+  "title": "Chatten mit 2500 Jahren Dramengeschichte. Der DraCor MCP Server",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160381599",
+  "doi": "10.14459/2026md1851873",
+  "title": "A Modular Reference Architecture for MCP-Servers Enabling Agentic BIM Interaction",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7168128640",
+  "doi": "10.2991/978-94-6239-723-1_14",
+  "title": "A Survey on Model Context Protocol (MCP) in System Calls",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7130587177",
+  "doi": "10.1109/fllm67465.2025.11391050",
+  "title": "A Model Context Protocol Application for Long-Term Memory Management",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7131119934",
+  "doi": "10.1109/roboticcc68732.2025.00025",
+  "title": "ROSBag MCP Server: Analyzing Robot Data with LLMs for Agentic Embodied AI Applications",
+  "year": 2025,
+  "cites": 4
+ },
+ {
+  "id": "W7160268213",
+  "doi": "10.48550/arxiv.2605.00827",
+  "title": "Separating Intelligence from Execution: A Workflow Engine for the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7147783451",
+  "doi": "10.5281/zenodo.19358014",
+  "title": "Ep. 157: Beyond the Chatbox: The Power of Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7130699279",
+  "doi": "10.5281/zenodo.18702880",
+  "title": "How to Chat with the History of European Drama. Connecting DraCor with a Large Language Model Using an MCP Server.",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7110966318",
+  "doi": "10.5281/zenodo.17866079",
+  "title": "Survey Paper on Model Context Protocol Servers: A Systematic Review of Designs, Use Cases, and Future Directions",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7213497204",
+  "doi": "10.48550/arxiv.2609.18217",
+  "title": "Measuring and Exploiting Implicit Trust in LLM Tool-Calling Pipelines",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163722594",
+  "doi": "",
+  "title": "Extending contextual capabilities of artificial intelligence through the Model Context Protocol (MCP)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204209902",
+  "doi": "10.48550/arxiv.2608.21417",
+  "title": "Retrieval-grounded robot program generation and simulation-based correction via Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204590719",
+  "doi": "10.18653/2026.emnlp-industry.120",
+  "title": "Benchmarking AI Agents for Hardware Design Automation via MCP Tool Calling",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163991377",
+  "doi": "10.1109/iccar69571.2026.11549721",
+  "title": "A Generalised Robot Control Architecture with Large Language Model and Model Context Protocol",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7154887694",
+  "doi": "10.5281/zenodo.19648078",
+  "title": "Model Context Protocol in Enterprise AI Systems: Architecture, Failure Modes, and Production Patterns",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169829189",
+  "doi": "10.48550/arxiv.2607.17012",
+  "title": "Schema-Bound LLM Control of Scientific Instrumentation through Model Context Protocol Skills",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169881103",
+  "doi": "10.5281/zenodo.21478247",
+  "title": "Tool-Surface Granularity in Model Context Protocol Servers for Analytical Engines: Patterns, Trade-Offs, and Token Economics",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125694529",
+  "doi": "10.2139/ssrn.5957238",
+  "title": "A Comprehensive Survey on Model Context Protocol: Architecture, Tool Integration, and the Future of AI Interoperability",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223461795",
+  "doi": "10.5281/zenodo.23617883",
+  "title": "Model Context Protocol and the Agent\u2013Tool Ecosystem: A Systematic Survey of Standardizing AI Tool Integration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223299377",
+  "doi": "10.5281/zenodo.23573764",
+  "title": "MCP-Injector: protocol-level fault injection for tool-calling LLM agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168098155",
+  "doi": "10.5281/zenodo.21327892",
+  "title": "AgentEsc: A Taxonomy of Privilege-Escalation Threats in Tool-Calling and MCP-Based Agent Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415948577",
+  "doi": "10.48550/arxiv.2510.15994",
+  "title": "MCP Security Bench (MSB): Benchmarking Attacks Against Model Context Protocol in LLM Agents",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7203734963",
+  "doi": "10.48550/arxiv.2608.17275",
+  "title": "When Agents Act on Web3: An Attack-Surface Survey of MCP, Skills, and Tool Calling",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212419346",
+  "doi": "10.5281/zenodo.22731103",
+  "title": "A Lightweight Defense Architecture Against Indirect Prompt Injection in Tool-Calling AI Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214298595",
+  "doi": "10.48550/arxiv.2609.28585",
+  "title": "Persistent Billable State: Denial-of-Wallet Attacks and Defenses in Tool-Calling LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7111045851",
+  "doi": "10.48550/arxiv.2512.06556",
+  "title": "Semantic Attacks on Tool-Augmented LLMs: Securing the Model Context Protocol Against Descriptor-Level Manipulation",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7124732130",
+  "doi": "10.18653/2026.emnlp-main.2090",
+  "title": "Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202148517",
+  "doi": "10.5281/zenodo.21868812",
+  "title": "Tool Calling Behind the Curtain: Secure Function Execution for Agentic LLMs Inside Confidential VMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202156537",
+  "doi": "10.70917/ijcisim-2026-4123",
+  "title": "Tool Calling Behind the Curtain: Secure Function Execution for Agentic LLMs Inside Confidential VMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212394732",
+  "doi": "10.5281/zenodo.22715686",
+  "title": "Formal Verification of Agentic MLOps Protocols: Model Checking and Liveness Guarantees in Distributed Model Context Protocol Workflows",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223678701",
+  "doi": "10.48550/arxiv.2610.32555",
+  "title": "Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154915324",
+  "doi": "10.5281/zenodo.19653609",
+  "title": "Synoema: A Programming Language Optimized for Large-Language-Model Code Generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414692786",
+  "doi": "10.1109/cisat66811.2025.11181750",
+  "title": "SecLLM-Intent-Driven Orchestration of Heterogeneous Security Devices via MCP Function Calling and Retrieval-Augmented Generation",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7151631528",
+  "doi": "10.17605/osf.io/yxvmh",
+  "title": "Empirical Research Design: A Security-by-Design Evaluation Framework for Ontology-Grounded Code Generation",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7162300288",
+  "doi": "10.64898/2026.05.23.26353963",
+  "title": "Extraction of Human Phenotype Ontology (HPO) Concepts from Clinical Notes Utilizing Large Language Models (LLM) with Model Context Protocol (MCP)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203499782",
+  "doi": "10.2139/ssrn.7264339",
+  "title": "Code-Generated Tool Orchestration versus Native Function Calling in Stateful Business Workflows: A Multi-Model Benchmark Study",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164202034",
+  "doi": "10.1109/ceepe69795.2026.11552181",
+  "title": "Agentic Application in Power Grid Static Analysis: Automatic Code Generation and Error Correction",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203839682",
+  "doi": "10.5120/ijcae10508249e55",
+  "title": "Benchmarking LLM Tool Orchestration in Resource-Constrained Agentic Workflows: Native MCP Function Calling vs Code Mode",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154218884",
+  "doi": "10.48550/arxiv.2604.09995",
+  "title": "Agentic Application in Power Grid Static Analysis: Automatic Code Generation and Error Correction",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212024837",
+  "doi": "10.48550/arxiv.2609.07370",
+  "title": "Beyond Fluent Generation: A CPU Reliability Benchmark for MCP-Style Tool Calling in Sub-2B Small Language Models for Edge Deployment",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133601854",
+  "doi": "10.36227/techrxiv.177205025.54351571/v2",
+  "title": "Rediscovering Architectural Decision Records: How Persistent Design Context Improves LLM Code Generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131433799",
+  "doi": "10.36227/techrxiv.177205025.54351571/v1",
+  "title": "Rediscovering Architectural Decision Records: How Persistent Design Context Improves LLM Code Generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204243217",
+  "doi": "10.2139/ssrn.7344299",
+  "title": "Context Rot and MCP Tool Attrition in Production-Scale Codebases: An Empirical Investigation of Context-Driven Tool Calling Degradation in Agentic AI Coding Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214928780",
+  "doi": "10.1007/978-3-032-38614-4_36",
+  "title": "Architecting Reliable LLM-Integrated Simulation: From Code Generation to Tool-Augmented Interaction in Production Planning",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223549849",
+  "doi": "10.21203/rs.3.rs-11503453/v1",
+  "title": "PyPI API Drift: A Release-Level Record of Public API Changes in 1,872 Popular Python Libraries, with a Checker and a Benchmark for Version-Aware Code Generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165127145",
+  "doi": "10.5281/zenodo.20753683",
+  "title": "FilterForge: an LLM-agentic environment for waveguide filter design \u2014 artifact",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415013359",
+  "doi": "",
+  "title": "Agentic DraCor and the Art of Docstring Engineering: Evaluating MCP-empowered LLM Usage of the DraCor API",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7171673037",
+  "doi": "10.2139/ssrn.6819898",
+  "title": "PAARA-Agentic: Connector and Tool Governance for Agentic AI Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416067318",
+  "doi": "10.48550/arxiv.2509.07595",
+  "title": "AgentX: Towards Orchestrating Robust Agentic Workflow Patterns with FaaS-hosted MCP Services",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7140218389",
+  "doi": "10.48550/arxiv.2603.20313",
+  "title": "Semantic Tool Discovery for Large Language Models: A Vector-Based Approach to MCP Tool Selection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128533948",
+  "doi": "10.63282/3050-9416.ijaibdcms-v7i1p111",
+  "title": "Agentic Leave and Dispatch Automation for Trucking Fleets Using MCP and LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214802591",
+  "doi": "10.48550/arxiv.2609.35381",
+  "title": "MCP Error Messages Written for Developers Hurt the Most Capable Agents Most",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204062836",
+  "doi": "",
+  "title": "A Verification-Guided, Context-Efficient Framework for LLM-Based Software Refactoring",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7148529781",
+  "doi": "10.5281/zenodo.19388237",
+  "title": "Is Your AI Model Agentic-Ready or Just Wearing a Suit?",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4417309755",
+  "doi": "10.1109/cai68641.2026.11536377",
+  "title": "Tool and Agent Selection for Large Language Model Agents in Production: A Survey",
+  "year": 2026,
+  "cites": 5
+ },
+ {
+  "id": "W7161755752",
+  "doi": "10.48550/arxiv.2605.19604",
+  "title": "Formal Skill: Programmable Runtime Skills for Efficient and Accurate LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7117650860",
+  "doi": "10.48550/arxiv.2512.23611",
+  "title": "Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7170226398",
+  "doi": "",
+  "title": "Agentic Web Platform: Webforms Application",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414449162",
+  "doi": "10.48550/arxiv.2508.20637",
+  "title": "GDS Agent for Graph Algorithmic Reasoning",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7172122374",
+  "doi": "10.5281/zenodo.21731396",
+  "title": "Correctover Self-Evolving Agent with DeepSeek Integration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416246691",
+  "doi": "10.48550/arxiv.2510.19286",
+  "title": "TheMCPCompany: Creating General-purpose Agents with Task-specific Tools",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7171458924",
+  "doi": "10.26434/chemrxiv.15006587/v1",
+  "title": "Autonomous Flowsheet Synthesis, Simulation, and Analysis with a Locally Deployed Language Model Agent: An Open-Standard Interface to Aspen Plus",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416736606",
+  "doi": "10.52783/jisem.v10i62s.13643",
+  "title": "Enhancing Developer Productivity Through Intelligent Documentation Retrieval",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7214735446",
+  "doi": "10.5281/zenodo.23047168",
+  "title": "AAI 4410: Applied AI Systems \u2014 Course Book",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7147745487",
+  "doi": "10.5281/zenodo.19358971",
+  "title": "The MCP Aggregator: AI's Missing Control Plane",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7123678370",
+  "doi": "10.48550/arxiv.2601.07367",
+  "title": "FOCAL: A Novel Benchmarking Technique for Multi-modal Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214661256",
+  "doi": "10.5194/isprs-annals-xii-4-w1-2026-211-2026",
+  "title": "Enabling AI Agents for Semantic 3D City Models through Automated Domain Context Generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134964671",
+  "doi": "10.1109/comsnets67989.2026.11418101",
+  "title": "FOCAL: A Novel Benchmarking Technique for Multi-modal Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162445151",
+  "doi": "10.48550/arxiv.2605.24941",
+  "title": "Memory-Induced Tool-Drift in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7215290281",
+  "doi": "",
+  "title": "Dise\u00f1o e implementaci\u00f3n de arquitecturas basadas en agentes LLM para la planificaci\u00f3n de trayectorias de drones en lenguaje natural",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161732709",
+  "doi": "10.48550/arxiv.2605.17558",
+  "title": "Firefly: Illuminating Large-Scale Verified Tool-Call Data Generation from Real APIs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125605419",
+  "doi": "10.5281/zenodo.18363669",
+  "title": "Security Disclosure: AI Assistants as Reconnaissance Vectors in Developer Environments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224050483",
+  "doi": "",
+  "title": "Design and implementation of a secure and scalable MCP-compatible connector for AI agent access to Business Intelligence data",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7159782580",
+  "doi": "10.1201/9781003506324-7",
+  "title": "AI Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128309009",
+  "doi": "10.5281/zenodo.18526554",
+  "title": "Intent Leakage by Design: Governance Gaps in MCP, Tool Use, and A2A",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164373911",
+  "doi": "10.5281/zenodo.20647930",
+  "title": "ChatSpatial: Schema-Enforced Agentic Orchestration for Reproducible and Cross-Platform Spatial Transcriptomics",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7140086238",
+  "doi": "10.1109/ieeeconf67861.2026.11440781",
+  "title": "Integrating LLM-based modeling assistants into Capella: experiments and architectural tradeoffs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223928812",
+  "doi": "10.48550/arxiv.2610.33350",
+  "title": "EVM-Anchored Provenance for AI-Assisted Code Evolution: A Smoke-Scale Deployment Report",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416513724",
+  "doi": "10.48550/arxiv.2506.23394",
+  "title": "Teaching a Language Model to Speak the Language of Tools",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7128522356",
+  "doi": "10.1016/j.ins.2026.123231",
+  "title": "Bridging AI and software security: A comparative vulnerability assessment of LLM agent deployment paradigms",
+  "year": 2026,
+  "cites": 10
+ },
+ {
+  "id": "W4416051501",
+  "doi": "10.48550/arxiv.2508.15760",
+  "title": "LiveMCP-101: Stress Testing and Diagnosing MCP-enabled Agents on Challenging Queries",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7216092900",
+  "doi": "10.48550/arxiv.2610.00056",
+  "title": "Agentic AI for Staged Three-Dimensional Finite-Element Tunnel Modelling",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169858393",
+  "doi": "10.1145/3820441.3821235",
+  "title": "Scaling LLM Agent Tool Access at Cloud Scale",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162126412",
+  "doi": "10.1145/3786335.3813214",
+  "title": "Introspectable, Updatable, and Uncertainty-aware Classification of Language Model Instruction-following",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204885558",
+  "doi": "10.25924/opus-7472",
+  "title": "Sichere Integration von Large Language Models in Unternehmenssysteme",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416063093",
+  "doi": "10.48550/arxiv.2507.06323",
+  "title": "Bridging AI and Software Security: A Comparative Vulnerability Assessment of LLM Agent Deployment Paradigms",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7162400532",
+  "doi": "10.7302/dspace/29729",
+  "title": "A Statistical and Practical Study of Deploying Fair, Safe, and Productive AI",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204567304",
+  "doi": "10.48550/arxiv.2608.26133",
+  "title": "Agent Seer: Synthesizing Scenarios from Specification Understanding",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154997765",
+  "doi": "10.48366/r1596907",
+  "title": "Architectural Comparison of LLM Tool Integration Paradigms",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7220892043",
+  "doi": "10.1145/3832783.3834652",
+  "title": "Agent-HAnS: Maintaining Feature and Code Traceability in Agentic Development",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W4416525422",
+  "doi": "10.1016/j.icte.2025.12.001",
+  "title": "From prompt injections to protocol exploits: Threats in LLM-powered AI agents workflows",
+  "year": 2025,
+  "cites": 47
+ },
+ {
+  "id": "W7113895931",
+  "doi": "10.1145/3757376.3771417",
+  "title": "MCP-Unity: Protocol-Driven Framework for Interactive 3D Authoring",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7164047820",
+  "doi": "10.48550/arxiv.2606.07992",
+  "title": "VATS: Exploiting Implicit Authority in Error-Path Injection via Systematic Mutation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7129233053",
+  "doi": "10.48550/arxiv.2602.13591",
+  "title": "AgentRob: From Virtual Forum Agents to Hijacked Physical Robots",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7159549107",
+  "doi": "",
+  "title": "Development of the LLM-Based Q&A Assistant for the Code of an Internal Design System",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164299967",
+  "doi": "10.1109/cait70489.2026.11553889",
+  "title": "Reliable Tool Use in Remote Sensing Agents through Case Evolution and Interactive Feedback",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164389088",
+  "doi": "10.48550/arxiv.2606.11869",
+  "title": "Agents All the Way Down; A Methodology for Building Custom AI Agents from Substrate to Production",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7138953875",
+  "doi": "10.1609/aaai.v40i48.42347",
+  "title": "DFAgent: From Natural Language Data Interactions to Reusable Agent-Ready Tools",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7147313718",
+  "doi": "10.32996/jcsts.2026.8.5.9",
+  "title": "Securing Enterprise Data for LLM-Powered Applications: A Reference Architecture for Inference-Time Data Protection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165707250",
+  "doi": "",
+  "title": "Teko\u00e4lyagenttij\u00e4rjestelm\u00e4n suunnittelu ja arviointi kalibrointienhallintaohjelmistossa",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7106799239",
+  "doi": "10.48448/x0ya-m971",
+  "title": "Tool Preferences in Agentic LLMs are Unreliable",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7155079514",
+  "doi": "10.26153/tsw/64466",
+  "title": "QRAFTI: An Agentic Framework for Empirical Research in Quantitative Finance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7150208426",
+  "doi": "10.5281/zenodo.19396255",
+  "title": "Fully Automated Sponsor: Physical AI Oncology Clinical Trial Platform",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160532227",
+  "doi": "10.24405/23185",
+  "title": "Natural language robot manipulation via MCP",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7118036429",
+  "doi": "10.48550/arxiv.2512.24939",
+  "title": "Vibe Coding, Interface Flattening",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7168257148",
+  "doi": "10.26434/chemrxiv.15002984/v2",
+  "title": "CatGo: Bridging CLI Coding Agents with Interactive Structure and Workflow Management for Computational Chemistry",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415249804",
+  "doi": "10.48550/arxiv.2505.18135",
+  "title": "Tool Preferences in Agentic LLMs are Unreliable",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7147423549",
+  "doi": "10.1145/3803437.3805261",
+  "title": "AVDA: Autonomous Vibe Detection Authoring for Cybersecurity",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168104522",
+  "doi": "10.5281/zenodo.21323024",
+  "title": "jdkim/llm_meta_chat: Initial release",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169810058",
+  "doi": "10.48550/arxiv.2607.15593",
+  "title": "Scalable LLM Agent Tool Access in the Cloud",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169855623",
+  "doi": "10.5281/zenodo.21477963",
+  "title": "A Multi-Agent Architecture for Autonomous Security-Focused Code Review in GitHub Pull Requests",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163391663",
+  "doi": "10.48550/arxiv.2606.03892",
+  "title": "Synthesize and Reward -- Reinforcement Learning for Multi-Step Tool Use in Live Environments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223076225",
+  "doi": "",
+  "title": "Integrating Agentic Web Standards in Multi-Agent Systems Using Hypermedia",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212364403",
+  "doi": "10.5281/zenodo.22724008",
+  "title": "Schema-Agnostic Knowledge Graph Construction via Hybrid Ontology Discovery for Cyber Threat Intelligence",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214647993",
+  "doi": "10.2118/232201-ms",
+  "title": "From Prompt to Plot: An MCP Framework for LLM-Driven Engineering Automation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202212520",
+  "doi": "10.5281/zenodo.21883367",
+  "title": "Semantic Intent & Authorization Protocol (SIAP): A Protocol Architecture and Reference Implementation for Task-Bound, Multi-Hop Agentic Authorization",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172512430",
+  "doi": "10.1007/978-981-92-2973-4_11",
+  "title": "A Large Language Model Agent-Assisted Method for Generating Formally Verifiable Code and Its Applications in Blockchain",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168286780",
+  "doi": "10.5281/zenodo.21362533",
+  "title": "Eliminating Human Intervention in the Software Development Lifecycle: A Novel Agentic Paradigm for Scalable Infrastructure Maintenance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131435147",
+  "doi": "10.1109/access.2026.3736374",
+  "title": "Agentic AI for Scalable and Robust Optical Systems Control",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414898877",
+  "doi": "10.32628/ijsrst25125127",
+  "title": "Advancing Agentic AI through Communication Protocols",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7128647178",
+  "doi": "10.48550/arxiv.2602.09372",
+  "title": "AgentSkiller: Scaling Generalist Agent Intelligence through Semantically Integrated Cross-Domain Data Synthesis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416156417",
+  "doi": "10.48550/arxiv.2511.05533",
+  "title": "MCP4IFC: IFC-Based Building Design Using Large Language Models",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7213224129",
+  "doi": "10.5281/zenodo.22679815",
+  "title": "Executable intermediate representations for reliable LLM-to-BIM authoring: a script-MCP integrated method",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7170606665",
+  "doi": "10.5281/zenodo.21523008",
+  "title": "AutoResearch: A Multi-Agent AI System for Automated Literature Review, Paper Summarization, and Citation Mapping",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165360762",
+  "doi": "10.69997/sct.118894",
+  "title": "A Large Language Model Enhanced Fault Diagnosis Framework for Chemical Processes",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202357976",
+  "doi": "10.13031/aim.202600898",
+  "title": "Aleks 2.0: Enhanced Single Agent MCP System for Autonomous Research in Plant Science",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4417026697",
+  "doi": "10.48550/arxiv.2512.03289",
+  "title": "DAWZY: A New Addition to AI powered \"Human in the Loop\" Music Co-creation",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7160878644",
+  "doi": "10.33545/27076571.2026.v7.i5a.320",
+  "title": "A multi-agent AI platform for real-time website development",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7137892814",
+  "doi": "10.48550/arxiv.2603.15538",
+  "title": "QiboAgent: a practitioner's guideline to open source assistants for Quantum Computing code development",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155729593",
+  "doi": "10.5281/zenodo.19790848",
+  "title": "Drizzle vs Prisma: Which ORM Wins for AI-Native Backends?",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160491203",
+  "doi": "10.5281/zenodo.20061418",
+  "title": "From Prompt Engineering to Agent Engineering: A Layered Stack for Protocols, Workflows, and Declarative Intent in Agentic AI",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224130024",
+  "doi": "10.25080/tujc9326",
+  "title": "From Hello World to Hello LLM: A Python Developer's Survival Guide",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164881520",
+  "doi": "10.48550/arxiv.2606.16534",
+  "title": "Generated, Parallel, Scalable? A Study of Agentic AI-Generated Julia Code on Supercomputers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214053978",
+  "doi": "10.48550/arxiv.2609.22819",
+  "title": "Counterfactual Tool Ranking under Utility, Cost, and Privilege Constraints",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7110091110",
+  "doi": "10.5281/zenodo.17850426",
+  "title": "tingyuansen/coding_essential_for_astronomers: Coding Essential for Astronomers",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7153944064",
+  "doi": "10.5281/zenodo.19536208",
+  "title": "What Serious Agentic AI Developers Actually Need to Know",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7170893306",
+  "doi": "10.5281/zenodo.21522986",
+  "title": "A Multi-Agent Architecture for AI-Based Early Screening, Referral, and Prediction of Retinal Diseases",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162077105",
+  "doi": "10.48550/arxiv.2605.22634",
+  "title": "Contractual Skills: A GovernSpec Design Framework for Enterprise AI Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203634384",
+  "doi": "10.48550/arxiv.2608.14074",
+  "title": "Mandato: Protocol-Level Enforcement of Digitally Signed Mandates on AI Agent Actions with Cryptographically Chained Audit Trails",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416982487",
+  "doi": "10.1109/access.2026.3698694",
+  "title": "From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review",
+  "year": 2026,
+  "cites": 48
+ },
+ {
+  "id": "W7202146197",
+  "doi": "10.21203/rs.3.rs-10508210/v1",
+  "title": "QiboAgent: a practitioner's guideline to open source assistants for Quantum Computing code development",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161995294",
+  "doi": "10.1039/d5sc09883a",
+  "title": "TeLLAgent: a dual-agent framework for reliable scientific discovery with tool-enhanced LLMs",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7214238244",
+  "doi": "10.13021/jssr2026.5620",
+  "title": "An LLM-Driven Digital TWin for Data Center Monitoring",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414051531",
+  "doi": "10.20944/preprints202509.0077.v1",
+  "title": "Agent Operating Systems (Agent-OS): A Blueprint Architecture for Real-Time, Secure, and Scalable AI Agents",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7204102998",
+  "doi": "10.2139/ssrn.7347219",
+  "title": "Script-Mediated Semantic State Modeling for Highly Controllable Interactive Architectural 3D Concept Design: An Agent-Based Approach",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171832251",
+  "doi": "10.1109/wowmom69805.2026.00027",
+  "title": "Say the Mission, Execute the Swarm: Agent-Enhanced LLM Reasoning in the Web-of-Drones",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7171695972",
+  "doi": "10.2139/ssrn.6491958",
+  "title": "FEW-AI-SERIAL: A Domain-Agnostic Semantic Compression Protocol for LLM Prompt Injection and IoT Data Encoding",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7140283795",
+  "doi": "10.48550/arxiv.2603.22577",
+  "title": "STRIATUM-CTF: A Protocol-Driven Agentic Framework for General-Purpose CTF Solving",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213378053",
+  "doi": "10.48550/arxiv.2610.23921",
+  "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7124880817",
+  "doi": "10.1109/aimlsystems67835.2025.11331213",
+  "title": "Mind the Workflow: Unmasking the Super Agents of Today",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7133530953",
+  "doi": "10.5281/zenodo.18856485",
+  "title": "Cloud Agents and the Third Era of AI-Driven Software Development: Architecture, Adoption Patterns, and Implications for the Software Engineering Discipline",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160410410",
+  "doi": "10.5281/zenodo.20055952",
+  "title": "Autonomous HPC Simulation Orchestration: Surveying Multi-Agent LLM Ecosystems and the NVIDIA Modulus Stack",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221515363",
+  "doi": "10.5281/zenodo.23327089",
+  "title": "Hyper Programming: A New SDLC Paradigm",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125225704",
+  "doi": "10.48550/arxiv.2601.12744",
+  "title": "Vision Language Models for Optimization-Driven Intent Processing in Autonomous Networks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7146995163",
+  "doi": "10.5281/zenodo.19362325",
+  "title": "Ep. 1073: Beyond YAML: Building the Agentic Smart Home",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171668206",
+  "doi": "10.2139/ssrn.6475399",
+  "title": "Quantifying the Irreducible: A Systematic Survey of Adversarial Jailbreak Vectors, Red Team Methodologies, and Enterprise Threat Exposure in Large Language Model Deployments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164402334",
+  "doi": "10.2139/ssrn.6842719",
+  "title": "Programming a Biological Cell: a review",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7148095115",
+  "doi": "10.5281/zenodo.19360849",
+  "title": "Ep. 701: OpenClaude and the Dawn of True AI Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155567426",
+  "doi": "10.63282/3050-9416.ijaibdcms-v6i2p113",
+  "title": "Automated Remediation Guardrails: A Risk-Aware Framework for Validating AI-Generated Production Scripts in Regulated Financial Infrastructure",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7154900976",
+  "doi": "10.5281/zenodo.19653364",
+  "title": "Delimitter/synoema: v0.1.0-beta.1-zenodo \u2014 Priority Disclosure",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203756744",
+  "doi": "10.3390/app16168250",
+  "title": "Priority-Driven Hierarchical Multi-Agent Systems with Fine-Tuned LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171644821",
+  "doi": "10.2139/ssrn.6584378",
+  "title": "Risk Intelligence - A New Era for Capital Markets",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125601958",
+  "doi": "10.5281/zenodo.18356732",
+  "title": "Cognitive Supply Chain Compromise: An Exhaustive Forensic Analysis of the claude-flow and agentic-flow Behavioral Injection Vulnerabilities",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7220955678",
+  "doi": "10.5281/zenodo.23222373",
+  "title": "Engineering Autonomous Intelligence / The Architecture, Tradecraft, and Deployment of Agentic AI Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224042794",
+  "doi": "",
+  "title": "A domain-aware coding assistant for critical manufacturing MES development",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7153871901",
+  "doi": "10.5281/zenodo.19536206",
+  "title": "Sync vs. Async: Why Agent Architecture Breaks at Scale",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222885982",
+  "doi": "10.1158/1538-7755.disp26-b014",
+  "title": "Abstract B014: An Artificial intelligence multi-agent ecosystem for multi-omics, microbiome, and social determinants-driven population-informed precision oncology and cancer health disparities research across gastrointestinal cancers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161113490",
+  "doi": "10.5281/zenodo.20181210",
+  "title": "Ep. 2551: How Progressive Disclosure Saves MCP from Token Bloat",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7153542634",
+  "doi": "10.5281/zenodo.19520057",
+  "title": "Claude Managed Agents: Brain Versus Hands",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7142865831",
+  "doi": "10.5281/zenodo.19323868",
+  "title": "Backend Grunt Work Is Dead. What Now?",
+  "year": 2026,
+  "cites": 0
+ }
+]

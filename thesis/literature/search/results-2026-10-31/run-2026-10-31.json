@@ -1,0 +1,126 @@
+{
+ "rows": [
+  {
+   "id": "Q1",
+   "rq": "PB1,PB7",
+   "concept": "MCP x GIS (existence / core gap query)",
+   "date": "2026-10-31",
+   "arxiv_hits": 4,
+   "openalex_hits": 37
+  },
+  {
+   "id": "Q1b",
+   "rq": "PB1",
+   "concept": "bare-acronym recall guard (papers that only ever write 'MCP')",
+   "date": "2026-10-31",
+   "arxiv_hits": 5,
+   "openalex_hits": 36
+  },
+  {
+   "id": "Q2",
+   "rq": "PB1,PB2",
+   "concept": "MCP vs CodeGen / function calling (the head-to-head the thesis claims is missing)",
+   "date": "2026-10-31",
+   "arxiv_hits": 111,
+   "openalex_hits": 172
+  },
+  {
+   "id": "Q3",
+   "rq": "PB1,PB3,PB4",
+   "concept": "MCP evaluation / benchmark landscape",
+   "date": "2026-10-31",
+   "arxiv_hits": 401,
+   "openalex_hits": 1459
+  },
+  {
+   "id": "Q4",
+   "rq": "PB5",
+   "concept": "MCP security / tool poisoning",
+   "date": "2026-10-31",
+   "arxiv_hits": 221,
+   "openalex_hits": 834
+  },
+  {
+   "id": "Q5",
+   "rq": "PB7",
+   "concept": "tool-set size / tool retrieval / schema overhead",
+   "date": "2026-10-31",
+   "arxiv_hits": 328,
+   "openalex_hits": 835
+  },
+  {
+   "id": "Q6",
+   "rq": "PB4,PB6",
+   "concept": "determinism / reproducibility of agentic tool use",
+   "date": "2026-10-31",
+   "arxiv_hits": 1048,
+   "openalex_hits": 2213
+  },
+  {
+   "id": "Q7",
+   "rq": "Ch. III.4",
+   "concept": "cross-domain MCP evaluation (medical / legal / scientific) \u2014 the 'other domains did this, GIS did not' argument",
+   "date": "2026-10-31",
+   "arxiv_hits": 51,
+   "openalex_hits": 423
+  },
+  {
+   "id": "Q8",
+   "rq": "all",
+   "concept": "named-artifact sweep (known-item recall + derivatives)",
+   "date": "2026-10-31",
+   "arxiv_hits": 43,
+   "openalex_hits": 70
+  },
+  {
+   "id": "Q9",
+   "rq": "PB1,PB2",
+   "concept": "domain-anchored paradigm comparison, protocol-agnostic (catches precedents that never say 'MCP')",
+   "date": "2026-10-31",
+   "arxiv_hits": 46,
+   "openalex_hits": 1539
+  }
+ ],
+ "recall": [
+  {
+   "work": "GeoJSON Agents",
+   "arxiv_id": "2509.08863",
+   "found_by_any_query": "YES"
+  },
+  {
+   "work": "GeoAgentBench",
+   "arxiv_id": "2604.13888",
+   "found_by_any_query": "YES"
+  },
+  {
+   "work": "Hou et al.",
+   "arxiv_id": "2503.23278",
+   "found_by_any_query": "YES"
+  },
+  {
+   "work": "LiveMCPBench",
+   "arxiv_id": "2508.01780",
+   "found_by_any_query": "YES"
+  },
+  {
+   "work": "Help or Hurdle",
+   "arxiv_id": "2508.12566",
+   "found_by_any_query": "YES"
+  },
+  {
+   "work": "MCP landscape",
+   "arxiv_id": "2610.05319",
+   "found_by_any_query": "YES"
+  },
+  {
+   "work": "GeoNatureAgent",
+   "arxiv_id": "2610.09112",
+   "found_by_any_query": "YES"
+  },
+  {
+   "work": "Farinha",
+   "arxiv_id": "2610.10659",
+   "found_by_any_query": "YES"
+  }
+ ]
+}

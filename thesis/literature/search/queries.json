@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "project": "GeoAIWorkbench (MCP-GIS MSc thesis)",
+    "supersedes": ".knowledge/01-literature/search-log.md §4 (S1-S5, A1-A5)",
+    "designed": "2026-10-31",
+    "concept_blocks": {
+      "P": "LLM / agentic system",
+      "I": "MCP or equivalent tool-integration protocol (function calling, tool schema)",
+      "D": "GIS / geospatial domain (QGIS, ArcGIS, PostGIS, spatial analysis)",
+      "C": "construct per RQ: effectiveness, difficulty/determinism, tool count, security, fidelity"
+    },
+    "date_window_default": "2024-11-01 .. today (MCP published 2024-11)",
+    "note": "One AND per query was the old rule; the revision keeps one AND per *concept block* and allows OR inside a block, which is what arXiv/PQ boolean syntax actually supports."
+  },
+  "queries": [
+    {
+      "id": "Q1",
+      "rq": [
+        "PB1",
+        "PB7"
+      ],
+      "concept": "MCP x GIS (existence / core gap query)",
+      "scopus": "TITLE-ABS-KEY ( \"model context protocol\" OR \"mcp server*\" OR \"mcp tool*\" OR \"mcp-based\" ) AND TITLE-ABS-KEY ( gis OR \"geographic information system*\" OR geospatial OR geoprocessing OR qgis OR arcgis OR postgis OR \"spatial analysis\" OR \"spatial reasoning\" OR \"spatial data\" ) AND PUBYEAR > 2023 AND PUBYEAR < 2027 AND LANGUAGE ( english ) AND DOCTYPE ( ar OR cp OR re )",
+      "arxiv": "(abs:\"Model Context Protocol\" OR abs:\"MCP server\" OR abs:\"MCP servers\" OR abs:\"MCP tool\") AND (abs:GIS OR abs:geospatial OR abs:\"geographic information\" OR abs:QGIS OR abs:\"spatial analysis\" OR abs:geoprocessing OR abs:PostGIS)",
+      "openalex": {
+        "filter": "title_and_abstract.search:\"model context protocol\"|\"mcp server\"|\"mcp servers\"|\"mcp tool\",title_and_abstract.search:gis|geospatial|qgis|postgis|\"geographic information\"|\"spatial analysis\",publication_year:>2023"
+      },
+      "why": "Bare acronym 'MCP' was in S1/A1; in Scopus it collides with membrane cofactor protein, monocyte chemoattractant protein, metacarpophalangeal, multi-chip package. Spell the protocol out and add the MCP-prefixed noun phrases."
+    },
+    {
+      "id": "Q1b",
+      "rq": [
+        "PB1"
+      ],
+      "concept": "bare-acronym recall guard (papers that only ever write 'MCP')",
+      "scopus": "TITLE-ABS-KEY ( \"MCP\" ) AND TITLE-ABS-KEY ( \"large language model*\" OR LLM* OR \"ai agent*\" OR agentic ) AND TITLE-ABS-KEY ( gis OR geospatial OR qgis OR arcgis OR postgis OR \"spatial analysis\" ) AND PUBYEAR > 2023 AND NOT TITLE-ABS-KEY ( \"membrane cofactor protein\" OR \"monocyte chemoattractant protein\" OR metacarpophalangeal OR \"multi-chip package\" OR \"magnetic cloud plasma\" )",
+      "arxiv": "abs:MCP AND (abs:\"large language model\" OR abs:LLM OR abs:agent OR abs:agentic) AND (abs:GIS OR abs:geospatial OR abs:QGIS)",
+      "openalex": {
+        "filter": "title_and_abstract.search:mcp,title_and_abstract.search:\"large language model\"|llm|agentic,title_and_abstract.search:gis|geospatial|qgis,publication_year:>2023"
+      },
+      "why": "The NOT block is the price of searching bare 'MCP'; without it you drown in biomedical hits."
+    },
+    {
+      "id": "Q2",
+      "rq": [
+        "PB1",
+        "PB2"
+      ],
+      "concept": "MCP vs CodeGen / function calling (the head-to-head the thesis claims is missing)",
+      "scopus": "TITLE-ABS-KEY ( \"model context protocol\" OR \"mcp server*\" OR \"mcp tool*\" OR \"mcp-based\" ) AND TITLE-ABS-KEY ( \"code generation\" OR \"function calling\" OR \"tool calling\" OR \"tool use\" OR pyqgis OR \"code interpreter\" OR \"python code\" ) AND PUBYEAR > 2023 AND PUBYEAR < 2027 AND LANGUAGE ( english )",
+      "arxiv": "(abs:\"Model Context Protocol\" OR abs:\"MCP server\") AND (abs:\"code generation\" OR abs:\"function calling\" OR abs:\"tool calling\" OR abs:PyQGIS)",
+      "openalex": {
+        "filter": "title_and_abstract.search:\"model context protocol\"|\"mcp server\",title_and_abstract.search:\"code generation\"|\"function calling\"|\"tool calling\"|pyqgis,publication_year:>2023"
+      },
+      "why": "This is the query whose result set decides the novelty claim. If it returns a controlled MCP-vs-CodeGen GIS study, the gap closes."
+    },
+    {
+      "id": "Q3",
+      "rq": [
+        "PB1",
+        "PB3",
+        "PB4"
+      ],
+      "concept": "MCP evaluation / benchmark landscape",
+      "scopus": "TITLE-ABS-KEY ( \"model context protocol\" OR \"mcp server*\" OR \"mcp-based\" ) AND TITLE-ABS-KEY ( benchmark* OR evaluat* OR assessment* OR \"empirical study\" OR \"comparative study\" OR replication ) AND PUBYEAR > 2023 AND PUBYEAR < 2027 AND LANGUAGE ( english ) AND DOCTYPE ( ar OR cp OR re )",
+      "arxiv": "(abs:\"Model Context Protocol\" OR abs:\"MCP server\") AND (abs:benchmark OR abs:evaluation OR abs:\"empirical study\" OR abs:\"comparative study\")",
+      "openalex": {
+        "filter": "title_and_abstract.search:\"model context protocol\"|\"mcp server\",title_and_abstract.search:benchmark|evaluation|assessment|\"empirical study\",publication_year:>2023"
+      },
+      "why": "Kept close to old S3 but without the domain block, which belonged in a separate query (Q7) — mixing them made S3 answer two questions at once."
+    },
+    {
+      "id": "Q4",
+      "rq": [
+        "PB5"
+      ],
+      "concept": "MCP security / tool poisoning",
+      "scopus": "TITLE-ABS-KEY ( \"model context protocol\" OR \"mcp server*\" OR \"mcp tool*\" ) AND TITLE-ABS-KEY ( \"tool poisoning\" OR \"prompt injection\" OR \"attack surface\" OR \"capability exposure\" OR \"least privilege\" OR \"confused deputy\" OR \"malicious server\" OR \"supply chain attack\" OR \"rug pull\" OR secur* OR attack* ) AND PUBYEAR > 2023 AND PUBYEAR < 2027 AND LANGUAGE ( english )",
+      "arxiv": "(abs:\"Model Context Protocol\" OR abs:\"MCP server\") AND (abs:security OR abs:attack OR abs:\"prompt injection\" OR abs:\"tool poisoning\" OR abs:\"least privilege\" OR abs:\"attack surface\")",
+      "openalex": {
+        "filter": "title_and_abstract.search:\"model context protocol\"|\"mcp server\",title_and_abstract.search:security|attack|\"prompt injection\"|\"tool poisoning\"|\"attack surface\",publication_year:>2023"
+      },
+      "why": "Added the four Hou-et-al. threat classes that A5's OR-chain was reaching for, plus parenthesisation — the old A5 chain produced 75,099 hits because the OR bound looser than the AND."
+    },
+    {
+      "id": "Q5",
+      "rq": [
+        "PB7"
+      ],
+      "concept": "tool-set size / tool retrieval / schema overhead",
+      "scopus": "TITLE-ABS-KEY ( \"tool retrieval\" OR \"tool discovery\" OR \"tool selection\" OR \"tool search\" OR \"tool recommendation\" OR \"tool overload\" OR \"tool library\" OR \"toolset size\" OR \"number of tools\" OR \"tool description*\" ) AND TITLE-ABS-KEY ( \"large language model*\" OR LLM* OR agent* OR agentic ) AND PUBYEAR > 2023 AND PUBYEAR < 2027 AND LANGUAGE ( english )",
+      "arxiv": "(abs:\"tool retrieval\" OR abs:\"tool selection\" OR abs:\"tool discovery\" OR abs:\"tool search\" OR abs:\"tool overload\" OR abs:\"tool count\") AND (abs:\"language model\" OR abs:LLM OR abs:agent OR abs:agentic)",
+      "openalex": {
+        "filter": "title_and_abstract.search:\"tool retrieval\"|\"tool selection\"|\"tool discovery\"|\"tool overload\"|\"tool description\",title_and_abstract.search:\"large language model\"|llm|agentic,publication_year:>2023"
+      },
+      "why": "PB7 is about tool *count*, so 'toolset size', 'number of tools', 'tool description' and 'tool overload' had to enter the vocabulary; the old S5 stopped at retrieval synonyms and forced a GIS term, which suppressed the general MCP tool-count literature the thesis needs for H7a-e."
+    },
+    {
+      "id": "Q6",
+      "rq": [
+        "PB4",
+        "PB6"
+      ],
+      "concept": "determinism / reproducibility of agentic tool use",
+      "scopus": "TITLE-ABS-KEY ( agent* OR \"large language model*\" OR LLM* ) AND TITLE-ABS-KEY ( determinis* OR reproducib* OR \"run-to-run\" OR \"non-determinism\" OR \"variance across runs\" ) AND TITLE-ABS-KEY ( tool OR \"function calling\" OR \"tool calling\" OR \"code generation\" OR workflow ) AND PUBYEAR > 2022 AND PUBYEAR < 2027 AND LANGUAGE ( english )",
+      "arxiv": "(abs:determinism OR abs:deterministic OR abs:\"non-determinism\" OR abs:\"run-to-run\") AND (abs:\"language model\" OR abs:\"language models\" OR abs:LLM) AND (abs:tool OR abs:\"function calling\" OR abs:\"tool calling\")",
+      "openalex": {
+        "filter": "title_and_abstract.search:determinism|deterministic|nondeterminism|\"run-to-run\",title_and_abstract.search:\"language model\"|llm,title_and_abstract.search:tool|\"function calling\",publication_year:>2022"
+      },
+      "why": "Missing entirely from the old protocol, yet ED (execution determinism) is a primary metric and PB6 is a fidelity claim. Without this query the ED discussion has no citable baseline. Tightened 2026-10-31: the first formulation returned 2,352 arXiv / 43,529 OpenAlex hits (determinism × agent is a control-theory topic); requiring an LLM phrase plus a tool term brings it to a screenable size."
+    },
+    {
+      "id": "Q7",
+      "rq": [
+        "Ch. III.4"
+      ],
+      "concept": "cross-domain MCP evaluation (medical / legal / scientific) — the 'other domains did this, GIS did not' argument",
+      "scopus": "TITLE-ABS-KEY ( \"model context protocol\" OR \"mcp server*\" ) AND TITLE-ABS-KEY ( medical OR clinical OR healthcare OR legal OR law OR finance OR \"scientific computing\" OR chemistry OR bioinformatics ) AND TITLE-ABS-KEY ( benchmark* OR evaluat* OR assessment* OR case study ) AND PUBYEAR > 2023 AND PUBYEAR < 2027 AND LANGUAGE ( english )",
+      "arxiv": "(abs:\"Model Context Protocol\" OR abs:\"MCP server\") AND (abs:medical OR abs:clinical OR abs:legal OR abs:finance OR abs:scientific OR abs:bioinformatics) AND (abs:benchmark OR abs:evaluation OR abs:\"case study\")",
+      "openalex": {
+        "filter": "title_and_abstract.search:\"model context protocol\"|\"mcp server\",title_and_abstract.search:medical|clinical|legal|finance|scientific,publication_year:>2023"
+      },
+      "why": "Separated from Q3 so that the 'domain coverage' table in Ch. III.4 can be built from one query instead of being a by-product."
+    },
+    {
+      "id": "Q8",
+      "rq": [
+        "all"
+      ],
+      "concept": "named-artifact sweep (known-item recall + derivatives)",
+      "scopus": "TITLE-ABS-KEY ( \"MCP-Bench\" OR \"LiveMCPBench\" OR \"MCP-Universe\" OR \"MCPToolBench\" OR \"MCP-Atlas\" OR \"GeoAnalystBench\" OR \"GeoAgentBench\" OR \"GeoNatureAgent\" OR \"GeoJSON Agents\" OR \"GIS Copilot\" OR \"OGSAgent\" OR \"GISclaw\" OR \"MCPacific\" OR \"LLM-Geo\" ) AND PUBYEAR > 2022",
+      "arxiv": "all:\"MCP-Bench\" OR all:\"LiveMCPBench\" OR all:\"MCP-Universe\" OR all:\"MCPToolBench\" OR all:\"MCP-Atlas\" OR all:\"GeoAnalystBench\" OR all:\"GeoAgentBench\" OR all:\"GeoNatureAgent\" OR all:\"OGSAgent\" OR all:\"GIS Copilot\" OR all:\"LLM-Geo\" OR all:\"MCPacific\"",
+      "openalex": {
+        "filter": "title_and_abstract.search:\"MCP-Bench\"|\"LiveMCPBench\"|\"MCP-Universe\"|\"MCPToolBench\"|\"MCP-Atlas\"|\"GeoAnalystBench\"|\"GeoAgentBench\"|\"GeoNatureAgent\"|\"OGSAgent\"|\"GIS Copilot\"|\"LLM-Geo\",publication_year:>2022"
+      },
+      "why": "The old recall test was a checklist applied after the fact. Making the known items a query turns recall into a measurement and pulls in papers that cite/derive from them."
+    },
+    {
+      "id": "Q9",
+      "rq": [
+        "PB1",
+        "PB2"
+      ],
+      "concept": "domain-anchored paradigm comparison, protocol-agnostic (catches precedents that never say 'MCP')",
+      "scopus": "TITLE-ABS-KEY ( gis OR geospatial OR qgis OR arcgis OR postgis OR \"geographic information system*\" OR \"spatial analysis\" ) AND TITLE-ABS-KEY ( \"function calling\" OR \"tool calling\" OR \"tool use\" OR \"code generation\" OR \"tool-augmented\" ) AND TITLE-ABS-KEY ( \"large language model*\" OR LLM* OR agent* ) AND PUBYEAR > 2022 AND PUBYEAR < 2027 AND LANGUAGE ( english )",
+      "arxiv": "(abs:GIS OR abs:geospatial OR abs:QGIS OR abs:\"geographic information\" OR abs:\"spatial analysis\") AND (abs:\"function calling\" OR abs:\"tool calling\" OR abs:\"tool use\" OR abs:\"code generation\" OR abs:\"tool-augmented\")",
+      "openalex": {
+        "filter": "title_and_abstract.search:gis|geospatial|qgis|\"spatial analysis\",title_and_abstract.search:\"function calling\"|\"tool calling\"|\"tool use\"|\"code generation\""
+      },
+      "why": "ADDED after the first automated run: GeoJSON Agents (2509.08863) — the closest precedent in the KB — was MISSING from every MCP-anchored query because the paper never names MCP. The novelty claim therefore cannot rest on an intervention-anchored query alone: recall must be measured on the domain-anchored query, with the MCP block used only to differentiate."
+    }
+  ],
+  "known_items_recall_test": {
+    "yields": [
+      "GeoJSON Agents (2509.08863)",
+      "GeoAgentBench (2604.13888)",
+      "Hou et al. (2503.23278)",
+      "LiveMCPBench (2508.01780)",
+      "Help or Hurdle (2508.12566)",
+      "MCP landscape (2610.05319)",
+      "GeoNatureAgent (2610.09112)",
+      "Farinha (2610.10659)"
+    ],
+    "non_arxiv": [
+      "LLM-Geo (Li & Ning 2023, IJGIS)",
+      "GIS Copilot (Akinboyewa et al. 2025, IJDE)",
+      "OGSAgent (10.1080/13658816.2026.2715051)",
+      "GeoAnalystBench (Zhang et al. 2025)"
+    ],
+    "rule": "If a known item is absent from every automated query, add its title terms to the vocabulary of the failing block — do not add it to the results by hand."
+  },
+  "snowballing": {
+    "seeds": [
+      "2509.08863",
+      "2604.13888",
+      "2610.09112",
+      "10.1080/13658816.2026.2715051",
+      "2610.05319"
+    ],
+    "method": "forward + backward citation chase, 1 hop, via OpenAlex cited_by / referenced_works; stop when new relevant hits = 0 for 50 records",
+    "why": "OGSAgent (IJGIS, Aug 2026) is invisible to arXiv-only search and thin in Scopus abstracts; citation chasing is how the KB actually found it."
+  }
+}
