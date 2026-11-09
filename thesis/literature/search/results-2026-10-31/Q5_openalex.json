@@ -1,0 +1,1402 @@
+[
+ {
+  "id": "W7161032443",
+  "doi": "10.14722/ndss.2026.230675",
+  "title": "Prompt Injection Attack to Tool Selection in LLM Agents",
+  "year": 2026,
+  "cites": 17
+ },
+ {
+  "id": "W4411700982",
+  "doi": "10.1007/s41019-025-00296-9",
+  "title": "LLM-Based Agents for Tool Learning: A Survey",
+  "year": 2025,
+  "cites": 59
+ },
+ {
+  "id": "W4415981620",
+  "doi": "10.48550/arxiv.2510.02554",
+  "title": "ToolTweak: An Attack on Tool Selection in LLM-based Agents",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7222659465",
+  "doi": "10.48550/arxiv.2610.21267",
+  "title": "TRACER: Trajectory-Aware Tool Retrieval for LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202207162",
+  "doi": "10.1007/s11334-026-00645-5",
+  "title": "A tool selection mechanism for LLM-based model management agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223898533",
+  "doi": "10.48550/arxiv.2610.33182",
+  "title": "Spoofing the Toolbox: Optimizing Tool Descriptions to Deceive LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169874656",
+  "doi": "10.48550/arxiv.2607.16961",
+  "title": "Lomekwi: Resource-Bounded Tool Discovery in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7106799239",
+  "doi": "10.48448/x0ya-m971",
+  "title": "Tool Preferences in Agentic LLMs are Unreliable",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4415249804",
+  "doi": "10.48550/arxiv.2505.18135",
+  "title": "Tool Preferences in Agentic LLMs are Unreliable",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7224119902",
+  "doi": "10.5281/zenodo.23717855",
+  "title": "agentic-llm-security: experimental pipeline for attack and defense evaluation in enterprise agentic LLM pipelines",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7197046920",
+  "doi": "10.48550/arxiv.2608.04719",
+  "title": "Diagnosing Tool-Selection Reasoning in LLM Agents with Canary Tools",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131382062",
+  "doi": "10.48550/arxiv.2602.20426",
+  "title": "Learning to Rewrite Tool Descriptions for Reliable LLM-Agent Tool Use",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164943618",
+  "doi": "10.48550/arxiv.2606.16591",
+  "title": "SING: Synthetic Intention Graph for Scalable Active Tool Discovery in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162454889",
+  "doi": "10.48550/arxiv.2605.23916",
+  "title": "Advertising to Agents: Measuring Description-Framing Bias in LLM Tool Selection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223058682",
+  "doi": "10.20944/preprints202610.1796.v1",
+  "title": "Advertising to Agents: Measuring Description-Framing Bias in LLM Tool Selection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212364162",
+  "doi": "10.5281/zenodo.22720681",
+  "title": "Prompt Injection and the Security of LLM Applications and Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169810058",
+  "doi": "10.48550/arxiv.2607.15593",
+  "title": "Scalable LLM Agent Tool Access in the Cloud",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212074359",
+  "doi": "10.48550/arxiv.2609.05818",
+  "title": "Agentic BAIM-LLM Evaluation (ABLE): Benchmarking LLM Use of Protein Design Tools",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7204894482",
+  "doi": "10.48550/arxiv.2608.30288",
+  "title": "Extracting Knowledge from Tools in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164942855",
+  "doi": "10.48550/arxiv.2606.16364",
+  "title": "Looking Is Not Picking: An Attention-Segment Account of Tool-Selection Failures in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160719557",
+  "doi": "10.64898/2026.05.06.723381",
+  "title": "Benchmarking and behavioral characterization of LLM agents for protein design",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W4415800703",
+  "doi": "10.52202/079017-4077",
+  "title": "GenArtist: Multimodal LLM as an Agent for Unified Image Generation and Editing",
+  "year": 2024,
+  "cites": 20
+ },
+ {
+  "id": "W7222333182",
+  "doi": "10.48550/arxiv.2610.19422",
+  "title": "AgentSafeEvo: Adversarial Co-Evolution for LLM Agent Safety",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4417289328",
+  "doi": "10.48550/arxiv.2512.09108",
+  "title": "Evolving Excellence: Automated Optimization of LLM-based Agents",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7165363951",
+  "doi": "10.18653/2026.findings-emnlp.2059",
+  "title": "When Lower Privileges Suffice: Investigating Over-Privileged Tool Selection in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204039010",
+  "doi": "10.1007/978-981-92-4805-6_12",
+  "title": "Characterizing and Mitigating Context Redundancy in LLM Agent Workflows",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7215082812",
+  "doi": "10.52058/2695-1592-2026-9(64)-539-549",
+  "title": "METRICS AND APPROACHES FOR EVALUATING LLM-BASED AGENT QUALITY",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4390897317",
+  "doi": "10.48550/arxiv.2401.06201",
+  "title": "EASYTOOL: Enhancing LLM-based Agents with Concise Tool Instruction",
+  "year": 2024,
+  "cites": 4
+ },
+ {
+  "id": "W4415274142",
+  "doi": "10.1109/models-c68889.2025.00061",
+  "title": "Towards LLM Agents for Model-Based Engineering: A Case in Transformation Selection",
+  "year": 2025,
+  "cites": 9
+ },
+ {
+  "id": "W7130689947",
+  "doi": "10.48550/arxiv.2602.17046",
+  "title": "Dynamic System Instructions and Tool Exposure for Efficient Agentic LLMs",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4415915824",
+  "doi": "10.54254/2755-2721/2026.tj28954",
+  "title": "Empowering LLM-based Agents: Methods and Challenges in Tool Use",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7171708453",
+  "doi": "10.48550/arxiv.2607.25718",
+  "title": "Tools Are Not Islands: Set-Level Tool Retrieval for LLM Agents via Query-Conditioned Hyperedge Prediction",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164357331",
+  "doi": "10.51583/ijltemas.2026.150500172",
+  "title": "Design and Implementation of a Lightweight Neural Controller for LLM Agent Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7220698552",
+  "doi": "10.48550/arxiv.2610.04409",
+  "title": "Understanding and Mitigating Hallucination Escape in Tool-Using LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7196950325",
+  "doi": "10.2139/ssrn.7199341",
+  "title": "Signed but Unsafe: Securing Runtime Tool Selection in LLM Agents under Adversarial Metadata Injection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125786319",
+  "doi": "10.1007/978-3-032-15632-7_2",
+  "title": "ScaleMCP: Dynamic and Auto-synchronizing Model Context Protocol Tools for LLM Agents",
+  "year": 2026,
+  "cites": 8
+ },
+ {
+  "id": "W7172442035",
+  "doi": "10.1109/access.2026.3720396",
+  "title": "Beyond Static Agents: A Six-Dimensional Taxonomy and Survey of Self-Evolving LLM Agents for Healthcare",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162528574",
+  "doi": "10.48550/arxiv.2605.26154",
+  "title": "MemMorph: Tool Hijacking in LLM Agents via Memory Poisoning",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7118011407",
+  "doi": "10.1007/978-3-032-12313-8_19",
+  "title": "A Modular LLM-Based Agent System for Data Workflow Automation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213675633",
+  "doi": "",
+  "title": "Closed-World Resolution Against Tool Hallucination in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163695170",
+  "doi": "10.48550/arxiv.2606.06284",
+  "title": "ToolChoiceConfusion: Causal Minimal Tool Filtering for Reliable LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4412887806",
+  "doi": "10.18653/v1/2025.findings-acl.1149",
+  "title": "A Joint Optimization Framework for Enhancing Efficiency of Tool Utilization in LLM Agents",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7204260397",
+  "doi": "10.48550/arxiv.2608.24509",
+  "title": "PeakBench: Benchmarking Resource-Aware Tool Invocation in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222985704",
+  "doi": "10.48550/arxiv.2610.23342",
+  "title": "Robust Function Calling for LLM Agents Under Interface Drift",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7219965065",
+  "doi": "",
+  "title": "Evaluating Tool Selection and Usage Efficiency of LLM-based Agents in Domain-Specific Tasks: A Comparative Analysis",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4417102219",
+  "doi": "10.52202/085713-5434",
+  "title": "Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7137970251",
+  "doi": "10.48550/arxiv.2603.15125",
+  "title": "From Storage to Steering: Memory Control Flow Attacks on LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7143393190",
+  "doi": "10.5281/zenodo.19339515",
+  "title": "Agent Learning: Execution-Aware Policy Optimization for LLM Tool Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4403579882",
+  "doi": "10.48550/arxiv.2410.13610",
+  "title": "MeNTi: Bridging Medical Calculator and LLM Agent with Nested Tool Calling",
+  "year": 2024,
+  "cites": 0
+ },
+ {
+  "id": "W7169682501",
+  "doi": "10.5281/zenodo.21435110",
+  "title": "State-Control Architecture: Deterministic Context Management for LLM Agent Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224962018",
+  "doi": "10.15126/thesis.902300",
+  "title": "Intelligent Code Optimisation: Genetic, Multi-LLM, and Agent-based Methods",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224089624",
+  "doi": "10.5281/zenodo.23628772",
+  "title": "An Empirical Evaluation of Attack and Defense Dynamics in Enterprise Agentic LLM Pipelines",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134811482",
+  "doi": "10.48550/arxiv.2603.08262",
+  "title": "FinToolBench: Evaluating LLM Agents for Real-World Financial Tool Use",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213414992",
+  "doi": "10.5281/zenodo.22787978",
+  "title": "ActLeak: Action-Channel Memory Leaks in Tool-Using LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7140221938",
+  "doi": "10.1007/978-3-032-21300-6_15",
+  "title": "MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Retrieval and Invocation in LLM Agent Multi-turn Conversations",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W7213391107",
+  "doi": "10.5281/zenodo.22788001",
+  "title": "ActLeak: Action-Channel Memory Leaks in Tool-Using LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155374140",
+  "doi": "10.48550/arxiv.2604.19793",
+  "title": "SkillGraph: Graph Foundation Priors for LLM Agent Tool Sequence Recommendation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204760891",
+  "doi": "10.5281/zenodo.22204479",
+  "title": "RefactorBench-JS: Evaluating LLM Agents on Behavior-Preserving Code Decomposition",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166003585",
+  "doi": "10.1109/access.2026.3707573",
+  "title": "LLM-Based Intelligent Agents for Cybersecurity: A Tutorial and Survey of Automated Vulnerability Discovery",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W7171828715",
+  "doi": "10.48550/arxiv.2607.27083",
+  "title": "Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7216221055",
+  "doi": "10.48550/arxiv.2610.00613",
+  "title": "Spatial Strategies, Not Actions: Vector-Quantized Geodesics as Tools for LLM-Driven Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161298341",
+  "doi": "10.48550/arxiv.2605.14312",
+  "title": "Making OpenAPI Documentation Agent-Ready: Detecting Documentation and REST Smells with a Multi-Agent LLM System",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160235220",
+  "doi": "10.1016/j.eswa.2026.132701",
+  "title": "LLM-driven smart agents using tools for the recovery of interdependent infrastructure networks",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7137889402",
+  "doi": "10.1609/aaai.v40i37.40389",
+  "title": "AutoTool: Efficient Tool Selection for Large Language Model Agents",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W7138312747",
+  "doi": "10.1007/978-3-032-38236-8_21",
+  "title": "From Scanning Guidelines to Action: A Robotic Ultrasound Agent with LLM-Based Reasoning",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128724178",
+  "doi": "10.48448/5ean-pt62",
+  "title": "AutoTool: Efficient Tool Selection for Large Language Model Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7106126500",
+  "doi": "10.48550/arxiv.2511.14650",
+  "title": "AutoTool: Efficient Tool Selection for Large Language Model Agents",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7172299125",
+  "doi": "10.2139/ssrn.7150298",
+  "title": "Multi-Agent LLM Collaborative Reasoning and Task Planning for Complex Task Solving",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204224169",
+  "doi": "10.48550/arxiv.2608.24017",
+  "title": "WebMCP-Phalanx: Enforcing and Characterizing Trust Boundaries for Browser-Integrated LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167416221",
+  "doi": "10.21203/rs.3.rs-10232223/v1",
+  "title": "Multi-Agent LLM Collaborative Reasoning and Task Planning for Complex Task Solving",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4410495238",
+  "doi": "10.3390/app15105663",
+  "title": "CoReaAgents: A Collaboration and Reasoning Framework Based on LLM-Powered Agents for Complex Reasoning Tasks",
+  "year": 2025,
+  "cites": 6
+ },
+ {
+  "id": "W7133365492",
+  "doi": "",
+  "title": "Graph-Based Self-Healing Tool Routing for Cost-Efficient LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203840374",
+  "doi": "10.3390/electronics15163739",
+  "title": "A Formal Framework of Architectural Intent Collapse for Tool-Level Attacks on LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160921447",
+  "doi": "10.48550/arxiv.2605.10787",
+  "title": "ComplexMCP: Evaluation of LLM Agents in Dynamic, Interdependent, and Large-Scale Tool Sandbox",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4411453360",
+  "doi": "10.1016/j.autcon.2025.106341",
+  "title": "LLM agent framework for intelligent change analysis in urban environment using remote sensing imagery",
+  "year": 2025,
+  "cites": 15
+ },
+ {
+  "id": "W7133318774",
+  "doi": "10.48550/arxiv.2603.01548",
+  "title": "Graph-Based Self-Healing Tool Routing for Cost-Efficient LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224561499",
+  "doi": "10.18653/2026.findings-emnlp.249",
+  "title": "SD-ICL: Stage-Decomposed In-Context Learning for Tool Use in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162446282",
+  "doi": "10.48550/arxiv.2605.24660",
+  "title": "How Many Tools Should an LLM Agent See? A Chance-Corrected Answer",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223685791",
+  "doi": "10.5281/zenodo.23656217",
+  "title": "THReD Agent Benchmark: Evaluation of an LLM Agent for Preprocessing Electronic Health Records into AI-Ready Datasets",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165654688",
+  "doi": "10.48550/arxiv.2606.20922",
+  "title": "Think Twice Before You Act: Protecting LLM Agents Against Tool Description Poisoning via Isolated Planning",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223693383",
+  "doi": "10.5281/zenodo.23653754",
+  "title": "THReD Agent Benchmark: Evaluation of an LLM Agent for Preprocessing Electronic Health Records into AI-Ready Datasets",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133837638",
+  "doi": "10.48550/arxiv.2603.03640",
+  "title": "MistyPilot: An Agentic Fast-Slow Thinking LLM Framework for Misty Social Robots",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134077109",
+  "doi": "10.48550/arxiv.2603.04743",
+  "title": "DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distribution-Aware Retrieval",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169573015",
+  "doi": "10.5281/zenodo.21413143",
+  "title": "From Tool Selection to Autonomous Execution: Process Templates, Sandboxed Code, and Modular Orchestration for Reliable LLM Agents at Scale",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214020604",
+  "doi": "10.48550/arxiv.2609.24161",
+  "title": "MCP-GRANITE Benchmark: GRANularity Interface TEsting for MCP-Based LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162412584",
+  "doi": "10.48550/arxiv.2605.24069",
+  "title": "When the Manual Lies: A Realistic Benchmark to Evaluate MCP Poisoning Attacks for LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4405996330",
+  "doi": "10.3934/aci.2024019",
+  "title": "LLM-Collab: a framework for enhancing task planning via chain-of-thought and multi-agent collaboration",
+  "year": 2024,
+  "cites": 7
+ },
+ {
+  "id": "W7117959349",
+  "doi": "10.18653/2026.realm-1.51",
+  "title": "MCPAgentBench: A Real-world Task Benchmark for Evaluating LLM Agent MCP Tool Use",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221316450",
+  "doi": "10.1038/s41746-026-03348-0",
+  "title": "FHIR-AgentEval: a modular sandbox for benchmarking clinical LLM agents with memory-augmented configurations",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131119934",
+  "doi": "10.1109/roboticcc68732.2025.00025",
+  "title": "ROSBag MCP Server: Analyzing Robot Data with LLMs for Agentic Embodied AI Applications",
+  "year": 2025,
+  "cites": 4
+ },
+ {
+  "id": "W7124469829",
+  "doi": "10.48550/arxiv.2601.09750",
+  "title": "SAGE: Tool-Augmented LLM Task Solving Strategies in Scalable Multi-Agent Environments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131414274",
+  "doi": "10.48550/arxiv.2602.20683",
+  "title": "Grid-Mind: An LLM-Orchestrated Multi-Fidelity Agent for Automated Connection Impact Assessment",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212078847",
+  "doi": "10.22399/ijcesen.5498",
+  "title": "Two Planes of Truth: Execution Fidelity and Behavioral Correctness in Tool-Using LLM Agents",
+  "year": 2024,
+  "cites": 0
+ },
+ {
+  "id": "W7170033497",
+  "doi": "10.48550/arxiv.2607.18485",
+  "title": "Trusted Credentials, Untrusted Behavior: Benchmarking LLM-Agent Security in High-Performance Computing",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131251970",
+  "doi": "10.1080/17538947.2026.2633849",
+  "title": "Bridging natural language and GIS: a multi-agent framework for LLM-driven autonomous geospatial analysis",
+  "year": 2026,
+  "cites": 7
+ },
+ {
+  "id": "W7203757867",
+  "doi": "10.2139/ssrn.7317098",
+  "title": "WeClaw: An Open-Source Adaptive Runtime Framework for Tool-Augmented Desktop LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7106826695",
+  "doi": "10.48550/arxiv.2511.19483",
+  "title": "Z-Space: A Multi-Agent Tool Orchestration Framework for Enterprise-Grade LLM Automation",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7131898328",
+  "doi": "10.36227/techrxiv.177219979.94060974/v1",
+  "title": "Tool Execution Hallucination in LLM-based Agents: A Unified Taxonomy with Detection, Mitigation, and Future Directions",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7113896107",
+  "doi": "10.2139/ssrn.5896270",
+  "title": "Z-SPACE: A MULTI-AGENT TOOL ORCHESTRATION FRAMEWORK FOR ENTERPRISE-GRADE LLM AUTOMATION",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7168308347",
+  "doi": "10.1109/icc59461.2026.11587323",
+  "title": "IntAgent: NWDAF-Based Intent LLM Agent Towards Advanced Next Generation Networks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125114318",
+  "doi": "10.48550/arxiv.2601.13114",
+  "title": "IntAgent: NWDAF-Based Intent LLM Agent Towards Advanced Next Generation Networks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415013359",
+  "doi": "",
+  "title": "Agentic DraCor and the Art of Docstring Engineering: Evaluating MCP-empowered LLM Usage of the DraCor API",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7213249050",
+  "doi": "10.48550/arxiv.2609.14987",
+  "title": "ActGuard: Pre-execution Action Auditing against Indirect Prompt Injection in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166687922",
+  "doi": "10.51483/ijaiml.6.2s.2026.22-29",
+  "title": "Autonomous Tool Selection Algorithms for Large Language Model Driven Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168605410",
+  "doi": "10.48448/batk-0w69",
+  "title": "ToolScope: Enhancing LLM Agent Tool Use through Tool Merging and Context-Aware Filtering",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7138285698",
+  "doi": "10.48550/arxiv.2603.13950",
+  "title": "ToolFlood: Beyond Selection -- Hiding Valid Tools from LLM Agents via Semantic Covering",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168353612",
+  "doi": "10.48448/9k4f-t532",
+  "title": "MCP-Flow: Facilitating LLM Agents to Master Real-World, Diverse and Scaling MCP Tools",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161027812",
+  "doi": "10.48550/arxiv.2605.11633",
+  "title": "Can LLM Agents Respond to Disasters? Benchmarking Heterogeneous Geospatial Reasoning in Emergency Operations",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415948577",
+  "doi": "10.48550/arxiv.2510.15994",
+  "title": "MCP Security Bench (MSB): Benchmarking Attacks Against Model Context Protocol in LLM Agents",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7160410410",
+  "doi": "10.5281/zenodo.20055952",
+  "title": "Autonomous HPC Simulation Orchestration: Surveying Multi-Agent LLM Ecosystems and the NVIDIA Modulus Stack",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128449691",
+  "doi": "10.21203/rs.3.rs-8746188/v1",
+  "title": "FHIR-AgentEval: A Modular Sandbox for Benchmarking Clinical LLM Agents with an Evaluation of Memory-Augmented Configurations",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154717912",
+  "doi": "10.70286/isu-15.04.2026.021",
+  "title": "SEMANTIC KERNEL USAGE FOR ORCHESTRATION OF MULTI-AGENT LLM-BASED SYSTEMS TO SOLVE THE TASKS WHICH REQUIRE DYNAMIC INVOLVEMENT OF NEW AGENTS",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7148851525",
+  "doi": "10.48550/arxiv.2604.01532",
+  "title": "PHMForge: Evaluating LLM Agents on Industrial Prognostics through MCP-Native, Algorithm-Grounded Tools",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162242311",
+  "doi": "10.65109/pjgh6650",
+  "title": "IntentGuard: Securing MCP-Enabled LLM Agents via Post-Decision Semantic Plan Verification",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171669184",
+  "doi": "10.48550/arxiv.2607.25408",
+  "title": "Context Assembly as the Controlled Variable: A Control-Theoretic View of Harness Policies for Frozen LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4417309755",
+  "doi": "10.1109/cai68641.2026.11536377",
+  "title": "Tool and Agent Selection for Large Language Model Agents in Production: A Survey",
+  "year": 2026,
+  "cites": 5
+ },
+ {
+  "id": "W7155029325",
+  "doi": "10.48550/arxiv.2604.17091",
+  "title": "GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167843457",
+  "doi": "10.5281/zenodo.21274027",
+  "title": "Description Engineering Mitigates Tool-Selection Collapse in Large Language Model Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7219757569",
+  "doi": "10.5281/zenodo.23130932",
+  "title": "ToolGap: Hiding KV-Cache Restore Latency During LLM Agent Tool Execution",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223017823",
+  "doi": "10.48550/arxiv.2610.25372",
+  "title": "SEAL: Towards Persistent Tool Poisoning Attack against LLM Agents via Prefix-Eliciting Trigger",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7116776357",
+  "doi": "10.1080/19401493.2025.2605465",
+  "title": "Cost-optimal residential energy scheduling via a zero-shot LLM agent and model predictive control",
+  "year": 2025,
+  "cites": 4
+ },
+ {
+  "id": "W7116892837",
+  "doi": "10.6084/m9.figshare.30931316",
+  "title": "Cost-optimal residential energy scheduling via a zero-shot LLM agent and model predictive control",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4399487288",
+  "doi": "10.1145/3649476.3658784",
+  "title": "GeckOpt: LLM System Efficiency via Intent-Based Tool Selection",
+  "year": 2024,
+  "cites": 7
+ },
+ {
+  "id": "W4409100563",
+  "doi": "10.20944/preprints202504.0245.v1",
+  "title": "A Survey of the Model Context Protocol (MCP): Standardizing Context to Enhance Large Language Models (LLMs)",
+  "year": 2025,
+  "cites": 20
+ },
+ {
+  "id": "W7158725989",
+  "doi": "10.48550/arxiv.2604.26511",
+  "title": "Tatemae: Detecting Alignment Faking via Tool Selection in LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160012805",
+  "doi": "10.20944/preprints202604.1820.v1",
+  "title": "TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4405183113",
+  "doi": "10.1145/3658644.3690291",
+  "title": "Optimization-based Prompt Injection Attack to LLM-as-a-Judge",
+  "year": 2024,
+  "cites": 70
+ },
+ {
+  "id": "W7170076194",
+  "doi": "10.1016/j.fsidi.2026.302130",
+  "title": "With or without logs: Memory forensic reconstruction of Model Context Protocol (MCP) activity in agentic LLM systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7136522018",
+  "doi": "10.48550/arxiv.2603.12740",
+  "title": "ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4403799468",
+  "doi": "10.48550/arxiv.2409.18807",
+  "title": "LLM With Tools: A Survey",
+  "year": 2024,
+  "cites": 3
+ },
+ {
+  "id": "W4415988299",
+  "doi": "10.3390/jimaging11110395",
+  "title": "Multi-Weather DomainShifter: A Comprehensive Multi-Weather Transfer LLM Agent for Handling Domain Shift in Aerial Image Processing",
+  "year": 2025,
+  "cites": 4
+ },
+ {
+  "id": "W7212428651",
+  "doi": "10.21203/rs.3.rs-10911223/v1",
+  "title": "Authorization Assurance for Tool-Using LLM Agents: A Structured Review of Enforcement Semantics and Effect-Level Security Evidence",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214104233",
+  "doi": "10.5281/zenodo.22918272",
+  "title": "Hardware-Adaptive Inference Orchestration: Zero-Overhead Local LLM Agents on Resource-Constrained Edge Devices",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162802560",
+  "doi": "10.18653/2026.realm-1.102",
+  "title": "CoHyDE: Iterative Co-Training of LLM Rewriter & Dense Encoder for Tool Retrieval",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414970518",
+  "doi": "10.48550/arxiv.2510.03992",
+  "title": "Quantitative Certification of Agentic Tool Selection",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7211886490",
+  "doi": "10.51483/ijaiml.6.8s.2026.1019-1026",
+  "title": "An Agentic Ai Framework For Autonomous Reasoning, Tool Selection, And Task Execution Using Large Language Models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202192416",
+  "doi": "10.48550/arxiv.2608.08467",
+  "title": "LLM within MCP Matters: Measuring Inefficient Resource Utilization Driven by LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214368678",
+  "doi": "10.48550/arxiv.2609.28693",
+  "title": "Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Role-Scoped Capability Delivery",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169848881",
+  "doi": "10.48550/arxiv.2607.17331",
+  "title": "Agentic ERP: Multi-Agent Large Language Model Architecture for Autonomous Enterprise Resource Planning",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223303840",
+  "doi": "10.48550/arxiv.2610.31013",
+  "title": "Multi-Tool Selection for Robotic Systems: Comparing Semantic Retrieval and LLM",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155088314",
+  "doi": "10.1109/icassp55912.2026.11461723",
+  "title": "KG-ToolPlan: Knowledge Graph-Guided Reasoning for Efficient LLM Tool Selection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415247744",
+  "doi": "10.48550/arxiv.2505.03275",
+  "title": "RAG-MCP: Mitigating Prompt Bloat in LLM Tool Selection via Retrieval-Augmented Generation",
+  "year": 2025,
+  "cites": 2
+ },
+ {
+  "id": "W7164934230",
+  "doi": "10.1007/978-3-032-36587-3_20",
+  "title": "Towards LLM Accelerated Rapid Reviews for Software Tool Discovery - Case for Log Anomaly Detection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155051479",
+  "doi": "10.1007/s12541-026-01477-w",
+  "title": "Evaluation of LLM Performance in Tool Selection: A Feasibility Study on AI-Based Tool Development",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204192955",
+  "doi": "10.48550/arxiv.2608.22751",
+  "title": "Risk-Aware Reranking for Agentic Tool Retrieval",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4412887993",
+  "doi": "10.18653/v1/2025.findings-acl.811",
+  "title": "ToolExpNet: Optimizing Multi-Tool Selection in LLMs with Similarity and Dependency-Aware Experience Networks",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4417456748",
+  "doi": "10.48550/arxiv.2512.13278",
+  "title": "AutoTool: Dynamic Tool Selection and Integration for Agentic Reasoning",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7120123770",
+  "doi": "10.48550/arxiv.2601.05214",
+  "title": "Internal Representations as Indicators of Hallucinations in Agent Tool Selection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4412966266",
+  "doi": "10.1007/978-3-031-98465-5_48",
+  "title": "Exploring Undercurrents of Learning Tensions in an LLM-Enhanced Landscape: A Student-Centered Qualitative Perspective on LLM vs Search",
+  "year": 2025,
+  "cites": 3
+ },
+ {
+  "id": "W7154997765",
+  "doi": "10.48366/r1596907",
+  "title": "Architectural Comparison of LLM Tool Integration Paradigms",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4412944340",
+  "doi": "10.18653/v1/2025.knowllm-1.7",
+  "title": "ToolReAGt: Tool Retrieval for LLM-based Complex Task Solution via Retrieval Augmented Generation",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W4416054629",
+  "doi": "10.48550/arxiv.2510.17843",
+  "title": "GRETEL: A Goal-driven Retrieval and Execution-based Trial Framework for LLM Tool Selection Enhancing",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7163999774",
+  "doi": "10.1109/jstars.2026.3742354",
+  "title": "Bidirectional Semantic Complementary Tool Retrieval for Remote Sensing Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7129080004",
+  "doi": "10.1145/3773966.3777952",
+  "title": "TOOL-CURE: Tool Selection via Curriculum-Enhanced Reinforcement Learning with Sample Screening for LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166804655",
+  "doi": "10.1111/exsy.70341",
+  "title": "Hi\u2010 RAG : A Hierarchical Retrieval\u2010Augmented Generation Framework for Scalable and Generalisable Tool Selection in Large Language Model Agents",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7155383445",
+  "doi": "10.48448/2bh2-sm83",
+  "title": "ToolDreamer: Instilling LLM Reasoning Into Tool Retrievers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416248720",
+  "doi": "10.48550/arxiv.2510.19791",
+  "title": "ToolDreamer: Instilling LLM Reasoning Into Tool Retrievers",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4413757691",
+  "doi": "10.1080/2573234x.2025.2551951",
+  "title": "LLM anthropomorphization: balancing ethics and business value",
+  "year": 2025,
+  "cites": 2
+ },
+ {
+  "id": "W7167093143",
+  "doi": "10.3233/shti260935",
+  "title": "LLMs in Problem-Based Learning: The Grounding Issue",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202158393",
+  "doi": "10.21203/rs.3.rs-10646209/v1",
+  "title": "Measuring How LLM Tool Descriptions, Cross-Tool Ambiguity, and Action Chains Compose into Excessive Agency Exploits",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172432330",
+  "doi": "10.1007/978-3-032-31397-3_21",
+  "title": "RaTA-Tool: Retrieval-Based Tool Selection with Multimodal Large Language Models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154726176",
+  "doi": "10.48550/arxiv.2604.14951",
+  "title": "RaTA-Tool: Retrieval-based Tool Selection with Multimodal Large Language Models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160986114",
+  "doi": "10.48550/arxiv.2605.11706",
+  "title": "GRAFT: Graph-Tokenized LLMs for Tool Planning",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221755775",
+  "doi": "10.48550/arxiv.2610.15228",
+  "title": "Words to World: Benchmarking LLMs in Interactive Physical Environments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133305894",
+  "doi": "10.48550/arxiv.2603.01254",
+  "title": "LLM Self-Explanations Fail Semantic Invariance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7138126211",
+  "doi": "10.48550/arxiv.2603.13426",
+  "title": "Outcome-Aware Tool Selection for Semantic Routers: Latency-Constrained Learning Without LLM Inference",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214048459",
+  "doi": "10.22318/icls2026.180384",
+  "title": "\u201cI know it because I've seen it\u201d: Epistemic agency and tool selection in student-LLM mathematical problem solving",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125212912",
+  "doi": "10.1109/tbiom.2026.3655668",
+  "title": "FaceXBench: Evaluating Multimodal LLMs on Face Understanding",
+  "year": 2026,
+  "cites": 9
+ },
+ {
+  "id": "W7171538314",
+  "doi": "10.48550/arxiv.2607.22639",
+  "title": "TRACE: Business Rule-Grounded Reasoning Curriculum for Knowledge-Preserving Parametric Tool Retrieval in Enterprise LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213382013",
+  "doi": "",
+  "title": "Understanding Tool Selection for AI Agents in Multi-Server MCP Environments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4410553164",
+  "doi": "10.23919/date64628.2025.10992798",
+  "title": "Less is More: Optimizing Function Calling for LLM Execution on Edge Devices",
+  "year": 2025,
+  "cites": 9
+ },
+ {
+  "id": "W7221773867",
+  "doi": "10.48550/arxiv.2610.14334",
+  "title": "Which Metadata Matters for LLM Tool Selection in MCP? Evidence from Controlled Factor-Level Interventions",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7140218389",
+  "doi": "10.48550/arxiv.2603.20313",
+  "title": "Semantic Tool Discovery for Large Language Models: A Vector-Based Approach to MCP Tool Selection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7215035761",
+  "doi": "10.1007/s12541-026-01629-y",
+  "title": "Correction: Evaluation of LLM Performance in Tool Selection: A Feasibility Study on AI-Based Tool Development",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164499539",
+  "doi": "10.18653/2026.findings-emnlp.370",
+  "title": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166743909",
+  "doi": "10.48550/arxiv.2606.30317",
+  "title": "MCP Server Architecture Patterns for LLM-Integrated Applications",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7215093739",
+  "doi": "10.1109/icton71309.2026.11704977",
+  "title": "LLM-Orchestrated Digital Twin for Smart Optical Network Operations",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416398368",
+  "doi": "10.48550/arxiv.2510.07768",
+  "title": "ToolLibGen: Scalable Automatic Tool Creation and Aggregation for LLM Reasoning",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7214647492",
+  "doi": "10.48550/arxiv.2609.30293",
+  "title": "Cartograph: Federated Tool Discovery with Operator-Attested Retrieval for AI Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7153686282",
+  "doi": "",
+  "title": "RaTA-Tool: Retrieval-based Tool Selection with Multimodal Large Language Models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163192368",
+  "doi": "10.48550/arxiv.2606.01416",
+  "title": "Self-Healing Agentic Orchestrators for Reliable Tool-Augmented Large Language Model Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162245959",
+  "doi": "10.65109/rpmn5314",
+  "title": "Reliable Data Science Analysis with Large Language Models via Multi-Agent Tools Orchestration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4409362584",
+  "doi": "10.1609/aaai.v39i23.34664",
+  "title": "Automated Creation of Reusable and Diverse Toolsets for Enhancing LLM Reasoning",
+  "year": 2025,
+  "cites": 3
+ },
+ {
+  "id": "W7125604589",
+  "doi": "10.1109/cascon66301.2025.00048",
+  "title": "Semantic Relational Types of SQL Queries and Applications to AI Agent Tool Selection",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7169763163",
+  "doi": "10.5220/0015000400004103",
+  "title": "A Hierarchical Evaluation Framework for LLM-driven Threat Modelling Tools",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7157970015",
+  "doi": "10.5281/zenodo.19878558",
+  "title": "Replication package for \"Towards LLM Accelerated Rapid Reviews for Software Tool Discovery - Case for Log Anomaly Detection\"",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7204969386",
+  "doi": "10.48550/arxiv.2608.30696",
+  "title": "Domain-Grounded Tool Orchestration for LLM-Guided Scientific Analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171494850",
+  "doi": "10.12688/openreseurope.24512.1",
+  "title": "Retrieval-grounded multilingual LLM assistance for island smallholder farmers",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7155420479",
+  "doi": "10.48448/d2zn-zz96",
+  "title": "UniToolBench: A Benchmark for Tool-Augmented LLMs in Cross-Domain, Universal Task Automation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7140093651",
+  "doi": "10.18653/v1/2026.findings-eacl.248",
+  "title": "UniToolBench: A Benchmark for Tool-Augmented LLMs in Cross-Domain, Universal Task Automation",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W4414210490",
+  "doi": "10.25236/ajhss.2025.080708",
+  "title": "AWE and LLMs in L2 Writing Feedback: An Exploration of EFL Learners\u2019 Experiences",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7213497204",
+  "doi": "10.48550/arxiv.2609.18217",
+  "title": "Measuring and Exploiting Implicit Trust in LLM Tool-Calling Pipelines",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155071069",
+  "doi": "10.1109/icassp55912.2026.11463658",
+  "title": "Metatoolagent: Towards Generalizable Tool Usage in LLMs Through Meta-Learning",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162955393",
+  "doi": "10.5281/zenodo.20480446",
+  "title": "agentic-osint-agent: A LangGraph ReAct agent for autonomous public-source investigation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125261123",
+  "doi": "10.48550/arxiv.2601.12680",
+  "title": "MetaToolAgent: Towards Generalizable Tool Usage in LLMs through Meta-Learning",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416728275",
+  "doi": "10.1109/igarss55030.2025.11242554",
+  "title": "Improving EO-GPT: An LLM Orchestration Framework for Earth Observation Analysis",
+  "year": 2025,
+  "cites": 3
+ },
+ {
+  "id": "W7213143303",
+  "doi": "10.1093/jcde/qwag082",
+  "title": "A large language model-based agent system for interactive large-scale project scheduling",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7153144013",
+  "doi": "10.48550/arxiv.2604.07536",
+  "title": "TRUSTDESC: Preventing Tool Poisoning in LLM Applications via Trusted Description Generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214800765",
+  "doi": "10.5281/zenodo.23040633",
+  "title": "Preemptive Context Layer (PCL): from per-tool retrieval to a unified hybrid index for LLM-based personal assistants",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7196962742",
+  "doi": "10.5281/zenodo.21817243",
+  "title": "Tool Differentia: Relational Static Analysis for AI Agent Tool Descriptions",
+  "year": 2026,
+  "cites": 0
+ }
+]

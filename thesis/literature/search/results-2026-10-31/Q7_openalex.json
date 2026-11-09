@@ -1,0 +1,1402 @@
+[
+ {
+  "id": "W7212304647",
+  "doi": "10.71775/kth.hmr8f-51g87",
+  "title": "MCP Servers for Scientific Workflows",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7223390622",
+  "doi": "10.5281/zenodo.23594091",
+  "title": "Dayanak: citation-safe MCP server for Turkish legal research",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223372072",
+  "doi": "10.5281/zenodo.23603011",
+  "title": "Doktor MCP: source-grounded legal information MCP server for physicians",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213422258",
+  "doi": "10.21981/d929-tz52",
+  "title": "AURA AI Agents for Simulations, Materials and Scientific Data (MCP Server)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223109507",
+  "doi": "10.21981/waw7-s392",
+  "title": "AURA AI Agents for Simulations, Materials and Scientific Data (MCP Server)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168165297",
+  "doi": "10.21981/jm9b-w033",
+  "title": "AURA AI Agents for Simulations, Materials and Scientific Data (MCP Server)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223559905",
+  "doi": "10.2139/ssrn.7661539",
+  "title": "An MCP-Based Agentic Framework for Clinical AI Integration and Medical Assistance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160393981",
+  "doi": "10.1109/aaiml67890.2026.11498100",
+  "title": "Neuro-Symbolic Agentic Framework for Decoupled Perception and Clinical Reasoning in Medical AI",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169829189",
+  "doi": "10.48550/arxiv.2607.17012",
+  "title": "Schema-Bound LLM Control of Scientific Instrumentation through Model Context Protocol Skills",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134278047",
+  "doi": "10.5281/zenodo.18916730",
+  "title": "National MCP Servers for Physical AI Oncology Clinical Trial Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133850291",
+  "doi": "10.5281/zenodo.18870960",
+  "title": "TrialMCP: MCP Servers for Physical AI Oncology Clinical Trial Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162802301",
+  "doi": "10.48550/arxiv.2605.30283",
+  "title": "mcp-proto-okn: Natural-language access to open scientific knowledge graphs through the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133642653",
+  "doi": "10.5281/zenodo.18869776",
+  "title": "TrialMCP Pack: MCP Servers for Physical AI Oncology Clinical Trial Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415109628",
+  "doi": "10.1145/3814959",
+  "title": "Model Context Protocol (MCP) at First Glance: Studying the Security and Maintainability of MCP Servers",
+  "year": 2026,
+  "cites": 18
+ },
+ {
+  "id": "W7204458084",
+  "doi": "10.26434/chemrxiv.15007941/v1",
+  "title": "From Black Box to Dialogue: An MCP Server for Tanabe\u2013Sugano Diagrams as a Reference Case for Conversational Scientific Tools",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134188707",
+  "doi": "10.1109/icic68258.2025.11413209",
+  "title": "Advance LLM-based Model-Context-Protocol and Agent to Agent Protocol for Child Medical Emergency",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7214055513",
+  "doi": "10.48550/arxiv.2609.24620",
+  "title": "Ascent: An Agentic System over the Model Context Protocol for Real-World Clinical Data Analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155214950",
+  "doi": "10.2139/ssrn.6615841",
+  "title": "Risk Intelligence \u2014 A New Era for Institutional Finance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125579863",
+  "doi": "10.1007/s44250-026-00343-w",
+  "title": "Transforming clinical medicine with multimodal artificial intelligence, agentic systems, and the model-context protocol: a perspective on future directions",
+  "year": 2026,
+  "cites": 8
+ },
+ {
+  "id": "W7165423417",
+  "doi": "",
+  "title": "A Secure Sandbox Environment for Orchestrating Medical AI Agents Using Model Context Protocols and Role-Based Access Control.",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162197292",
+  "doi": "10.5281/zenodo.20355441",
+  "title": "openfec-mcp-server",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415070725",
+  "doi": "10.48550/arxiv.2506.13068",
+  "title": "Towards the Autonomous Optimization of Urban Logistics: Training Generative AI with Scientific Tools via Agentic Digital Twins and Model Context Protocol",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7155079514",
+  "doi": "10.26153/tsw/64466",
+  "title": "QRAFTI: An Agentic Framework for Empirical Research in Quantitative Finance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416840173",
+  "doi": "10.21474/ijar01/22135",
+  "title": "MULTI-AGENT TRADING SYSTEMS APPLIED IN THE BRAZILIAN FINANCE MARKET",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7203928278",
+  "doi": "10.64898/2026.08.18.26359085",
+  "title": "A Human-in-the-Loop Large Language Model System Based on the Model Context Protocol for Differential Diagnosis from Electronic Medical Records and Literature",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414731377",
+  "doi": "10.1007/978-3-032-02130-4_11",
+  "title": "Agentic AI Security in Critical Sectors: Finance, Healthcare, and Autonomous Driving",
+  "year": 2025,
+  "cites": 2
+ },
+ {
+  "id": "W7160180049",
+  "doi": "10.1016/j.jogc.2026.103309",
+  "title": "Operationalizing SOGC Clinical Practice Guideline Using Model-Context-Protocol to give AI Generated Clinical Recommendations Without Hallucination: Creating the OBGYN Version of Openevidence",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7220845973",
+  "doi": "10.2139/ssrn.7573878",
+  "title": "GnosisLab: A Verifiable Foundation for Autonomous Scientific Discovery",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221921096",
+  "doi": "10.5281/zenodo.23396096",
+  "title": "CuraStrand: Autonomous Multimodal Clinical Triage & Ambient Crisis Orchestration Framework over Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7129263745",
+  "doi": "10.64898/2026.02.13.705771",
+  "title": "Ataraxis: Bridging AI Coding Assistants and Scientific Hardware",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213502997",
+  "doi": "10.5281/zenodo.22804650",
+  "title": "A Managed Database-as-a-Service Platform for Scientific Computing",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203992699",
+  "doi": "10.5281/zenodo.22056684",
+  "title": "Chezhira/finops-mcp-server: FinOps MCP Server v1.0.0",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7139918994",
+  "doi": "10.62762/ngcst.2025.784852",
+  "title": "A Framework for Secure and Interoperable Clinical Summarization Using the Model Context Protocol: Integrating MIMIC-III and FHIR with TinyLlama",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7213400237",
+  "doi": "10.1109/tqcebt67648.2026.11681484",
+  "title": "MediSmart: A Tool-Augmented LLM Architecture for Explainable Clinical Decision Support via Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164904624",
+  "doi": "10.5281/zenodo.20721148",
+  "title": "Lemma: an open verification substrate for AI-driven scientific computing",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7204554000",
+  "doi": "10.48550/arxiv.2608.26198",
+  "title": "Agentic AI for operating scientific instruments for nanoscale characterization",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4413180440",
+  "doi": "10.1109/aiiot65859.2025.11105280",
+  "title": "Enhancing Clinical Decision Support and EHR Insights through LLMs and the Model Context Protocol: An Open-Source MCP-FHIR Framework",
+  "year": 2025,
+  "cites": 12
+ },
+ {
+  "id": "W4414742210",
+  "doi": "10.48550/arxiv.2509.15957",
+  "title": "EHR-MCP: Real-world Evaluation of Clinical Information Retrieval by Large Language Models via Model Context Protocol",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7212355112",
+  "doi": "10.5281/zenodo.22715840",
+  "title": "Scientific Agentic Engineering: A Framework for Reliable AI Agents in Research Software",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204969386",
+  "doi": "10.48550/arxiv.2608.30696",
+  "title": "Domain-Grounded Tool Orchestration for LLM-Guided Scientific Analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7123393537",
+  "doi": "10.5281/zenodo.18228786",
+  "title": "How General Counsel Can Operationalise AIVO Inside Legal Workflows",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7159581968",
+  "doi": "10.48550/arxiv.2604.27996",
+  "title": "Exploring LLM Agent Designs and Interaction Modalities for Scientific Visualization",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7215718163",
+  "doi": "10.5281/zenodo.23107765",
+  "title": "FERRUM: a visualisation core for volumetric medical images",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163743453",
+  "doi": "10.17605/osf.io/2j45q",
+  "title": "Open K-Anonymized Aggregates from a Free Personal-Finance Calculator Platform: Methodology, Dataset, and Public Mirror",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161064521",
+  "doi": "10.48550/arxiv.2605.11522",
+  "title": "State Twins: An Off-Chain Substrate for Agentic Reasoning over Decentralized Finance Protocols",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7127450472",
+  "doi": "10.48550/arxiv.2602.01550",
+  "title": "S1-NexusAgent: a Self-Evolving Agent Framework for Multidisciplinary Scientific Research",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414415368",
+  "doi": "10.1007/978-3-032-06004-4_6",
+  "title": "MedXpert-CAD: A Multimodal Multi-agentic System for Clinical Imaging Analysis via Model Context Protocol LLM-Driven Agentic Workflows",
+  "year": 2025,
+  "cites": 3
+ },
+ {
+  "id": "W7166823037",
+  "doi": "10.5281/zenodo.21115605",
+  "title": "Redacta: pseudonymise medical text before AI processing",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415924814",
+  "doi": "10.48550/arxiv.2510.27452",
+  "title": "From Pixels to Paths: A Multi-Agent Framework for Editable Scientific Illustration",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4417066576",
+  "doi": "10.2172/3006464",
+  "title": "ADEPT: A Pedagogical Framework for Integrating Agentic AI with Deterministic Scientific Workflows",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7147089343",
+  "doi": "10.48550/arxiv.2603.28986",
+  "title": "Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416455959",
+  "doi": "10.32996/jcsts.2025.7.12.1",
+  "title": "A Secure Accountability Framework for Multi-Modal Agent Systems: Detecting, Mitigating, and Auditing Data-Poisoning Attacks via Model Context Protocol (MCP) Servers",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7171568866",
+  "doi": "10.48550/arxiv.2607.24663",
+  "title": "A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163734259",
+  "doi": "10.5281/zenodo.20567975",
+  "title": "Open K-Anonymized Aggregates from a Free Personal-Finance Calculator Platform: Methodology, Dataset, and Public Mirror",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7138984481",
+  "doi": "10.1109/sceecs68810.2026.11430157",
+  "title": "Agentic Tool-Based Decision Agents for Finance: A Survey of Sentiment, Event, and Risk Integration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163742367",
+  "doi": "10.5281/zenodo.20567974",
+  "title": "Open K-Anonymized Aggregates from a Free Personal-Finance Calculator Platform: Methodology, Dataset, and Public Mirror",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202387967",
+  "doi": "10.58647/rexpo26000167.v1",
+  "title": "The REPO4EU Platform Beta Release: From Scientific Needs to Integrated Solutions",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164158540",
+  "doi": "10.31235/osf.io/a928u_v1",
+  "title": "Open K-Anonymized Aggregates from a Free Personal-Finance Calculator Platform: Methodology, Dataset, and Public Mirror",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224117704",
+  "doi": "10.25080/wwjp7762",
+  "title": "Vibes, meet rigor: Evaluating and improving AI performance on complex scientific code",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161995294",
+  "doi": "10.1039/d5sc09883a",
+  "title": "TeLLAgent: a dual-agent framework for reliable scientific discovery with tool-enhanced LLMs",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7221602564",
+  "doi": "10.1016/j.nexres.2026.102565",
+  "title": "Clinical summarization from FHIR bundles using model context protocol\u2013orchestrated large language models: A scenario-based physician validation study",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162300288",
+  "doi": "10.64898/2026.05.23.26353963",
+  "title": "Extraction of Human Phenotype Ontology (HPO) Concepts from Clinical Notes Utilizing Large Language Models (LLM) with Model Context Protocol (MCP)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165069455",
+  "doi": "",
+  "title": "An LLM-orchestrated, multi-agent reinforcement learning framework for autonomous scientific experimentation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214501076",
+  "doi": "10.1016/j.ascom.2026.101184",
+  "title": "Agents for astronomical software and astronomical software for agents: Bidirectional enhancement in development and scientific reliability",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213525536",
+  "doi": "10.1007/978-3-032-37933-7_34",
+  "title": "A Lightweight Approach for Improving VLM Accuracy for Medical Usage",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160988562",
+  "doi": "10.3389/frai.2026.1820375",
+  "title": "Building MCP-native hierarchical AI scientist ecosystems: a perspective on scaling multi-agent scientific discovery",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W7147625840",
+  "doi": "10.5281/zenodo.19373344",
+  "title": "The Concept Bottleneck as a Deterministic Evaluation Layer: Implementation of Small Concept Models for Legal Reasoning via OpenAI Structured Outputs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161307103",
+  "doi": "10.5281/zenodo.20213325",
+  "title": "Replication package for \"LLM-agentic access to a federated scientific data layer with Onedata\" (PPAM 2026)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7115577307",
+  "doi": "10.17181/n8bz5-k4195",
+  "title": "Advancing CERN's AccGPT: Agentic and Graph-Enhanced RAG for Scientific Knowledge Retrieval",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7167826843",
+  "doi": "10.5281/zenodo.21279239",
+  "title": "The Inter-Agent Void: A Constitutional Framework for Autonomous Agent-to-Agent Legal Liability and Cryptographic Arbitration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202184199",
+  "doi": "10.1109/access.2026.3722717",
+  "title": "Agentic RAG for Legal Question Answering in Civil Law: Evidence From the Korean Bar Examination",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221684506",
+  "doi": "10.20944/preprints202610.1074.v1",
+  "title": "A Hybrid Agentic RAG Architecture with Knowledge Graphs and Text-to-SQL for Automating Citizen Services in a Public Scientific Institution",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214650731",
+  "doi": "10.48550/arxiv.2609.31358",
+  "title": "A Safety-Bounded SDC-to-MCP Gateway for Medical AI Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202399047",
+  "doi": "10.5281/zenodo.21922951",
+  "title": "Folklore Clinical Variant Interpretation MCP",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171977069",
+  "doi": "10.5281/zenodo.21724762",
+  "title": "SENTINEL: A Mid-Reasoning Interception Framework for Auditing Medical AI Agents in Production",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7164082383",
+  "doi": "10.17605/osf.io/6hd4r",
+  "title": "Agentic AI in Medical Image Analysis: A Preliminary PRISMA-Guided Evidence Map",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7127135631",
+  "doi": "10.48550/arxiv.2601.23049",
+  "title": "MedMCP-Calc: Benchmarking LLMs for Realistic Medical Calculator Scenarios via MCP Integration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212174567",
+  "doi": "10.6019/tol.pdbe-mcp-server-w.2026.00001.1",
+  "title": "Bringing structural biology to AI: exploring the PDBe MCP servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168360047",
+  "doi": "10.48448/4rnx-vw46",
+  "title": "MedMCP-Calc: Benchmarking LLMs for Realistic Medical Calculator Scenarios via MCP Integration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416833938",
+  "doi": "10.14801/jkiit.2025.23.11.215",
+  "title": "MCP-FHIR Server Architecture for Medical Information Integration AI Agents",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7155174207",
+  "doi": "10.2172/3030164",
+  "title": "DOE Repository Metadata Profile (DRMP): A Metadata Framework for Advancing Interoperability and AI Readiness Across Scientific Repositories",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7167339205",
+  "doi": "10.54941/ahfe1007313",
+  "title": "Deliver cross-process automation across Finance, HR, Procurement by orchestrating actions across diverse systems -powered by AI & governed workflows",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7135416608",
+  "doi": "10.5194/egusphere-egu26-20672",
+  "title": "Talking to Cities: A Model Context Protocol Server for SUEWS",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415244553",
+  "doi": "10.1093/bioadv/vbag209",
+  "title": "CIViC MCP: integrating large language models with the Clinical Interpretations of Variants in Cancer",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W7131383799",
+  "doi": "10.48550/arxiv.2602.19810",
+  "title": "From Agent-Only Social Networks to Autonomous Scientific Research: Lessons from OpenClaw and Moltbook, and the Architecture of ClawdLab and Beach.Science",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171710414",
+  "doi": "10.1093/bioadv/vbag209",
+  "title": "CIViC MCP: integrating large language models with the Clinical Interpretations of Variants in Cancer.",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7150208426",
+  "doi": "10.5281/zenodo.19396255",
+  "title": "Fully Automated Sponsor: Physical AI Oncology Clinical Trial Platform",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204988277",
+  "doi": "10.3997/2214-4609.202637158",
+  "title": "Design and evaluation of MCP-server for agentic reservoir simulation workflows",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171962378",
+  "doi": "10.21474/ijar01/23797",
+  "title": "QUESTION-ANSWER SYSTEM ON MEDICAL DOMAIN WITH LLMS USING VARIOUS FINE-TUNING AND RAG WITH MCP METHODS",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169659382",
+  "doi": "10.21275/sr26715120358",
+  "title": "Question-Answer System on Medical Domain with LLMS Using Various Fine-Tuning & Rag with MCP Methods",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4417174955",
+  "doi": "10.48550/arxiv.2507.01053",
+  "title": "M3: Conversational LLMs Simplify Secure Clinical Data Access, Understanding, and Analysis",
+  "year": 2025,
+  "cites": 2
+ },
+ {
+  "id": "W7161420331",
+  "doi": "10.23939/csn2026.01.106",
+  "title": "MCP-HAF: PROTOCOL-DRIVEN HYBRID ANONYMIZATION FRAMEWORK FOR CONTEXT PROTECTION IN MEDICAL RAG SYSTEMS",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7106326233",
+  "doi": "10.17632/csz5dzp7nx",
+  "title": "ASQ-PHI: An Adversarial Synthetic Benchmark for Clinical De-Identification and Search Utility",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7213442772",
+  "doi": "10.1371/journal.pdig.0001671",
+  "title": "M3: Conversational LLMs simplify secure clinical data access, understanding, and analysis",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7167614365",
+  "doi": "10.1007/978-3-032-30813-9_65",
+  "title": "OpenCDT: An Open Neuro-Symbolic Infrastructure for Executable Clinical Decision Tools",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154457800",
+  "doi": "10.5281/zenodo.19597589",
+  "title": "aihydro-tools: An Open Python MCP Server for Autonomous Hydrological Research",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168146308",
+  "doi": "10.30564/jeis.v8i2.13217",
+  "title": "An Intelligent Clinical Decision Support Framework for Heart Disease Risk Prediction",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7124425032",
+  "doi": "10.64898/2026.01.09.26343542",
+  "title": "ClinAgent: A Five-Layer Architecture for Autonomous Clinical Trial Statistical Programming",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W4414448307",
+  "doi": "10.48550/arxiv.2508.20453",
+  "title": "MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
+  "year": 2025,
+  "cites": 4
+ },
+ {
+  "id": "W7131373288",
+  "doi": "10.1109/ccwc67433.2026.11393764",
+  "title": "Quality Outweighs Quantity: Advancing Medical Question Answering with RAG-MCP Muti-Agent LLM Framework and Curated Knowledge Databases",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154496041",
+  "doi": "10.48550/arxiv.2604.12258",
+  "title": "Coding-Free and Privacy-Preserving Agentic Framework for Data-Driven Clinical Research",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213750491",
+  "doi": "10.5281/zenodo.22863181",
+  "title": "precis-mcp: a Model Context Protocol server for papers, documents, and agent state",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221684838",
+  "doi": "10.5281/zenodo.23352915",
+  "title": "RAG-Wissensbasis mit MCP-Server f\u00fcr die Recherche in Fachliteratur (Python)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414889763",
+  "doi": "10.1007/978-3-032-22545-0_21",
+  "title": "Chances and Challenges of the Model Context Protocol in Digital Forensics and Incident Response",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171415804",
+  "doi": "10.1093/mam/ozag053.996",
+  "title": "Closing the Loop in Microscopy Automation: Multi-Agent LLMs for Real-Time Image Acquisition, Image Processing and Experimental Steering Across Scientific Domains",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164334625",
+  "doi": "10.1093/biomethods/bpag032",
+  "title": "ClinAgent: AI-assisted methodology for clinical trial data processing and statistical programming",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160536467",
+  "doi": "10.1109/qcnc69040.2026.00145",
+  "title": "A Model Context Protocol Server for Quantum Execution in Hybrid Quantum-HPC Environments",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7163642523",
+  "doi": "10.5281/zenodo.20557286",
+  "title": "Mosaic: a knowledge-graph + MCP-tool layer for pre-clinical R&D intelligence",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222920093",
+  "doi": "10.47191/etj/v11i10.10",
+  "title": "Model Context Protocol (MCP) for AI Systems: A Survey of Architectures and Applications",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213876745",
+  "doi": "10.5281/zenodo.22882293",
+  "title": "AMED Research Database: a searchable database, REST API, and MCP server for AMED-funded research projects",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7162541106",
+  "doi": "10.5281/zenodo.20402715",
+  "title": "The Agent-Ecosystem Attestation Gap: An Empirical Study of Public MCP-Server and Agent-Framework Documentation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221768495",
+  "doi": "10.21203/rs.3.rs-11357800/v1",
+  "title": "MCP-MedImg: Enabling Standardized PACS-AI Integration through the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7140033079",
+  "doi": "10.56726/irjmets91447",
+  "title": "SECURING MCP SERVERS AND A2A AGENTS USING API GATEWAYS: A FLEX GATEWAY-DRIVEN APPROACH FOR HEALTHCARE",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161538517",
+  "doi": "10.48550/arxiv.2605.15227",
+  "title": "NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204762617",
+  "doi": "10.7759/cureus.115479",
+  "title": "A Multimodal, Electrocardiography-Centric Clinical Data Platform With Artificial Intelligence-Assisted Querying for Cardiovascular Research",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4409100563",
+  "doi": "10.20944/preprints202504.0245.v1",
+  "title": "A Survey of the Model Context Protocol (MCP): Standardizing Context to Enhance Large Language Models (LLMs)",
+  "year": 2025,
+  "cites": 20
+ },
+ {
+  "id": "W7222994056",
+  "doi": "10.1093/bioinformatics/btag788",
+  "title": "ct-validation: an open framework for benchmarking target-indication evidence against clinical trial outcomes",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128510863",
+  "doi": "10.64898/2026.02.06.703989",
+  "title": "ToxMCP: Guardrailed, Auditable Agentic Workflows for Computational Toxicology via the Model Context Protocol",
+  "year": 2026,
+  "cites": 3
+ },
+ {
+  "id": "W7147691723",
+  "doi": "10.37547/tajet/volume08issue03-12",
+  "title": "Architectural Principles for Multi-Agent Systems Based on The Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7135136181",
+  "doi": "10.1109/raai67517.2025.11423310",
+  "title": "Facilitating Shared Introspection in Hierarchical Multi-Agent Systems Using the Model Context Protocol",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7133354460",
+  "doi": "10.48550/arxiv.2603.00123",
+  "title": "CT-Flow: Orchestrating CT Interpretation Workflow with Model Context Protocol Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134920549",
+  "doi": "10.48550/arxiv.2603.09052",
+  "title": "From Days to Minutes: An Autonomous AI Agent Achieves Reliable Clinical Triage in Remote Patient Monitoring",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416688515",
+  "doi": "10.52710/cfs.817",
+  "title": "The New Interoperability Paradigm: Model Context Protocol (MCP), APIs, and the Future of Agentic AI",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7131081253",
+  "doi": "10.1093/bib/bbag076",
+  "title": "MCPmed: a call for Model Context Protocol-enabled bioinformatics web services for LLM-driven discovery",
+  "year": 2026,
+  "cites": 7
+ },
+ {
+  "id": "W7221874955",
+  "doi": "10.17605/osf.io/tsm49",
+  "title": "Do tool-call interfaces carry the measurement conditions of their inputs? A preregistered audit of Model Context Protocol tool schemas",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166077862",
+  "doi": "10.1016/j.jval.2026.03.1740",
+  "title": "MSR241 STANDARDIZING AI MODEL INTERACTION WITH HEALTHCARE SYSTEMS USING THE MODEL CONTEXT PROTOCOL (MCP)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7138867915",
+  "doi": "10.21203/rs.3.rs-9158958/v1",
+  "title": "An Event-Driven Multi-Agent Workflow for Microscopy Data Analysis Using the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214307073",
+  "doi": "10.1016/j.ijrobp.2026.06.1862",
+  "title": "Language-Guided Agentic AI Framework for Image Registration in Prostate SBRT Using Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414811953",
+  "doi": "10.1701/4573.45787",
+  "title": "Validazione clinica di un sistema Model Context Protocol per il supporto decisionale pediatrico: studio su casi benchmark",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7171498980",
+  "doi": "10.62643/ijerst.2026.v22.n3.4131",
+  "title": "A SECURE AND SCALABLE AI FRAMEWORK INTEGRATING MODEL CONTEXT PROTOCOL (MCP) FOR AUTONOMOUS RESEARCH ASSISTANCE",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414253463",
+  "doi": "10.14445/22312803/ijctt-v73i8p102",
+  "title": "Integrating Generative AI and Model Context Protocol (MCP) with Applied Machine Learning for Advanced Agentic AI Systems",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7212394732",
+  "doi": "10.5281/zenodo.22715686",
+  "title": "Formal Verification of Agentic MLOps Protocols: Model Checking and Liveness Guarantees in Distributed Model Context Protocol Workflows",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165529035",
+  "doi": "10.1016/j.cja.2026.104321",
+  "title": "CFD-copilot: Leveraging domain-adapted large language model and model context protocol to enhance simulation automation",
+  "year": 2026,
+  "cites": 4
+ },
+ {
+  "id": "W7164009184",
+  "doi": "10.1109/ic-eeta66496.2025.11548304",
+  "title": "Integrating Role-Based Prompt Model Context Protocol with Large Language Models for Reliable Financial Market Recommendations",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7114809866",
+  "doi": "10.48550/arxiv.2512.07917",
+  "title": "CFD-copilot: leveraging domain-adapted large language model and model context protocol to enhance simulation automation",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7128803998",
+  "doi": "10.2196/preprints.93344",
+  "title": "Emerging Agent Communication Protocols for Healthcare AI Systems: A Scoping Review of Model Context Protocol (MCP) and Agent-to-Agent (A2A) Frameworks (Preprint)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204272740",
+  "doi": "10.55524/ijirem.2026.13.4.5",
+  "title": "Model Context Protocol (MCP) or Agent-to-Agent (A2A) \u2014 Defining Right Communication Protocol for Agentic AI in Financial Services Use Cases",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167938215",
+  "doi": "10.2196/97822",
+  "title": "Teaching Model Context Protocol, Retrieval-Augmented Generation, and AI Agents to a Multidisciplinary Hospital Workforce: Single-Group Pre-Post Survey Study",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163758567",
+  "doi": "10.17605/osf.io/gbqzh",
+  "title": "CalcFi Calculator Registry \u2014 Snapshot 2026-06-06",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204660782",
+  "doi": "10.5281/zenodo.22161039",
+  "title": "edithatogo/rcagent: rca-investigation v0.1.0",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163760307",
+  "doi": "10.17605/osf.io/nucb8",
+  "title": "CalcFi Live US Economic Rate Series \u2014 Snapshot 2026-06-06",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4412719285",
+  "doi": "10.1101/2025.07.21.665729",
+  "title": "Community-based biomedical context to unlock agentic systems",
+  "year": 2025,
+  "cites": 5
+ },
+ {
+  "id": "W7165527663",
+  "doi": "10.5281/zenodo.20792357",
+  "title": "fortranspire: LLM + MCP pipeline porting legacy Fortran HPC kernels to OpenACC GPU and differentiable JAX",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160904528",
+  "doi": "10.5281/zenodo.20134773",
+  "title": "AlphaFold Sovereign MCP",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7147273394",
+  "doi": "10.5281/zenodo.19353903",
+  "title": "From Atoms to Agents: A Decade of Transformation in Artificial Intelligence (AI) in Medicine",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166090455",
+  "doi": "10.48550/arxiv.2606.26118",
+  "title": "The Open Source Economic Index of AI Adoption and Capability",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7201862998",
+  "doi": "10.64898/2026.08.03.742514",
+  "title": "AI semantics for biomedical data integration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125503801",
+  "doi": "10.1093/bioinformatics/btag632",
+  "title": "Searching the druggable genome using large language models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165860293",
+  "doi": "10.5281/zenodo.20861238",
+  "title": "Hillstar - Security and Reproducibility-First Workflow Orchestrator",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163768794",
+  "doi": "10.5281/zenodo.20567963",
+  "title": "CalcFi Calculator Registry \u2014 Snapshot 2026-06-06",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166134746",
+  "doi": "10.5281/zenodo.20938812",
+  "title": "Searching the Druggable Genome using Large Language Models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221546799",
+  "doi": "10.48550/arxiv.2610.13623",
+  "title": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414818968",
+  "doi": "10.48550/arxiv.2510.01780",
+  "title": "Secure Multi-Modal Data Fusion in Federated Digital Health Systems via MCP",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7170030991",
+  "doi": "10.1145/3785462.3815873",
+  "title": "BioCodex: HPC-Native Agentic Genomics Workflows via MCP RunSpecs and Asynchronous Slurm Execution",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7150978611",
+  "doi": "10.5281/zenodo.19445849",
+  "title": "AI Agents for Israel: Hyper-Local Skills in Action",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163756325",
+  "doi": "10.5281/zenodo.20567970",
+  "title": "CalcFi Live US Economic Rate Series \u2014 Snapshot 2026-06-06",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213594236",
+  "doi": "10.5281/zenodo.22832165",
+  "title": "WWC27-MedAgent: a living paper agent for sports medicine and science preparation for the FIFA Women's World Cup Brazil 2027",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416982487",
+  "doi": "10.1109/access.2026.3698694",
+  "title": "From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review",
+  "year": 2026,
+  "cites": 48
+ },
+ {
+  "id": "W7222341459",
+  "doi": "10.17613/7rz5x-9sd83",
+  "title": "Court Rules Judge Index Dataset",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4417142392",
+  "doi": "10.1109/icmla66185.2025.00220",
+  "title": "MCP-AI: Protocol-Driven Intelligence Framework for Autonomous Reasoning in Healthcare",
+  "year": 2025,
+  "cites": 2
+ },
+ {
+  "id": "W7224493305",
+  "doi": "10.5281/zenodo.23756791",
+  "title": "LimeWire Open Research Dataset (DS-8): limewire-mcp-multi-agent-file-exchange-benchmark-2026 (180 Empirical Records)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4411162983",
+  "doi": "10.1016/j.displa.2025.103119",
+  "title": "MedScreenDental: Automated structured dental record generation via multimodal language model integration",
+  "year": 2025,
+  "cites": 5
+ },
+ {
+  "id": "W7163949182",
+  "doi": "10.5281/zenodo.20588796",
+  "title": "uMCP \u2014 Unified Security and Anonymizing Framework",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171723706",
+  "doi": "10.2139/ssrn.6555579",
+  "title": "A Proposed Model for Hybrid AI-based Social Support Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168895818",
+  "doi": "10.5281/zenodo.21395213",
+  "title": "Autonomous AI-Based Triage System with Human Oversight\" (MedTriage AI\u2122)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213419707",
+  "doi": "10.1038/s41586-026-11044-y",
+  "title": "Reimagining research papers as interactive and reliable AI agents",
+  "year": 2026,
+  "cites": 6
+ },
+ {
+  "id": "W4417469650",
+  "doi": "10.48550/arxiv.2512.14429",
+  "title": "Seismology modeling agent: A smart assistant for geophysical researchers",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7153042732",
+  "doi": "10.48550/arxiv.2604.07681",
+  "title": "Multi-Agent Orchestration for High-Throughput Materials Screening on a Leadership-Class System",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415330642",
+  "doi": "10.1145/3770855.3817862",
+  "title": "Code2MCP: Transforming Code Repositories into MCP Services",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7218822039",
+  "doi": "10.6084/m9.figshare.34063413",
+  "title": "User-Centric MCP for Systems of Record: OAuth-Delegated, Permission-Bounded AI Access to ERP and Other Core Data",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416811125",
+  "doi": "10.37044/osf.io/gv2ac_v1",
+  "title": "Mining the potential of knowledge graphs for metadata on training",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4415835462",
+  "doi": "10.70777/si.v2i6.16375",
+  "title": "AI Timeline: 2025-2030+",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7160330550",
+  "doi": "10.48550/arxiv.2605.02092",
+  "title": "NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162487627",
+  "doi": "10.1007/978-3-032-24724-7_35",
+  "title": "Towards Autonomous Personal Health Knowledge Graphs Through Multi-agent Collaboration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131427313",
+  "doi": "10.1109/icatc68823.2025.11407841",
+  "title": "Mitigating Bias and Hallucinations in LLMs through Prompt Engineering and Knowledge-Grounded Approaches in Healthcare Domain: A Systematic Literature Review",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7224497070",
+  "doi": "10.7910/dvn/mpzcz6",
+  "title": "LimeWire Open Research (DS-2): arista-v-lime-group-72-trillion-statutory-damages-dataset (120 Empirical Records) & Companion Monograph (LW-VOL-2026-02)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214288519",
+  "doi": "10.5281/zenodo.22960633",
+  "title": "SDC-MCP Gateway: Software and Evaluation Artifacts",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171710805",
+  "doi": "10.2139/ssrn.6963058",
+  "title": "The Verifiable Responsible Agent Framework: Making AI Agents Liable For Their Mistakes",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155620241",
+  "doi": "10.5281/zenodo.19771061",
+  "title": "Working Paper",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166889121",
+  "doi": "10.2139/ssrn.6902958",
+  "title": "Letting ML Predict and LLMs Narrate: A Hybrid Integration Architecture for Production Equity Research",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134892084",
+  "doi": "10.5281/zenodo.18962898",
+  "title": "BioBTree v2: Grounding LLM Responses with Large-Scale Structured Biomedical Data",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7215067315",
+  "doi": "10.5281/zenodo.23084533",
+  "title": "Swiss household employment: official figures and canton rules 2026",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160511478",
+  "doi": "10.5281/zenodo.20069308",
+  "title": "EHDS-Compliant Open Linked Health Data Portal for Benchmarking Web AI Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222925956",
+  "doi": "10.5281/zenodo.23473572",
+  "title": "Polish companies in the National Court Register (KRS): financial benchmarks by PKD division, 2023-2025",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202192416",
+  "doi": "10.48550/arxiv.2608.08467",
+  "title": "LLM within MCP Matters: Measuring Inefficient Resource Utilization Driven by LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203886313",
+  "doi": "10.48550/arxiv.2608.18260",
+  "title": "Redakto - The Incognito Tab for LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7197018964",
+  "doi": "10.3389/frai.2026.1877344",
+  "title": "Future-proofing agricultural research: FAIR principles for agriculture AI agents (FAIR4AG2)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214523157",
+  "doi": "10.5281/zenodo.22998904",
+  "title": "NIMA-Semantica",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168560847",
+  "doi": "10.64898/2026.07.14.26358025",
+  "title": "ReCo: a self-configuring and self-extending agentic framework for biomedical research",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171644820",
+  "doi": "10.48550/arxiv.2607.25398",
+  "title": "HANDBOOK.md: A Benchmark for Long-Context Agentic Instruction Following",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214527076",
+  "doi": "10.5281/zenodo.22989946",
+  "title": "From Passive Artefacts to Agent-Native Knowledge: An Anatomical Review of Paper2Agent and the Competing Architectures of AI Co-Science",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7159557555",
+  "doi": "",
+  "title": "Automated Review Tool for Manual Test Results Using Python and AI Assisted Verification",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133230895",
+  "doi": "10.5281/zenodo.18829920",
+  "title": "Hillstar Orchestrator v1.0.0",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213335990",
+  "doi": "10.1002/pro.70786",
+  "title": "DisPhaseDB 2.0: Improved interpretation of disease\u2010associated variants in liquid\u2013liquid phase separation proteins with agent\u2010accessible querying",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7104591953",
+  "doi": "10.5281/zenodo.17525057",
+  "title": "ViewEngine: Privacy-Preserving Authenticated Content Retrieval for AI Assistants",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7147199602",
+  "doi": "10.5281/zenodo.19356801",
+  "title": "AI Just Got a Library Card to Ancient Jewish Texts",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131885003",
+  "doi": "10.5281/zenodo.18795506",
+  "title": "Federated Learning Physical AI Oncology Trials Unification",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204214775",
+  "doi": "10.20944/preprints202608.1698.v1",
+  "title": "Advancing Healthcare Administrative Automation: A Multi-Agent Framework for Prior Authorization and FHIR Interoperability",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416181417",
+  "doi": "10.48550/arxiv.2508.07035",
+  "title": "VASPilot: MCP-Facilitated Multi-Agent Intelligence for Autonomous VASP Simulations",
+  "year": 2025,
+  "cites": 3
+ },
+ {
+  "id": "W7154480287",
+  "doi": "10.5281/zenodo.19597664",
+  "title": "AI-Hydro: An Open Platform for Autonomous Hydrological and Earth Science Research",
+  "year": 2026,
+  "cites": 0
+ }
+]

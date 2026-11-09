@@ -1,0 +1,1402 @@
+[
+ {
+  "id": "W7155048511",
+  "doi": "10.1109/aixse64906.2025.00023",
+  "title": "Evaluating Containerization Overhead in MCP Servers for Scalable LLM Inference: A Comparative Benchmark Study",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7116122101",
+  "doi": "10.48550/arxiv.2512.15163",
+  "title": "MCP-SafetyBench: A Benchmark for Safety Evaluation of Large Language Models with Real-World MCP Servers",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7138189915",
+  "doi": "10.1609/aaai.v40i42.40895",
+  "title": "MCPTox: A Benchmark for Tool Poisoning on Real-World MCP Servers",
+  "year": 2026,
+  "cites": 10
+ },
+ {
+  "id": "W7161035179",
+  "doi": "10.48550/arxiv.2605.11504",
+  "title": "CTFusion: A CTF-based Benchmark for LLM Agent Evaluation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169626904",
+  "doi": "10.1145/3803437.3805534",
+  "title": "Benchmarking MCP Vulnerability Detection from a Paired Evaluation Perspective",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128716493",
+  "doi": "10.48448/1gjq-8d38",
+  "title": "MCPTox: A Benchmark for Tool Poisoning on Real-World MCP Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416050246",
+  "doi": "10.48550/arxiv.2508.14925",
+  "title": "MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4414991283",
+  "doi": "10.48550/arxiv.2508.13220",
+  "title": "MCPSecBench: A Systematic Security Benchmark and Playground for Testing Model Context Protocols",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7128815506",
+  "doi": "10.5281/zenodo.18627368",
+  "title": "mcpbr: Benchmarking Model Context Protocol Servers on Software Engineering Tasks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169622190",
+  "doi": "10.48550/arxiv.2607.14642",
+  "title": "MCPEvol-Bench: Benchmarking LLM Agent Performance Across Dynamic Evolutions of MCP Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221510606",
+  "doi": "10.2139/ssrn.7597219",
+  "title": "Benchmarking Without Constructs: A Measurement Theory Critique of MCP Evaluation Frameworks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204500116",
+  "doi": "",
+  "title": "TrustShiftProbe: Characterizing, Benchmarking, and Defending Staged Trust Attacks on MCP Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155385760",
+  "doi": "10.48448/g645-1p09",
+  "title": "ETOM: A Five-Level Benchmark for Evaluating Tool Orchestration within the MCP Ecosystem",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7140098032",
+  "doi": "10.18653/v1/2026.findings-eacl.75",
+  "title": "ETOM: A Five-Level Benchmark for Evaluating Tool Orchestration within the MCP Ecosystem",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222565672",
+  "doi": "10.5281/zenodo.23405942",
+  "title": "Agentic Reverse Engineering of Embedded AI Models: A Benchmark Design and Evaluation Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416052411",
+  "doi": "10.48550/arxiv.2504.11094",
+  "title": "Evaluation Report on MCP Servers",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7127367462",
+  "doi": "10.48550/arxiv.2602.00933",
+  "title": "MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7204699085",
+  "doi": "10.5281/zenodo.22169540",
+  "title": "MCP Server Resource Benchmark: Resident Memory, Startup Time and Tool Counts",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415240829",
+  "doi": "10.48550/arxiv.2508.14704",
+  "title": "MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers",
+  "year": 2025,
+  "cites": 3
+ },
+ {
+  "id": "W4415333634",
+  "doi": "10.48550/arxiv.2506.15253",
+  "title": "RAS-Eval: A Comprehensive Benchmark for Security Evaluation of LLM Agents in Real-World Environments",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4416242557",
+  "doi": "10.48550/arxiv.2508.07575",
+  "title": "MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool Use Benchmark",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4417034780",
+  "doi": "10.48550/arxiv.2512.03955",
+  "title": "Benchmark for Planning and Control with Large Language Model Agents: Blocksworld with Model Context Protocol",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7117959349",
+  "doi": "10.18653/2026.realm-1.51",
+  "title": "MCPAgentBench: A Real-world Task Benchmark for Evaluating LLM Agent MCP Tool Use",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134840056",
+  "doi": "10.48550/arxiv.2603.06582",
+  "title": "Agentic SPARQL: Evaluating SPARQL-MCP-powered Intelligent Agents on the Federated KGQA Benchmark",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7170310865",
+  "doi": "10.18653/2026.emnlp-industry.202",
+  "title": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162412584",
+  "doi": "10.48550/arxiv.2605.24069",
+  "title": "When the Manual Lies: A Realistic Benchmark to Evaluate MCP Poisoning Attacks for LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414448307",
+  "doi": "10.48550/arxiv.2508.20453",
+  "title": "MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
+  "year": 2025,
+  "cites": 4
+ },
+ {
+  "id": "W7220973797",
+  "doi": "10.48550/arxiv.2610.09112",
+  "title": "GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155722575",
+  "doi": "10.5281/zenodo.19802051",
+  "title": "Sverklo: A Local-First Code Intelligence MCP Server and a Cross-Repository Software Engineering Benchmark",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7220734820",
+  "doi": "10.48550/arxiv.2610.04378",
+  "title": "COPEX: Benchmarking LLM Robustness to Adversarial Context Across Model Context Protocol (MCP) Layers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168204103",
+  "doi": "10.6084/m9.figshare.32978657",
+  "title": "Measuring the Defenders: A Layer-Aware, Framework-Mapped Benchmark for Model Context Protocol Security Proxies",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415948577",
+  "doi": "10.48550/arxiv.2510.15994",
+  "title": "MCP Security Bench (MSB): Benchmarking Attacks Against Model Context Protocol in LLM Agents",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7220358906",
+  "doi": "10.5281/zenodo.23164246",
+  "title": "ORACLE SQLCL MCP SERVER EVALUATION AND RESOURCE LIMITS",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7106284672",
+  "doi": "10.25776/7mb4-n620",
+  "title": "Behavioral Detection Methods for Automated MCP Server Vulnerability Assessment",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7221792944",
+  "doi": "10.5281/zenodo.23355410",
+  "title": "Tekmerion Spec 009 \u2014 claim bundle and assessment (MCP server)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7141313970",
+  "doi": "10.48550/arxiv.2603.24943",
+  "title": "FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168186069",
+  "doi": "10.5281/zenodo.21346206",
+  "title": "mcp-defense-bench: A Layer-Aware, Framework-Mapped Benchmark for Model Context Protocol Security Proxies",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155037513",
+  "doi": "10.1109/icassp55912.2026.11460653",
+  "title": "FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use Under the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7201975871",
+  "doi": "10.5281/zenodo.20771354",
+  "title": "Doctrinops evaluation harness: spec-driven compilation, hierarchical routing, and coverage-refusal benchmarks for a deployed MCP assistant",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160552414",
+  "doi": "10.5281/zenodo.20075238",
+  "title": "JacksonBeem/MCP-Benchmark: artifact-v2",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224199169",
+  "doi": "10.7910/dvn/kl4fxp",
+  "title": "LimeWire Open Research (DS-8): Model Context Protocol Multi-Agent File Exchange Telemetry Benchmark (N=180)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224238491",
+  "doi": "10.7910/dvn/vfckyt",
+  "title": "LimeWire Open Research (DS-8): Model Context Protocol Multi-Agent File Exchange Telemetry Benchmark (N=180)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7135075931",
+  "doi": "10.48550/arxiv.2603.10194",
+  "title": "MCP-in-SoS: Risk assessment framework for open-source MCP servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214485569",
+  "doi": "10.5281/zenodo.22983882",
+  "title": "Software Buyer France: sourced price benchmarks for custom software in France (Claude Code plugin and MCP server)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172412405",
+  "doi": "10.48550/arxiv.2608.00150",
+  "title": "Exposed by Design: A Dynamic Security Assessment of Internet-Facing MCP Servers at Scale",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165825465",
+  "doi": "",
+  "title": "Designing and Evaluating a Secure MCP Server for AI-Assisted Troubleshooting",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204988277",
+  "doi": "10.3997/2214-4609.202637158",
+  "title": "Design and evaluation of MCP-server for agentic reservoir simulation workflows",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172447353",
+  "doi": "10.48550/arxiv.2608.00181",
+  "title": "Cross-Benchmark Generalization in Long-Horizon Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214558571",
+  "doi": "10.5281/zenodo.23003715",
+  "title": "CieveMe/mcp-security-benchmark: v0.1.0 - MCP security benchmark: probe corpus, stdio harness, five scorecards",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7207828171",
+  "doi": "10.21203/rs.3.rs-10839605/v1",
+  "title": "Evidence Quality in Assurance-Oriented Benchmark Construction",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7159592310",
+  "doi": "10.5281/zenodo.19945162",
+  "title": "IDE-IPA-Railway: ALIVE Framework V2.0 MCP Server for Innovation-Driven Enterprise Assessment",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203561234",
+  "doi": "10.5281/zenodo.21941868",
+  "title": "MCP-MedImg: Model Weights, Training Logs, and Benchmark Dataset for PACS-AI Integration via Model Context Protocol (v2.0.0)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131395264",
+  "doi": "10.48550/arxiv.2602.18914",
+  "title": "From Docs to Descriptions: Smell-Aware Evaluation of MCP Server Descriptions",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214029560",
+  "doi": "10.18653/2026.findings-emnlp.1358",
+  "title": "MCPGen: Benchmarking LLMs on Executable MCP Workflow Development",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155490782",
+  "doi": "10.5281/zenodo.19736553",
+  "title": "AMQ-Bench: Agent-Oriented MCP Quality Benchmark",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168364632",
+  "doi": "10.1109/ichms69701.2026.11602360",
+  "title": "A Task-Based Benchmark for Model Context Protocol-Driven Geospatial Dataset Discovery: LLM Agents Vs Human Search",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155247600",
+  "doi": "",
+  "title": "AI-Assisted Organoid Image Analysis: Evaluating a Model Context Protocol (MCP) Server Against Traditional Pipeline in Traumatic Brain Injury (TBI) Research*",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134986759",
+  "doi": "10.1109/icdmw69685.2025.00147",
+  "title": "MISPerer: Evaluating LLM-Mediated Access to MISP via the Model Context Protocol",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7208735451",
+  "doi": "10.5281/zenodo.22305899",
+  "title": "MCP Servers in Agentic AI - Architecture, Adoption, and Security of the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7123678370",
+  "doi": "10.48550/arxiv.2601.07367",
+  "title": "FOCAL: A Novel Benchmarking Technique for Multi-modal Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134964671",
+  "doi": "10.1109/comsnets67989.2026.11418101",
+  "title": "FOCAL: A Novel Benchmarking Technique for Multi-modal Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415109628",
+  "doi": "10.1145/3814959",
+  "title": "Model Context Protocol (MCP) at First Glance: Studying the Security and Maintainability of MCP Servers",
+  "year": 2026,
+  "cites": 18
+ },
+ {
+  "id": "W7171644820",
+  "doi": "10.48550/arxiv.2607.25398",
+  "title": "HANDBOOK.md: A Benchmark for Long-Context Agentic Instruction Following",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414811953",
+  "doi": "10.1701/4573.45787",
+  "title": "Validazione clinica di un sistema Model Context Protocol per il supporto decisionale pediatrico: studio su casi benchmark",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7164350864",
+  "doi": "10.5281/zenodo.20646958",
+  "title": "The Model Context Protocol: An Integrated Framework for AI-Driven Vulnerability Risk Assessment",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167073644",
+  "doi": "10.20944/preprints202607.0009.v1",
+  "title": "Securing Model Context Protocol Servers: Security Assessment and a Lightweight Wrapper-Based Hardening Approach",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203795302",
+  "doi": "10.5281/zenodo.22018650",
+  "title": "InferBench: measured benchmarking of local LLM inference engines",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133226708",
+  "doi": "10.37082/ijirmps.v13.i6.232959",
+  "title": "Zero-Trust Security Frameworks for Model Context Protocol (MCP) Server Communications",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7157641882",
+  "doi": "10.25394/pgs.32105941",
+  "title": "Towards a System and Benchmark for Location-Aware Semantic Querying Using LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221803642",
+  "doi": "10.2139/ssrn.7611657",
+  "title": "GraFlag: A Distributed Platform for Reproducible Graph Anomaly Detection Benchmarking",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203725383",
+  "doi": "10.5281/zenodo.21990776",
+  "title": "theriac: Structural Detection and an Evasion-Robustness Evaluation for Tool Poisoning in the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7116867932",
+  "doi": "10.1109/siitme67657.2025.11293682",
+  "title": "Security Posture Evaluation of Model Context Protocol Servers Against Prompt Injection",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7212250487",
+  "doi": "10.1145/3822455.3830317",
+  "title": "Realizing a Model Context Protocol (MCP) Server for the Graphical Language Server Platform (GLSP)",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W7220994845",
+  "doi": "10.1145/3843782.3844662",
+  "title": "AgentChaosBench: Benchmarking External Fault Detection and Localization in Agentic Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214574604",
+  "doi": "10.18653/2026.findings-emnlp.1132",
+  "title": "RecToolBench: Benchmarking Recommendation-Specific Tool Orchestration under Fuzzy User Intent",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222306956",
+  "doi": "10.5753/sbseg_estendido.2026.33594",
+  "title": "AIaCGateGuard: A Security-First Pipeline for Benchmarking LLM- and SLM-Generated Infrastructure-as-Code",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165490581",
+  "doi": "10.5281/zenodo.20787540",
+  "title": "Whose Stranger Is It? Model-Side Trust Evaluation and Just-in-Time Consent for Dynamically-Discovered MCP Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4417134740",
+  "doi": "10.48550/arxiv.2506.07672",
+  "title": "MCPWorld: A Unified Benchmarking Testbed for API, GUI, and Hybrid Computer Use Agents",
+  "year": 2025,
+  "cites": 2
+ },
+ {
+  "id": "W7171633816",
+  "doi": "10.48550/arxiv.2607.25635",
+  "title": "An Empirical Study of Model Context Protocol Applications",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204590719",
+  "doi": "10.18653/2026.emnlp-industry.120",
+  "title": "Benchmarking AI Agents for Hardware Design Automation via MCP Tool Calling",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160511478",
+  "doi": "10.5281/zenodo.20069308",
+  "title": "EHDS-Compliant Open Linked Health Data Portal for Benchmarking Web AI Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7207781962",
+  "doi": "10.48550/arxiv.2609.02459",
+  "title": "CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7106326233",
+  "doi": "10.17632/csz5dzp7nx",
+  "title": "ASQ-PHI: An Adversarial Synthetic Benchmark for Clinical De-Identification and Search Utility",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7213609394",
+  "doi": "10.5281/zenodo.22835207",
+  "title": "Multimodal Information Synthesis for AI-Assisted Agricultural Field Assessment Using Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165627138",
+  "doi": "10.34726/hss.2026.137296",
+  "title": "Design and Implementation of a Model Context Protocol (MCP) Server for the Graphical Language Server Platform (GLSP)",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7161745479",
+  "doi": "10.48550/arxiv.2605.16909",
+  "title": "TOBench: A Task-Oriented Omni-Modal Benchmark for Real-World Tool-Using Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155038265",
+  "doi": "10.7910/dvn/mtmtpc",
+  "title": "AI Model Benchmarks & Pricing Dataset 2026: Performance and Economics of Large Language Models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224592967",
+  "doi": "10.18653/2026.findings-emnlp.341",
+  "title": "RealFin: Benchmarking Agent Workflow Orchestration Beyond MCP-Style Tool Connectivity",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7127135631",
+  "doi": "10.48550/arxiv.2601.23049",
+  "title": "MedMCP-Calc: Benchmarking LLMs for Realistic Medical Calculator Scenarios via MCP Integration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7117141286",
+  "doi": "10.48550/arxiv.2512.19432",
+  "title": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7158174352",
+  "doi": "10.1145/3805621.3807649",
+  "title": "OpenMCP: an open-source self-hosted benchmarking harness for MCP-enabled computer use agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168360047",
+  "doi": "10.48448/4rnx-vw46",
+  "title": "MedMCP-Calc: Benchmarking LLMs for Realistic Medical Calculator Scenarios via MCP Integration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168375394",
+  "doi": "10.48448/6pm5-am55",
+  "title": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155057586",
+  "doi": "10.17632/f7k4yp6v2m",
+  "title": "AI Model Benchmarks and Pricing Dataset 2026: Large Language Model Performance Survey",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416154366",
+  "doi": "10.62791/20494",
+  "title": "Towards secure agentic workflows: a MAESTRO-based assessment framework for Model Context Protocol and Agent-to-Agent Protocol",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7223997275",
+  "doi": "10.5281/zenodo.23697418",
+  "title": "Morpheus agent benchmark: code and scoring criteria for testing LLM agents that build multicellular models in Morpheus",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128815641",
+  "doi": "10.48550/arxiv.2602.11198",
+  "title": "Declarative by Design, Assistable Only by Convention: Benchmarking Multi-Agent Frameworks for AI-Assistability",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7220741475",
+  "doi": "10.48550/arxiv.2610.05124",
+  "title": "Memory Canonicalization: A Framework and Benchmark for Cross-Model Drift in Persistent LLM Memory",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7124320829",
+  "doi": "10.48550/arxiv.2601.09393",
+  "title": "AI-NativeBench: An Open-Source White-Box Agentic Benchmark Suite for AI-Native Systems",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W7222994056",
+  "doi": "10.1093/bioinformatics/btag788",
+  "title": "ct-validation: an open framework for benchmarking target-indication evidence against clinical trial outcomes",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128781944",
+  "doi": "10.55277/researchhub.6ou1w3h3",
+  "title": "A Multi-Agent MCP Server for Cross-Modal Biomedical Embedding Alignment Evaluated on Tumor Microenvironment Characterization",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204966557",
+  "doi": "10.24433/co.6645952.v1",
+  "title": "Control-Plane-Optional Authorization for AI Agents on Industrial MCP Servers: Design, Retrofit, and Measured Evaluation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167464647",
+  "doi": "10.1145/3821576",
+  "title": "AI-NativeBench: An Open-Source White-Box Agentic Benchmark Suite for AI-Native Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213593540",
+  "doi": "10.5281/zenodo.22833797",
+  "title": "Less Context, Better Plans: Evaluating Tool Exposure Strategies in an MCP Server for GNSS Data Acquisition",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212274574",
+  "doi": "10.1016/j.softx.2026.103020",
+  "title": "OpenStudio-MCP: a model context protocol (MCP) server for AI agent-driven building energy modeling with the OpenStudio SDK",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163173740",
+  "doi": "10.48550/arxiv.2606.02470",
+  "title": "MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221675509",
+  "doi": "10.5281/zenodo.23334714",
+  "title": "Unreachable Oracles: Auditing Ground-Truth Derivability in a Synthetic Tool-Drift Benchmark for LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223724756",
+  "doi": "10.5281/zenodo.20834508",
+  "title": "Persistent memory for AI coding agents: a pre-registered SWE-bench Verified benchmark",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7201878474",
+  "doi": "10.5281/zenodo.21831187",
+  "title": "GreenCalculus \u2014 UK Domestic Energy Benchmarks by Dwelling Type, EPC Band & Floor Area (NEED)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223148365",
+  "doi": "10.5753/sbseg.2026.28936",
+  "title": "Data Exfiltration in Model Context Protocol (MCP)-Based Intelligent Agents: An Evaluation of Prompt Injection Vectors",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161965235",
+  "doi": "10.5281/zenodo.20331838",
+  "title": "Space Atlas: Phase I scaffold and LEO benchmark for the Nervous Machine causal-learning framework",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214012534",
+  "doi": "10.48550/arxiv.2609.23695",
+  "title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161046432",
+  "doi": "10.71443/er.ar17",
+  "title": "Model Context Protocol (MCP) Server for Multi-Agent AI Assistants with Persistent Memory: An Integrated Framework for Automated Workflow Management",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7106712151",
+  "doi": "10.48550/arxiv.2511.17729",
+  "title": "M^3-Bench: Multi-Modal, Multi-Hop, Multi-Threaded Tool-Using MLLM Agent Benchmark",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7166724583",
+  "doi": "10.48550/arxiv.2606.29073",
+  "title": "From Tool Connection to Execution Control: Benchmarking Security Invariants in MCP-Style Agent Runtimes",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7140171081",
+  "doi": "10.1016/j.procs.2026.03.046",
+  "title": "Evaluating Model Context Protocol in the context of a Conversational Agent supporting an Agro-Food Blockchain Logistics Platform",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7155702366",
+  "doi": "10.5281/zenodo.19784777",
+  "title": "ContextForge: Architecture-First Persistent Agentic Memory via Model Context Protocol \u2014 Multi-Trigger OR-Gate Security, OR-Set CRDT Sync, Tri-Core Failover, Differential Context Injection, Recency-Weighted Retrieval, and a Memory Quality Benchmark",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166718549",
+  "doi": "10.5281/zenodo.21081172",
+  "title": "Software Supply Chain Hygiene of Model Context Protocol Servers: An Empirical Study",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166594869",
+  "doi": "10.18494/sam6058",
+  "title": "Graphiti Model Context Protocol Server: Implementation and Performance Evaluation of a Knowledge-graph-based AI Code Intelligence Framework",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214673930",
+  "doi": "10.5281/zenodo.23017196",
+  "title": "MANNA v0.10.0 evaluation results: tool use and value comparison of an IVOA archive MCP server across four language models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163673171",
+  "doi": "10.5281/zenodo.20563165",
+  "title": "Space Atlas: Phase I scaffold and GEO benchmark for the Nervous Machine causal-learning framework",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212317572",
+  "doi": "10.48550/arxiv.2609.10962",
+  "title": "What a Random Draw from the MCP Registry Contains, and What Tool-Use Benchmarks Contain Instead",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163695763",
+  "doi": "10.5281/zenodo.20563380",
+  "title": "Space Atlas: Phase I scaffold and Mars benchmark for the Nervous Machine causal-learning framework",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212019791",
+  "doi": "10.48550/arxiv.2609.07288",
+  "title": "How Long Until Your Robot Ignores You? A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414742210",
+  "doi": "10.48550/arxiv.2509.15957",
+  "title": "EHR-MCP: Real-world Evaluation of Clinical Information Retrieval by Large Language Models via Model Context Protocol",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7163702566",
+  "doi": "10.5281/zenodo.20563337",
+  "title": "Space Atlas: Phase I scaffold and cislunar benchmark for the Nervous Machine causal-learning framework",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222925956",
+  "doi": "10.5281/zenodo.23473572",
+  "title": "Polish companies in the National Court Register (KRS): financial benchmarks by PKD division, 2023-2025",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213252319",
+  "doi": "10.1145/3847119",
+  "title": "Understanding Bugs in Model Context Protocol Development Frameworks: An Empirical Study",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171997709",
+  "doi": "10.1109/cloudsummit68932.2026.00009",
+  "title": "Dynamic Prompt Routing via Model Context Protocol: Evaluating LLM-Based Template Selection for Content Safety",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168383096",
+  "doi": "10.5281/zenodo.21370416",
+  "title": "An Empirical Study of MCP Server Security: 6 Attack Surfaces from 30+ Audits",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7140294779",
+  "doi": "10.1016/j.buildenv.2026.114553",
+  "title": "Large language model orchestrated workflow integrating retrieval-augmented generation and model context protocol tools for urban-scale simulation-based resilience assessment",
+  "year": 2026,
+  "cites": 6
+ },
+ {
+  "id": "W7223776529",
+  "doi": "10.5281/zenodo.21851991",
+  "title": "mcp-vs-cli-bench: an open benchmark for MCP versus CLI tool use across agent scaffoldings and models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168259849",
+  "doi": "10.1109/ojits.2026.3713296",
+  "title": "\u03b1 3 -Bench: A Unified Benchmark of Safety, Robustness, and Efficiency for LLM-Based UAV Agents Over 6G Networks",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W7224326617",
+  "doi": "10.5281/zenodo.23756778",
+  "title": "LimeWire Open Research Dataset (DS-3): limewire-generative-ai-models-benchmark-2026 (350 Empirical Records)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155105389",
+  "doi": "10.48550/arxiv.2604.17125",
+  "title": "Evaluating a Layered Prompt-Injection Defence for the Model Context Protocol: A Record-Level Audit of Decision Conventions, Corpus Provenance and Reproducibility",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166358725",
+  "doi": "10.1007/978-3-032-29760-0_34",
+  "title": "Minimizing Data Exposure in Higher Education LLM Applications: Evaluating the Model Context Protocol (MCP) for Preserving Privacy in Academic Advising",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224493305",
+  "doi": "10.5281/zenodo.23756791",
+  "title": "LimeWire Open Research Dataset (DS-8): limewire-mcp-multi-agent-file-exchange-benchmark-2026 (180 Empirical Records)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203499782",
+  "doi": "10.2139/ssrn.7264339",
+  "title": "Code-Generated Tool Orchestration versus Native Function Calling in Stateful Business Workflows: A Multi-Model Benchmark Study",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162541106",
+  "doi": "10.5281/zenodo.20402715",
+  "title": "The Agent-Ecosystem Attestation Gap: An Empirical Study of Public MCP-Server and Agent-Framework Documentation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7219965629",
+  "doi": "",
+  "title": "Freie Titel\u00fcbersetzung: How secure is your AI agent? Security Analysis of Model Context Protocol (MCP) Servers with and without Web Application Firewalls (WAFs)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224258440",
+  "doi": "10.5281/zenodo.23756788",
+  "title": "LimeWire Open Research Dataset (DS-7): limewire-edtech-zero-install-browser-lab-benchmark-2026 (200 Empirical Records)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155709441",
+  "doi": "10.5281/zenodo.19798465",
+  "title": "EB MCP Server \u2014 Pre-Registration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172311791",
+  "doi": "10.5281/zenodo.21752924",
+  "title": "Replication Package for Understanding Bugs in Model Context Protocol Development Frameworks: An Empirical Study",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7223736339",
+  "doi": "10.5281/zenodo.23584922",
+  "title": "GeoAI-GWFM-KR v1.0: a Chronos-2 adapter for groundwater-level forecasting at Korean monitoring wells, with code, benchmark and technical notes",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161526192",
+  "doi": "",
+  "title": "AI-Assisted Data Engineering Workflows Using Model Context Protocol (Mcp), Evaluated Through A Real-World Marketplace Analytics Case Study",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7203839682",
+  "doi": "10.5120/ijcae10508249e55",
+  "title": "Benchmarking LLM Tool Orchestration in Resource-Constrained Agentic Workflows: Native MCP Function Calling vs Code Mode",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167478998",
+  "doi": "10.12688/openreseurope.24195.1",
+  "title": "Digital Passport Model Assessment Workbench: SHACL-based assessment, use-case coverage, and integration guidance for digital passport model ecosystems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214669594",
+  "doi": "10.57760/sciencedb.013wx",
+  "title": "Replication package: the MCP server ecosystem",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7130335043",
+  "doi": "10.1109/access.2026.3665894",
+  "title": "A Critical Review and Evaluation of LLMs for RTL Generation",
+  "year": 2026,
+  "cites": 6
+ },
+ {
+  "id": "W4416550611",
+  "doi": "10.26434/chemrxiv-2025-tsx5s",
+  "title": "The Chemprop Model Context Protocol",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7224226857",
+  "doi": "10.7910/dvn/rzoowh",
+  "title": "LimeWire Open Research (DS-3): limewire-generative-ai-models-benchmark-2026 (350 Empirical Records) & Companion Monograph (LW-VOL-2026-05)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223549849",
+  "doi": "10.21203/rs.3.rs-11503453/v1",
+  "title": "PyPI API Drift: A Release-Level Record of Public API Changes in 1,872 Popular Python Libraries, with a Checker and a Benchmark for Version-Aware Code Generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212024837",
+  "doi": "10.48550/arxiv.2609.07370",
+  "title": "Beyond Fluent Generation: A CPU Reliability Benchmark for MCP-Style Tool Calling in Sub-2B Small Language Models for Edge Deployment",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212972005",
+  "doi": "10.21949/r52z-r306",
+  "title": "Artificial Intelligence (AI) for Integrated Safety Assessment Model (ISAM)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7140212682",
+  "doi": "10.48550/arxiv.2603.21641",
+  "title": "Auditing MCP Servers for Over-Privileged Tool Capabilities",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223876199",
+  "doi": "10.6084/m9.figshare.34817745",
+  "title": "SCOPe knowledgebase: source code, research-agent skills, skill benchmarks and agent transcript for the 2026 Nucleic Acids Research article (release 2026-10-27)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221049902",
+  "doi": "10.48550/arxiv.2610.07937",
+  "title": "Leveraging a four-quadrant approach for evaluating Redpine Science",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7143321693",
+  "doi": "10.1109/emergin67762.2025.11450575",
+  "title": "A Comprehensive Study and Implementation of Agentic AI via MCP Servers",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7214245999",
+  "doi": "10.18653/2026.emnlp-main.1653",
+  "title": "Evaluating Coding Agents on Kernel Exploit Generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160995402",
+  "doi": "10.48550/arxiv.2605.11053",
+  "title": "Content-Aware Attack Detection in LLM Agent Tool-Call Traffic: An Empirical Study of Features, Architectures, and Evaluation Protocols",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160966738",
+  "doi": "10.48550/arxiv.2605.09817",
+  "title": "Evaluating Tool Cloning in Agentic-AI Ecosystems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223191260",
+  "doi": "",
+  "title": "Exposing faust applications to ai through mcp servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415309747",
+  "doi": "10.48550/arxiv.2507.12806",
+  "title": "MCPEval: Automatic MCP-based Deep Evaluation for AI Agent Models",
+  "year": 2025,
+  "cites": 2
+ },
+ {
+  "id": "W7222937308",
+  "doi": "10.1007/978-3-032-34571-4_5",
+  "title": "Developing AI-Based Applications Using MCP Server and Its Performance Analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415981619",
+  "doi": "10.1016/j.addlet.2026.100355",
+  "title": "Agentic additive manufacturing alloy evaluation",
+  "year": 2026,
+  "cites": 4
+ },
+ {
+  "id": "W4414581710",
+  "doi": "10.48550/arxiv.2505.18829",
+  "title": "LiteCUA: Computer as MCP Server for Computer-Use Agent on AIOS",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7162995373",
+  "doi": "10.1109/cai68641.2026.11536236",
+  "title": "HumanMCP: A Human-Like Query Dataset for Evaluating MCP Tool Retrieval Performance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168242016",
+  "doi": "10.5281/zenodo.21347998",
+  "title": "mcp-probe: a conformance and reliability checker for Model Context Protocol servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166743909",
+  "doi": "10.48550/arxiv.2606.30317",
+  "title": "MCP Server Architecture Patterns for LLM-Integrated Applications",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133216568",
+  "doi": "10.48550/arxiv.2602.23367",
+  "title": "HumanMCP: A Human-Like Query Dataset for Evaluating MCP Tool Retrieval Performance",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7223443830",
+  "doi": "10.1016/j.cosrev.2026.101083",
+  "title": "Agentic and generative AI for intelligent autonomous vulnerability assessment and penetration testing: A systematic analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154543947",
+  "doi": "10.2139/ssrn.7442278",
+  "title": "Agentic and Generative AI for Intelligent Autonomous Vulnerability Assessment and Penetration Testing: A Systematic Analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168128640",
+  "doi": "10.2991/978-94-6239-723-1_14",
+  "title": "A Survey on Model Context Protocol (MCP) in System Calls",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167912698",
+  "doi": "10.1145/3805712.3809582",
+  "title": "MCP-Focus: Leveraging Function-Oriented Document Enhancement for MCP Server Retrieval",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7117548899",
+  "doi": "10.1109/icoait67446.2025.11308830",
+  "title": "The Missing S: Securing the Model Context Protocol",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7105096485",
+  "doi": "10.48550/arxiv.2511.05867",
+  "title": "Can LLM Infer Risk Information From MCP Server System Logs?",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7161955865",
+  "doi": "10.2139/ssrn.6804400",
+  "title": "Agentic and Generative AI for Intelligent Autonomous Vulnerability Assessment and Penetration Testing: A Systematic Analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221546799",
+  "doi": "10.48550/arxiv.2610.13623",
+  "title": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128522356",
+  "doi": "10.1016/j.ins.2026.123231",
+  "title": "Bridging AI and software security: A comparative vulnerability assessment of LLM agent deployment paradigms",
+  "year": 2026,
+  "cites": 10
+ },
+ {
+  "id": "W7224117704",
+  "doi": "10.25080/wwjp7762",
+  "title": "Vibes, meet rigor: Evaluating and improving AI performance on complex scientific code",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7106789438",
+  "doi": "10.48448/48hc-q915",
+  "title": "MCPEval: Automatic MCP-based Deep Evaluation for AI Agent Models",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7222925447",
+  "doi": "10.48550/arxiv.2610.23449",
+  "title": "GatewayBench: Unified Capability and Security Evaluation Platform for MCP Gateways",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224560802",
+  "doi": "10.7910/dvn/jtbx3l",
+  "title": "LimeWire Open Research (DS-7): limewire-edtech-zero-install-browser-lab-benchmark-2026 (200 Empirical Records) & Companion Monograph (LW-VOL-2026-14-ERIC)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7216631641",
+  "doi": "",
+  "title": "An Agentic Framework for Real-Time Root Cause Analysis in Kubernetes via the Model Context Protocol - Designing and Evaluating an MCP-Grounded LLM Agent for Kubernetes Incident Triage in a ChatOps Environment",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214201131",
+  "doi": "10.20935/acadai8542",
+  "title": "Generative AI and LLMs in educational assessment: challenges, evidence, and a process-based framework",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172217606",
+  "doi": "10.1016/j.infsof.2026.108288",
+  "title": "A focused survey of code agent security: Attacks, defenses, and evaluation",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7160539043",
+  "doi": "10.48550/arxiv.2605.04785",
+  "title": "AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214288519",
+  "doi": "10.5281/zenodo.22960633",
+  "title": "SDC-MCP Gateway: Software and Evaluation Artifacts",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223063631",
+  "doi": "10.1145/3829216.3829296",
+  "title": "Sensor Data Reliability Assessment for Safe LLM Control of Cyber-Physical Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204186174",
+  "doi": "10.48550/arxiv.2608.22063",
+  "title": "From SQL Generation to Tool Selection: A Domain-Oriented Pattern for MCP Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202060797",
+  "doi": "",
+  "title": "Performance Assessment of AI-Driven Agents in 5G Networks for Goal-Oriented Communications",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160381599",
+  "doi": "10.14459/2026md1851873",
+  "title": "A Modular Reference Architecture for MCP-Servers Enabling Agentic BIM Interaction",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7125786319",
+  "doi": "10.1007/978-3-032-15632-7_2",
+  "title": "ScaleMCP: Dynamic and Auto-synchronizing Model Context Protocol Tools for LLM Agents",
+  "year": 2026,
+  "cites": 8
+ },
+ {
+  "id": "W7169504086",
+  "doi": "10.48550/arxiv.2607.14158",
+  "title": "Orchestrating Power Grid Studies with Multi-Agent AI and MCP Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167934974",
+  "doi": "10.1145/3805712.3808376",
+  "title": "MCP Servers for Pyserini and RankLLM: Enabling Agentic Retrieval-Augmented Generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163218029",
+  "doi": "10.1109/icaiset66439.2026.11541711",
+  "title": "Beyond Agent Design: A Systematic Framework for MCP Server Runtime Orchestration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162632099",
+  "doi": "10.48550/arxiv.2605.28148",
+  "title": "DeltaMCP: Incremental Regeneration via Spec-Aware Transformation for MCP servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133209403",
+  "doi": "10.5281/zenodo.18832505",
+  "title": "Chatten mit 2500 Jahren Dramengeschichte. Der DraCor MCP Server",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416063093",
+  "doi": "10.48550/arxiv.2507.06323",
+  "title": "Bridging AI and Software Security: A Comparative Vulnerability Assessment of LLM Agent Deployment Paradigms",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7164347669",
+  "doi": "10.1117/12.3095201",
+  "title": "Activity intelligence: evaluating tool-augmented language models for maritime AIS analysis",
+  "year": 2026,
+  "cites": 0
+ }
+]

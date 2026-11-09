@@ -1,0 +1,232 @@
+[
+ {
+  "id": "2411.03205v4",
+  "title": "GIS Copilot: Towards an Autonomous GIS Agent for Spatial Analysis",
+  "published": "2024-11-05"
+ },
+ {
+  "id": "2509.08863v3",
+  "title": "GeoJSON Agents:A Multi-Agent LLM Architecture for Geospatial Analysis-Function Calling vs Code Generation",
+  "published": "2025-09-10"
+ },
+ {
+  "id": "2604.13888v1",
+  "title": "GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis",
+  "published": "2026-04-15"
+ },
+ {
+  "id": "2606.12821v2",
+  "title": "GeoNatureAgent Benchmark: Benchmarking LLM Agents for Environmental Geospatial Analysis Across Frontier and Open-Weight Foundation Models",
+  "published": "2026-06-11"
+ },
+ {
+  "id": "2504.04319v1",
+  "title": "Geo-OLM: Enabling Sustainable Earth Observation Studies with Cost-Efficient Open Language Models &amp; State-Driven Workflows",
+  "published": "2025-04-06"
+ },
+ {
+  "id": "2503.18129v2",
+  "title": "GeoBenchX: Benchmarking LLMs in Agent Solving Multistep Geospatial Tasks",
+  "published": "2025-03-23"
+ },
+ {
+  "id": "2606.13148v2",
+  "title": "TerraBench: Can Agents Reason Over Heterogeneous Earth-System Data?",
+  "published": "2026-06-11"
+ },
+ {
+  "id": "2508.04719v1",
+  "title": "GeoFlow: Agentic Workflow Automation for Geospatial Tasks",
+  "published": "2025-08-05"
+ },
+ {
+  "id": "2509.05933v2",
+  "title": "MapAgent: A Hierarchical Agent for Geospatial Reasoning with Dynamic Map Tool Integration",
+  "published": "2025-09-07"
+ },
+ {
+  "id": "2411.10753v1",
+  "title": "Chain-of-Programming (CoP) : Empowering Large Language Models for Geospatial Code Generation",
+  "published": "2024-11-16"
+ },
+ {
+  "id": "2607.12497v1",
+  "title": "TerraLogic: A Benchmark for Hierarchical Geospatial Reasoning in Earth Observation",
+  "published": "2026-07-14"
+ },
+ {
+  "id": "2507.20553v1",
+  "title": "GeoJSEval: An Automated Evaluation Framework for Large Language Models on JavaScript-Based Geospatial Computation and Visualization Code Generation",
+  "published": "2025-07-28"
+ },
+ {
+  "id": "2602.17665v4",
+  "title": "OpenEarthAgent: A Unified Framework for Tool-Augmented Geospatial Agents",
+  "published": "2026-02-19"
+ },
+ {
+  "id": "2412.05587v2",
+  "title": "GEE-OPs: An Operator Knowledge Base for Geospatial Code Generation on the Google Earth Engine Platform Powered by Large Language Models",
+  "published": "2024-12-07"
+ },
+ {
+  "id": "2505.12900v1",
+  "title": "AutoGEEval: A Multimodal and Automated Framework for Geospatial Code Generation on GEE with Large Language Models",
+  "published": "2025-05-19"
+ },
+ {
+  "id": "2610.09112v1",
+  "title": "GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks",
+  "published": "2026-10-06"
+ },
+ {
+  "id": "2606.17246v1",
+  "title": "GeoDisaster: Benchmarking Orchestrated Agents for Operational Disaster Geo-Intelligence",
+  "published": "2026-06-15"
+ },
+ {
+  "id": "2506.11781v1",
+  "title": "GeoPandas-AI: A Smart Class Bringing LLM as Stateful AI Code Assistant",
+  "published": "2025-06-13"
+ },
+ {
+  "id": "2508.08266v2",
+  "title": "Benchmarking Large Language Models for Geolocating Colonial Virginia Land Grants",
+  "published": "2025-07-27"
+ },
+ {
+  "id": "2606.00042v1",
+  "title": "TransResAI: A Compound AI System for Coastal Transportation Resilience",
+  "published": "2026-04-28"
+ },
+ {
+  "id": "2604.24919v3",
+  "title": "Agentic AI for Remote Sensing: Technical Challenges and Research Directions",
+  "published": "2026-04-27"
+ },
+ {
+  "id": "2502.08756v1",
+  "title": "From PowerPoint UI Sketches to Web-Based Applications: Pattern-Driven Code Generation for GIS Dashboard Development Using Knowledge-Augmented LLMs, Context-Aware Visual Prompting, and the React Framework",
+  "published": "2025-02-12"
+ },
+ {
+  "id": "2506.10365v1",
+  "title": "AutoGEEval++: A Multi-Level and Multi-Geospatial-Modality Automated Evaluation Framework for Large Language Models in Geospatial Code Generation on Google Earth Engine",
+  "published": "2025-06-12"
+ },
+ {
+  "id": "2604.12306v3",
+  "title": "GCA Framework: A GCC Countries-Grounded Dataset and Agentic Pipeline for Climate Decision Support",
+  "published": "2026-04-14"
+ },
+ {
+  "id": "2605.24784v1",
+  "title": "GRAIL: AI translation for scientists application workflow on satellite data",
+  "published": "2026-05-23"
+ },
+ {
+  "id": "2609.13667v2",
+  "title": "GeoSkill:Experience-Driven Hierarchical Skill Learning with Collaborative Revision forGeospatialAgents",
+  "published": "2026-09-12"
+ },
+ {
+  "id": "2607.25993v1",
+  "title": "Beyond Zooming: Learning Multi-Tool Visual Reasoning for Ultra-High-Resolution Remote Sensing",
+  "published": "2026-07-28"
+ },
+ {
+  "id": "2602.16105v1",
+  "title": "GPSBench: Do Large Language Models Understand GPS Coordinates?",
+  "published": "2026-02-18"
+ },
+ {
+  "id": "2604.08896v1",
+  "title": "GeoMMBench and GeoMMAgent: Toward Expert-Level Multimodal Intelligence in Geoscience and Remote Sensing",
+  "published": "2026-04-10"
+ },
+ {
+  "id": "2511.20656v1",
+  "title": "Context-Aware Visual Prompting: Automating Geospatial Web Dashboards with Large Language Models and Agent Self-Validation for Decision Support",
+  "published": "2025-10-10"
+ },
+ {
+  "id": "2411.15758v1",
+  "title": "Decoding Urban Industrial Complexity: Enhancing Knowledge-Driven Insights via IndustryScopeGPT",
+  "published": "2024-11-24"
+ },
+ {
+  "id": "2608.25039v1",
+  "title": "LifePlanner: Evaluating LLM Agents for Geo-spatial Planning with Social Media Data",
+  "published": "2026-08-25"
+ },
+ {
+  "id": "2602.00012v3",
+  "title": "OGD4All: A Framework for Accessible Interaction with Geospatial Open Government Data Based on Large Language Models",
+  "published": "2025-11-30"
+ },
+ {
+  "id": "2606.25647v3",
+  "title": "Smallholder Farmers on Remote Islands Receiving Retrieval-Grounded Multilingual LLM Assistance and Agronomic Advice",
+  "published": "2026-06-24"
+ },
+ {
+  "id": "2608.10494v1",
+  "title": "GeoForge: Non-Parametric Self-Evolving Agents for Earth-Observation Reasoning",
+  "published": "2026-08-11"
+ },
+ {
+  "id": "2605.11633v2",
+  "title": "Can LLM Agents Respond to Disasters? Benchmarking Heterogeneous Geospatial Reasoning in Emergency Operations",
+  "published": "2026-05-12"
+ },
+ {
+  "id": "2610.14382v1",
+  "title": "ANASSA: From High-Level Framework to Low-Level Architecture for Spatial Agentic AI",
+  "published": "2026-10-09"
+ },
+ {
+  "id": "2605.01250v1",
+  "title": "EO-Gym: A Multimodal, Interactive Environment for Earth Observation Agents",
+  "published": "2026-05-02"
+ },
+ {
+  "id": "2504.19678v2",
+  "title": "From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review",
+  "published": "2025-04-28"
+ },
+ {
+  "id": "2608.03882v1",
+  "title": "MultiGlobeQA: A Multilingual and Globally Diverse Benchmark for Geospatial Reasoning",
+  "published": "2026-08-04"
+ },
+ {
+  "id": "2610.18789v1",
+  "title": "Trust Before Autonomy: Rethinking Agentic Remote Sensing for Crisis Response",
+  "published": "2026-10-13"
+ },
+ {
+  "id": "2602.15325v1",
+  "title": "AgriWorld:A World Tools Protocol Framework for Verifiable Agricultural Reasoning with Code-Executing LLM Agents",
+  "published": "2026-02-17"
+ },
+ {
+  "id": "2609.22258v1",
+  "title": "RS-Claw-Evolution: Environment-Feedback-Driven Evolution for Lightweight Remote Sensing Agents in Long-Horizon Tasks",
+  "published": "2026-09-06"
+ },
+ {
+  "id": "2511.15705v2",
+  "title": "GeoVista: Web-Augmented Agentic Visual Reasoning for Geolocalization",
+  "published": "2025-11-19"
+ },
+ {
+  "id": "2602.00117v1",
+  "title": "IC-EO: Interpretable Code-based assistant for Earth Observation",
+  "published": "2026-01-27"
+ },
+ {
+  "id": "2604.01647v2",
+  "title": "Exploring Robust Multi-Agent Workflows for Environmental Data Management",
+  "published": "2026-04-02"
+ }
+]

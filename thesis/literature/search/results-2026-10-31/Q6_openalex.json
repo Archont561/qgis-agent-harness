@@ -1,0 +1,1402 @@
+[
+ {
+  "id": "W7160529509",
+  "doi": "10.48550/arxiv.2605.04107",
+  "title": "TSCG: Deterministic Tool-Schema Compilation for Agentic LLM Deployments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125508813",
+  "doi": "10.48550/arxiv.2601.15322",
+  "title": "Replayable Financial Agents: A Determinism-Faithfulness Assurance Harness for Tool-Using LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204561073",
+  "doi": "10.48550/arxiv.2608.26114",
+  "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165495776",
+  "doi": "10.5281/zenodo.20779116",
+  "title": "A deterministic safety interceptor for tool-using LLM agents in the Model Context Protocol (code and data)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222349432",
+  "doi": "10.5753/sbseg_estendido.2026.29812",
+  "title": "Who Guards the Guard? Evaluating Deterministic, LLM-Based, and Hybrid Firewalls for Tool-Using Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213285955",
+  "doi": "10.2139/ssrn.7453679",
+  "title": "ProcAgent: An LLM Agent Framework for Automated Chemical Process Simulation via Deterministic Tool Orchestration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166096992",
+  "doi": "10.48550/arxiv.2606.26924",
+  "title": "A Deterministic Control Plane for LLM Coding Agents",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7222933069",
+  "doi": "10.48550/arxiv.2610.22528",
+  "title": "ForTress: Bringing Assurance and Determinism for LLM-Driven Fortran-to-Python Translation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4410552987",
+  "doi": "10.1109/saner64311.2025.00090",
+  "title": "MDRE-LLM: A Tool for Analyzing and Applying LLMs in Software Reverse Engineering",
+  "year": 2025,
+  "cites": 13
+ },
+ {
+  "id": "W7167418478",
+  "doi": "10.1145/3805760.3814891",
+  "title": "Deterministic vs. LLM-Controlled Orchestration for COBOL-to-Python Modernization",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160375774",
+  "doi": "10.48550/arxiv.2605.03227",
+  "title": "Evaluating Prompting and Execution-Based Methods for Deterministic Computation in LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161142998",
+  "doi": "10.48550/arxiv.2605.13245",
+  "title": "It's not the Language Model, it's the Tool: Deterministic Mediation for Scientific Workflows",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165644528",
+  "doi": "10.48550/arxiv.2606.22737",
+  "title": "GroundEval: A Deterministic Replacement for LLM-as-Judge in Stateful Agent Evaluation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7152094969",
+  "doi": "10.48550/arxiv.2604.05150",
+  "title": "Compiled AI: Deterministic Code Generation for LLM-Based Workflow Automation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167796025",
+  "doi": "10.48550/arxiv.2607.07405",
+  "title": "Reason Less, Verify More: Deterministic Gates Recover a Silent Policy-Violation Failure Mode in Tool-Using LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212296748",
+  "doi": "10.5281/zenodo.22712255",
+  "title": "Deterministic Auditing of Retrieval-Augmented Generation Pipelines in Healthcare LLM Deployments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169682501",
+  "doi": "10.5281/zenodo.21435110",
+  "title": "State-Control Architecture: Deterministic Context Management for LLM Agent Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162086324",
+  "doi": "10.48550/arxiv.2605.22166",
+  "title": "Adapting the Interface, Not the Model: Runtime Harness Adaptation for Deterministic LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7130585238",
+  "doi": "10.1109/fllm67465.2025.11390934",
+  "title": "AI-Assisted Strategic Intelligence: A Hybrid Approach Using LLMs and Deterministic Methods",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7124455383",
+  "doi": "10.48550/arxiv.2601.10112",
+  "title": "Repository Intelligence Graph: Deterministic Architectural Map for LLM Code Assistants",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212841669",
+  "doi": "10.5281/zenodo.22743667",
+  "title": "Beyond Prompt Engineering: A controlled Evaluation of Deterministic Guardrails in a Transactional LLM Agent",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214361333",
+  "doi": "10.5281/zenodo.22957164",
+  "title": "Do Multi-Agent LLM Systems Actually Help? A Controlled Evaluation of Single-Agent, LLM-Orchestrated, and Deterministically Orchestrated Architectures",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4408816011",
+  "doi": "10.2139/ssrn.5111263",
+  "title": "Toward Self-Correcting Hybrid AI Systems: Integrating LLMs with Deterministic Classical Systems",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7164035786",
+  "doi": "10.48550/arxiv.2606.09500",
+  "title": "Deterministic Integrity Gates for LLM-Assisted Clinical Manuscript Preparation: An Auditable Biomedical Informatics Architecture",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7207693075",
+  "doi": "10.48550/arxiv.2609.02246",
+  "title": "LLM-as-a-Judge Is Not an Oracle: Why Self-Improving Agents Need Deterministic Guardrails",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165559002",
+  "doi": "10.61413/qcir6462",
+  "title": "PIOAGENT: A HYBRID FINITE-STATE FRAMEWORK FOR DETERMINISTIC ORCHESTRATION OF LLM AGENTIC WORKFLOWS",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162858209",
+  "doi": "10.1093/jamiaopen/ooag085",
+  "title": "RxMap: an LLM-assisted tool for medication normalization",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162944051",
+  "doi": "10.5281/zenodo.20471003",
+  "title": "agent-convergence-scorer: behavioral convergence scoring for non-deterministic LLM agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214775227",
+  "doi": "10.48550/arxiv.2609.31687",
+  "title": "Verification of PETSc with CIVL using LLM-generated ACSL contracts and deterministic driver generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172499856",
+  "doi": "10.48550/arxiv.2608.02680",
+  "title": "TraceCompiler: Skill-Guided Mining and Compilation of LLM Agent Traces into Mostly Deterministic Workflows",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134972742",
+  "doi": "10.48550/arxiv.2603.08729",
+  "title": "Self-hosted Lecture-to-Quiz: Local LLM MCQ Generation with Deterministic Quality Control",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416877579",
+  "doi": "10.1681/asn.2025kvvv2xz9",
+  "title": "AnemiaCare HD: Achieving Protocol-Adherent Anemia Management in Hemodialysis Using a Deterministic Large Language Model (LLM) Framework",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7215764632",
+  "doi": "10.32996/jcsts.2025.7.5.114",
+  "title": "Reliability over Unfettered Autonomy: Advocating for Deterministic Orchestration in Large Language Model Tool Integration",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7224611080",
+  "doi": "10.5281/zenodo.23777863",
+  "title": "THANKS, BIG4 : On the Tool That Built the Critique, the Race That Produced the Tool, and the Next Step That Is Deterministic",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7220981333",
+  "doi": "10.48550/arxiv.2610.07359",
+  "title": "Evaluate the Stack, Not the Layer: Do Deterministic and LLM Gates for Agent Actions Fail Independently?",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131417262",
+  "doi": "10.1109/iitcee67948.2026.11394602",
+  "title": "Fusing Deterministic Caching and RAG-Enhanced LLM Inference for On-Device Conversational Command Execution",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414591465",
+  "doi": "10.48550/arxiv.2509.09705",
+  "title": "The Non-Determinism of Small LLMs: Evidence of Low Answer Consistency in Repetition Trials of Standard Multiple-Choice Benchmarks",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7208820203",
+  "doi": "10.34218/ijcet_17_05_001",
+  "title": "HYBRID LLM AND DETERMINISTIC SEVERITY ENGINE FOR NIST SP 800-53 COMPLIANCE DECISION SUPPORT",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134266318",
+  "doi": "10.15662/ijrpetm.2024.0701009",
+  "title": "From Deterministic Pipelines to Intelligent Orchestration: A Transformer-Driven Framework for LLM-Augmented DevOps Automation",
+  "year": 2024,
+  "cites": 0
+ },
+ {
+  "id": "W7221349615",
+  "doi": "10.1145/3822516.3834883",
+  "title": "Techn\u0113: A Deterministic Craft Layer for Model Context Protocol Servers, Grounded in LLM-Authored X3D",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221035857",
+  "doi": "10.5281/zenodo.23205905",
+  "title": "Declarative Pre-Invocation Context Assembly for LLM Agents: A JMESPath-Based Architecture for Deterministic Enterprise Context Fetching",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221128953",
+  "doi": "10.5281/zenodo.23225357",
+  "title": "task-allocation-runtime: allocating decisions across people, language models and deterministic tools",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7140284213",
+  "doi": "10.2139/ssrn.6195659",
+  "title": "The Modular Abstraction System (MAS): A Deterministic Cognitive Architecture for LLM Governance (Consolidated Master V5.0)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7129059263",
+  "doi": "10.82331/erts.2026.26",
+  "title": "On the challenges of responsible usage of LLM-based tools in safety engineering",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W7140216805",
+  "doi": "10.1109/icecet65726.2026.11632769",
+  "title": "The Causal Impact of Tool Affordance on Safety Alignment in LLM Agents",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7164044054",
+  "doi": "10.2139/ssrn.6906943",
+  "title": "When and why LLM agents match optimization on manufacturing decisions: a deterministic, optimally-referenced simulator",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7117892156",
+  "doi": "10.5281/zenodo.18108797",
+  "title": "Binary-Constructivist Constraint Framework (BCCF): Deterministic Kernel and Reference Tooling",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7172394771",
+  "doi": "10.48550/arxiv.2608.01050",
+  "title": "Don't Offer What Can't Be Done: Deterministic Executability Gating for LLM Skill Selection at Scale",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204969386",
+  "doi": "10.48550/arxiv.2608.30696",
+  "title": "Domain-Grounded Tool Orchestration for LLM-Guided Scientific Analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160298108",
+  "doi": "10.48550/arxiv.2605.02728",
+  "title": "ORPilot: A Production-Oriented Agentic LLM-for-OR Tool for Optimization Modeling",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167268030",
+  "doi": "10.1002/inst.70056",
+  "title": "Trustworthy AI for Quantitative Systems Engineering via Deterministic Delegation to Verified Tools",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7156768226",
+  "doi": "10.48550/arxiv.2604.24621",
+  "title": "Evaluation of LLM-Based Software Engineering Tools: Practices, Challenges, and Future Directions",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202165457",
+  "doi": "10.48550/arxiv.2608.09290",
+  "title": "OpenCodeReview: Determinism over Non-Determinism for Cost-Effective Agent-Based Code Review",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7132848729",
+  "doi": "10.5281/zenodo.18817324",
+  "title": "Deterministic Spiral-Time Execution Filtering for LLM-Assisted Legged Robots: A MuJoCo Quadruped Proof of Concept",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160130809",
+  "doi": "10.3390/app16094329",
+  "title": "A State-Aware Dual-Tool Architecture for Improved Tool Use in Multi-Turn LLM Dialogue",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7170148714",
+  "doi": "10.48550/arxiv.2607.19356",
+  "title": "NEXUS: Structured Runtime Safety for Tool-Using LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160417450",
+  "doi": "10.48550/arxiv.2605.03034",
+  "title": "Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213546035",
+  "doi": "10.1007/s10015-026-01152-3",
+  "title": "Bringing the Dual-LLM pattern to practice in Google ADK for deterministic AI agent security against prompt injection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7138825766",
+  "doi": "",
+  "title": "Geometric Constitutional AI: The Agentic Solid Swarm Architecture for Deterministic, ESG-Optimized LLM Governance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4411279332",
+  "doi": "10.1145/3699682.3728315",
+  "title": "LLMs and Emotional Intelligence: Evaluating Emotional Understanding Through Psychometric Tools",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7213905442",
+  "doi": "10.1108/rpj-03-2026-0148",
+  "title": "LLM-driven rapid prototyping of microfluidic devices: a deterministic Python-mediated framework for design, fabrication, and validation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131409669",
+  "doi": "10.48550/arxiv.2602.20669",
+  "title": "Integrating Domain-Specialized Language Models with AI Measurement Tools for Deterministic Atomic-Resolution Experimentation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224682175",
+  "doi": "10.18653/2026.realm-1.28",
+  "title": "ToolMisuseBench: An Offline Deterministic Benchmark for Tool Misuse and Recovery in Agentic Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162507256",
+  "doi": "10.3311/wins2026-007",
+  "title": "LLM-connected Tools to Support the Ergonomic Analysis of 5G Signalling Data",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221145542",
+  "doi": "10.66980/72xk2631",
+  "title": "Evaluating Agentic Architectures in Financial Computation: Eliminating Large Language Model Hallucinations through Deterministic Tool Integration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131435728",
+  "doi": "10.48550/arxiv.2602.20867",
+  "title": "SoK: Agentic Skills -- Beyond Tool Use in LLM Agents",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W7214974942",
+  "doi": "10.48550/arxiv.2609.37196",
+  "title": "ToolFence: Fine-Grained Authorization for Secure Tool-Using LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221421110",
+  "doi": "",
+  "title": "LibUp: a static analysis tool for LLM-assisted dependency updates",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160831949",
+  "doi": "10.48550/arxiv.2605.07926",
+  "title": "AgentEscapeBench: Evaluating Out-of-Domain Tool-Grounded Reasoning in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214749083",
+  "doi": "10.48550/arxiv.2609.31937",
+  "title": "VReAct: Verification as an Architectural Layer for LLM Agents: A V-Model Design, and a Pilot Study of Its Deterministic Core",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7138121684",
+  "doi": "10.48550/arxiv.2603.13404",
+  "title": "Schema First Tool APIs for LLM Agents: A Controlled Study of Tool Misuse, Recovery, and Budgeted Performance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223699440",
+  "doi": "10.21203/rs.3.rs-11312211/v1",
+  "title": "Allocating cognitive work across people, language models and deterministic tools: A task-analytic method",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162961808",
+  "doi": "",
+  "title": "From Query to Plot: Implementing a Tool-Based LLM Framework for ATLAS Analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133365492",
+  "doi": "",
+  "title": "Graph-Based Self-Healing Tool Routing for Cost-Efficient LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167889658",
+  "doi": "10.18653/2026.emnlp-industry.154",
+  "title": "Tool-Making and Self-Evolving LLM Agents in Low-Latency Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133318774",
+  "doi": "10.48550/arxiv.2603.01548",
+  "title": "Graph-Based Self-Healing Tool Routing for Cost-Efficient LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4412599021",
+  "doi": "10.1007/978-981-96-9872-1_42",
+  "title": "VulPelican: An LLM and Interactive Static Analysis Tool Based Vulnerability Detection Framework",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7211905923",
+  "doi": "10.48550/arxiv.2609.04629",
+  "title": "SiLR: Structure-Preserving Admission and Process Reward for LLM Tool Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7207681848",
+  "doi": "10.5281/zenodo.22280252",
+  "title": "ARVIS: A Runtime Assurance Kernel for LLM-Based Systems with Deterministic Replay and Pre-Registered Empirical Validation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7158294903",
+  "doi": "10.5281/zenodo.19875456",
+  "title": "AgentOps-Bench: A Reproducible Benchmark for Operational Evaluation of Tool-Using LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7152680363",
+  "doi": "10.48448/a3ch-av61",
+  "title": "From Intent to Action: Multi-Agent LLMs Coordinating Naval Planning Tools",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7206207072",
+  "doi": "10.48550/arxiv.2609.00227",
+  "title": "Don't Let the Model Write the YAML: Deterministic, Minimal-Diff GitOps Remediation from LLM-Proposed Field Changes",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160921447",
+  "doi": "10.48550/arxiv.2605.10787",
+  "title": "ComplexMCP: Evaluation of LLM Agents in Dynamic, Interdependent, and Large-Scale Tool Sandbox",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155713802",
+  "doi": "10.5281/zenodo.19795454",
+  "title": "TSCG - Token-Context Semantic Grammar Compiler for LLM Tool Schemas",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4402157666",
+  "doi": "10.1109/eurospw61312.2024.00054",
+  "title": "LLM in the Shell: Generative Honeypots",
+  "year": 2024,
+  "cites": 70
+ },
+ {
+  "id": "W7211964992",
+  "doi": "10.20944/preprints202609.0490.v1",
+  "title": "Evidence-Bound Factual Repair in Retrieval-Augmented LLM Answers: Separating Semantic Localization from Deterministic Realization",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213401953",
+  "doi": "10.24963/ijcai.2026/958",
+  "title": "LLM-to-Map: Transparent Conversational Tool Orchestration for Real-Time Multi-Domain Simulation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7215899205",
+  "doi": "10.48550/arxiv.2610.01508",
+  "title": "OverAct: Measuring and Mitigating Proactive Over-Authorization in LLM Tool-Calling Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221775368",
+  "doi": "10.5281/zenodo.23363803",
+  "title": "Automatic Action-Dependency Inference for Selective Revalidation of Tool-Using LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171705434",
+  "doi": "10.48550/arxiv.2607.25155",
+  "title": "VeraGrid-Agent: Tool-Augmented LLMs for Distribution Optimal Power Flow at the Grid Edge",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204230136",
+  "doi": "10.48550/arxiv.2608.23623",
+  "title": "When May an Agent Stop? Evidence-Carrying Termination for Tool-Using LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223676220",
+  "doi": "10.1093/eurheartj/ehag785.4379",
+  "title": "Physician-as-architect: clinician-led LLM-assisted development and deterministic verification of an ESC-aligned peri-operative decision support system",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161271879",
+  "doi": "10.5281/zenodo.20217695",
+  "title": "Orchestrated Inference: Structured Reasoning Through Tool Composition in VDR-LLM-Prolog",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7139935011",
+  "doi": "10.48550/arxiv.2603.18614",
+  "title": "ZEBRAARENA: A Diagnostic Simulation Environment for Studying Reasoning-Action Coupling in Tool-Augmented LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221100513",
+  "doi": "10.48550/arxiv.2610.11030",
+  "title": "NOMOS: Compiling Written Policies into Statically Verified Tool-Call Gates for LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224639087",
+  "doi": "10.18653/2026.emnlp-main.305",
+  "title": "From Agent Skills to Executable Environments: Frontier-Targeted Training for Tool-Use LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224157681",
+  "doi": "10.36948/ijfmr.2026.v08i05.90780",
+  "title": "Agentic AI Meets Deterministic Tooling: A Cost, Speed, and Reliability Analysis of Hybrid Automation for Software Engineering",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7114788792",
+  "doi": "10.48550/arxiv.2512.08242",
+  "title": "Chopper: A Multi-Level GPU Characterization Tool & Derived Insights Into LLM Training Inefficiency",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7134943364",
+  "doi": "10.1109/icdmw69685.2025.00203",
+  "title": "From Regulations to IDS: A Tool-Augmented LLM Pipeline for Automated BIM Rule Checks",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7125388094",
+  "doi": "10.5281/zenodo.18343437",
+  "title": "LLM Contextizer",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164026721",
+  "doi": "10.48550/arxiv.2606.08300",
+  "title": "QueryGraph: Reliable Multi-Tool Query Execution Planning via LLM-Based Graph Generation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154327780",
+  "doi": "10.48550/arxiv.2604.10383",
+  "title": "Authoring for Living Worlds: Tool-Constrained LLM Agents for Executable Multi-Actor Scenarios",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7141223369",
+  "doi": "10.48550/arxiv.2603.24709",
+  "title": "Training LLMs for Multi-Step Tool Orchestration with Constrained Data Synthesis and Graduated Rewards",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7156884256",
+  "doi": "10.5281/zenodo.19705463",
+  "title": "Retrieval-Governed Context: Scope-Gated Selection of Instructions and Tools for LLMs and Intelligent Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221357794",
+  "doi": "10.5281/zenodo.23288188",
+  "title": "Cage Containment Receipt 1 (CCR-1): Deterministic Gate Blocks Invalid LLM Proposals Before Execution Across Four Engines",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7154221705",
+  "doi": "10.48550/arxiv.2604.11790",
+  "title": "ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214298595",
+  "doi": "10.48550/arxiv.2609.28585",
+  "title": "Persistent Billable State: Denial-of-Wallet Attacks and Defenses in Tool-Calling LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202186750",
+  "doi": "10.21203/rs.3.rs-10646557/v1",
+  "title": "The Claim-to-Action Gap: Measuring How Misinformation Turns False State into Tool Calls in Tool-Using LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167886751",
+  "doi": "10.1109/jcsse68839.2026.11596758",
+  "title": "SHARKAPT: An Autonomous LLM-Orchestrated Penetration Testing Framework with MCP-Based Tool Integration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204160937",
+  "doi": "10.48550/arxiv.2608.21423",
+  "title": "Agentic Security: A Systematization of Tools, Failure Modes, and Design Laws for LLM-Driven Penetration Testing",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7148851525",
+  "doi": "10.48550/arxiv.2604.01532",
+  "title": "PHMForge: Evaluating LLM Agents on Industrial Prognostics through MCP-Native, Algorithm-Grounded Tools",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171384990",
+  "doi": "10.1038/s41598-026-63557-1",
+  "title": "FractureAgent: a multi-tool LLM-based intelligent agent for personalized fracture rehabilitation management",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7196950325",
+  "doi": "10.2139/ssrn.7199341",
+  "title": "Signed but Unsafe: Securing Runtime Tool Selection in LLM Agents under Adversarial Metadata Injection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169143763",
+  "doi": "10.48550/arxiv.2607.13071",
+  "title": "Compaction as Epistemic Failure: How Agentic LLM Tools Fabricate Confirmed Results from Killed Processes",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7218427928",
+  "doi": "10.5281/zenodo.23117823",
+  "title": "Repair Economics for Tool-Calling LLM Agents: the Gain, the Side Effects and the Cost of Failure Recovery",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154504019",
+  "doi": "10.1145/3805621.3807648",
+  "title": "C law VM: Harness-Managed Virtual Memory for Stateful Tool-Using LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223673248",
+  "doi": "10.52088/ijesty.v6i1.2008",
+  "title": "Deterministic Multi-Agent Incident Assistance: Separating Routing from Tool Execution to Improve Reliability in Production AIOps",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223034193",
+  "doi": "10.48550/arxiv.2610.26836",
+  "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204931828",
+  "doi": "10.3390/computers15090570",
+  "title": "Evaluating Indirect Prompt Injection Defenses in Tool-Using LLM Agents: Security, Utility, and Replication",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7167217382",
+  "doi": "10.3390/bdcc10070219",
+  "title": "A Deterministic State Machine Orchestrator with Local LLM Improving Personalized Education Quality Through Interactive Virtual Tutoring Agent with KPI Tracking",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223214628",
+  "doi": "10.1007/978-981-92-6843-6_2",
+  "title": "TraceShield: Boundary-Aware Semantic Auditing and Risk-Graph Analysis for Secure LLM Agent Tool Chains",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203859540",
+  "doi": "10.48550/arxiv.2608.18473",
+  "title": "A Locally Deployable Tool-Grounded LLM Multi-agent Framework for Automating Methane Emission Analysis and Reporting",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168932247",
+  "doi": "10.48448/dmd9-9v55",
+  "title": "Toward Scalable Verifiable Reward: Proxy State-Based Evaluation for Multi-turn Tool-Calling LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7210291856",
+  "doi": "10.5281/zenodo.22459608",
+  "title": "Designing for Minimal Generation: Reliable Tool-Calling for a Local LLM Insurance Claim Triage Agent",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224296154",
+  "doi": "10.18653/2026.emnlp-demos.37",
+  "title": "TraceForge: A Human-Gated System for Auto-Hardening Tool-Using LLM Agents into Immutable Workflow DAGs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221675509",
+  "doi": "10.5281/zenodo.23334714",
+  "title": "Unreachable Oracles: Auditing Ground-Truth Derivability in a Synthetic Tool-Drift Benchmark for LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7130534570",
+  "doi": "10.48550/arxiv.2602.16246",
+  "title": "Toward Scalable Verifiable Reward: Proxy State-Based Evaluation for Multi-turn Tool-Calling LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167630894",
+  "doi": "10.48550/arxiv.2607.02599",
+  "title": "AgentLTL: A Trace-Verification Framework for Measuring, Enforcing, and Training Procedural Compliance in Tool-Using LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125683693",
+  "doi": "10.1109/icaibd69640.2026.11637248",
+  "title": "When Agents Fail to Act: A Diagnostic Framework for Tool Invocation Reliability in Multi-Agent LLM Systems",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W7162944619",
+  "doi": "10.5281/zenodo.20471007",
+  "title": "lintlang: static linter for AI agent configs, system prompts, and tool definitions (zero-LLM)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162300335",
+  "doi": "10.21203/rs.3.rs-9432730/v1",
+  "title": "Smart Research Management Tool (SRMT): An LLM-Driven Approach to Academic Research Workflow Optimization",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202139178",
+  "doi": "10.5281/zenodo.21875245",
+  "title": "Operationalizing Premise Dependence: Commitment Timing and Deferred Instantiation in Tool-Using LLM Agents \u2014 Reproducibility Package",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7149666770",
+  "doi": "10.17605/osf.io/9qh7n",
+  "title": "Composing Malice: Empirical Measurement of Compositional Prompt Injection Vulnerability in Agentic LLM Tool Pipelines",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223476036",
+  "doi": "10.5281/zenodo.23608156",
+  "title": "DOORS-2: The Clustered Door \u2014 Two-Node Fail-Closed Adjudication of a Deterministic LLM Action Gate with a Shared Authoritative Approval Registry",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221597024",
+  "doi": "10.1002/9781394426713.ch09",
+  "title": "Function Calling and Tool Use",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163707078",
+  "doi": "10.5281/zenodo.20555895",
+  "title": "LLMs as Parsers, Not Calculators",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169836892",
+  "doi": "10.48550/arxiv.2607.16200",
+  "title": "Deterministic Replay for AI Agent Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204632399",
+  "doi": "10.70917/ijcisim-2026-5217",
+  "title": "LLM Prompt Interfaces as Execution Contracts: Reducing Unsafe Tool Invocation Across the Incident Lifecycle in AIOps",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221328015",
+  "doi": "10.5281/zenodo.23288525",
+  "title": "Cage Containment Receipt 2 (CCR-2): A Live LLM Proposes an Invalid Action Under Explicit Instruction; the Deterministic Gate Blocks It Before Execution",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155662183",
+  "doi": "",
+  "title": "Roklem: A Language Model Approach to VB.NET Framework Migration : Design and evaluation of an LLM-based tool for migrating enterprise VB.NET systems to .NET Core",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7140221938",
+  "doi": "10.1007/978-3-032-21300-6_15",
+  "title": "MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Retrieval and Invocation in LLM Agent Multi-turn Conversations",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W7163005515",
+  "doi": "10.48550/arxiv.2605.31167",
+  "title": "LLM-FACETS: A Privacy-Preserving Framework for Evaluating LLM Transparency and Accountability",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169717105",
+  "doi": "10.1136/jnis-2026-snis.47",
+  "title": "O-047 Development of a scalable AI-driven clinical decision tool for acute stroke: a comparison of deterministic rule-based and probabilistic large language models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7208439111",
+  "doi": "",
+  "title": "Building natural language and LLM Pipelines build production-grade RAG, tool contracts, and context engineering with Haystack and LangGraph",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7166170233",
+  "doi": "10.48550/arxiv.2606.26403",
+  "title": "ProfileFoundry: A Synthetic Person-Object Substrate for Privacy, Memory, and Tool-Use Evaluation in LLM Agent",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7208810473",
+  "doi": "10.5281/zenodo.22330004",
+  "title": "A Lifecycle-Asset-Privilege Evidence Map of Security and Privacy in Tool-Using LLM Agents \u2014 Replication Package v2.0.0",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224606881",
+  "doi": "10.18653/2026.arabicnlp-sharedtasks.207",
+  "title": "Optimal at AISA-ArabicFC: A Hybrid Approach to Arabic Function Calling with PEFT Large Language Models and Deterministic Post-Processing",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7208815740",
+  "doi": "10.5281/zenodo.22339838",
+  "title": "A Lifecycle-Asset-Privilege Evidence Map of Security and Privacy in Tool-Using LLM Agents \u2014 Replication Package v2.0.1",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168239887",
+  "doi": "10.48550/arxiv.2607.10508",
+  "title": "Confining Nondeterminism: AI-Driven Research Systems as DBMSs for Reliable, Non-Wasteful, Transparent, and Collaborative Research [Vision]",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163076283",
+  "doi": "10.64898/2026.05.29.26354432",
+  "title": "Multi-Agent AI for Chest Radiography: A Sequential Segmentation and LLM-Driven Consultative Tool for Medical Training",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7111968304",
+  "doi": "",
+  "title": "LLM assistant for IoT Platform",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7208733670",
+  "doi": "10.2139/ssrn.7389061",
+  "title": "The Encoding Alphabet Is the Security Boundary: Measuring the Coverage Limits of Deterministic Multi-Encoding Decoding Against Cross-Stage Instruction Laundering in LLM Agent Pipelines",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163021062",
+  "doi": "10.5281/zenodo.20489424",
+  "title": "Constrained-Execution Agentic Analytics for Regulated Data: An Architecture Pattern for Trustworthy LLM Cohort Analytics, with a Reproducibility Case Study (Deterministic Dispatch: 33% \u2192 100%)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4389544187",
+  "doi": "10.1109/icsme58846.2023.00069",
+  "title": "Deterministic Automatic Refactoring at Scale",
+  "year": 2023,
+  "cites": 1
+ },
+ {
+  "id": "W7223136909",
+  "doi": "10.5281/zenodo.23546893",
+  "title": "Code and analysis for: Bearing Fault Diagnosis with Tool-Augmented LLM Agents: A Rule-Verified Multi-Agent Framework and Critical Evaluation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214281183",
+  "doi": "10.48550/arxiv.2609.29522",
+  "title": "Stale Does Not Mean Unsafe: Guard Precision for Tool-Using LLM Agents under Infrastructure State Races",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172009364",
+  "doi": "10.2139/ssrn.7132138",
+  "title": "VeriQuant: Measuring Numerical Reliability of LLM Agents in Quantitative Derivatives Pricing via Verified Tool-Grounding and Ambiguity Benchmarking",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164491354",
+  "doi": "10.2139/ssrn.6840900",
+  "title": "LLM as API Server: A System-Prompt-Defined Runtime for Natural-Language Endpoint Routing, Tool Calling, and Database-Backed Execution",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172000952",
+  "doi": "10.61424/hewtat90",
+  "title": "Continual Red-Teaming and Guardrail Distillation for Tool-Using LLM Agents: Prompt-Injection Resistance with Utility Preservation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7122619313",
+  "doi": "10.2139/ssrn.6028417",
+  "title": "Managing the Risk of Non-Deterministic AI in Financial Services Applications",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415437074",
+  "doi": "10.2139/ssrn.5636430",
+  "title": "Structured Data with LLMs Done Right: A Practical Guide to Text Classification, Information Retrieval and Generation with LLMs",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7126010552",
+  "doi": "",
+  "title": "LLM-avusteinen ostoreskontran maksuaikataulutus Odoossa",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4404389496",
+  "doi": "10.48550/arxiv.2411.05285",
+  "title": "AgentOps: Enabling Observability of LLM Agents",
+  "year": 2024,
+  "cites": 3
+ },
+ {
+  "id": "W7204212769",
+  "doi": "10.48550/arxiv.2608.23078",
+  "title": "AgentWeave: Routing Before Reasoning for Efficient Function Calling in Tool-Rich Language Models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214368678",
+  "doi": "10.48550/arxiv.2609.28693",
+  "title": "Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Role-Scoped Capability Delivery",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415948553",
+  "doi": "10.48550/arxiv.2510.15974",
+  "title": "Limits of Emergent Reasoning of Large Language Models in Agentic Frameworks for Deterministic Games",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7221800193",
+  "doi": "10.48550/arxiv.2610.16426",
+  "title": "AuthGateBench: Benchmarking LLMs as Authorization Gate",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165870665",
+  "doi": "10.48550/arxiv.2606.25819",
+  "title": "Beyond Function Calling: Benchmarking Tool-Using Agents under Tool-Environment Unreliability",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214317934",
+  "doi": "10.48550/arxiv.2609.29095",
+  "title": "Where Does Exactly-Once Live? Model, Harness, and Tool-Contract Effects on Duplicate Side Effects in LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4410954786",
+  "doi": "10.55041/ijsrem49311",
+  "title": "LLM-Powered Enterprise Intelligence",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7172411474",
+  "doi": "10.17605/osf.io/4rgey",
+  "title": "Dispatch Fidelity Benchmark: A Pre-Registered Canary-Tool Measurement of Dispatch Fabrication Rate as a Function of Agent Count in Multi-Agent LLM Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128782969",
+  "doi": "10.5281/zenodo.18632799",
+  "title": "Certifiable AI Safety Theory (CAST): Convex-Analytic, Measure-Theoretic, and Proof-Carrying Deployment Gates for Tool-Using LLM Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172524259",
+  "doi": "10.48550/arxiv.2608.03080",
+  "title": "The Frontier LLM Trap in Network Automation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167583732",
+  "doi": "10.48550/arxiv.2607.04569",
+  "title": "LLMs for Agentic Home Energy Management",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7149627618",
+  "doi": "10.5281/zenodo.19422088",
+  "title": "Why Your GPU Changes LLM Output",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4408442146",
+  "doi": "10.1109/ats64447.2024.10915476",
+  "title": "LLMs for Hardware Verification: Frameworks, Techniques, and Future Directions",
+  "year": 2024,
+  "cites": 5
+ },
+ {
+  "id": "W7166641764",
+  "doi": "10.48550/arxiv.2606.28791",
+  "title": "From Determinism to Delegation: AI-Native Software Engineering and the Evolution of the Agentic Engineer",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202163455",
+  "doi": "10.48550/arxiv.2608.09312",
+  "title": "Automated Synthesis of Deterministic Cross-Domain Interfaces",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167735516",
+  "doi": "10.48550/arxiv.2607.06000",
+  "title": "Context-to-Execution Integrity for LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154261792",
+  "doi": "10.5281/zenodo.19573444",
+  "title": "The Architecture of Determinism: Validating CollectiveOS as the First General-Purpose Intelligence Substrate",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214808330",
+  "doi": "10.5281/zenodo.23043859",
+  "title": "PROVENANCE v1.1.1: Formal Verification and Archival Release of a Cryptographic Chain-of-Custody System for LLMs, Software, Agents, Tools, and Automated Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4412704313",
+  "doi": "10.1145/3696630.3728714",
+  "title": "Towards the Versioning of LLM-Agent-Based Software",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4412599253",
+  "doi": "10.12688/openreseurope.20839.1",
+  "title": "Comparison of explainability methods for hallucination analysis in LLMs",
+  "year": 2025,
+  "cites": 3
+ },
+ {
+  "id": "W7213519588",
+  "doi": "10.48550/arxiv.2609.18128",
+  "title": "Symbolic Temporal Supervision of LLM Agents Using Contracts",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221198627",
+  "doi": "10.48550/arxiv.2610.10580",
+  "title": "A Survey on LLM-Integrated Hardware Design Verification",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171514708",
+  "doi": "10.5281/zenodo.21636354",
+  "title": "ghostcite: deterministic detection of ghost citations and retracted references",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214769450",
+  "doi": "10.5281/zenodo.23048150",
+  "title": "ClerkBench: Measuring the Consistency Horizon of Language Models on Long Deterministic Workloads",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125425014",
+  "doi": "10.1109/mc.2026.3696290",
+  "title": "The Plausibility Trap: Using Probabilistic Engines for Deterministic Tasks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166327388",
+  "doi": "10.5281/zenodo.20951505",
+  "title": "Deterministic, Model-Independent Grounding-Integrity Mechanisms for Retrieval-Augmented and Agentic Language-Model Systems.",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416036334",
+  "doi": "10.18653/v1/2025.emnlp-main.791",
+  "title": "Improving Chemical Understanding of LLMs via SMILES Parsing",
+  "year": 2025,
+  "cites": 5
+ },
+ {
+  "id": "W4416156959",
+  "doi": "10.23919/eucap68105.2026.11612343",
+  "title": "RadioSim Agent: Combining Large Language Models and Deterministic EM Simulators for Interactive Radio Map Analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164911223",
+  "doi": "10.48550/arxiv.2606.15874",
+  "title": "LLM-as-Code: Agentic Programming for Agent Harness",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167902885",
+  "doi": "10.48550/arxiv.2607.07727",
+  "title": "SPL: Orchestrating Workflows with Declarative Deterministic-Probabilistic Composition",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4411359806",
+  "doi": "10.1109/icpc66645.2025.00055",
+  "title": "Studying How Configurations Impact Code Generation in LLMs: The Case of ChatGPT",
+  "year": 2025,
+  "cites": 2
+ },
+ {
+  "id": "W7128703320",
+  "doi": "10.48550/arxiv.2602.11052",
+  "title": "GraphSeek: Next-Generation Graph Analytics with LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224473322",
+  "doi": "10.1016/j.cose.2026.105208",
+  "title": "Evaluating security and inclusivity in LLM-generated code",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221745534",
+  "doi": "",
+  "title": "LLM-empowered software systems for constrained environments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155371628",
+  "doi": "10.48448/4ksh-ft59",
+  "title": "Measuring LLMs\u2019 Sensitivity to Paraphrased Opinion Prompts",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134823026",
+  "doi": "10.5281/zenodo.18944350",
+  "title": "Skill Without Training: Deterministic Knowledge Navigation for Large Language Models over Structured Documents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172007315",
+  "doi": "10.48550/arxiv.2607.27674",
+  "title": "Can Large Language Models Resolve Real Java Merge Conflicts? An Evaluation with a Calibrated LLM-as-Judge",
+  "year": 2026,
+  "cites": 0
+ }
+]

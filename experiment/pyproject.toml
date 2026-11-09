@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qgis-agent-harness"
+version = "0.3.0"
+description = "MCP vs. code-generation harness for GIS agent evaluation"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "proprietary" }
+# The runtime stack (QGIS, geopandas, scipy, matplotlib, pytest) comes from pixi, not PyPI — see ../pixi.toml.
+dependencies = []
+
+[project.scripts]
+qgis-agent-harness = "qgis_agent_harness.__main__:main"
+
+[tool.setuptools]
+# Map the import package onto src/ so the layout stays flat: src/__init__.py -> qgis_agent_harness/__init__.py
+package-dir = { "qgis_agent_harness" = "src" }
+packages = ["qgis_agent_harness", "qgis_agent_harness.commands"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+bdd_features_base_dir = "features/"
+addopts = "-q"
+
+# Coverage for the Codecov gate; conftest.py imports ../src, so [tool.coverage.paths] is a safety net.
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.paths]
+qgis_agent_harness = ["experiment/src", "*/site-packages/qgis_agent_harness"]
+
+[tool.coverage.report]
+precision = 2
+show_missing = true
+skip_covered = false

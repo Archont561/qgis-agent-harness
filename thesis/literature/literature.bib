@@ -1,0 +1,1019 @@
+% geoaiworkbench — biblatex database, 67 entries, plain biblatex fields only.
+% Every entry carries a "% provenance [...]" comment line just above it, recording
+% record-source / abstract-source / confidence / retrieved / oa-status / license.
+% Those are comments, not fields: no .dbx datamodel is needed and biber ignores them.
+
+% provenance [agentClientProtocol]: record-source=manual-verified (publisher specification site, fetched 2026-10-31) | retrieved=2026-10-31 | confidence=n/a
+@online{agentClientProtocol,
+  author           = {{Zed Industries}},
+  title            = {{Agent Client Protocol Specification}},
+  year             = {2025},
+  url              = {https://agentclientprotocol.com/},
+  urldate          = {2026-10-31},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {no abstract by design; Protocol specification site. Site meta description is only the tagline 'Get started with the Agent Client Protocol.' - not an abstract, deliberately not used as one.},
+}
+
+% provenance [akinboyewa2025giscopilot]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=gold | license=cc-by
+@article{akinboyewa2025giscopilot,
+  author           = {Akinboyewa, Temitope and Li, Zhenlong and Ning, Huan and Lessani, M. Naser},
+  title            = {{GIS Copilot: towards an autonomous GIS agent for spatial analysis}},
+  journaltitle     = {International Journal of Digital Earth},
+  year             = {2025},
+  volume           = {18},
+  number           = {1},
+  publisher        = {Informa UK Limited},
+  issn             = {1753-8947},
+  doi              = {10.1080/17538947.2025.2497489},
+  url              = {https://doi.org/10.1080/17538947.2025.2497489},
+  urldate          = {2026-10-31},
+  abstract         = {Recent advancements in generative artificial intelligence (AI), particularly Large Language Models (LLMs), offer promising capabilities for spatial analysis. However, their integration with established GIS platforms remains underexplored. In this study, we propose a framework that embeds LLMs into existing GIS platforms, using QGIS as a case study. Our approach leverages LLMs’ reasoning and coding abilities to autonomously generate spatial analysis workflows through an informed agent equipped with comprehensive documentation of key GIS tools and parameters. External tools such as GeoPandas are also incorporated to enhance the system's geoprocessing capabilities. Based on this framework, we developed a ‘GIS Copilot’ that enables users to interact with QGIS using natural language. We evaluated the copilot across over 100 tasks of varying complexity including basic (single tool/layer), intermediate (multistep with guidance), and advanced (multistep without guidance). Results show high success rates for basic and intermediate tasks, with challenges remaining in fully autonomous execution of advanced tasks. The GIS Copilot advances the vision of autonomous GIS by enabling non-experts to perform geospatial analysis with minimal prior knowledge. While full autonomy is not yet achieved, the copilot demonstrates significant potential for simplifying GIS workflows and enhancing decision-making processes.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [bandi2026mcpatlas]: record-source=openalex-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=green | license=cc-by
+@online{bandi2026mcpatlas,
+  author           = {Bandi, Chaithanya and Dumitru, Razvan-Gabriel and Hertzberg, Ben and Agarwal, Divyansh and Boo, Geobio and Polakam, Tejas and Hassaan, Sami and Da, Jeff and Kim, HiJae and Gupta, Vipul and Sharma, Manasi and Park, Andrew and Dimakis, Martin and Montoya, Ernesto Gabriel Hernandez and Rambado, Dan and Salazar, Ivan and Cruz, Rafael and Rezaei, MohammadHossein and Rane, Chetan and Levin, Ben and Zhang, Daniel Yue and Kenstler, Brad and Liu, Bing},
+  title            = {{MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers}},
+  year             = {2026},
+  doi              = {10.48550/arxiv.2602.00933},
+  eprint           = {2602.00933},
+  eprinttype       = {arxiv},
+  url              = {https://doi.org/10.48550/arxiv.2602.00933},
+  urldate          = {2026-10-31},
+  abstract         = {The Model Context Protocol (MCP) is emerging as a standard interface through which large language model (LLM) agents discover and invoke external tools. However, existing MCP evaluations fall short along three key axes: realistic multi-step workflows with cross-server orchestration, breadth across authentic MCP servers rather than mocks, and structured, reproducible claim-level scoring disentangled from agent verbosity or style. We introduce MCP-Atlas, a benchmark for measuring tool-use competency against production MCP servers. MCP-Atlas contains 1,000 natural-language tasks written and verified by human experts spanning 36 real MCP servers and 220 tools. Prompts do not specify servers, tools, or parameters, requiring agents to identify relevant tools among semantically plausible distractors and to compose multi-step, cross-server workflows. Each task is scored with a claim-level rubric, where final answers are scored against atomic factual claims grounded in tool outputs. This answer-centric scoring permits valid alternative tool-call trajectories to receive credit. We pair this with an 11-category diagnostic taxonomy that disentangles tool-call failures from cognitive failures in task understanding, synthesis, parsing, and stopping. Evaluating 20 frontier models from six providers under matched task-level conditions, we find pass rates up to 82.2% at a 0.75 claim coverage threshold and a clear three-tier performance structure. Automated diagnostics show that 63.3% of diagnosed failures are cognitive rather than tool-call related. Notably, several high-performing models fail after successful tool execution due to premature stopping or incorrect synthesis. We release the task schema, containerized harness, claim evaluator, and a 500-task public split, while reserving a 500-task private split to preserve leaderboard integrity. The code is at https://github.com/scaleapi/mcp-atlas.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [chen2024geoagent]: record-source=openalex-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=green | license=cc-by
+@online{chen2024geoagent,
+  author           = {Chen, Yuxing and Wang, Weijie and Lobry, Sylvain and Kurtz, Camille},
+  title            = {{An LLM Agent for Automatic Geospatial Data Analysis}},
+  year             = {2024},
+  doi              = {10.48550/arxiv.2410.18792},
+  eprint           = {2410.18792},
+  eprinttype       = {arxiv},
+  url              = {https://doi.org/10.48550/arxiv.2410.18792},
+  urldate          = {2026-10-31},
+  abstract         = {Large language models (LLMs) are being used in data science code generation tasks, but they often struggle with complex sequential tasks, leading to logical errors. Their application to geospatial data processing is particularly challenging due to difficulties in incorporating complex data structures and spatial constraints, effectively utilizing diverse function calls, and the tendency to hallucinate less-used geospatial libraries. To tackle these problems, we introduce GeoAgent, a new interactive framework designed to help LLMs handle geospatial data processing more effectively. GeoAgent pioneers the integration of a code interpreter, static analysis, and Retrieval-Augmented Generation (RAG) techniques within a Monte Carlo Tree Search (MCTS) algorithm, offering a novel approach to geospatial data processing. In addition, we contribute a new benchmark specifically designed to evaluate the LLM-based approach in geospatial tasks. This benchmark leverages a variety of Python libraries and includes both single-turn and multi-turn tasks such as data acquisition, data analysis, and visualization. By offering a comprehensive evaluation among diverse geospatial contexts, this benchmark sets a new standard for developing LLM-based approaches in geospatial data analysis tasks. Our findings suggest that relying solely on knowledge of LLM is insufficient for accurate geospatial task programming, which requires coherent multi-step processes and multiple function calls. Compared to the baseline LLMs, the proposed GeoAgent has demonstrated superior performance, yielding notable improvements in function calls and task completion. In addition, these results offer valuable insights for the future development of LLM agents in automatic geospatial data analysis task programming.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [diazireland2026geonatureagent]: record-source=openalex-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=green | license=cc-by
+@online{diazireland2026geonatureagent,
+  author           = {Diaz-Ireland, Gabriel and Prieto-Herráez, Diego and Peces, Mario García and Velázquez, Javier and Jain, Devika},
+  title            = {{GeoNatureAgent Benchmark: Benchmarking LLM Agents for Environmental Geospatial Analysis Across Frontier and Open-Weight Foundation Models}},
+  year             = {2026},
+  doi              = {10.48550/arxiv.2606.12821},
+  eprint           = {2606.12821},
+  eprinttype       = {arxiv},
+  url              = {https://doi.org/10.48550/arxiv.2606.12821},
+  urldate          = {2026-10-31},
+  abstract         = {Environmental scientists spend disproportionate effort on data wrangling rather than analysis. New AI agents can be a helpful tool, but no benchmark exists to evaluate AI agents that automate environmental geospatial workflows through structured tool calling against real APIs. We introduce the GeoNatureAgent Benchmark, the first benchmark for environmental analysis agents that operate via structured tool calls to a production-style geospatial API. The benchmark comprises 93 tasks across 18 categories. Tasks are evaluated against an open, self-hostable geospatial API that serves three environmental indicators across Spain and Portugal via sixteen tools. We evaluate nine frontier and open-weight LLMs, reporting capability and per-case cost as orthogonal axes. Results manifest that (1) Claude Sonnet 4 achieves the highest capability at 60.8% +/- 0.8%, followed closely by DeepSeek V3.2 at 56.3% +/- 3.1%, while no other model exceeds 51%; (2) the cost-accuracy Pareto frontier is occupied mostly by open-weight models, with DeepSeek V3.2 offering 93% of Claude's capability at 11.6x lower cost; and (3) structured tool calling against a real API provides a more discriminative measure of real-world agent capability, with mean accuracies 25-35 percentage points below those reported on general-purpose GIS benchmarks.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [ehtesham2025survey]: record-source=openalex-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=green
+@online{ehtesham2025survey,
+  author           = {{Abul Ehtesham} and {Aditi Singh} and {Gaurav Kumar Gupta} and {Saket Kumar}},
+  title            = {{A survey of agent interoperability protocols: Model Context Protocol (MCP), Agent Communication Protocol (ACP), Agent-to-Agent Protocol (A2A), and Agent Network Protocol (ANP)}},
+  year             = {2025},
+  doi              = {10.48366/r1596648},
+  url              = {https://doi.org/10.48366/r1596648},
+  urldate          = {2026-10-31},
+  abstract         = {A survey of agent interoperability protocols: Model Context Protocol (MCP), Agent Communication Protocol (ACP), Agent-to-Agent Protocol (A2A), and Agent Network Protocol (ANP) [ORKG]},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [fan2025mcptoolbench]: record-source=openalex-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=green
+@online{fan2025mcptoolbench,
+  author           = {Fan, Shiqing and Ding, Xichen and Zhang, Liang and Mo, Linjian},
+  title            = {{MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool Use Benchmark}},
+  year             = {2025},
+  doi              = {10.48550/arxiv.2508.07575},
+  eprint           = {2508.07575},
+  eprinttype       = {arxiv},
+  url              = {https://doi.org/10.48550/arxiv.2508.07575},
+  urldate          = {2026-10-31},
+  abstract         = {LLMs' capabilities are enhanced by using function calls to integrate various data sources or API results into the context window. Typical tools include search, web crawlers, maps, financial data, file systems, and browser usage, etc. Integrating these data sources or functions requires a standardized method. The Model Context Protocol (MCP) provides a standardized way to supply context to LLMs. However, the evaluation of LLMs and AI Agents' MCP tool use abilities suffer from several issues. First, there's a lack of comprehensive datasets or benchmarks to evaluate various MCP tools. Second, the diverse formats of response from MCP tool call execution further increase the difficulty of evaluation. Additionally, unlike existing tool-use benchmarks with high success rates in functions like programming and math functions, the success rate of real-world MCP tool is not guaranteed and varies across different MCP servers. Furthermore, the LLMs' context window also limits the number of available tools that can be called in a single run, because the textual descriptions of tool and the parameters have long token length for an LLM to process all at once. To help address the challenges of evaluating LLMs' performance on calling MCP tools, we propose MCPToolBench++, a large-scale, multi-domain AI Agent tool use benchmark. As of July 2025, this benchmark is build upon marketplace of over 4k MCP servers from more than 40 categories, collected from the MCP marketplaces and GitHub communities. The datasets consist of both single-step and multi-step tool calls across different categories. We evaluated SOTA LLMs with agentic abilities on this benchmark and reported the results.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [fan2026infofidelity]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=green | license=cc-by
+@inproceedings{fan2026infofidelity,
+  author           = {Fan, Flint Xiaofeng and Tan, Cheston and Wattenhofer, Roger and Ong, Yew-Soon},
+  title            = {{Information Fidelity in Tool-Using LLM Agents: A Martingale Analysis of the Model Context Protocol}},
+  booktitle        = {Proceedings of the 25th International Conference on Autonomous Agents and Multiagent Systems},
+  year             = {2026},
+  publisher        = {International Foundation for Autonomous Agents and Multiagent Systems},
+  doi              = {10.65109/gmhb4353},
+  url              = {https://doi.org/10.65109/gmhb4353},
+  urldate          = {2026-10-31},
+  abstract         = {As LLM agents increasingly rely on external tools via the Model Context Protocol (MCP), a key reliability question is whether small early mistakes can snowball across multi-step tool chains. We show this snowballing is avoidable: under bounded, decaying influence between steps, cumulative semantic distortion grows at most linearly with high-probability deviations of order O(√T), so random errors do not amplify superlinearly with chain length. We operationalize distortion with a hybrid metric that combines weighted fact matching and embedding similarity, and we certify the bound via a Doob-martingale concentration argument. Experiments on different open-sourced LLM architectures match the predicted linear trend and √T envelopes, yielding practical design rules such as re-grounding intervals and semantic weighting.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [gis-mcp-server-cluster-2026]: record-source=kb-doi | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=bronze
+@inproceedings{gis-mcp-server-cluster-2026,
+  author           = {Liu, Su and Zheng, Weipeng and Xiao, Yufeng and Weng, Yamin and Yuan, Ying and Yu, Qipeng and Zeng, Zhiqiang},
+  title            = {{MapHub: an OGC web GIS service aggregation and query MCP server for AI agents}},
+  booktitle        = {International Conference on Mechanical, Engineering, and Interaction Design (ICMEID 2025)},
+  year             = {2026},
+  pages            = {363},
+  publisher        = {SPIE},
+  doi              = {10.1117/12.3091756},
+  url              = {https://doi.org/10.1117/12.3091756},
+  urldate          = {2026-10-31},
+  abstract         = {Geographic Information Systems (GIS) are evolving from specialized tools into inclusive spatial intelligence infrastructure, yet non-professional users still face core challenges: inefficient geospatial data discovery and high barriers to complex spatial analysis. Traditional Web GIS platforms struggle to accurately match natural language intents (e.g., "Which states border the Mississippi River?") with distributed OGC services (WMS/WFS/WMTS) and execute relevant spatial queries. While Large Language Models (LLM) and Model Context Protocol (MCP) maturity provide the technical foundation for intelligent interaction, current GIS ecosystems lack a unified framework to integrate distributed OGC services and expose them for LLM agent invocation, resulting in a "semantic-spatial disconnect." To address this, we propose MapHub ， an OGC service aggregation and query MCP Server for AI Agents. This lightweight, cross-platform deployable MCP Server, built on FastMCP, enables dynamic registration, aggregation, and transformation of OGC services into MCP resources and tools, supporting plug-and-play integration of heterogeneous WMS/WFS/WMTS services. By closing the loop between intent understanding, resource discovery, and tool invocation, it constructs an intelligent layer scoring system to enhance accuracy in identifying primary layers during queries. Additionally, it designs a visualization pipeline using a declarative HTML generation framework, seamlessly interfacing with Leaflet to automate the conversion of query results into interactive maps. MapHub’s open-source implementation (https://github.com/YQP-2511/maphub-core) provides a reference for natural language-driven spatial intelligence applications, propelling Web GIS into the era of "conversation-as-map." Future work will extend WPS support for complex analyses and explore distributed architectures for million-layer scheduling.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [tool_exposure_gnss_2026]: record-source=kb-doi (datacite) | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=datacite (repository deposit) | oa-status=green | license=cc-by
+@article{tool_exposure_gnss_2026,
+  author           = {de Souza Faria Júnior, Clodoaldo and Subtil Norberto, Isabella and Maximo, Marcos and Silva, Matheus and de Oliveira Moraes, Alison},
+  title            = {{Less Context, Better Plans: Evaluating Tool Exposure Strategies in an MCP Server for GNSS Data Acquisition}},
+  year             = {2026},
+  publisher        = {XIV Colóquio Brasileiro de Ciências Geodésicas},
+  doi              = {10.5281/zenodo.22833797},
+  url              = {https://doi.org/10.5281/zenodo.22833797},
+  urldate          = {2026-10-31},
+  abstract         = {Artificial Intelligence in Geospatial Data Processing and Analysis -> Knowledge representation and geospatial data handling with Multimodal Language Models and Agentic Systems},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: datacite (repository deposit)},
+}
+
+% provenance [han2026gisclaw]: record-source=openalex-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=green
+@online{han2026gisclaw,
+  author           = {Han, Jinzhen and Lee, JinByeong and Shim, Yuri and Kim, Jisung and Lee, Jae-Joon},
+  title            = {{GISclaw: A Comprehensive Open-Source LLM Agent System for Realistic Multi-Step Geospatial Analysis}},
+  year             = {2026},
+  doi              = {10.48550/arxiv.2603.26845},
+  eprint           = {2603.26845},
+  eprinttype       = {arxiv},
+  url              = {https://doi.org/10.48550/arxiv.2603.26845},
+  urldate          = {2026-10-31},
+  abstract         = {Most LLM-driven GIS assistants solve narrow single-step tasks tightly coupled to proprietary platforms such as ArcGIS or QGIS, limiting their use for the multi-step, cross-format pipelines that define professional geospatial analysis. We present GISclaw, a comprehensive open-source agent system that performs realistic GIS analysis end to end - spatial joins, raster algebra, kriging interpolation, machine-learning classification, network analysis, choropleth cartography - directly through Python with no commercial GIS dependency. GISclaw couples an LLM reasoning core with a persistent Python sandbox pre-loaded with the open-source geospatial stack, three engineered prompt rules (Schema Analysis, Package Constraint, Domain Knowledge Injection), and an Error-Memory module for self-correction. A single backend-agnostic architecture supports both cloud-API and locally deployed open-weight LLM backends, enabling air-gapped deployment without loss of capability. On GeoAnalystBench - 50 expert-curated multi-step tasks averaging 5.8 analytical steps across vector, raster, and tabular data - GISclaw reaches up to 100% task success and 97% mean success over three independent runs. We further conduct 1,800 controlled experiments (50 tasks x 6 backends x 2 architectures x 3 repeats) with bootstrap 95% CIs, paired Wilcoxon tests, and a composite-score sensitivity analysis (Kendall's tau median = 0.94), and introduce a three-layer evaluation protocol combining code structure, reasoning process, and type-specific output verification. The Single-Agent ReAct loop reliably outperforms the Dual-Agent Plan-Execute-Replan pipeline on every cloud backend (Cliff's delta = 0.15-0.41); only the locally deployed 14B model gains from multi-agent orchestration, suggesting architectural complexity should match model capability rather than be added by default.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [hou2025mcp]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=crossref (publisher deposit) | oa-status=hybrid | license=cc-by-nd
+@article{hou2025mcp,
+  author           = {Hou, Xinyi and Zhao, Yanjie and Wang, Shenao and Wang, Haoyu},
+  title            = {{Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions}},
+  journaltitle     = {ACM Transactions on Software Engineering and Methodology},
+  year             = {2026},
+  volume           = {35},
+  number           = {10},
+  pages            = {1-37},
+  publisher        = {Association for Computing Machinery (ACM)},
+  issn             = {1049-331X},
+  doi              = {10.1145/3796519},
+  url              = {https://doi.org/10.1145/3796519},
+  urldate          = {2026-10-31},
+  abstract         = {The Model Context Protocol (MCP) is an emerging open standard that defines a unified, bi-directional communication and dynamic discovery protocol between AI models and external tools or resources, aiming to enhance interoperability and reduce fragmentation across diverse systems. This paper conducts a systematic study of MCP from both architectural and security perspectives. We first define the full lifecycle of an MCP server, comprising four phases (creation, deployment, operation, and maintenance), further decomposed into 16 key activities that capture its functional evolution. Building on this lifecycle analysis, we construct a comprehensive threat taxonomy that categorizes security and privacy risks across four major attacker types: malicious developers, external attackers, malicious users, and security flaws, encompassing 16 distinct threat scenarios. To validate these risks, we develop and analyze real-world case studies that demonstrate concrete attack surfaces and vulnerability manifestations within MCP implementations. Based on these findings, the paper proposes a set of fine-grained, actionable security safeguards tailored to each lifecycle phase and threat category, offering practical guidance for secure MCP adoption. We also analyze the current MCP landscape, covering industry adoption, integration patterns, and supporting tools, to identify its technological strengths as well as existing limitations that constrain broader deployment. Finally, we outline future research and development directions aimed at strengthening MCP’s standardization, trust boundaries, and sustainable growth within the evolving ecosystem of tool-augmented AI systems. All collected data and implementation examples are publicly available at https://github.com/security-pride/MCP_Landscape .},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: crossref (publisher deposit)},
+}
+
+% provenance [ichms2026_mcp_geodata]: record-source=kb-doi | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=semantic scholar (publisher/aggregator) | oa-status=closed
+@inproceedings{ichms2026_mcp_geodata,
+  author           = {Morandini, Luca and Sinnott, Richard O.},
+  title            = {{A Task-Based Benchmark for Model Context Protocol-Driven Geospatial Dataset Discovery: LLM Agents Vs Human Search}},
+  booktitle        = {2026 IEEE International Conference on Human-Machine Systems (ICHMS)},
+  year             = {2026},
+  pages            = {386-391},
+  publisher        = {IEEE},
+  doi              = {10.1109/ichms69701.2026.11602360},
+  url              = {https://doi.org/10.1109/ichms69701.2026.11602360},
+  urldate          = {2026-10-31},
+  abstract         = {The use of Large Language Models to assist in querying geospatial metadata remains under-explored, with most research focused on querying geographic data that assumes given datasets. In this paper, we present a task-based benchmark comparing human analysts with Model Context Protocol (MCP)-enabled LLM agents to query a collection of 7,000+ geospatial datasets with curated metadata. Across 10 dataset-discovery tasks, we evaluate performance using a range of criteria: task success, search effort (number of steps), and retrieval quality (precision and recall) of the final query. We also report time and cost measures where applicable. Results show that frontier models approach human performance on parts of the retrieval-quality metrics and, under a strict exact-match success criterion, may match or surpass humans, although performance remains task-dependent. These findings illustrate the current accuracy-efficiency trade-offs of MCP-based LLM agents for geospatial dataset discovery and highlight where improvements are needed.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: semantic scholar (publisher/aggregator)},
+}
+
+% provenance [krechetova2025geobenchx]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=green
+@inproceedings{krechetova2025geobenchx,
+  author           = {Krechetova, Varvara and Kochedykov, Denis},
+  title            = {{GeoBenchX: Benchmarking LLMs in Agent Solving Multistep Geospatial Tasks}},
+  booktitle        = {Proceedings of the 1st ACM SIGSPATIAL International Workshop on Generative and Agentic AI for Multi-Modality Space-Time Intelligence},
+  year             = {2025},
+  pages            = {27-35},
+  publisher        = {ACM},
+  doi              = {10.1145/3764915.3770721},
+  url              = {https://doi.org/10.1145/3764915.3770721},
+  urldate          = {2026-10-31},
+  abstract         = {This paper establishes a benchmark for evaluating tool-calling capabilities of large language models (LLMs) on multi-step geospatial tasks relevant to commercial GIS practitioners. We assess eight commercial LLMs (Claude Sonnet 3.5 and 4, Claude Haiku 3.5, Gemini 2.0 Flash, Gemini 2.5 Pro Preview, GPT-4o, GPT-4.1 and o4-mini) using a simple tool-calling agent equipped with 23 geospatial functions. Our benchmark comprises tasks in four categories of increasing complexity, with both solvable and intentionally unsolvable tasks to test rejection accuracy. We develop a LLM-as-Judge evaluation framework to compare agent solutions against reference solutions. Results show o4-mini and Claude 3.5 Sonnet achieve the best overall performance, OpenAI's GPT-4.1, GPT-4o and Google's Gemini 2.5 Pro Preview do not fall far behind, but the last two are more efficient in identifying unsolvable tasks. Claude Sonnet 4, due its preference to provide any solution rather than reject a task, proved to be less accurate. We observe significant differences in token usage, with Anthropic models consuming more tokens than competitors. Common errors include misunderstanding geometrical relationships, relying on outdated knowledge, and inefficient data manipulation. The resulting benchmark set, evaluation framework, and data generation pipeline are released as open-source resources 1, providing one more standardized method for the ongoing evaluation of LLMs for GeoAI.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [li2025autonomous]: record-source=manual-verified (web search 2026-10-31 + Crossref 10.1080/19475683.2025.2552161) | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=gold | license=cc-by
+@article{li2025autonomous,
+  author           = {Li, Zhenlong and Ning, Huan and Gao, Song and Janowicz, Krzysztof and Li, Wenwen and Arundel, Samantha T. and Yang, Chaowei and Bhaduri, Budhendra and Wang, Shaowen and Zhu, A-Xing and Gahegan, Mark and Shekhar, Shashi and Ye, Xinyue and McKenzie, Grant and Cervone, Guido and Hodgson, Michael E.},
+  title            = {{GIScience in the era of Artificial Intelligence: A research agenda towards Autonomous GIS}},
+  journaltitle     = {Annals of GIS},
+  year             = {2025},
+  volume           = {31},
+  number           = {4},
+  pages            = {501-536},
+  publisher        = {Informa UK Limited},
+  issn             = {1947-5683},
+  doi              = {10.1080/19475683.2025.2552161},
+  url              = {https://doi.org/10.1080/19475683.2025.2552161},
+  urldate          = {2026-10-31},
+  abstract         = {The advent of generative AI exemplified by large language models (LLMs) opens new ways to represent and compute geographic information and transcends the process of geographic knowledge production, driving geographic information systems (GIS) towards autonomous GIS. Leveraging LLMs as the decision core, autonomous GIS can independently generate and execute geoprocessing workflows to perform spatial analysis. In this vision paper, we further elaborate on the concept of autonomous GIS and present a conceptual framework that defines its five autonomous goals, five levels of autonomy, five core functions, and three operational scales. We demonstrate how autonomous GIS could perform geospatial data retrieval, spatial analysis, and map making with four proof-of-concept GIS agents. We conclude by identifying critical challenges and future research directions, including fine-tuning and self-growing decision-cores, autonomous modelling, and examining the societal and practical implications of autonomous GIS. By establishing the groundwork for a paradigm shift in GIScience, this paper envisions a future where GIS moves beyond traditional workflows to autonomously reason, derive, innovate, and advance geospatial solutions to pressing global challenges. Meanwhile, we emphasize that as we design and deploy increasingly intelligent geospatial systems, we carry a responsibility to ensure they are developed in socially responsible ways, serve the public good, and support the continued value of human geographic insight in an AI-augmented future.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [li2023autonomous]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=gold | license=cc-by
+@article{li2023autonomous,
+  author           = {Li, Zhenlong and Ning, Huan},
+  title            = {{Autonomous GIS: the next-generation AI-powered GIS}},
+  journaltitle     = {International Journal of Digital Earth},
+  year             = {2023},
+  volume           = {16},
+  number           = {2},
+  pages            = {4668-4686},
+  publisher        = {Informa UK Limited},
+  issn             = {1753-8947},
+  doi              = {10.1080/17538947.2023.2278895},
+  url              = {https://doi.org/10.1080/17538947.2023.2278895},
+  urldate          = {2026-10-31},
+  abstract         = {Large Language Models (LLMs), such as ChatGPT, demonstrate a strong understanding of human natural language and have been explored and applied in various fields, including reasoning, creative writing, code generation, translation, and information retrieval.By adopting LLM as the reasoning core, we introduce Autonomous GIS as an AI-powered geographic information system (GIS) that leverages the LLM's general abilities in natural language understanding, reasoning, and coding for addressing spatial problems with automatic spatial data collection, analysis, and visualization.We envision that autonomous GIS will need to achieve five autonomous goals: self-generating, self-organizing, selfverifying, self-executing, and self-growing.We developed a prototype system called LLM-Geo using the GPT-4 API, demonstrating what an autonomous GIS looks like and how it delivers expected results without human intervention using three case studies.For all case studies, LLM-Geo returned accurate results, including aggregated numbers, graphs, and maps..Although still in its infancy and lacking several important modules such as logging and code testing, LLM-Geo demonstrates a potential path toward the next-generation AI-powered GIS.We advocate for the GIScience community to devote more efforts to the research and development of autonomous GIS, making spatial analysis easier, faster, and more accessible to a broader audience.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [liang2026geoagentic]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=gold | license=cc-by
+@article{liang2026geoagentic,
+  author           = {Liang, Chao and Cui, Yuanzheng and Shi, Run and Zha, Guixiang and Yin, Xin and Xiao, Mingzhong and Xu, Dong and Duan, Xuejun and Huang, Bo},
+  title            = {{GeoAgentic-RAG: A Multi-Agent framework for autonomous geospatial reasoning and visual insight generation with LLM}},
+  journaltitle     = {International Journal of Applied Earth Observation and Geoinformation},
+  year             = {2026},
+  volume           = {147},
+  pages            = {105195},
+  publisher        = {Elsevier BV},
+  issn             = {1569-8432},
+  doi              = {10.1016/j.jag.2026.105195},
+  url              = {https://doi.org/10.1016/j.jag.2026.105195},
+  urldate          = {2026-10-31},
+  abstract         = {• GeoAgentic-RAG unites multi-agent systems and RAG for geospatial intelligence. • Autonomous spatial reasoning and visual insight generation enabled by LLMs. • Unified framework supporting vector, raster, and multimodal geospatial data. • Experiments demonstrate strong semantic consistency with 0.76 relevance score. • Enhanced efficiency and accuracy in geospatial information retrieval and analysis. Conventional Retrieval-Augmented Generation (RAG) systems have limited effectiveness in geospatial question answering because text-based similarity retrieval cannot adequately represent spatial semantics such as topology and spatial context. To overcome this limitation, we propose GeoAgentic-RAG, a multi-agent framework that enables multimodal large language models (MLLMs) to perform autonomous geospatial reasoning. The framework integrates natural language query parsing, semantic-spatial retrieval, and executable geospatial analysis within a unified, agent-based workflow. Multiple specialized agents collaboratively interpret user queries, retrieve relevant vector and raster datasets from a unified geospatial database, decompose analytical tasks, generate valid spatial logic, and produce interpretable analytical results. We evaluate GeoAgentic-RAG using a benchmark of geospatial retrieval, feature characterization, and spatial relational reasoning tasks in Nanjing and Guangzhou. The proposed framework achieves a pass rate of 85.3% and an answer correctness of 88.3%, outperforming conventional RAG methods and representative code-generation baselines. These results demonstrate that agent-based integration of retrieval and spatial analysis substantially improves the reliability of geospatial question answering and provides a practical framework for the next-generation intelligent GIS applications.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [luo2026geojson]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=gold | license=cc-by-nc
+@article{luo2026geojson,
+  author           = {Luo, Qianqian and Lin, Qingming and Xu, Liuchang and Wu, Sensen and Mao, Ruichen and Wang, Chao and Feng, Hailin and Huang, Bo and Du, Zhenhong},
+  title            = {{GeoJSON agents: a multi-agent LLM architecture for geospatial analysis—function calling vs. code generation}},
+  journaltitle     = {Big Earth Data},
+  year             = {2026},
+  volume           = {10},
+  number           = {3},
+  pages            = {1731-1784},
+  publisher        = {Informa UK Limited},
+  issn             = {2096-4471},
+  doi              = {10.1080/20964471.2026.2615511},
+  url              = {https://doi.org/10.1080/20964471.2026.2615511},
+  urldate          = {2026-10-31},
+  abstract         = {Large Language Models (LLMs) have demonstrated substantial progress in task automation and natural language understanding. However, without domain expertise in geographic information science (GIS), they continue to encounter limitations including reduced accuracy and unstable performance when processing complex spatial tasks. To address these challenges, we propose GeoJSON agents—a novel multi-agent LLM architecture specifically designed for geospatial analysis. This framework transforms natural language instructions into structured GeoJSON operations through two widely adopted LLM enhancement techniques: function calling and code generation. The architecture integrates three core components: task parsing, agent collaboration, and result integration. The planner agent systematically decomposes user-defined tasks into executable subtasks, while specialized worker agents perform spatial data processing and analysis either by invoking predefined function APIs or by dynamically generating and executing Python-based analytical code. The system produces reusable, standards-compliant GeoJSON outputs through iterative refinement. To systematically evaluate both approaches, we constructed a hierarchical benchmark comprising 70 tasks spanning basic, intermediate, and advanced complexity levels, conducting experiments with OpenAI’s GPT-4o as the core model. Results indicate that the code generation–based agent achieved 97.14% accuracy, while the function calling–based agent attained 85.71%—both significantly outperforming the best-performing general-purpose model (48.57%). Comparative analysis reveals that code generation offers superior flexibility for complex, open-ended tasks, whereas function calling provides enhanced execution stability for structured operations. This study represents the first systematic integration of GeoJSON data with a multi-agent LLM framework and provides empirical evidence comparing two mainstream enhancement methodologies in geospatial contexts, offering new perspectives for improving GeoAI system performance and reducing barriers to GIS application.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [luo2025mcpuniverse]: record-source=openalex-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=green
+@online{luo2025mcpuniverse,
+  author           = {Luo, Ziyang and Shen, Zhiqi and Yang, Wenzhuo and Zhao, Zirui and Jwalapuram, Prathyusha and Saha, Amrita and Sahoo, Doyen and Savarese, Silvio and Xiong, Caiming and Li, Junnan},
+  title            = {{MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers}},
+  year             = {2025},
+  doi              = {10.48550/arxiv.2508.14704},
+  eprint           = {2508.14704},
+  eprinttype       = {arxiv},
+  url              = {https://doi.org/10.48550/arxiv.2508.14704},
+  urldate          = {2026-10-31},
+  abstract         = {The Model Context Protocol has emerged as a transformative standard for connecting large language models to external data sources and tools, rapidly gaining adoption across major AI providers and development platforms. However, existing benchmarks are overly simplistic and fail to capture real application challenges such as long-horizon reasoning and large, unfamiliar tool spaces. To address this critical gap, we introduce MCP-Universe, the first comprehensive benchmark specifically designed to evaluate LLMs in realistic and hard tasks through interaction with real-world MCP servers. Our benchmark encompasses 6 core domains spanning 11 different MCP servers: Location Navigation, Repository Management, Financial Analysis, 3D Design, Browser Automation, and Web Searching. To ensure rigorous evaluation, we implement execution-based evaluators, including format evaluators for agent format compliance, static evaluators for time-invariant content matching, and dynamic evaluators that automatically retrieve real-time ground truth for temporally sensitive tasks. Through extensive evaluation of leading LLMs, we find that even SOTA models such as GPT-5 (43.72%), Grok-4 (33.33%) and Claude-4.0-Sonnet (29.44%) exhibit significant performance limitations. In addition, our benchmark poses a significant long-context challenge for LLM agents, as the number of input tokens increases rapidly with the number of interaction steps. Moreover, it introduces an unknown-tools challenge, as LLM agents often lack familiarity with the precise usage of the MCP servers. Notably, enterprise-level agents like Cursor cannot achieve better performance than standard ReAct frameworks. Beyond evaluation, we open-source our extensible evaluation framework with UI support, enabling researchers and practitioners to seamlessly integrate new agents and MCP servers while fostering innovation in the rapidly evolving MCP ecosystem.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [maloyan2026breaking]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=crossref (publisher deposit) | oa-status=hybrid | license=cc-by
+@article{maloyan2026breaking,
+  author           = {Maloyan, Narek and Namiot, Dmitry},
+  title            = {{Breaking the Protocol: Security Analysis of the Model Context Protocol Specification and Prompt Injection Vulnerabilities in Tool-Integrated LLM Agents}},
+  journaltitle     = {SuperIntelligence - Robotics - Safety &amp; Alignment},
+  year             = {2026},
+  volume           = {3},
+  number           = {4},
+  pages            = {7},
+  publisher        = {Carlson Research LLC},
+  issn             = {3067-2627},
+  doi              = {10.70777/si.v3i4.18910},
+  url              = {https://doi.org/10.70777/si.v3i4.18910},
+  urldate          = {2026-10-31},
+  abstract         = {The Model Context Protocol (MCP) has emerged as a de facto standard for integrating Large Language Models with external tools, yet no formal security analysis of the protocol specification exists. We present the first rigorous security analysis of MCP's architectural design, identifying three fundamental protocol-level vulnerabilities: (1) absence of capability attestation allowing servers to claim arbitrary permissions, (2) bidirectional sampling without origin authentication enabling server-side prompt injection, and (3) implicit trust propagation in multi-server configurations. We implement MCPBench, a novel framework bridging existing agent security benchmarks to MCP-compliant infrastructure, enabling direct measurement of protocol-specific attack surfaces. Through controlled experiments on 847 attack scenarios across five MCP server implementations, we demonstrate that MCP's architectural choices amplify attack success rates by 23--41% compared to equivalent non-MCP integrations. We propose MCPSec, a backward-compatible protocol extension adding capability attestation and message authentication, reducing attack success rates from 52.8% to 12.4% with median latency overhead of 8.3ms per message. Our findings establish that MCP's security weaknesses are architectural rather than implementation-specific, requiring protocol-level remediation.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: crossref (publisher deposit)},
+}
+
+% provenance [mansourian2026multiagent]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=gold | license=cc-by-nc
+@article{mansourian2026multiagent,
+  author           = {Mansourian, Ali and Oucheikh, Rachid},
+  title            = {{Bridging natural language and GIS: a multi-agent framework for LLM-driven autonomous geospatial analysis}},
+  journaltitle     = {International Journal of Digital Earth},
+  year             = {2026},
+  volume           = {19},
+  number           = {1},
+  publisher        = {Informa UK Limited},
+  issn             = {1753-8947},
+  doi              = {10.1080/17538947.2026.2633849},
+  url              = {https://doi.org/10.1080/17538947.2026.2633849},
+  urldate          = {2026-10-31},
+  abstract         = {Existing LLM-based approaches remain limited by simplistic task execution, restricted tool integration, and a lack of contextual reasoning when interacting with professional GIS software. This study investigates the efficacy of a multi-agent architecture designed to enhance geospatial task execution accuracy through collaboration, reasoning and tool-use. The architecture integrates Chain of Thought (CoT) reasoning and Retrieval-Augmented Generation (RAG) and employs specialized agents that collaboratively translate high-level natural language queries into structured, executable workflows using QGIS processing algorithms as tools. Through a structured fine-tuning approach, we evaluated how the multi-agent setup influences spatial task comprehension, geoprocessing tool selection, and code generation. The results demonstrate that the developed framework significantly outperforms baseline single-agent and non-fine-tuned systems. For tasks involving one or two GIS tools, the system achieved up to 100% execution success and 87.5% semantic correctness. However, its effectiveness decreases with more complex, multi-step workflows. Notably, iterative self-refinement and self-debugging led to moderate gains in execution success and semantic correctness. The results indicate that multi-agent frameworks are a promising approach, even though improvements in reasoning depth and tool alignment are still needed. This study represents a foundational step toward more reliable, modular, and adaptable LLM-based systems for geospatial analysis automation.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [mastouri2025automcp]: record-source=manual-verified (arXiv 2507.16044 via OpenAlex record 10.48550/arxiv.2507.16044) | retrieved=2026-10-31 | confidence=n/a | abstract-source=arxiv (preprint abstract)
+@online{mastouri2025automcp,
+  author           = {Mastouri, Meriem and Ksontini, Emna and Barrak, Amine and Kessentini, Wael},
+  title            = {{From REST to MCP: An Empirical Study of API Wrapping and Automated Server Generation for LLM Agents}},
+  year             = {2025},
+  eprint           = {2507.16044},
+  eprinttype       = {arxiv},
+  url              = {https://arxiv.org/abs/2507.16044},
+  urldate          = {2026-10-31},
+  abstract         = {The Model Context Protocol (MCP) is emerging as a standard interface through which LLM agents invoke external tools, and a growing ecosystem of MCP servers now mediates access to vendor services. Most of these servers target vendors that already expose REST APIs, yet the relationship between MCP tool interfaces and the underlying API surface has not been empirically characterised. This paper presents the first large-scale study of MCP server construction. We analyse 116 official servers to determine REST reliance and integration strategies (RQ1); examine servers paired with OpenAPI specifications to quantify operation exposure, omission, and mapping patterns (RQ2); evaluate automated generation from 80 real-world OpenAPI contracts (RQ3); and assess specification repair and tool-set transformations to improve correctness and reduce complexity (RQ4). We find that 88.6% of servers are fully or partially REST-backed, with 92% implementing tools as bare API wrappers. MCP servers expose a median of 19% of available operations, following systematic patterns predictable from the specification. Baseline generation succeeds for 76% of sampled tools; automated repair raises this to 94.2%, while filtering and regrouping reduce the median tool count per API by one-third. We release AutoMCP, an end-to-end pipeline integrating specification repair and empirically grounded tool-set transformations.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: arxiv (preprint abstract)},
+}
+
+% provenance [anthropicMCP]: record-source=manual-verified (publisher specification site, fetched 2026-10-31) | retrieved=2026-10-31 | confidence=n/a
+@online{anthropicMCP,
+  author           = {{Anthropic}},
+  title            = {{Model Context Protocol Specification}},
+  year             = {2025},
+  url              = {https://modelcontextprotocol.io/specification/2025-06-18},
+  urldate          = {2026-10-31},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {no abstract by design; Primary specification. A specification has no abstract by design; cite by URL + urldate. Page carries no meta description to fall back on.},
+}
+
+% provenance [anthropic2026evals]: record-source=publisher-page | retrieved=2026-10-31 | no DOI (engineering blog) | cited for the evaluation vocabulary and for the grading-error numbers
+@online{anthropic2026evals,
+  author           = {{Anthropic}},
+  title            = {{Demystifying evals for AI agents}},
+  year             = {2026},
+  url              = {https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents},
+  urldate          = {2026-10-31},
+  keywords         = {LLM agents; evaluation; grader; evaluation harness},
+  note             = {Sets the vocabulary used here: task, trial, transcript, outcome, grader, evaluation harness; grades the outcome rather than the trajectory; a model's CORE-Bench score moved from 42\% to 95\% once grading bugs and ambiguous task specifications were fixed.},
+}
+
+% provenance [mo2025livemcpbench]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=hybrid | license=cc-by
+@inproceedings{mo2025livemcpbench,
+  author           = {Mo, Guozhao and Zhong, Wenliang and Chen, Jiawei and Yuan, Qianhao and Chen, Xuanang and Lu, Yaojie and Lin, Hongyu and He, Ben and Han, Xianpei and Sun, Le},
+  title            = {{LiveMCPBench: Can Agents Navigate an Ocean of MCP Tools?}},
+  booktitle        = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+  year             = {2026},
+  pages            = {9581-9592},
+  publisher        = {ACM},
+  doi              = {10.1145/3770855.3817478},
+  url              = {https://doi.org/10.1145/3770855.3817478},
+  urldate          = {2026-10-31},
+  abstract         = {Model Context Protocol (MCP) has become a key infrastructure for connecting LLMs with external tools, scaling to 10,000+ MCP servers with diverse tools. Unfortunately, there is still a large gap between real-world MCP usage and current evaluation: they typically assume single-server settings and directly inject tools into the model's context, bypassing the challenges of large-scale retrieval and multi-tool composition. To bridge this gap, we propose LiveMCPBench, which evaluates 95 real-world daily tasks explicitly constructed to stress diverse tools and scaled multi-server routing. The benchmark includes a ready-to-deploy tool suite of 70 servers with 527 tools, ensuring reproducibility without scattered API configuration. We further introduce an LLM-as-a-Judge evaluation framework that directly verifies task outcomes, handling dynamic data sources and multiple valid solution paths. We benchmark 12 state-of-the-art LLMs and observe a substantial performance gap: while Claude-Sonnet-4 reaches 78.95% task success, most models achieve only 30-50%. Our analysis reveals that active tool composition strongly correlates with task success, whereas retrieval errors account for nearly half of all failures—highlighting retrieval as the dominant bottleneck. Together, these results provide the first large-scale, reproducible diagnosis of MCP agent capabilities and point towards future research on improving retrieval robustness and encouraging effective tool composition. Our code and data are publicly available at https://icip-cas.github.io/LiveMCPBench.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [nargund2025mcp]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=closed
+@inproceedings{nargund2025mcp,
+  author           = {Nargund, Nisharg and Swain, Anil Kumar and Behera, Naliniprava},
+  title            = {{Model Context Protocol (MCP): A Lightweight, Modular Framework for Tool-Augmented LLM Agents}},
+  booktitle        = {2025 13th International Conference on Intelligent Systems and Embedded Design (ISED)},
+  year             = {2025},
+  pages            = {175-180},
+  publisher        = {IEEE},
+  doi              = {10.1109/ised67359.2025.11405153},
+  url              = {https://doi.org/10.1109/ised67359.2025.11405153},
+  urldate          = {2026-10-31},
+  abstract         = {However, as large language models (LLMs) continue to act as self-contained agents more than ever before, there is an increasing demand for standard protocols to provide a smooth bridge between these tools and outside bits of equipment. The Model Context Protocol (MCP) is a lightweight, extensible architecture that describes structured communication loops between agents, tools and controllers. We present here an overall conception of MCP’s design philosophy, communication processes, and levels of system modularity. We also examine several public MCP server implementations, analyzing their tool orchestration schemes and ascertain their adaptability in several different environments. Through this theoretical and practical endeavor, MCP is shown to offer a robust foundation for constructing scalable, transparent systems with extensions. Advanced LLM agents We also explore current limitations, such as prompt dependency and lack of standard benchmarks. Moreover, we point out future areas to enhance protocol security and memory management, as well as to build in support for multiple languages.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [ning2025autonomous]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=0.885 | abstract-source=openalex (reconstructed inverted index) | oa-status=gold | license=cc-by
+@article{ning2025autonomous,
+  author           = {Ning, Huan and Li, Zhenlong and Akinboyewa, Temitope and Lessani, M. Naser},
+  title            = {{An autonomous GIS agent framework for geospatial data retrieval}},
+  journaltitle     = {International Journal of Digital Earth},
+  year             = {2025},
+  volume           = {18},
+  number           = {1},
+  publisher        = {Informa UK Limited},
+  issn             = {1753-8947},
+  doi              = {10.1080/17538947.2025.2458688},
+  url              = {https://doi.org/10.1080/17538947.2025.2458688},
+  urldate          = {2026-10-31},
+  abstract         = {Powered by the emerging large language models (LLMs), autonomous geographic information system (GIS) agents can perform spatial analyses and cartographic tasks. However, a research gap exists in enabling these agents to autonomously discover and retrieve the necessary data for spatial analysis. This study proposes an autonomous GIS agent framework capable of retrieving required geospatial data by generating, executing, and debugging programs. The framework, with an LLM-driven decision core, selects data sources from a predefined list and fetches data using source-specific handbooks that document metadata and data retrieval details. Designed in a plug-and-play style, the framework allows human users or automated data crawlers to add new sources by creating additional handbooks. A prototype agent based on the framework is developed and released as a QGIS plugin and a Python program. Experiment results demonstrate its capability of retrieving data from various sources, including OpenStreetMap, administrative boundaries and demographic data from the U.S. Census Bureau, satellite basemaps from ESRI World Imagery, global digital elevation model (DEM) from OpenTopography.org, weather data from a commercial provider, and the COVID-19 case data from the NYTimes GitHub. This study is among the first attempts to develop an autonomous GIS agent for geospatial data retrieval.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [ogsagent2026]: record-source=kb-doi | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=green | license=cc-by
+@article{ogsagent2026,
+  author           = {Wang, Kaixuan and Yue, Peng and Wu, Haoru and Teng, Baoxin},
+  title            = {{OGSAgent: an MCP-based multi-agent collaboration framework for intelligent GIServices}},
+  journaltitle     = {International Journal of Geographical Information Science},
+  year             = {2026},
+  pages            = {1-32},
+  publisher        = {Informa UK Limited},
+  issn             = {1365-8816},
+  doi              = {10.1080/13658816.2026.2715051},
+  url              = {https://doi.org/10.1080/13658816.2026.2715051},
+  urldate          = {2026-10-31},
+  abstract         = {The vision of intelligent GIServices (Geographic Information Services) is to automatically discover, compose and execute distributed GIServices to address global challenges. Recent studies show that LLM (large language model)-based agents can autonomously use external services, with interoperability enabled by LLM capability server standards led by the Model Context Protocol (MCP). Achieving intelligent GIServices through LLM-based agents faces three issues: unified representation of geospatial capabilities, interoperability between geospatial and AI domains, and automatic coordination of heterogeneous GIServices. To address these issues, we propose OGSAgent, an MCP-based multi-agent collaboration framework for intelligent GIServices. First, it includes a GeoMCP server, which is a profile of the MCP server for the unified representation of geospatial capabilities. A common mapping method from the GIServices to the GeoMCP server is introduced and applied to OGC API-based GIServices. A multi-agent system is designed to automatically orchestrate geospatial capabilities, with agent roles and interactions following the ‘publish–find–bind’ GIService pattern and a purpose-based GIService taxonomy. Four use cases are demonstrated, including meteorological analysis, spatial analysis, remote sensing analysis and city digital twins. Ablation and comparative evaluations on a carefully designed multi-level benchmark dataset validate the effectiveness of OGSAgent for intelligent GIServices.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [openearthagent2026]: record-source=kb-arxiv-id | retrieved=2026-10-31 | confidence=n/a | abstract-source=arxiv (preprint abstract)
+@online{openearthagent2026,
+  author           = {Shabbir, Akashah and Sheikh, Muhammad Umer and Munir, Muhammad Akhtar and Debary, Hiyam and Fiaz, Mustansar and Zaheer, Muhammad Zaigham and Fraccaro, Paolo and Khan, Fahad Shahbaz and Khan, Muhammad Haris and Zhu, Xiao Xiang and Khan, Salman},
+  title            = {{OpenEarthAgent: A Unified Framework for Tool-Augmented Geospatial Agents}},
+  year             = {2026},
+  eprint           = {2602.17665},
+  eprinttype       = {arxiv},
+  url              = {https://arxiv.org/abs/2602.17665},
+  urldate          = {2026-10-31},
+  abstract         = {Recent progress in multimodal reasoning has enabled agents that interpret imagery, connect it with language, and execute structured analytical tasks. Extending these capabilities to remote sensing remains challenging, as models must reason over spatial scale, geographic structures, and multispectral indices while maintaining coherent multi-step logic. To address this gap, we introduce \textit{OpenEarthAgent}, a unified framework for tool-augmented geospatial reasoning trained on satellite imagery, natural-language queries, and structured reasoning traces. Beyond serving as a benchmark, OpenEarthAgent establishes a cohesive agentic architecture built around a unified executable tool registry and trajectory-based policy learning. The framework standardizes heterogeneous visual, spectral, GIS, and georeferenced raster operations under a consistent callable schema, enabling modular orchestration and deterministic execution. Training is performed via supervised fine-tuning on structured reasoning trajectories with deterministic replay validation to ensure executability and spatial correctness. The accompanying corpus comprises 14,538 training and 1,169 evaluation instances with over 107K reasoning steps, spanning urban, environmental, disaster, and infrastructure domains and incorporating GIS operations alongside index analyses such as NDVI, NBR, and NDBI. Grounded in explicit reasoning traces, the learned agent demonstrates structured reasoning, stable spatial understanding, and interpretable tool-driven behaviour across diverse EO scenarios. We report consistent improvements over a strong baseline and competitive performance against recent open and closed-source models. Our code, data and trained models are publicly available: https://github.com/mbzuai-oryx/OpenEarthAgent},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: arxiv (preprint abstract)},
+}
+
+% provenance [peffers2007design]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=closed
+@article{peffers2007design,
+  author           = {Peffers, Ken and Tuunanen, Tuure and Rothenberger, Marcus A. and Chatterjee, Samir},
+  title            = {{A Design Science Research Methodology for Information Systems Research}},
+  journaltitle     = {Journal of Management Information Systems},
+  year             = {2007},
+  volume           = {24},
+  number           = {3},
+  pages            = {45-77},
+  publisher        = {Informa UK Limited},
+  issn             = {0742-1222},
+  doi              = {10.2753/mis0742-1222240302},
+  url              = {https://doi.org/10.2753/mis0742-1222240302},
+  urldate          = {2026-10-31},
+  abstract         = {The paper motivates, presents, demonstrates in use, and evaluates a methodology for conducting design science (DS) research in information systems (IS). DS is of importance in a discipline oriented to the creation of successful artifacts. Several researchers have pioneered DS research in IS, yet over the past 15 years, little DS research has been done within the discipline. The lack of a methodology to serve as a commonly accepted framework for DS research and of a template for its presentation may have contributed to its slow adoption. The design science research methodology (DSRM) presented here incorporates principles, practices, and procedures required to carry out such research and meets three objectives: it is consistent with prior literature, it provides a nominal process model for doing DS research, and it provides a mental model for presenting and evaluating DS research in IS. The DS process includes six steps: problem identification and motivation, definition of the objectives for a solution, design and development, demonstration, evaluation, and communication. We demonstrate and evaluate the methodology by presenting four case studies in terms of the DSRM, including cases that present the design of a database to support health assessment methods, a software reuse measure, an Internet video telephony application, and an IS planning method. The designed methodology effectively satisfies the three objectives and has the potential to help aid the acceptance of DS research in the IS discipline.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [shabbir2025thinkgeo]: record-source=openalex-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=green | license=cc-by
+@online{shabbir2025thinkgeo,
+  author           = {Shabbir, Akashah and Munir, Muhammad Akhtar and Dudhane, Akshay and Sheikh, Muhammad Umer and Khan, Muhammad Haris and Fraccaro, Paolo and Moreno, Juan Bernabe and Khan, Fahad Shahbaz and Khan, Salman},
+  title            = {{ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks}},
+  year             = {2025},
+  doi              = {10.48550/arxiv.2505.23752},
+  eprint           = {2505.23752},
+  eprinttype       = {arxiv},
+  url              = {https://doi.org/10.48550/arxiv.2505.23752},
+  urldate          = {2026-10-31},
+  abstract         = {Recent progress in large language models (LLMs) has enabled tool-augmented agents capable of solving complex real-world tasks through step-by-step reasoning. However, existing evaluations often focus on general-purpose or multimodal scenarios, leaving a gap in domain-specific benchmarks that assess tool-use capabilities in complex remote sensing use cases. We present ThinkGeo, an agentic benchmark designed to evaluate LLM-driven agents on remote sensing tasks via structured tool use and multi-step planning. Inspired by tool-interaction paradigms, ThinkGeo includes human-curated queries spanning a wide range of real-world applications such as urban planning, disaster assessment and change analysis, environmental monitoring, transportation analysis, aviation monitoring, recreational infrastructure, and industrial site analysis. Queries are grounded in satellite or aerial imagery, including both optical RGB and SAR data, and require agents to reason through a diverse toolset. We implement a ReAct-style interaction loop and evaluate both open and closed-source LLMs (e.g., GPT-4o, Qwen2.5) on 486 structured agentic tasks with 1,778 expert-verified reasoning steps. The benchmark reports both step-wise execution metrics and final answer correctness. Our analysis reveals notable disparities in tool accuracy and planning consistency across models. ThinkGeo provides the first extensive testbed for evaluating how tool-enabled LLMs handle spatial reasoning in remote sensing.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [song2025helpor]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=bronze
+@inproceedings{song2025helpor,
+  author           = {Song, Wei and Zhong, Haonan and Ding, Ziqi and Xing, Zhenchang and Sui, Yulei and Xue, Jingling and Li, Yuekang},
+  title            = {{Help or Hurdle? Rethinking Model Context Protocol-Augmented Large Language Models}},
+  booktitle        = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  year             = {2026},
+  pages            = {43537-43553},
+  publisher        = {Association for Computational Linguistics},
+  doi              = {10.18653/2026.emnlp-main.1911},
+  url              = {https://doi.org/10.18653/2026.emnlp-main.1911},
+  urldate          = {2026-10-31},
+  abstract         = {The Model Context Protocol (MCP) enables large language models (LLMs) to access external resources on demand.While commonly assumed to enhance performance, how LLMs actually leverage this capability remains poorly understood.We introduce MCPGAUGE, the first comprehensive evaluation framework for probing LLM-MCP interactions along four key dimensions: proactivity (self-initiated tool use), compliance (adherence to tool-use instructions), effectiveness (task performance post-integration), and overhead (computational cost incurred).MCPGAUGE comprises a 160prompt suite and 25 datasets spanning knowledge comprehension, general reasoning, and code generation.Our large-scale evaluation spans six commercial LLMs, 30 MCP tool suites, and both one-and two-turn interaction settings, comprising around 20,000 API calls.This comprehensive study reveals four key findings that challenge prevailing assumptions about the effectiveness of MCP integration.These insights highlight critical limitations in current AI-tool integration and position MCPGAUGE as a principled benchmark for advancing controllable, tool-augmented LLMs.* get-actor-details * search-actors * search-apify-docs * fetch-apify-docs * add-actor * apify-slash-rag-web-browser -AGIEval (#16): * abort-actor-run * get-actor-details * get-actor * get-actor-log * get-actor-run * get-dataset * get-dataset-items * get-key-value-store * get-key-value-store-keys * get-key-value-store-record * get-actor-run-list * get-dataset-list * get-key-value-store-list * apify-actor-help-tool * search-actors * apify-slash-rag-web-browser -EvalPlus (#18): * abort-actor-run * get-actor-details * get-actor * get-actor-log * get-actor-run * get-dataset * get-dataset-items * get-key-value-store * get-key-value-store-keys * get-key-value-store-record * get-actor-run-list * get-dataset-list * get-key-value-store-list * apify-actor-help-tool * search-actors},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [strickland2026pareto]: record-source=manual-verified (web search 2026-10-31 + arXiv 2603.06394) | retrieved=2026-10-31 | confidence=n/a | abstract-source=arxiv (preprint abstract)
+@online{strickland2026pareto,
+  author           = {Strickland, Joel and Vijeta, Arjun and Moores, Chris and Bodek, Oliwia and Nenchev, Bogdan and Whitehead, Thomas and Phillips, Charles and Tassenberg, Karl and Conduit, Gareth and Pellegrini, Ben},
+  title            = {{Talk Freely, Execute Strictly: Schema-Gated Agentic AI for Flexible and Reproducible Scientific Workflows}},
+  year             = {2026},
+  eprint           = {2603.06394},
+  eprinttype       = {arxiv},
+  url              = {https://arxiv.org/abs/2603.06394},
+  urldate          = {2026-10-31},
+  abstract         = {Large language models (LLMs) can now translate a researcher's plain-language goal into executable computation, yet scientific workflows demand determinism, provenance, and governance that are difficult to guarantee when an LLM decides what runs. Semi-structured interviews with 18 experts across 10 industrial R&amp;D stakeholders surface 2 competing requirements--deterministic, constrained execution and conversational flexibility without workflow rigidity--together with boundary properties (human-in-the-loop control and transparency) that any resolution must satisfy. We propose schema-gated orchestration as the resolving principle: the schema becomes a mandatory execution boundary at the composed-workflow level, so that nothing runs unless the complete action--including cross-step dependencies--validates against a machine-checkable specification. We operationalize the 2 requirements as execution determinism (ED) and conversational flexibility (CF), and use these axes to review 20 systems spanning 5 architectural groups along a validation-scope spectrum. Scores are assigned via a multi-model protocol--15 independent sessions across 3 LLM families--yielding substantial-to-near-perfect inter-model agreement (Krippendorff a=0.80 for ED and a=0.98 for CF), demonstrating that multi-model LLM scoring can serve as a reusable alternative to human expert panels for architectural assessment. The resulting landscape reveals an empirical Pareto front--no reviewed system achieves both high flexibility and high determinism--but a convergence zone emerges between the generative and workflow-centric extremes. We argue that a schema-gated architecture, separating conversational from execution authority, is positioned to decouple this trade-off, and distill 3 operational principles--clarification-before-execution, constrained plan-act orchestration, and tool-to-workflow-level gating--to guide adoption.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: arxiv (preprint abstract)},
+}
+
+% provenance [wang2025mcpbench]: record-source=openalex-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=green
+@online{wang2025mcpbench,
+  author           = {Wang, Zhenting and Chang, Qi and Patel, Hemani and Biju, Shashank and Wu, Cheng-En and Liu, Quan and Ding, Aolin and Rezazadeh, Alireza and Shah, Ankit and Bao, Yujia and Siow, Eugene},
+  title            = {{MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers}},
+  year             = {2025},
+  doi              = {10.48550/arxiv.2508.20453},
+  eprint           = {2508.20453},
+  eprinttype       = {arxiv},
+  url              = {https://doi.org/10.48550/arxiv.2508.20453},
+  urldate          = {2026-10-31},
+  abstract         = {We introduce MCP-Bench, a benchmark for evaluating large language models (LLMs) on realistic, multi-step tasks that demand tool use, cross-tool coordination, precise parameter control, and planning/reasoning for solving tasks. Built on the Model Context Protocol (MCP), MCP-Bench connects LLMs to 28 representative live MCP servers spanning 250 tools across domains such as finance, traveling, scientific computing, and academic search. Unlike prior API-based benchmarks, each MCP server provides a set of complementary tools designed to work together, enabling the construction of authentic, multi-step tasks with rich input-output coupling. Tasks in MCP-Bench test agents' ability to retrieve relevant tools from fuzzy instructions without explicit tool names, plan multi-hop execution trajectories for complex objectives, ground responses in intermediate tool outputs, and orchestrate cross-domain workflows - capabilities not adequately evaluated by existing benchmarks that rely on explicit tool specifications, shallow few-step workflows, and isolated domain operations. We propose a multi-faceted evaluation framework covering tool-level schema understanding and usage, trajectory-level planning, and task completion. Experiments on 20 advanced LLMs reveal persistent challenges in MCP-Bench. Code and data: https://github.com/Accenture/mcp-bench.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [wu2025geocolab]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=gold | license=cc-by-nc
+@article{wu2025geocolab,
+  author           = {Wu, Huayi and Jiao, Haoyue and Hou, Shuyang and Liang, Jianyuan and Shen, Zhangxiao and Zhao, Anqi and Qing, Yaxian and Jin, Fengying and Guan, Xuefeng and Gui, Zhipeng},
+  title            = {{GeoColab: an LLM-based multi-agent collaborative framework for geospatial code generation}},
+  journaltitle     = {International Journal of Digital Earth},
+  year             = {2025},
+  volume           = {18},
+  number           = {2},
+  publisher        = {Informa UK Limited},
+  issn             = {1753-8947},
+  doi              = {10.1080/17538947.2025.2569405},
+  url              = {https://doi.org/10.1080/17538947.2025.2569405},
+  urldate          = {2026-10-31},
+  abstract         = {Automated geospatial code generation using large language models (LLMs) faces challenges in requirement parsing, syntax adaptation, path retrieval, code validation, and spatial recognition, often leading to ‘code hallucinations.’ To address these, we introduce GeoColab, the first multi-agent framework for geospatial code generation. It defines three roles—product manager, algorithm engineer, and programmer—operating under standardized procedures. GeoColab integrates a knowledge support mechanism and retrieval-augmented generation (RAG), utilizing 8,729 function syntax documents, 2,732 datasets, 115 external APIs, 94 projection methods, and 3,837 CRS transformation entries, all stored and accessed via a document management system. We also present the GeoCodes benchmark, with 25 explicit, 15 incomplete, and 10 open-ended tasks. Applied to seven mainstream LLMs, including GPT-4.5 and DeepSeek-V3-0324, GeoColab improves code executability, accuracy, and readability by 7.59%–26.09%, surpassing baselines like CodeCoT and ChatDev by up to 31.03%. Ablation studies show a 4.39%–9.30% performance drop without knowledge modules, highlighting their importance. GeoColab is open-sourced and supports local deployment, reducing technical barriers to geospatial programming and broadening LLMs' use in GIS.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [yao2024taubench]: record-source=arxiv | retrieved=2026-10-31
+@online{yao2024taubench,
+  author           = {Yao, Shunyu and Shinn, Noah and Razavi, Pedram and Narasimhan, Karthik},
+  title            = {{$\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains}},
+  year             = {2024},
+  eprint           = {2406.12045},
+  eprinttype       = {arxiv},
+  url              = {https://arxiv.org/abs/2406.12045},
+  urldate          = {2026-10-31},
+  keywords         = {LLM agents; tool use; benchmark; pass^k},
+  note             = {Introduces pass^k, the probability that all k independent trials of a task succeed, and reports that function-calling agents passed three trials in a row far less often than their per-trial success rate suggests.},
+}
+
+% provenance [yin2025livemcp]: record-source=openalex-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=green | license=cc-by
+@online{yin2025livemcp,
+  author           = {Yin, Ming and Shen, Dinghan and Xu, Silei and Dong, Sixun and Zhang, Mian and Hu, Yebowen and Liu, Shujian and Han, Jianbing and Ma, Simin and Wang, Song and Indurthi, Sathish Reddy and Wang, Xun and Chen, Yiran and Song, Kaiqiang},
+  title            = {{LiveMCP-101: Stress Testing and Diagnosing MCP-enabled Agents on Challenging Queries}},
+  year             = {2025},
+  doi              = {10.48550/arxiv.2508.15760},
+  eprint           = {2508.15760},
+  eprinttype       = {arxiv},
+  url              = {https://doi.org/10.48550/arxiv.2508.15760},
+  urldate          = {2026-10-31},
+  abstract         = {Tool calling has emerged as a critical capability for AI agents. In contrast to conventional tool calling frameworks that rely on static, provider-specific tool definitions, the Model Context Protocol (MCP) offers a unified interface to discover and invoke tools dynamically. However, there is a significant gap in benchmarking multi-step tasks using diverse MCP tools in realistic, dynamic scenarios. In this work, we present LiveMCP-101, a benchmark of 101 real-world queries that require coordinated use of multiple MCP tools. To address temporal variability in real-world tool responses, we introduce a parallel evaluation framework where a reference agent executes a validated plan simultaneously to produce real-time reference outputs. Experiments show that even frontier LLMs achieve a success rate below 60\%, highlighting challenges in multi-step tool use. Comprehensive error analysis identifies seven failure modes spanning tool planning, parameterization, and output handling, pointing to concrete directions for improving current models. LiveMCP-101 sets a rigorous standard for evaluating real-world agent capabilities, advancing toward autonomous agent systems that reliably execute complex tasks through MCP tool orchestration.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [yu2026geoagentbench]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=openalex (reconstructed inverted index) | oa-status=gold | license=cc-by
+@article{yu2026geoagentbench,
+  author           = {Yu, Bo and Yang, Cheng and Hou, Dongyang and Liu, Chengfu and Liu, Jiayao and Wang, Chi and Zhang, Zhiming and Li, Haifeng and Yang, Wentao},
+  title            = {{GeoAgentbench: a dynamic execution benchmark for tool-augmented agents in spatial analysis}},
+  journaltitle     = {Geo-spatial Information Science},
+  year             = {2026},
+  pages            = {1-22},
+  publisher        = {Informa UK Limited},
+  issn             = {1009-5020},
+  doi              = {10.1080/10095020.2026.2736957},
+  url              = {https://doi.org/10.1080/10095020.2026.2736957},
+  urldate          = {2026-10-31},
+  abstract         = {The integration of large language models (LLMs) into geographic information systems (GIS) marks a paradigm shift toward autonomous spatial analysis. However, evaluating LLM-based agents remains challenging due to the complex, multi-step nature of geospatial workflows. Existing benchmarks primarily rely on static text or code matching, neglecting dynamic runtime feedback and the multimodal nature of spatial outputs. To address this gap, we introduce GeoAgentBench (GABench), a dynamic and interactive evaluation benchmark tailored for tool-augmented GIS agents. GABench provides a realistic execution sandbox integrating 133 atomic GIS tools and encompasses 57 representative spatial analysis tasks across six core GIS domains. Recognizing that precise parameter configuration is a key determinant of execution success in dynamic GIS environments, we design the parameter execution accuracy (PEA) metric, which utilizes a last-attempt alignment strategy to quantify the fidelity of implicit parameter inference. Complementing this, a vision-language model (VLM)-based verification protocol is proposed to assess data and spatial accuracy and cartographic style adherence. To support diagnostic comparisons across reasoning strategies, we instantiate four representative agent baselines, including direct tool invocation, ReAct, Plan-and-Solve, and a hybrid Plan-and-React baseline that combines global workflow decomposition with stepwise reactive execution. Extensive experiments with seven representative LLMs show that GABench can reveal distinct capability boundaries in long-chain orchestration, parameter-level execution, multimodal map-product generation, and runtime error recovery. The results further indicate that the hybrid planning–reactive strategy provides a strong reference baseline under dynamic GIS execution, while also exposing persistent limitations of current LLM agents in complex spatial analysis. Overall, GABench establishes a reproducible benchmark for assessing and advancing tool-augmented agents in autonomous GeoAI. The source code and dataset are available at: https://github.com/GeoX-Lab/GABench.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: openalex (reconstructed inverted index)},
+}
+
+% provenance [zhang2025geoanalystbench]: record-source=crossref-title-match | retrieved=2026-10-31 | confidence=title-match-score=0.937 | abstract-source=crossref (publisher deposit) | oa-status=hybrid | license=cc-by
+@article{zhang2025geoanalystbench,
+  author           = {Zhang, Qianheng and Gao, Song and Wei, Chen and Zhao, Yibo and Nie, Ying and Chen, Ziru and Chen, Shijie and Su, Yu and Sun, Huan},
+  title            = {{GeoAnalystBench : A GeoAI Benchmark for Assessing Large Language Models for Spatial Analysis Workflow and Code Generation}},
+  journaltitle     = {Transactions in GIS},
+  year             = {2025},
+  volume           = {29},
+  number           = {7},
+  publisher        = {Wiley},
+  issn             = {1361-1682},
+  doi              = {10.1111/tgis.70135},
+  url              = {https://doi.org/10.1111/tgis.70135},
+  urldate          = {2026-10-31},
+  abstract         = {ABSTRACT Recent advances in large language models (LLMs) have fueled growing interest in automating geospatial analysis and GIS workflows, yet their actual capabilities remain uncertain. In this work, we call for rigorous evaluation of LLMs on well‐defined geoprocessing tasks before making claims about full GIS automation. To this end, we present GeoAnalystBench, a benchmark of 50 Python‐based tasks derived from real‐world geospatial problems and validated by GIS experts. Each task is paired with a minimum deliverable product, and evaluation covers workflow validity, structural alignment, semantic similarity, and code quality (CodeBLEU). Using this benchmark, we assess both proprietary and open‐source models. Results reveal a clear gap: proprietary models such as ChatGPT‐4o‐mini achieve high validity (95%) and stronger code alignment (CodeBLEU 0.39), while smaller open‐source models like DeepSeek‐R1‐7B often generate incomplete or inconsistent workflows (48.5% validity, 0.272 CodeBLEU). Tasks requiring deeper spatial reasoning, such as spatial relationship detection or optimal site selection, remain the most challenging across all models. These findings demonstrate both the promise and limitations of current LLMs in GIS automation and provide a reproducible framework to advance GeoAI research with human‐in‐the‐loop support.},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: crossref (publisher deposit)},
+}
+
+% provenance [zhang2025msb]: record-source=arxiv-title-match | retrieved=2026-10-31 | confidence=title-match-score=1.0 | abstract-source=arxiv (preprint abstract)
+@online{zhang2025msb,
+  author           = {Zhang, Dongsen and Li, Zekun and Luo, Xu and Liu, Xuannan and Li, Peipei and Xu, Wenjun},
+  title            = {{MCP Security Bench (MSB): Benchmarking Attacks Against Model Context Protocol in LLM Agents}},
+  year             = {2025},
+  eprint           = {2510.15994},
+  eprinttype       = {arxiv},
+  url              = {https://arxiv.org/abs/2510.15994},
+  urldate          = {2026-10-31},
+  abstract         = {The Model Context Protocol (MCP) standardizes how large language model (LLM) agents discover, describe, and call external tools. While MCP unlocks broad interoperability, it also enlarges the attack surface by making tools first-class, composable objects with natural-language metadata, and standardized I/O. We present MSB (MCP Security Benchmark), the first end-to-end evaluation suite that systematically measures how well LLM agents resist MCP-specific attacks throughout the full tool-use pipeline: task planning, tool invocation, and response handling. MSB contributes: (1) a taxonomy of 12 attacks including name-collision, preference manipulation, prompt injections embedded in tool descriptions, out-of-scope parameter requests, user-impersonating responses, false-error escalation, tool-transfer, retrieval injection, and mixed attacks; (2) an evaluation harness that executes attacks by running real tools (both benign and malicious) via MCP rather than simulation; and (3) a robustness metric that quantifies the trade-off between security and performance: Net Resilient Performance (NRP). We evaluate nine popular LLM agents across 10 domains and 405 tools, producing 2,000 attack instances. Results reveal the effectiveness of attacks against each stage of MCP. Models with stronger performance are more vulnerable to attacks due to their outstanding tool calling and instruction following capabilities. MSB provides a practical baseline for researchers and practitioners to study, compare, and harden MCP agents. Code: https://github.com/dongsenzhang/MSB},
+  keywords         = {GeoAIWorkbench; MCP; GIS; LLM agents},
+  note             = {abstract provenance: arxiv (preprint abstract)},
+}
+
+
+% provenance [iso19115]: record-source=iso.org catalogue (ISO 19115-1:2014) | retrieved=2026-11-01 | confidence=standard-page | abstract-source=none
+@standard{iso19115,
+  organization     = {International Organization for Standardization},
+  title            = {Geographic information --- Metadata --- Part 1: Fundamentals},
+  number           = {ISO 19115-1:2014},
+  type             = {International Standard},
+  year             = {2014},
+  url              = {https://www.iso.org/standard/53798.html},
+  urldate          = {2026-11-01},
+  note             = {Amended by ISO 19115-1:2014/Amd 1:2018. Metadata elements (lineage, quality, CRS, spatial representation) are the vocabulary the thesis uses for provenance of every artefact.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [iso19157]: record-source=iso.org catalogue (ISO 19157:2013) | retrieved=2026-11-01 | confidence=standard-page | abstract-source=none
+@standard{iso19157,
+  organization     = {International Organization for Standardization},
+  title            = {Geographic information --- Data quality},
+  number           = {ISO 19157:2013},
+  type             = {International Standard},
+  year             = {2013},
+  url              = {https://www.iso.org/standard/32575.html},
+  urldate          = {2026-11-01},
+  note             = {Superseded by ISO 19157-1:2023. Defines the data-quality elements --- completeness, logical consistency, positional accuracy, thematic accuracy, temporal quality --- that the oracle check vocabulary instantiates as executable predicates.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [iso19107]: record-source=iso.org catalogue (ISO 19107:2019) | retrieved=2026-11-01 | confidence=standard-page | abstract-source=none
+@standard{iso19107,
+  organization     = {International Organization for Standardization},
+  title            = {Geographic information --- Spatial schema},
+  number           = {ISO 19107:2019},
+  type             = {International Standard},
+  year             = {2019},
+  url              = {https://www.iso.org/standard/66175.html},
+  urldate          = {2026-11-01},
+  note             = {Geometry and topology schema; the reference for validity and topological-relation predicates.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [ogcApiProcesses]: record-source=ogc.org standards page + docs.ogc.org (18-062r2) | retrieved=2026-11-01 | confidence=standard-page | abstract-source=none
+@online{ogcApiProcesses,
+  organization     = {Open Geospatial Consortium},
+  title            = {OGC API --- Processes --- Part 1: Core},
+  number           = {OGC 18-062r2},
+  version          = {1.0},
+  year             = {2022},
+  url              = {https://docs.ogc.org/is/18-062r2/18-062r2.html},
+  urldate          = {2026-11-01},
+  note             = {RESTful/JSON process-invocation standard; the web-GIS counterpart of exposing geoprocessing operations to non-human clients.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [ogcWps2]: record-source=ogc.org standards page (14-065r2) | retrieved=2026-11-01 | confidence=standard-page | abstract-source=none
+@online{ogcWps2,
+  organization     = {Open Geospatial Consortium},
+  title            = {OGC WPS 2.0.2 Interface Standard: Corrigendum 2},
+  number           = {OGC 14-065r2},
+  version          = {2.0.2},
+  year             = {2018},
+  url              = {https://docs.ogc.org/is/14-065/14-065r2.html},
+  urldate          = {2026-11-01},
+  note             = {The interface standard that first formalised describing and invoking geoprocesses over the web; the baseline against which an agent-facing interface can be compared.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [goodchildGopal1989]: record-source=publisher/Taylor & Francis record | retrieved=2026-11-01 | confidence=publisher-record | abstract-source=none
+@book{goodchildGopal1989,
+  editor           = {Goodchild, Michael F. and Gopal, Sucharita},
+  title            = {The Accuracy of Spatial Databases},
+  publisher        = {Taylor \& Francis},
+  location         = {London},
+  year             = {1989},
+  note             = {The founding collection on error in spatial databases: positional error, attribute error, error propagation, and the consequences of ignoring them.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [heuvelink1998]: record-source=publisher/Taylor & Francis record | retrieved=2026-11-01 | confidence=publisher-record | abstract-source=none
+@book{heuvelink1998,
+  author           = {Heuvelink, Gerard B. M.},
+  title            = {Error Propagation in Environmental Modelling with GIS},
+  publisher        = {Taylor \& Francis},
+  location         = {London},
+  year             = {1998},
+  note             = {Analytical and Monte Carlo treatment of how input error propagates through GIS operations --- the mechanism behind multi-step analytical error.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [zhangGoodchild2002]: record-source=publisher/Taylor & Francis record | retrieved=2026-11-01 | confidence=publisher-record | abstract-source=none
+@book{zhangGoodchild2002,
+  author           = {Zhang, Jingxiong and Goodchild, Michael F.},
+  title            = {Uncertainty in Geographical Information},
+  publisher        = {Taylor \& Francis},
+  location         = {London},
+  year             = {2002},
+  note             = {Formal treatment of uncertainty in spatial data and spatial analysis; source for the argument that binary correctness is a simplification.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [maceachren1992]: record-source=doi:10.14714/CP13.1000 | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=crossref
+@article{maceachren1992,
+  author           = {MacEachren, Alan M.},
+  title            = {Visualizing Uncertain Information},
+  journaltitle     = {Cartographic Perspectives},
+  year             = {1992},
+  number           = {13},
+  pages            = {10--19},
+  doi              = {10.14714/CP13.1000},
+  note             = {Canonical statement that uncertainty must be communicated cartographically --- directly relevant to the presentation family and to the risk of plausible-looking wrong maps.},
+  abstract         = {When a GIS is used to drive map-based visualization, exploration of potential relationships takes precedence over presentation of facts. In these early stages of scientific analysis or policy formulation, providing a way for analysts to assess uncertainty in the data they are exploring is critical to the perspectives they form and the approaches they decide to pursue. As a basis from which to develop methods for visualizing uncertain information, this paper addresses the difference between data quality and uncertainty, the application of Berlin's graphic variables to the representation of uncertainty, conceptual models of spatial uncertainty as they relate to kinds of cartographic symbolization, and categories of user interfaces suited to presenting data and uncertainty about that data. Also touched on is the issue of how we might evaluate our attempts to depict uncertain information on maps.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [openshaw1984maup]: record-source=openlibrary (1983/1984 editions; CATMOG 38, Geo Books) | retrieved=2026-11-01 | confidence=publisher-record | abstract-source=none
+@book{openshaw1984maup,
+  author           = {Openshaw, Stan},
+  title            = {The Modifiable Areal Unit Problem},
+  publisher        = {Geo Books},
+  location         = {Norwich},
+  year             = {1984},
+  note             = {CATMOG 38. Aggregation and zonation change results --- the spatial-analysis hazard that a fluent agent can trigger silently when it re-aggregates to a convenient unit.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [burrough2015]: record-source=publisher/OUP record | retrieved=2026-11-01 | confidence=publisher-record | abstract-source=none
+@book{burrough2015,
+  author           = {Burrough, Peter A. and McDonnell, Rachael A. and Lloyd, Christopher D.},
+  title            = {Principles of Geographical Information Systems},
+  edition          = {3},
+  publisher        = {Oxford University Press},
+  location         = {Oxford},
+  year             = {2015},
+  note             = {Textbook canon for spatial data models, quality and analysis; used to anchor the corpus's operation families in standard GIScience vocabulary.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [longley2015]: record-source=openlibrary + publisher/Wiley record | retrieved=2026-11-01 | confidence=publisher-record | abstract-source=none
+@book{longley2015,
+  author           = {Longley, Paul A. and Goodchild, Michael F. and Maguire, David J. and Rhind, David W.},
+  title            = {Geographic Information Science and Systems},
+  edition          = {4},
+  publisher        = {Wiley},
+  location         = {Hoboken, NJ},
+  year             = {2015},
+  note             = {Reference text for GIScience as a discipline; anchors the introduction's claim that the field's evaluation culture predates agentic clients.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [egenhofer1991]: record-source=doi:10.1080/02693799108927841 | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=none
+@article{egenhofer1991,
+  author           = {Egenhofer, Max J. and Franzosa, Robert D.},
+  title            = {Point-set topological spatial relations},
+  journaltitle     = {International Journal of Geographical Information Systems},
+  year             = {1991},
+  volume           = {5},
+  number           = {2},
+  pages            = {161--174},
+  doi              = {10.1080/02693799108927841},
+  note             = {The nine-intersection model --- the formal basis for the topological predicates (touches, overlaps, contains, crosses) the oracle vocabulary checks.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [kuhn2005]: record-source=doi:10.1007/11496168_1 | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=none
+@article{kuhn2005,
+  author           = {Kuhn, Werner},
+  title            = {Geospatial Semantics: Why, of What, and How?},
+  journaltitle     = {Journal on Data Semantics III},
+  series           = {Lecture Notes in Computer Science},
+  volume           = {3534},
+  publisher        = {Springer},
+  location         = {Berlin},
+  year             = {2005},
+  pages            = {1--24},
+  doi              = {10.1007/11496168_1},
+  note             = {Why the meaning of spatial terms resists formalisation --- the reason a tool catalogue's descriptions are a semantic design artefact, not documentation.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [kuhn2012]: record-source=doi:10.1080/13658816.2012.722637 | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=none
+@article{kuhn2012,
+  author           = {Kuhn, Werner},
+  title            = {Core concepts of spatial information for transdisciplinary research},
+  journaltitle     = {International Journal of Geographical Information Science},
+  year             = {2012},
+  volume           = {26},
+  number           = {12},
+  pages            = {2267--2276},
+  doi              = {10.1080/13658816.2012.722637},
+  note             = {Proposes a small set of core spatial concepts (object, field, network, ...) --- used here to justify the catalogue's family decomposition as a conceptual, not arbitrary, grouping.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [jenks1971]: record-source=doi:10.1111/j.1467-8306.1971.tb00779.x | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=none
+@article{jenks1971,
+  author           = {Jenks, George F. and Caspall, Fred C.},
+  title            = {Error on Choroplethic Maps: Definition, Measurement, Reduction},
+  journaltitle     = {Annals of the Association of American Geographers},
+  year             = {1971},
+  volume           = {61},
+  number           = {2},
+  pages            = {217--244},
+  doi              = {10.1111/j.1467-8306.1971.tb00779.x},
+  note             = {Class-interval choice creates measurable map error --- the basis for grading classification method and class count in the presentation family.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [harrowerBrewer2003]: record-source=doi:10.1179/000870403235002042 | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=none
+@article{harrowerBrewer2003,
+  author           = {Harrower, Mark and Brewer, Cynthia A.},
+  title            = {ColorBrewer.org: An Online Tool for Selecting Colour Schemes for Maps},
+  journaltitle     = {The Cartographic Journal},
+  year             = {2003},
+  volume           = {40},
+  number           = {1},
+  pages            = {27--37},
+  doi              = {10.1179/000870403235002042},
+  note             = {Colour-scheme guidance; the reference for the colour-ramp appropriateness check.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [slocum2009]: record-source=publisher/Pearson record | retrieved=2026-11-01 | confidence=publisher-record | abstract-source=none
+@book{slocum2009,
+  author           = {Slocum, Terry A. and McMaster, Robert B. and Kessler, Fritz C. and Howard, Hugh H.},
+  title            = {Thematic Cartography and Geovisualization},
+  edition          = {3},
+  publisher        = {Pearson Prentice Hall},
+  location         = {Upper Saddle River, NJ},
+  year             = {2009},
+  note             = {Standard reference for symbolisation, classification and layout --- converted into declarative predicates in the presentation family.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [monmonier2018]: record-source=publisher/University of Chicago Press record | retrieved=2026-11-01 | confidence=publisher-record | abstract-source=none
+@book{monmonier2018,
+  author           = {Monmonier, Mark},
+  title            = {How to Lie with Maps},
+  edition          = {3},
+  publisher        = {University of Chicago Press},
+  location         = {Chicago},
+  year             = {2018},
+  note             = {The canonical account of how maps mislead without lying --- the conceptual antecedent of the thesis's 'plausible-looking wrong map' failure class.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [haklay2010]: record-source=doi:10.1068/b35097 | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=crossref
+@article{haklay2010,
+  author           = {Haklay, Mordechai},
+  title            = {How Good is Volunteered Geographical Information? A Comparative Study of OpenStreetMap and Ordnance Survey Datasets},
+  journaltitle     = {Environment and Planning B: Planning and Design},
+  year             = {2010},
+  volume           = {37},
+  number           = {4},
+  pages            = {682--703},
+  doi              = {10.1068/b35097},
+  note             = {Empirical positional/attribute accuracy of OSM against an authoritative dataset --- relevant because OSM fixtures are used and because 'quality' must be measured, not assumed.},
+  abstract         = {Within the framework of Web 2.0 mapping applications, the most striking example of a geographical application is the OpenStreetMap (OSM) project. OSM aims to create a free digital map of the world and is implemented through the engagement of participants in a mode similar to software development in Open Source projects. The information is collected by many participants, collated on a central database, and distributed in multiple digital formats through the World Wide Web. This type of information was termed ‘Volunteered Geographical Information’ (VGI) by Goodchild, 2007. However, to date there has been no systematic analysis of the quality of VGI. This study aims to fill this gap by analysing OSM information. The examination focuses on analysis of its quality through a comparison with Ordnance Survey (OS) datasets. The analysis focuses on London and England, since OSM started in London in August 2004 and therefore the study of these geographies provides the best understanding of the achievements and difficulties of VGI. The analysis shows that OSM information can be fairly accurate: on average within about 6 m of the position recorded by the OS, and with approximately 80% overlap of motorway objects between the two datasets. In the space of four years, OSM has captured about 29% of the area of England, of which approximately 24% are digitised lines without a complete set of attributes. The paper concludes with a discussion of the implications of the findings to the study of VGI as well as suggesting future research directions.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [goodchildLi2012]: record-source=doi:10.1016/j.spasta.2012.03.002 | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=none
+@article{goodchildLi2012,
+  author           = {Goodchild, Michael F. and Li, Linna},
+  title            = {Assuring the Quality of Volunteered Geographic Information},
+  journaltitle     = {Spatial Statistics},
+  year             = {2012},
+  volume           = {1},
+  pages            = {110--120},
+  doi              = {10.1016/j.spasta.2012.03.002},
+  note             = {Quality-assurance strategies for geographic information whose producer is unknown --- the same problem a GIS analyst faces when an agent produces the layer.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [goodchild2007citizens]: record-source=doi:10.1007/s10708-007-9111-y | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=none
+@article{goodchild2007citizens,
+  author           = {Goodchild, Michael F.},
+  title            = {Citizens as Sensors: The World of Volunteered Geography},
+  journaltitle     = {GeoJournal},
+  year             = {2007},
+  volume           = {69},
+  number           = {4},
+  pages            = {211--221},
+  doi              = {10.1007/s10708-007-9111-y},
+  note             = {Frames non-expert producers of spatial data; the closest antecedent to a non-expert *software* producer of spatial layers.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [steinigerBocher2009]: record-source=doi:10.1080/13658810802634956 | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=none
+@article{steinigerBocher2009,
+  author           = {Steiniger, Stefan and Bocher, Erwan},
+  title            = {An Overview on Current Free and Open Source Desktop GIS Developments},
+  journaltitle     = {International Journal of Geographical Information Science},
+  year             = {2009},
+  volume           = {23},
+  number           = {10},
+  pages            = {1345--1370},
+  doi              = {10.1080/13658810802634956},
+  note             = {Surveys the FOSS desktop-GIS landscape (QGIS, GRASS, gvSIG) --- supports the substrate argument: QGIS is the only one of these with an enumerable typed catalogue *and* a full scripting API.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [steinigerHay2009]: record-source=doi:10.1016/j.ecoinf.2009.07.004 | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=none
+@article{steinigerHay2009,
+  author           = {Steiniger, Stefan and Hay, Geoffrey J.},
+  title            = {Free and Open Source Geographic Information Tools for Landscape Ecology},
+  journaltitle     = {Ecological Informatics},
+  year             = {2009},
+  volume           = {4},
+  number           = {4},
+  pages            = {183--195},
+  doi              = {10.1016/j.ecoinf.2009.07.004},
+  note             = {Maps analyst workflows onto tool capabilities --- methodologically the model for anchoring the 50-tool surface to documented workflows.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [nust2018]: record-source=doi:10.7717/peerj.5072 | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=crossref
+@article{nust2018,
+  author           = {N{"u}st, Daniel and Granell, Carlos and Hofer, Barbara and Konkol, Markus and Ostermann, Frank O. and Sileryte, Rusne and Cerutti, Valentina},
+  title            = {Reproducible Research and GIScience: An Evaluation Using AGILE Conference Papers},
+  journaltitle     = {PeerJ},
+  year             = {2018},
+  volume           = {6},
+  pages            = {e5072},
+  doi              = {10.7717/peerj.5072},
+  note             = {Measures how rarely GIScience papers are computationally reproducible --- the baseline the harness's frozen cards and manifests are designed to beat.},
+  abstract         = {The demand for reproducible research is on the rise in disciplines concerned with data analysis and computational methods. Therefore, we reviewed current recommendations for reproducible research and translated them into criteria for assessing the reproducibility of articles in the field of geographic information science (GIScience). Using this criteria, we assessed a sample of GIScience studies from the Association of Geographic Information Laboratories in Europe (AGILE) conference series, and we collected feedback about the assessment from the study authors. Results from the author feedback indicate that although authors support the concept of performing reproducible research, the incentives for doing this in practice are too small. Therefore, we propose concrete actions for individual researchers and the GIScience conference series to improve transparency and reproducibility. For example, to support researchers in producing reproducible work, the GIScience conference series could offer awards and paper badges, provide author guidelines for computational research, and publish articles in Open Access formats.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [konkol2019]: record-source=doi:10.1080/13658816.2018.1508687 | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=none
+@article{konkol2019,
+  author           = {Konkol, Markus and Kray, Christian and Pfeiffer, Max},
+  title            = {Computational Reproducibility in Geoscientific Papers: Insights from a Series of Studies with a Spectrum of Researchers},
+  journaltitle     = {International Journal of Geographical Information Science},
+  year             = {2019},
+  volume           = {33},
+  number           = {2},
+  pages            = {408--429},
+  doi              = {10.1080/13658816.2018.1508687},
+  note             = {Why reproducibility fails in practice in geoscience --- motivates the run-directory contract and the never-drop-a-run rule.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [nivala2008]: record-source=doi:10.1179/174327708x305120 | retrieved=2026-11-01 | confidence=doi-exact | abstract-source=none
+@article{nivala2008,
+  author           = {Nivala, Annu-Maaria and Brewster, Stephen and Sarjakoski, L. Tiina},
+  title            = {Usability Evaluation of Web Mapping Sites},
+  journaltitle     = {The Cartographic Journal},
+  year             = {2008},
+  volume           = {45},
+  number           = {2},
+  pages            = {129--138},
+  doi              = {10.1179/174327708X305120},
+  note             = {Establishes usability evaluation as a recognised genre of GIScience assessment --- the disciplinary precedent for evaluating an interface rather than a model.},
+  keywords         = {GIScience; canon; spatial data quality},
+}
+
+% provenance [gisagentbench2026]: record-source=arxiv-api (author list, date, abstract) | retrieved=2026-11-01 | confidence=exact | abstract-source=arxiv
+@online{gisagentbench2026,
+  author     = {Pothuri, Abhinav and Jiang, Zhe and Xu, Zelin and Yang, Di},
+  title      = {{GISAgentBench: A Practitioner-Sourced Benchmark for Evaluating LLM Agents on GIS Tasks}},
+  year       = {2026},
+  eprint     = {2608.01645},
+  eprinttype = {arxiv},
+  url        = {https://arxiv.org/abs/2608.01645},
+  urldate    = {2026-11-01},
+  abstract   = {Geographic Information System (GIS) professionals rely on multi-step spatial analysis workflows to support decision-making in urban planning, disaster response, and environmental monitoring. The process is tedious, time-consuming, and error-prone. While recent large language model (LLM) agents equipped with external tools have the potential to automate geospatial analysis, their ability to perform realistic GIS workflows remains largely unexplored. Existing GIS agent benchmarking datasets are mostly drawn from textbooks, tutorials, or LLM-generated seeds and remain limited in size and trajectory depth. More importantly, none provides ground truth outputs. They therefore rely on surrogate signals such as code similarity, trajectory matching, or LLM and VLM judges, which can conflate workflow resemblance with task correctness. To address this gap, we introduce GISAgentBench, a benchmark of 349 multi-step GIS tasks curated from GIS Stack Exchange and instantiated on real public data across six selected geographic areas of interest. Each task ships with an executable reference trajectory and an exact ground truth output file, enabling strict, deterministic, tolerance-aware output matching beyond LLM judging. Evaluations of six LLM models reveal that realistic GIS workflows remain challenging: the best agent completes only 32.7% of tasks under strict tolerance-aware scoring, although most models produce outputs that are close to the ground truth.},
+  keywords   = {GIScience; canon; GIS agent benchmarks},
+  note       = {349 practitioner tasks from GIS Stack Exchange on real data, each with an executable reference trajectory and an EXACT ground-truth output file; scored by strict, tolerance-aware matching (CRS, geometry type, raster dimensions, NoData, columns; entity F1 with IoU>=0.5 for polygons). The closest prior art to this thesis's instrument, and the reason the instrument claim had to be narrowed. abstract provenance: arxiv (preprint abstract)},
+}
+
+% provenance [geocontra2026]: record-source=arxiv-api (author list, date, abstract) | retrieved=2026-11-01 | confidence=exact | abstract-source=arxiv
+@online{geocontra2026,
+  author     = {Xiao, Yinhao and Xiao, Rongbo and Zhang, Yihan},
+  title      = {{GeoContra: From Fluent GIS Code to Verifiable Spatial Analysis with Geography-Grounded Repair}},
+  year       = {2026},
+  eprint     = {2605.00782},
+  eprinttype = {arxiv},
+  url        = {https://arxiv.org/abs/2605.00782},
+  urldate    = {2026-11-01},
+  abstract   = {Reliable spatial analysis in GIScience requires preserving coordinate semantics, topology, units, and geographic plausibility. Current LLM-based GIS systems generate fluent scripts but rarely enforce these geographic rules at scale. We present GeoContra, a verification and repair framework for LLM-driven Python GIS workflows. It represents each task as an executable geospatial contract-including natural-language questions, schemas, CRS metadata, expected outputs, spatial predicates, topology, metrics, required operations, and forbidden shortcuts. Generated programs undergo static rule inspection, runtime validation, and semantic verification, with violations fed back into a bounded repair loop. Evaluated on 7,079 real geospatial tasks across 15 Boston-area zones, 9 task families, and 11 open-source models (600 runs each), GeoContra improves spatial correctness on closed models from 47.6% to 77.5% for DeepSeek-V4 and from 57.7% to 81.5% for Kimi-K2.5. Across 11 open models, average correctness rises by 26.6%. GeoContra turns fluent code production into verifiable spatial analysis, catching negative travel times, CRS/field-schema violations, missing predicates, and brittle output casts that otherwise yield executable but geographically invalid results.},
+  keywords   = {GIScience; canon; GIS agent benchmarks},
+  note       = {Executable geospatial contracts (CRS, schema, spatial predicates, topology, units, expected output) wrapped around LLM-generated Python GIS workflows, with a verifier-and-repair loop; GeoContra-Real = 7,079 tasks over 15 urban areas; +26.6 pp mean spatial correctness across 11 open models. Anticipates part of the schema-gating argument for the CODE arm; does not compare against a protocol-mediated surface. abstract provenance: arxiv (preprint abstract)},
+}

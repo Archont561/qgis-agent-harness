@@ -1,0 +1,97 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+sdist/
+.venv/
+venv/
+ENV/
+
+# Python test / lint / type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+lcov.info
+coverage/
+htmlcov/
+*.cover
+
+# ─── Tooling: pixi & bun ──────────────────────────────────────────────────────
+.pixi/
+node_modules/
+.npm/
+bun-debug.log
+*.tsbuildinfo
+
+# ─── Browser automation artefacts ─────────────────────────────────────────────
+.playwright/
+.playwright-cli/
+playwright-report/
+test-results/
+
+# ─── Logs & scratch output ────────────────────────────────────────────────────
+*.log
+logs/
+tmp/
+
+# ─── Renderer output ──────────────────────────────────────────────────────────
+# manim writes media/ into the working directory; nothing here is source.
+media/
+
+# ─── Editors & OS ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/*
+!.vscode/settings.json
+
+# ─── Local secrets & machine-specific overrides ───────────────────────────────
+.env
+.env.*
+!.env.example
+*.local
+
+# ─── Notebooks ────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── LaTeX build output (thesis) ──────────────────────────────────────────────
+*.aux
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# ─── Deliberately tracked (never add ignore rules for these) ──────────────────
+#   pixi.toml, pixi.lock                     reproducible environment
+#   package.json, bun.lock                   reproducible JS tooling
+#   .agents/skills/, skills-lock.json        reviewed agent skills + provenance pins
+#   backlog/                                 task files, versioned with the work
+#   literature/literature.bib                bibliography (single source of truth)
+#   literature/README.md                     corpus notes
+#   literature/fulltext/                     derived paper transcripts, kept on purpose
+#   thesis/                                  draft chapters + saved specifications

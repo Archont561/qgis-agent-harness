@@ -1,0 +1,1402 @@
+[
+ {
+  "id": "W7168383096",
+  "doi": "10.5281/zenodo.21370416",
+  "title": "An Empirical Study of MCP Server Security: 6 Attack Surfaces from 30+ Audits",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203995855",
+  "doi": "10.2139/ssrn.7330358",
+  "title": "MCP Under Attack: Security Risks in the Model Context Protocol Ecosystem",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162018667",
+  "doi": "10.3390/electronics15102214",
+  "title": "Beyond Tool Poisoning: Attack Surfaces of Malicious Remote MCP Servers Across LLM Platforms",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W4415948577",
+  "doi": "10.48550/arxiv.2510.15994",
+  "title": "MCP Security Bench (MSB): Benchmarking Attacks Against Model Context Protocol in LLM Agents",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4416050246",
+  "doi": "10.48550/arxiv.2508.14925",
+  "title": "MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7201974799",
+  "doi": "10.5281/zenodo.21853914",
+  "title": "Prompt Injection at the Protocol Level: The MCP server/discover Instructions Attack Surface and a Provenance-Based Mitigation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163273836",
+  "doi": "10.5281/zenodo.20502473",
+  "title": "mcp-safeguard: An Automated Security Scanner for Model Context Protocol (MCP) Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415109628",
+  "doi": "10.1145/3814959",
+  "title": "Model Context Protocol (MCP) at First Glance: Studying the Security and Maintainability of MCP Servers",
+  "year": 2026,
+  "cites": 18
+ },
+ {
+  "id": "W7211932667",
+  "doi": "10.5281/zenodo.22666615",
+  "title": "TRUTH SURFACE #010: Noma Security \u2014 The Agentic Registry is the Crown Jewel. The Agentic Registry is the Attack Surface.",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7208735451",
+  "doi": "10.5281/zenodo.22305899",
+  "title": "MCP Servers in Agentic AI - Architecture, Adoption, and Security of the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7129030749",
+  "doi": "10.1145/3796519",
+  "title": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",
+  "year": 2026,
+  "cites": 164
+ },
+ {
+  "id": "W7151837245",
+  "doi": "10.5281/zenodo.19476482",
+  "title": "30 CVEs in 60 Days: The Model Context Protocol Attack Surface",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172217606",
+  "doi": "10.1016/j.infsof.2026.108288",
+  "title": "A focused survey of code agent security: Attacks, defenses, and evaluation",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7211909041",
+  "doi": "10.5281/zenodo.22642964",
+  "title": "A Reconnaissance Methodology for Mapping the Pre-Authentication Attack Surface of Model Context Protocol Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133226708",
+  "doi": "10.37082/ijirmps.v13.i6.232959",
+  "title": "Zero-Trust Security Frameworks for Model Context Protocol (MCP) Server Communications",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7118532765",
+  "doi": "10.3390/info17010054",
+  "title": "Prompt Injection Attacks in Large Language Models and AI Agent Systems: A Comprehensive Review of Vulnerabilities, Attack Vectors, and Defense Mechanisms",
+  "year": 2026,
+  "cites": 45
+ },
+ {
+  "id": "W7116867932",
+  "doi": "10.1109/siitme67657.2025.11293682",
+  "title": "Security Posture Evaluation of Model Context Protocol Servers Against Prompt Injection",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W4415336419",
+  "doi": "10.48550/arxiv.2509.24272",
+  "title": "When MCP Servers Attack: Taxonomy, Feasibility, and Mitigation",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7222611888",
+  "doi": "10.1145/3847320.3847399",
+  "title": "Log-To-Leak: Prompt Injection Attacks on Tool-Using LLM Agents via the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202371142",
+  "doi": "10.5281/zenodo.21914086",
+  "title": "MCP Prompt Injection Provenance: A Protocol-Level Attack Surface and Provenance-Based Mitigation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7138955379",
+  "doi": "10.1609/aaai.v40i42.40898",
+  "title": "MPMA: Preference Manipulation Attack Against Model Context Protocol",
+  "year": 2026,
+  "cites": 8
+ },
+ {
+  "id": "W7168413686",
+  "doi": "10.1145/3830467",
+  "title": "Confused Deputy Attack Against Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204169773",
+  "doi": "10.1007/979-8-8688-2968-0_1",
+  "title": "From Architecture to Attack Surface",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4417093938",
+  "doi": "10.48550/arxiv.2505.11154",
+  "title": "MPMA: Preference Manipulation Attack Against Model Context Protocol",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7214917676",
+  "doi": "10.64388/irev10i3-1723420",
+  "title": "Security of The Model Context Protocol Ecosystem: Emerging Threats, Empirical Attack Evidence, Trust and Authorization Failures, Supply-Chain Risks, And Defensive Strategies",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7115173419",
+  "doi": "10.5281/zenodo.17931690",
+  "title": "AI MCP Servers in Cybersecurity: Emerging Attack Vectors and Mitigation Strategies",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7128743885",
+  "doi": "10.48448/0nrd-ty10",
+  "title": "MPMA: Preference Manipulation Attack Against Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7115185181",
+  "doi": "10.5281/zenodo.17931520",
+  "title": "AI MCP Servers in Cybersecurity: Emerging Attack Vectors and Mitigation Strategies",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7125778864",
+  "doi": "10.70777/si.v3i4.18910",
+  "title": "Breaking the Protocol: Security Analysis of the Model Context Protocol Specification and Prompt Injection Vulnerabilities in Tool-Integrated LLM Agents",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W4414597551",
+  "doi": "10.1109/tse.2026.3694876",
+  "title": "Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol (MCP) Ecosystem",
+  "year": 2026,
+  "cites": 5
+ },
+ {
+  "id": "W4412568515",
+  "doi": "10.36227/techrxiv.175321790.02502754/v1",
+  "title": "Context Injection Vulnerabilities and Resource Exploitation Attacks in Model Context Protocol",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7211900978",
+  "doi": "10.5281/zenodo.22650537",
+  "title": "TRUTH SURFACE #003: Palo Alto Networks \u2014 Precision AI + Cortex AgentiX: The Authless MCP Server is the Attack Surface",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128710256",
+  "doi": "10.48448/09h3-7s09",
+  "title": "433 - MPMA: Preference Manipulation Attack Against Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204500116",
+  "doi": "",
+  "title": "TrustShiftProbe: Characterizing, Benchmarking, and Defending Staged Trust Attacks on MCP Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172516002",
+  "doi": "10.25559/sitito.021.202503.420-428",
+  "title": "Breaking the Protocol: Security Analysis of the Model Context Protocol Specification and Prompt Injection Vulnerabilities in Tool-Integrated LLM Agents",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7160304775",
+  "doi": "10.3390/jcp6030084",
+  "title": "Model Context Protocol Threat Modeling and Analysis of Vulnerabilities to Prompt Injection with Tool Poisoning",
+  "year": 2026,
+  "cites": 8
+ },
+ {
+  "id": "W7168235978",
+  "doi": "10.48550/arxiv.2607.11086",
+  "title": "Rethinking MCP Security: A Large-Scale Study of Runtime MCP Servers and Security Scanner Reliability",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160756540",
+  "doi": "10.5281/zenodo.20102925",
+  "title": "agentic-control-planes-audit: Static security-posture audit of public Model Context Protocol (MCP) servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7114797566",
+  "doi": "10.1007/978-3-032-32726-0_29",
+  "title": "Systematization of Knowledge: Security and Safety in the Model Context Protocol Ecosystem",
+  "year": 2026,
+  "cites": 3
+ },
+ {
+  "id": "W7128317188",
+  "doi": "10.5281/zenodo.18527168",
+  "title": "Security Threats in Telecom Networks by Prompt Poisoning of MCP Servers and Mitigations",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415954392",
+  "doi": "10.1109/dsn69566.2026.00046",
+  "title": "A First Look at the Security Issues in the Model Context Protocol Ecosystem",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W4414991283",
+  "doi": "10.48550/arxiv.2508.13220",
+  "title": "MCPSecBench: A Systematic Security Benchmark and Playground for Testing Model Context Protocols",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7211873341",
+  "doi": "10.5281/zenodo.22650590",
+  "title": "TRUTH SURFACE #005: Check Point Software \u2014 Infinity AI Copilot + ThreatCloud AI: The Write-Enabled MCP Server is the Attack Surface",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414489295",
+  "doi": "10.1109/tdsc.2026.3695553",
+  "title": "MCPXkit: The Unified Toolkit for Analyzing Model Context Protocol Security",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7140310591",
+  "doi": "10.48550/arxiv.2603.22489",
+  "title": "Model Context Protocol Threat Modeling and Analyzing Vulnerabilities to Prompt Injection with Tool Poisoning",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161249109",
+  "doi": "10.1145/3786160.3788471",
+  "title": "MCP-Scanner: Detecting Security Risks in Model Context Protocol Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214958915",
+  "doi": "10.58532/nbennur3409c3",
+  "title": "WHEN AI AGENTS BECOME ATTACKERS: A ZERO-TRUST SECURITY BLUEPRINT FOR TOOLS, MEMORY, RAG, AND MCP WORKFLOWS",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131098300",
+  "doi": "10.1109/icaic67076.2026.11395848",
+  "title": "A Systematic Security Analysis of Model Context Protocol: Vulnerabilities, Exploits, and Mitigations",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4417069007",
+  "doi": "10.48366/r1596650",
+  "title": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",
+  "year": 2025,
+  "cites": 43
+ },
+ {
+  "id": "W7128406961",
+  "doi": "10.48047/jocaaa.2026.35.01.94",
+  "title": "Security Threats in Telecom Networks by Prompt Poisoning of MCP Servers and Mitigations",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171646567",
+  "doi": "10.2139/ssrn.6740060",
+  "title": "Prompt Injection and Jailbreak Attacks in Large Language Model-Based Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131088610",
+  "doi": "10.1109/icaic67076.2026.11395723",
+  "title": "Enterprise-Grade Security for the Model Context Protocol (MCP): Frameworks and Mitigation Strategies",
+  "year": 2026,
+  "cites": 15
+ },
+ {
+  "id": "W7140848455",
+  "doi": "10.5281/zenodo.19236687",
+  "title": "MCPAuthChecker: A Static Analysis Tool for MCP Server Authorization Security",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416455959",
+  "doi": "10.32996/jcsts.2025.7.12.1",
+  "title": "A Secure Accountability Framework for Multi-Modal Agent Systems: Detecting, Mitigating, and Auditing Data-Poisoning Attacks via Model Context Protocol (MCP) Servers",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7132814464",
+  "doi": "10.63282/3050-9416.ijaibdcms-v5i1p118",
+  "title": "Model Context Protocol (MCP) Security and Tenancy Boundaries",
+  "year": 2024,
+  "cites": 0
+ },
+ {
+  "id": "W7167213155",
+  "doi": "10.1016/j.comnet.2026.112540",
+  "title": "MCP-driven real-time security monitoring: A hybrid LLM and behavior-aware framework for temporal attack detection and severity assessment",
+  "year": 2026,
+  "cites": 3
+ },
+ {
+  "id": "W7219965629",
+  "doi": "",
+  "title": "Freie Titel\u00fcbersetzung: How secure is your AI agent? Security Analysis of Model Context Protocol (MCP) Servers with and without Web Application Firewalls (WAFs)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167789424",
+  "doi": "10.5281/zenodo.21281940",
+  "title": "Listed but Not Vetted: An Empirical Security Audit of 511 Public MCP Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155503413",
+  "doi": "10.48550/arxiv.2604.21477",
+  "title": "MCP Pitfall Lab: Exposing Developer Pitfalls in MCP Tool Server Security under Multi-Vector Attacks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162107335",
+  "doi": "10.48550/arxiv.2605.22333",
+  "title": "A First Measurement Study on Authentication Security in Real-World Remote MCP Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414698760",
+  "doi": "10.48550/arxiv.2509.15572",
+  "title": "Cuckoo Attack: Stealthy and Persistent Attacks Against AI-IDE",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7213464606",
+  "doi": "10.61643/c38836",
+  "title": "Artificial Intelligence - Model Context Protocol - Review of Real-World Security Threats",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214205208",
+  "doi": "10.5281/zenodo.22945814",
+  "title": "mcp-bastion: A Reliability & Security Proxy for the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164181070",
+  "doi": "10.1117/12.3097390",
+  "title": "MCP safety audit: LLMs with the model context protocol allow major security exploits",
+  "year": 2026,
+  "cites": 4
+ },
+ {
+  "id": "W7224370421",
+  "doi": "10.18653/2026.emnlp-demos.20",
+  "title": "ShieldMCP: An Interactive System for Runtime Security of Model Context Protocol Tool Calls",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416123847",
+  "doi": "10.48550/arxiv.2504.03767",
+  "title": "MCP Safety Audit: LLMs with the Model Context Protocol Allow Major Security Exploits",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7172412405",
+  "doi": "10.48550/arxiv.2608.00150",
+  "title": "Exposed by Design: A Dynamic Security Assessment of Internet-Facing MCP Servers at Scale",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415331440",
+  "doi": "10.48550/arxiv.2509.22814",
+  "title": "Model Context Protocol for Vision Systems: Audit, Security, and Protocol Extensions",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7155035389",
+  "doi": "10.5281/zenodo.19687219",
+  "title": "Detecting MCP Tool Poisoning and Rug-Pull Attacks in LLM Agent Architectures",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4417466909",
+  "doi": "10.48550/arxiv.2512.14166",
+  "title": "IntentMiner: Intent Inversion Attack via Tool Call Analysis in the Model Context Protocol",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7222790328",
+  "doi": "10.1007/979-8-8688-2797-6_13",
+  "title": "Oracle Autonomous AI Database MCP Server: Architecture, Configuration, and Enterprise Security",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7129222944",
+  "doi": "10.48550/arxiv.2602.14281",
+  "title": "MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in Model Context Protocol Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7202100386",
+  "doi": "10.3390/app16167915",
+  "title": "Design of a Security Framework for Multi-Agent Systems Based on Model Context Protocol in SOC Environments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212182160",
+  "doi": "10.1007/978-3-032-31998-2_13",
+  "title": "The Model Context Protocol Security Landscape: A Systematic Analysis of Inherent Vulnerabilities and Defensive Inadequacies",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7156153493",
+  "doi": "10.1145/3774904.3792400",
+  "title": "Beyond Detection: Autonomous Anomaly Remediation for MCP Against Tool Poisoning Attacks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167073644",
+  "doi": "10.20944/preprints202607.0009.v1",
+  "title": "Securing Model Context Protocol Servers: Security Assessment and a Lightweight Wrapper-Based Hardening Approach",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172095896",
+  "doi": "10.1007/978-3-032-25631-7_32",
+  "title": "Auditing, Mitigating, and Ensuring Accountability for Poisoning Attacks in Multi-modal Agent Systems Using MCP Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162113871",
+  "doi": "10.5281/zenodo.20349262",
+  "title": "Attested Tool-Server Admission: A Security Extension to the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162413678",
+  "doi": "10.48550/arxiv.2605.24248",
+  "title": "Attested Tool-Server Admission: A Security Extension to the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125800382",
+  "doi": "10.48550/arxiv.2601.17548",
+  "title": "Prompt Injection Attacks on Agentic Coding Assistants: A Systematic Analysis of Vulnerabilities in Skills, Tools, and Protocol Ecosystems",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7169567625",
+  "doi": "10.1109/tccn.2026.3714063",
+  "title": "BiasAgent: Exploiting Agent Bias for Preference Manipulation Attacks on Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7131104864",
+  "doi": "10.5281/zenodo.18742289",
+  "title": "MCP Under the Lens: A Multi-Framework Security Analysis of the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203734963",
+  "doi": "10.48550/arxiv.2608.17275",
+  "title": "When Agents Act on Web3: An Attack-Surface Survey of MCP, Skills, and Tool Calling",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167795899",
+  "doi": "10.48550/arxiv.2607.07461",
+  "title": "Mitigating Taint-Style Vulnerabilities in MCP Servers via Security-Aware Tool Descriptions",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7219774259",
+  "doi": "10.5281/zenodo.23129665",
+  "title": "Trust Labels as Attack Surface: MCP Tool Annotations and the Protocol's Unenforced Safety Contract",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7111045851",
+  "doi": "10.48550/arxiv.2512.06556",
+  "title": "Semantic Attacks on Tool-Augmented LLMs: Securing the Model Context Protocol Against Descriptor-Level Manipulation",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7153323134",
+  "doi": "10.48550/arxiv.2604.07551",
+  "title": "MCP-DPT: A Defense-Placement Taxonomy and Coverage Analysis for Model Context Protocol Security",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7133223890",
+  "doi": "10.1109/acai68217.2025.11406667",
+  "title": "A Comprehensive Security Framework for the Model Context Protocol (MCP) in Multi-Agent AI Systems",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7207557644",
+  "doi": "10.21203/rs.3.rs-10798245/v1",
+  "title": "Beyond Prompt Injection: Trust-Boundary Security Assurance for LLM-Integrated and Agentic Applications",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163513775",
+  "doi": "10.48550/arxiv.2606.04769",
+  "title": "Description-Code Inconsistency in Real-world MCP Servers: Measurement, Detection, and Security Implications",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221718323",
+  "doi": "10.5281/zenodo.23339726",
+  "title": "First Comprehensive Security Audit of the Model Context Protocol Ecosystem: 728 Servers Analyzed",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168204103",
+  "doi": "10.6084/m9.figshare.32978657",
+  "title": "Measuring the Defenders: A Layer-Aware, Framework-Mapped Benchmark for Model Context Protocol Security Proxies",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7220695059",
+  "doi": "10.1109/icscsa69367.2026.11708388",
+  "title": "Post-Quantum Security Framework for Model Context Protocol Using ContextGuard",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163750436",
+  "doi": "10.2139/ssrn.6891368",
+  "title": "A Formal Security Framework for Model Context Protocol-Based Tool Access inAgentic AI Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125940532",
+  "doi": "10.1109/ase63991.2025.00356",
+  "title": "A Large-Scale Evolvable Dataset for Model Context Protocol Ecosystem and Security Analysis",
+  "year": 2025,
+  "cites": 2
+ },
+ {
+  "id": "W7168831978",
+  "doi": "10.1007/978-3-032-25187-9_44",
+  "title": "Security Defense Mechanisms in Model Context Protocol Implementations: A Systematic Literature Review",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7138189915",
+  "doi": "10.1609/aaai.v40i42.40895",
+  "title": "MCPTox: A Benchmark for Tool Poisoning on Real-World MCP Servers",
+  "year": 2026,
+  "cites": 10
+ },
+ {
+  "id": "W7171946369",
+  "doi": "10.5281/zenodo.21724397",
+  "title": "Security Analysis of the Model Context Protocol: Protocol-Level Design Flaws and Empirical Implementation Findings",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7139981937",
+  "doi": "10.13140/rg.2.2.14443.20008",
+  "title": "\u201cModel Context Protocol (MCP) Attack Vectors, Risks, and How to Secure AI Integrations\u201d LinkedIn",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7134916331",
+  "doi": "10.1109/aiot66900.2025.00032",
+  "title": "Preserving oneM2M Security Semantics in LLM-IoT Integration with Model Context Protocol",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7139035971",
+  "doi": "10.21275/sr26316110418",
+  "title": "Security Threats in the Model Context Protocol: A Comprehensive Survey and Trust Boundary Mitigation Framework for Agentic AI Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212989152",
+  "doi": "10.2139/ssrn.7434219",
+  "title": "OAuth-Based Contextual Claims for Model Context Protocol (MCP) Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414115777",
+  "doi": "10.22541/au.175761889.90929465/v1",
+  "title": "Zero-Trust Proof-Gated Agent Architecture (ZPAA): A Comprehensive Security Model for the Model Context Protocol (MCP)",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7128716493",
+  "doi": "10.48448/1gjq-8d38",
+  "title": "MCPTox: A Benchmark for Tool Poisoning on Real-World MCP Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154619025",
+  "doi": "10.5281/zenodo.19606645",
+  "title": "Automating The Penetration Testing Flow Using Model Context Protocol (MCP) And AI-Orchestrated Security Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168186069",
+  "doi": "10.5281/zenodo.21346206",
+  "title": "mcp-defense-bench: A Layer-Aware, Framework-Mapped Benchmark for Model Context Protocol Security Proxies",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221190498",
+  "doi": "10.48550/arxiv.2610.10659",
+  "title": "Applying Security by Design at the Point of Execution: How Governed Security Requirements Affect the Security of AI-Generated Code",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168136237",
+  "doi": "10.1007/978-3-032-24807-7_38",
+  "title": "Model Context Protocol for Cloud Security: Transforming AI Threat Detection Through Interpretable Intelligence",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154274172",
+  "doi": "10.48550/arxiv.2604.10534",
+  "title": "Machine Learning-Based Detection of MCP Attacks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162399479",
+  "doi": "10.5281/zenodo.19561359",
+  "title": "Agent Security Framework",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415056148",
+  "doi": "10.1109/sp63933.2026.00154",
+  "title": "Parasites in the Toolchain: A Large-Scale Analysis of Attacks on the MCP Ecosystem",
+  "year": 2026,
+  "cites": 2
+ },
+ {
+  "id": "W7167087899",
+  "doi": "10.3390/urbansci10070378",
+  "title": "Interpretable AI for Smart City Cloud Security: A Model Context Protocol Framework for Real-Time IoT Threat Detection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171443808",
+  "doi": "10.1109/iccbi68589.2026.11619741",
+  "title": "A Zero-Trust Supply Chain Security Framework for Model Context Protocol-based AI Systems",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7160921687",
+  "doi": "10.1007/979-8-8688-2199-8_2",
+  "title": "Data Security and Governance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213318577",
+  "doi": "10.48550/arxiv.2609.14119",
+  "title": "Same Name, Different Server: A Security Census of Silent Drift in the Model Context Protocol Ecosystem",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7220999744",
+  "doi": "10.5281/zenodo.23237364",
+  "title": "Ag Shield: An Inline Security Gateway for Model Context Protocol Based AI Agent Interactions",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134111139",
+  "doi": "10.5281/zenodo.18897414",
+  "title": "Reproducibility package for \"Security Failures in the Model Context Protocol\" (SRI/SSS/UAR harness and logs)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221831012",
+  "doi": "10.32604/cmc.2026.089268",
+  "title": "SchemaGuard: Structure-Aware Detection of Tool-Poisoning and Skill-File Attacks in the LLM Agent Tool Supply Chain",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125502449",
+  "doi": "10.1109/cars67163.2025.11337310",
+  "title": "ETDI: Mitigating Tool Squatting and Rug Pull Attacks in Model Context Protocol (MCP) by Using OAuth-Enhanced Tool Definitions and Policy-Based Access Control",
+  "year": 2025,
+  "cites": 6
+ },
+ {
+  "id": "W7214930147",
+  "doi": "10.5281/zenodo.23065786",
+  "title": "The Competence Gap: How Unskilled Use of AI Prompts, Agents, Skills and Code Generators Opens New Attack Surfaces in Software Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166590809",
+  "doi": "10.1109/infocom59046.2026.11571532",
+  "title": "Semantic Manipulation Attacks in Agentic AI Systems with Agent-to-Agent Communication and Model-Context-Protocol\u2013Based Tool Invocation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171436078",
+  "doi": "10.2352/ei.2026.38.3.mobmu-331",
+  "title": "Cross-protocol Attack Surface Analysis in Multi-agent AI Systems: Formal Verification and Categorical Modelling of Translation-boundary Vulnerabilities",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223453737",
+  "doi": "10.5281/zenodo.23626280",
+  "title": "Same Name, Different Server: A Security Census of Silent Drift in the Model Context Protocol Ecosystem (replication package)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224743770",
+  "doi": "10.1109/icosics70095.2026.11746554",
+  "title": "A Survey on Security of the Model Context Protocol: Documented Incidents, Defense Frameworks, and Coverage Gaps in Agentic AI",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171741756",
+  "doi": "10.5281/zenodo.21691603",
+  "title": "Corvus \u2014 OWASP MCP Top 10 Security Scanner",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7106508714",
+  "doi": "10.1007/978-981-95-4674-9_17",
+  "title": "Supply Chain Threats in the MCP Ecosystem: Attack Vectors and Mitigation Strategies",
+  "year": 2025,
+  "cites": 2
+ },
+ {
+  "id": "W4414719493",
+  "doi": "10.1007/978-3-032-02130-4_4",
+  "title": "Agentic AI Communication Protocols and Security",
+  "year": 2025,
+  "cites": 4
+ },
+ {
+  "id": "W7130616105",
+  "doi": "10.36227/techrxiv.177155646.67434382/v1",
+  "title": "Tool Security Advisory (TSA)",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7162320433",
+  "doi": "10.5281/zenodo.20371151",
+  "title": "Protocol Pivoting: Cross-Protocol Attack Escalation in Agentic AI Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7210265147",
+  "doi": "10.13140/rg.2.2.29566.96328",
+  "title": "The Model Context Protocol: A Systematic Survey of Architecture, Specification Evolution, Ecosystem Governance, Security Landscape, and Application Domains",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171858227",
+  "doi": "10.52058/2695-1592-2026-7(62)-438-452",
+  "title": "THREAT MODELING OF AUTONOMOUS CODING AGENTS IN CORPORATE MOBILE DEVELOPMENT. PART 1: SYSTEM MODEL, ASSETS, TRUST BOUNDARIES, AND ATTACK SURFACES",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166047840",
+  "doi": "10.48550/arxiv.2606.27027",
+  "title": "ShareLock: A Stealthy Multi-Tool Threshold Poisoning Attack Against MCP",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4417102219",
+  "doi": "10.52202/085713-5434",
+  "title": "Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7171479747",
+  "doi": "",
+  "title": "A survey on model context protocol for embodied intelligence and robotic Internet of things\uff1a from semantic control to real-time security assurance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7134220964",
+  "doi": "",
+  "title": "A survey on model context protocol (MCP) for embodied intelligence and robotic internet of things\uff1aFrom semantic control to real-time security assurance",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222961356",
+  "doi": "10.15662/ijeetr.2024.0606036",
+  "title": "Trust Boundaries in the Model Context Protocol: Tool Poisoning, Server Impersonation, and Mitigations",
+  "year": 2024,
+  "cites": 0
+ },
+ {
+  "id": "W7221456526",
+  "doi": "10.17605/osf.io/2amj3",
+  "title": "MCP-Lock: Does provenance and tool-definition pinning catch MCP-server supply-chain attacks that name/source checks miss, and at what false-block cost?",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161723364",
+  "doi": "10.1109/access.2026.3694881",
+  "title": "Hierarchical Approaches for Development of an MCP Security Framework",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7125958198",
+  "doi": "10.1109/wcsp68525.2025.1010287",
+  "title": "Task-Oriented Communications for Agentic IoT: An LLM-Driven QoS/Security Policy Generation via Dynamic Model Context Protocol",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7214558571",
+  "doi": "10.5281/zenodo.23003715",
+  "title": "CieveMe/mcp-security-benchmark: v0.1.0 - MCP security benchmark: probe corpus, stdio harness, five scorecards",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7213894032",
+  "doi": "10.5281/zenodo.22866669",
+  "title": "gpu-mcp-server: NVIDIA GPU metrics for AI agents over the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7167922915",
+  "doi": "10.5281/zenodo.21292798",
+  "title": "AI Agent Skills Security Grades (130K)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416307408",
+  "doi": "10.1145/3733802.3764057",
+  "title": "MSA: A Cross-MCP Privacy Attack via Memory Exfiltration of Large Language Models",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7125605419",
+  "doi": "10.5281/zenodo.18363669",
+  "title": "Security Disclosure: AI Assistants as Reconnaissance Vectors in Developer Environments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7206189464",
+  "doi": "10.1109/noms69089.2026.11668221",
+  "title": "A Federated MCP Gateway: Enforceable Isolation and Measuring Residual Semantic Attacks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212295031",
+  "doi": "10.48550/arxiv.2609.10854",
+  "title": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203725383",
+  "doi": "10.5281/zenodo.21990776",
+  "title": "theriac: Structural Detection and an Evasion-Robustness Evaluation for Tool Poisoning in the Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163949182",
+  "doi": "10.5281/zenodo.20588796",
+  "title": "uMCP \u2014 Unified Security and Anonymizing Framework",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128158175",
+  "doi": "10.1007/979-8-8688-2364-0_10",
+  "title": "Foundational Security: Authentication with OpenID Connect (OIDC)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162412584",
+  "doi": "10.48550/arxiv.2605.24069",
+  "title": "When the Manual Lies: A Realistic Benchmark to Evaluate MCP Poisoning Attacks for LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416367678",
+  "doi": "10.1109/icoa66896.2025.11236877",
+  "title": "Addressing Security Gaps in MCP: Design of a Resilient Reference Architecture",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7165860293",
+  "doi": "10.5281/zenodo.20861238",
+  "title": "Hillstar - Security and Reproducibility-First Workflow Orchestrator",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171703688",
+  "doi": "10.5281/zenodo.21691642",
+  "title": "llamascope-mcp \u2014 AI Infrastructure Security Auditing Tool",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7212242776",
+  "doi": "10.48550/arxiv.2609.10871",
+  "title": "A2ABreak: Systematic Security Analysis of the A2A Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222663038",
+  "doi": "10.3390/electronics15204768",
+  "title": "AI-Agent-Based Web Application Security Testing vs. Conventional Automated Security Testing: An Exploratory Case Study",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204270258",
+  "doi": "10.48550/arxiv.2608.23858",
+  "title": "Beyond the Mandate: A Systematic Security Analysis of the Agent Payments Protocol (AP2)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161690932",
+  "doi": "10.48550/arxiv.2605.17380",
+  "title": "ADR: An Agentic Detection System for Enterprise Agentic AI Security",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128522356",
+  "doi": "10.1016/j.ins.2026.123231",
+  "title": "Bridging AI and software security: A comparative vulnerability assessment of LLM agent deployment paradigms",
+  "year": 2026,
+  "cites": 10
+ },
+ {
+  "id": "W7211877106",
+  "doi": "10.5281/zenodo.22649217",
+  "title": "MCP Monoculture: The Systemic Security Failure of Agentic AI Infrastructure",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214298595",
+  "doi": "10.48550/arxiv.2609.28585",
+  "title": "Persistent Billable State: Denial-of-Wallet Attacks and Defenses in Tool-Calling LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163143127",
+  "doi": "10.2139/ssrn.6810222",
+  "title": "Supply Chain Security for Artificial Intelligence Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223246559",
+  "doi": "10.64137/31078699/ijetet-v2i3p103",
+  "title": "MCP Security and Reliability: Challenges, Risks, and Mitigation Strategies",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222925447",
+  "doi": "10.48550/arxiv.2610.23449",
+  "title": "GatewayBench: Unified Capability and Security Evaluation Platform for MCP Gateways",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128644961",
+  "doi": "10.5281/zenodo.18614502",
+  "title": "The Capability-Container Pattern: Infrastructure-Level Security for Autonomous AI Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223148365",
+  "doi": "10.5753/sbseg.2026.28936",
+  "title": "Data Exfiltration in Model Context Protocol (MCP)-Based Intelligent Agents: An Evaluation of Prompt Injection Vectors",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223174476",
+  "doi": "10.2139/ssrn.7652138",
+  "title": "AegisGate: A Multi-Layered Security Architecture for AI Agent Communication",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7120061093",
+  "doi": "10.36227/techrxiv.176800890.09196406/v1",
+  "title": "Survey On Systemic Security Risks in Vibe Coding and Autonomous Development Workflows",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7169494369",
+  "doi": "10.48550/arxiv.2607.14754",
+  "title": "FlowGuard: From Signals to Evidence for MCP Security Detection",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4416063093",
+  "doi": "10.48550/arxiv.2507.06323",
+  "title": "Bridging AI and Software Security: A Comparative Vulnerability Assessment of LLM Agent Deployment Paradigms",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7160642088",
+  "doi": "10.54364/cybersecurityjournal.2026.3121",
+  "title": "Security Challenges of LLM Integration in Multi-Tenant SaaS: Threats, Vulnerabilities, and Mitigations",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165170564",
+  "doi": "10.5281/zenodo.20745155",
+  "title": "Securing The Agentic Layer: A Defense-in-Depth Security Framework For MCP-Connected AI Coding Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224302751",
+  "doi": "10.5281/zenodo.23756829",
+  "title": "Model Context Protocol (MCP) and Autonomous Multi-Agent File Systems in Computer Science Education: Streamable HTTP Telemetry, Quarantine Security, and Compute Cashback Econometrics",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7165681872",
+  "doi": "10.58806/ijmir.2026.v3i6n07",
+  "title": "Securing The Agentic Layer: A Defense-in-Depth Security Framework For MCP-Connected AI Coding Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7170161930",
+  "doi": "10.48550/arxiv.2607.19432",
+  "title": "ChainWatch: A Kill Chain-Aligned Sequential Detection Framework for Multi-Step Attacks in MCP-Based AI Agent Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4411338891",
+  "doi": "10.2139/ssrn.5259751",
+  "title": "MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System",
+  "year": 2025,
+  "cites": 9
+ },
+ {
+  "id": "W4417091792",
+  "doi": "10.48550/arxiv.2510.02677",
+  "title": "ARMs: Adaptive Red-Teaming Agent against Multimodal Models with Plug-and-Play Attacks",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7204643182",
+  "doi": "10.13140/rg.2.2.21227.50728",
+  "title": "The Unverified Mesh: How the Model Context Protocol (MCP) turned crowdsourced AI tooling into an unverified supply chain that penetrates organisations beneath the security perimeter",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224782561",
+  "doi": "10.5281/zenodo.23802124",
+  "title": "MCP-Gatekeeper: testbed, defense and reproducibility package for detecting tool poisoning and prompt injection on MCP-enabled IoT edge gateways",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7151795601",
+  "doi": "10.48550/arxiv.2604.05440",
+  "title": "LanG -- A Governance-Aware Agentic AI Platform for Unified Security Operations",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7140324317",
+  "doi": "10.48550/arxiv.2603.22853",
+  "title": "Agent Audit: A Security Analysis System for LLM Agent Applications",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4410509501",
+  "doi": "10.5121/csit.2025.150908",
+  "title": "MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System",
+  "year": 2025,
+  "cites": 6
+ },
+ {
+  "id": "W7131387655",
+  "doi": "10.48550/arxiv.2602.19514",
+  "title": "Security Risks of AI Agents Hiring Humans: An Empirical Marketplace Study",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163216848",
+  "doi": "10.1007/978-3-032-27993-4_6",
+  "title": "Threat Model-Driven Test Framework for Security and Privacy of Agentic LLM Applications",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172486169",
+  "doi": "10.5281/zenodo.21802760",
+  "title": "SPECTER IDENTITY: Full Non-Human Identity Lifecycle Attack \u2014 The Foundation of Trust in AI Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7127349036",
+  "doi": "10.48550/arxiv.2602.01129",
+  "title": "SMCP: Secure Model Context Protocol",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172208541",
+  "doi": "10.5281/zenodo.21759172",
+  "title": "BATITONG: Deterministic Reliability for LLM-Driven Offensive-Security Orchestration",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415333634",
+  "doi": "10.48550/arxiv.2506.15253",
+  "title": "RAS-Eval: A Comprehensive Benchmark for Security Evaluation of LLM Agents in Real-World Environments",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7135414857",
+  "doi": "10.5281/zenodo.19011780",
+  "title": "Trust Boundary Failures in AI Coding Agents: Empirical Analysis of MCP Configuration Attacks in Claude Code",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415897697",
+  "doi": "10.5391/jkiis.2025.35.5.465",
+  "title": "Countermeasures for Data Security Vulnerabilities Using AI Agents and MCP",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7222306956",
+  "doi": "10.5753/sbseg_estendido.2026.33594",
+  "title": "AIaCGateGuard: A Security-First Pipeline for Benchmarking LLM- and SLM-Generated Infrastructure-as-Code",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7106284672",
+  "doi": "10.25776/7mb4-n620",
+  "title": "Behavioral Detection Methods for Automated MCP Server Vulnerability Assessment",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4417299427",
+  "doi": "10.48550/arxiv.2504.12757",
+  "title": "MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7202351737",
+  "doi": "10.5281/zenodo.21914226",
+  "title": "Command Injection Vulnerabilities in MCP Tool Servers: A Systematic Security Audit",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414731377",
+  "doi": "10.1007/978-3-032-02130-4_11",
+  "title": "Agentic AI Security in Critical Sectors: Finance, Healthcare, and Autonomous Driving",
+  "year": 2025,
+  "cites": 2
+ },
+ {
+  "id": "W7221097162",
+  "doi": "10.5281/zenodo.23255373",
+  "title": "Who Controls the Agents? AI Agent Orchestration as the New Security Perimeter",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7151017143",
+  "doi": "10.2139/ssrn.6530594",
+  "title": "Detecting Compositional Attacks in Multi-Agent LLM Systems via Graph-Topological Feature Analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155105389",
+  "doi": "10.48550/arxiv.2604.17125",
+  "title": "Evaluating a Layered Prompt-Injection Defence for the Model Context Protocol: A Record-Level Audit of Decision Conventions, Corpus Provenance and Reproducibility",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155625960",
+  "doi": "10.55041/ijsrem61191",
+  "title": "MCP-Driven RAG Architecture for Automated Alert Triage in Security Operations Centers",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7171836417",
+  "doi": "10.5281/zenodo.21706037",
+  "title": "MCP Ecosystem Collapse: World-First Live Demonstration of Sub-100ms MCP Infrastructure Attack and Defensive Detection Gap Analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155702366",
+  "doi": "10.5281/zenodo.19784777",
+  "title": "ContextForge: Architecture-First Persistent Agentic Memory via Model Context Protocol \u2014 Multi-Trigger OR-Gate Security, OR-Set CRDT Sync, Tri-Core Failover, Differential Context Injection, Recency-Weighted Retrieval, and a Memory Quality Benchmark",
+  "year": 2026,
+  "cites": 0
+ }
+]

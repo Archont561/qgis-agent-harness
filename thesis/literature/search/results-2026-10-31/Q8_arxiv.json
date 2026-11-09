@@ -1,0 +1,217 @@
+[
+ {
+  "id": "2508.01780v2",
+  "title": "LiveMCPBench: Can Agents Navigate an Ocean of MCP Tools?",
+  "published": "2025-08-03"
+ },
+ {
+  "id": "2411.03205v4",
+  "title": "GIS Copilot: Towards an Autonomous GIS Agent for Spatial Analysis",
+  "published": "2024-11-05"
+ },
+ {
+  "id": "2508.20453v1",
+  "title": "MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
+  "published": "2025-08-28"
+ },
+ {
+  "id": "2602.00933v3",
+  "title": "MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers",
+  "published": "2026-01-31"
+ },
+ {
+  "id": "2606.12821v2",
+  "title": "GeoNatureAgent Benchmark: Benchmarking LLM Agents for Environmental Geospatial Analysis Across Frontier and Open-Weight Foundation Models",
+  "published": "2026-06-11"
+ },
+ {
+  "id": "2608.22167v1",
+  "title": "MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning",
+  "published": "2026-08-23"
+ },
+ {
+  "id": "2509.05881v1",
+  "title": "GeoAnalystBench: A GeoAI benchmark for assessing large language models for spatial analysis workflow and code generation",
+  "published": "2025-09-07"
+ },
+ {
+  "id": "2610.09112v1",
+  "title": "GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks",
+  "published": "2026-10-06"
+ },
+ {
+  "id": "2604.13888v1",
+  "title": "GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis",
+  "published": "2026-04-15"
+ },
+ {
+  "id": "2508.14704v1",
+  "title": "MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers",
+  "published": "2025-08-20"
+ },
+ {
+  "id": "2508.07575v1",
+  "title": "MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool Use Benchmark",
+  "published": "2025-08-11"
+ },
+ {
+  "id": "2607.02577v1",
+  "title": "Benchmarking the Benchmarks: A Validity Audit of Tool-Calling Evaluation",
+  "published": "2026-06-30"
+ },
+ {
+  "id": "2610.22688v1",
+  "title": "Explore Separately, Adopt Selectively: Execution-Guided Tool Use over Large Tool Libraries",
+  "published": "2026-10-15"
+ },
+ {
+  "id": "2610.19148v2",
+  "title": "Compiling Expert Procedures into Verified Programs: When a Small Model Is Enough",
+  "published": "2026-10-13"
+ },
+ {
+  "id": "2610.05319v2",
+  "title": "Understanding the Hierarchical Structure and Functional Landscape of the Model Context Protocol Ecosystem",
+  "published": "2026-10-04"
+ },
+ {
+  "id": "2609.37025v1",
+  "title": "AnyAct: Universal Action for Self-Evolving Agents",
+  "published": "2026-09-29"
+ },
+ {
+  "id": "2606.12674v2",
+  "title": "EvoFlux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents",
+  "published": "2026-06-10"
+ },
+ {
+  "id": "2511.01854v2",
+  "title": "Tool-to-Agent Retrieval: Bridging Tools and Agents for Scalable LLM Multi-Agent Systems",
+  "published": "2025-11-03"
+ },
+ {
+  "id": "2605.09131v1",
+  "title": "MCP-Cosmos: World Model-Augmented Agents for Complex Task Execution in MCP Environments",
+  "published": "2026-05-09"
+ },
+ {
+  "id": "2609.26761v1",
+  "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+  "published": "2026-09-22"
+ },
+ {
+  "id": "2610.14956v1",
+  "title": "MCPDisCo: Seesaw-Mitigated Tuning for MCP-Native Agents",
+  "published": "2026-10-10"
+ },
+ {
+  "id": "2601.08276v2",
+  "title": "ACE-Router: Generalizing History-Aware Routing from MCP Tools to the Agent Web",
+  "published": "2026-01-13"
+ },
+ {
+  "id": "2610.33633v1",
+  "title": "ProbeID: Verifying MCP Tool Identity for LLM Agents under Registry Drift",
+  "published": "2026-10-24"
+ },
+ {
+  "id": "2602.10525v2",
+  "title": "LHAW: Controllable Underspecification for Long-Horizon Tasks",
+  "published": "2026-02-11"
+ },
+ {
+  "id": "2605.29676v2",
+  "title": "Notation Matters: A Benchmark Study of Token-Optimized Formats in Agentic AI Systems",
+  "published": "2026-05-28"
+ },
+ {
+  "id": "2605.18703v1",
+  "title": "EnvFactory: Scaling Tool-Use Agents via Executable Environments Synthesis and Robust RL",
+  "published": "2026-05-18"
+ },
+ {
+  "id": "2606.13663v1",
+  "title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+  "published": "2026-06-11"
+ },
+ {
+  "id": "2605.17558v2",
+  "title": "Firefly: Illuminating Large-Scale Verified Tool-Call Data Generation from Real APIs",
+  "published": "2026-05-17"
+ },
+ {
+  "id": "2602.15945v1",
+  "title": "From Tool Orchestration to Code Execution: A Study of MCP Design Choices",
+  "published": "2026-02-17"
+ },
+ {
+  "id": "2510.00229v4",
+  "title": "AgentFlux: Decoupled Fine-Tuning &amp; Inference for On-Device Agentic Systems",
+  "published": "2025-09-30"
+ },
+ {
+  "id": "2604.20714v1",
+  "title": "Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems via Textual Parameter Graph Optimization",
+  "published": "2026-04-22"
+ },
+ {
+  "id": "2510.01179v1",
+  "title": "TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments",
+  "published": "2025-10-01"
+ },
+ {
+  "id": "2610.16867v1",
+  "title": "Davinci-Tool: Scaling Agentic Tool-Use Supervision with Verifiable Executable Environments",
+  "published": "2026-10-12"
+ },
+ {
+  "id": "2606.05548v1",
+  "title": "ADK Arena: Evaluating Agent Development Kits via LLM-as-a-Developer",
+  "published": "2026-06-04"
+ },
+ {
+  "id": "2603.26845v2",
+  "title": "GISclaw: A Comprehensive Open-Source LLM Agent System for Realistic Multi-Step Geospatial Analysis",
+  "published": "2026-03-27"
+ },
+ {
+  "id": "2605.13880v2",
+  "title": "PREPING: Zero-Task Agent Memory Construction via Self-Practice",
+  "published": "2026-05-11"
+ },
+ {
+  "id": "2610.21463v1",
+  "title": "Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents",
+  "published": "2026-10-15"
+ },
+ {
+  "id": "2610.27234v1",
+  "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
+  "published": "2026-10-19"
+ },
+ {
+  "id": "2605.14051v1",
+  "title": "SPIN: Structural LLM Planning via Iterative Navigation for Industrial Tasks",
+  "published": "2026-05-13"
+ },
+ {
+  "id": "2510.01260v1",
+  "title": "IoT-MCP: Bridging LLMs and IoT Systems Through Model Context Protocol",
+  "published": "2025-09-25"
+ },
+ {
+  "id": "2504.08999v3",
+  "title": "MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers",
+  "published": "2025-04-11"
+ },
+ {
+  "id": "2608.20314v1",
+  "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+  "published": "2026-08-20"
+ },
+ {
+  "id": "2609.02964v1",
+  "title": "When Optimization Becomes Manipulation: Defending Generative Search against Malicious Generative Engine Optimization",
+  "published": "2026-09-02"
+ }
+]

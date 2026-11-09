@@ -1,0 +1,42 @@
+# Codecov configuration — the coverage gate the thesis harness is held to.
+# One report is produced by `pixi run test` (pytest-cov → coverage.xml) and
+# uploaded from CI by `pixi run cov-upload` (codecov-cli). Both resolve to the `test` environment.
+#
+# 90 % is the bar for both the whole project and the lines a change touches:
+# the harness is small enough that "mostly tested" is a real choice, and an
+# untested merge path in a 1,800-run sweep is not a risk worth taking.
+
+codecov:
+  require_ci_to_pass: true
+  notify:
+    wait_for_ci: true
+
+coverage:
+  precision: 2
+  round: down
+  range: "90...100"
+  status:
+    project:
+      default:
+        target: 90%
+        threshold: 0% # no regression allowance: the target is the floor
+    patch:
+      default:
+        target: 90%
+        threshold: 0% # new code is held to the same bar as old code
+    changes: false
+
+# Tests, vendored skills and the task corpus are not product code: counting them
+# would let a green number hide an untested harness. Coverage of the harness is
+# what this gate measures.
+ignore:
+  - "experiment/tests/"
+  - "experiment/tasks/"
+  - ".agents/"
+  - "thesis/"
+
+comment:
+  layout: "diff, files"
+  behavior: default
+  require_base: false
+  require_head: false

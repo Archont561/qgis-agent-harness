@@ -1,0 +1,11 @@
+# gherlint — Gherkin linter (pypi 0.5.0); reads this file or `[tool.gherlint]`; only `convention` takes options.
+
+[convention]
+# Scenario tags name a thesis card (`@A-01`: P spatial, A attribute, C cartographic); checked when present.
+scenario_tags_pattern = '''
+    ^@[PAC]-[0-9]{2}$
+'''
+# Feature-level tags describe the surface under test: `@katalog`, `@kod`, `@obydwa`.
+feature_tags_pattern = '''
+    ^@(katalog|kod|obydwa)$
+'''

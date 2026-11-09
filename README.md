@@ -1,2 +1,48 @@
-# qgis-agent-harness
-A harness that scores GIS-agent artefacts: one QGIS runtime, nine geoprocessing operations, three ways of exposing them, one oracle. Code for an MSc thesis in geoinformatics.
+# research
+
+**Does exposing GIS operations as MCP tools change how often a fixed model produces correct QGIS
+work, compared with generating PyQGIS code?** The comparison is pre-registered, run on one pinned
+model, scored by spatial predicates rather than by a judging model, and reported as conditional on
+data, surface and task class — never as "MCP beats codegen".
+
+> Status: pre-registration open (milestone `m-0`, gate G1 not passed) — no number produced by
+> `experiment/` counts until the measures are frozen. 20 tasks, 8 documents, 7 decisions and
+> 6 milestones in the backlog.
+
+| Path | What it is | Start here |
+|---|---|---|
+| `thesis/` | the thesis text (six chapters per §V of the faculty rules), 20 working documents in four directories, bibliography: 69 references + 30 full-text transcripts | [`thesis/README.md`](thesis/README.md) |
+| `experiment/` | the measurement harness — `src/` package, `tests/`, Gherkin `features/` | [`experiment/README.md`](experiment/README.md) |
+| `backlog/` | 20 tasks, 8 documents, 7 decisions, 6 milestones — the only place work is tracked | [`docs/backlog.md`](docs/backlog.md) |
+| `docs/` | how this repository works: environments, tests, sandbox, commits, agents | [below](#documentation) |
+| `scripts/` | `restore.sh` (airlocked-host launcher, owned by pixi-sandbox) and `task_cards.py`, `repo_facts.py` and `version_export.py` (the checkers the card-schema, count, retired-vocabulary, backlog-id, backlog-record and version-export alint rules call) | [`docs/sandbox.md`](docs/sandbox.md) |
+| `.agents/skills/` | the agent skills, including `archont561-render` — the maths commands behind `pixi run render` | [`docs/environments.md`](docs/environments.md#rendering-is-a-skill-command) |
+
+Nothing here is published: no package, no release, no version.
+
+## Try it
+
+```sh
+bash scripts/restore.sh                    # locked pixi environments, offline-capable
+pixi run qa                                # alint + ruff + gherlint + prose (Vale), no QGIS
+pixi run test                              # pytest — 16 harness tests + 36 checker tests, 94 % coverage, no QGIS
+pixi run harness --help                    # harness CLI: discovered commands, registration rule
+pixi run backlog task list                 # committed work
+pixi run render math-slide '\frac{a}{b}' -o slide.pptx   # maths via the archont561 skill
+```
+
+## Documentation
+
+- [Environments](docs/environments.md) — pixi features and environments, task catalogue, linters
+- [Prose](docs/prose.md) — Vale over `thesis/` and `docs/`: what is prose, what is switched off, and why
+- [Tests](docs/tests.md) — TDD + BDD rule, layers, enforcement, coverage gate, the harness package
+- [Offline sandbox](docs/sandbox.md) — pixi-sandbox transport, restore procedure, generator-owned files
+- [Commits and CI](docs/commits.md) — Conventional Commits, hooks, workflows
+- [Agent skills](docs/agents.md) — nine pinned skills, provenance, runtime notes
+- [Backlog](docs/backlog.md) — how work is tracked, what never enters it, known failures
+
+Research side: the text and its notes in [`thesis/README.md`](thesis/README.md), the work plan and
+its dates in `backlog/docs/`, the settled choices in `backlog/decisions/`.
+
+Contributors — human or agent — start with [AGENTS.md](AGENTS.md). Tests come first, and every
+`.feature` must be wired into a test module.

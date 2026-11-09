@@ -1,0 +1,257 @@
+[
+ {
+  "id": "2508.18489v1",
+  "title": "Experiences with Model Context Protocol Servers for Science and High Performance Computing",
+  "published": "2025-08-25"
+ },
+ {
+  "id": "2508.20453v1",
+  "title": "MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
+  "published": "2025-08-28"
+ },
+ {
+  "id": "2510.02139v1",
+  "title": "BioinfoMCP: A Unified Platform Enabling MCP Interfaces in Agentic Bioinformatics",
+  "published": "2025-10-02"
+ },
+ {
+  "id": "2606.26118v1",
+  "title": "The Open Source Economic Index of AI Adoption and Capability",
+  "published": "2026-05-23"
+ },
+ {
+  "id": "2601.23049v2",
+  "title": "MedMCP-Calc: Benchmarking LLMs for Realistic Medical Calculator Scenarios via MCP Integration",
+  "published": "2026-01-30"
+ },
+ {
+  "id": "2605.02092v1",
+  "title": "NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science",
+  "published": "2026-05-03"
+ },
+ {
+  "id": "2512.14429v1",
+  "title": "Seismology modeling agent: A smart assistant for geophysical researchers",
+  "published": "2025-12-16"
+ },
+ {
+  "id": "2506.13538v5",
+  "title": "Model Context Protocol (MCP) at First Glance: Studying the Security and Maintainability of MCP Servers",
+  "published": "2025-06-16"
+ },
+ {
+  "id": "2610.13623v1",
+  "title": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
+  "published": "2026-10-09"
+ },
+ {
+  "id": "2508.07035v1",
+  "title": "VASPilot: MCP-Facilitated Multi-Agent Intelligence for Autonomous VASP Simulations",
+  "published": "2025-08-09"
+ },
+ {
+  "id": "2605.15227v2",
+  "title": "NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol",
+  "published": "2026-05-13"
+ },
+ {
+  "id": "2510.01780v1",
+  "title": "Secure Multi-Modal Data Fusion in Federated Digital Health Systems via MCP",
+  "published": "2025-10-02"
+ },
+ {
+  "id": "2509.06917v2",
+  "title": "Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents",
+  "published": "2025-09-08"
+ },
+ {
+  "id": "2507.01053v4",
+  "title": "M3: Conversational LLMs Simplify Secure Clinical Data Access, Understanding, and Analysis",
+  "published": "2025-06-27"
+ },
+ {
+  "id": "2504.19678v2",
+  "title": "From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review",
+  "published": "2025-04-28"
+ },
+ {
+  "id": "2610.37697v1",
+  "title": "chATLAS: A Retrieval-Augmented Conversational Assistant for the ATLAS Experiment",
+  "published": "2026-10-24"
+ },
+ {
+  "id": "2506.15253v1",
+  "title": "RAS-Eval: A Comprehensive Benchmark for Security Evaluation of LLM Agents in Real-World Environments",
+  "published": "2025-06-18"
+ },
+ {
+  "id": "2510.12787v4",
+  "title": "Ax-Prover: A Deep Reasoning Agentic Framework for Theorem Proving in Mathematics and Quantum Physics",
+  "published": "2025-10-14"
+ },
+ {
+  "id": "2607.25398v3",
+  "title": "HANDBOOK.md: A Benchmark for Long-Context Agentic Instruction Following",
+  "published": "2026-07-28"
+ },
+ {
+  "id": "2604.12258v2",
+  "title": "Coding-Free and Privacy-Preserving Agentic Framework for Data-Driven Clinical Research",
+  "published": "2026-04-14"
+ },
+ {
+  "id": "2510.27452v1",
+  "title": "From Pixels to Paths: A Multi-Agent Framework for Editable Scientific Illustration",
+  "published": "2025-10-31"
+ },
+ {
+  "id": "2602.01550v2",
+  "title": "S1-NexusAgent: a Self-Evolving Agent Framework for Multidisciplinary Scientific Research",
+  "published": "2026-02-02"
+ },
+ {
+  "id": "2603.00123v1",
+  "title": "CT-Flow: Orchestrating CT Interpretation Workflow with Model Context Protocol Servers",
+  "published": "2026-02-23"
+ },
+ {
+  "id": "2603.15080v3",
+  "title": "Open Biomedical Knowledge Graphs at Scale: Construction, Federation, and AI Agent Access with Samyama Graph Database",
+  "published": "2026-03-16"
+ },
+ {
+  "id": "2606.18037v3",
+  "title": "ProvenanceGuard: Source-Aware Factuality Verification for MCP-Based LLM Agents",
+  "published": "2026-06-16"
+ },
+ {
+  "id": "2608.09857v1",
+  "title": "Agentic Harnesses: LLM-Driven Verification Layers for Robot Autonomy",
+  "published": "2026-08-10"
+ },
+ {
+  "id": "2608.18260v1",
+  "title": "Redakto - The Incognito Tab for LLMs",
+  "published": "2026-08-18"
+ },
+ {
+  "id": "2606.10209v1",
+  "title": "Less Context, Better Agents: Efficient Context Engineering for Long-Horizon Tool-Using LLM Agents",
+  "published": "2026-06-08"
+ },
+ {
+  "id": "2512.07917v1",
+  "title": "CFD-copilot: leveraging domain-adapted large language model and model context protocol to enhance simulation automation",
+  "published": "2025-12-08"
+ },
+ {
+  "id": "2506.13068v2",
+  "title": "Towards the Autonomous Optimization of Urban Logistics: Training Generative AI with Scientific Tools via Agentic Digital Twins and Model Context Protocol",
+  "published": "2025-06-16"
+ },
+ {
+  "id": "2603.28986v1",
+  "title": "Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research",
+  "published": "2026-03-30"
+ },
+ {
+  "id": "2607.17012v1",
+  "title": "Schema-Bound LLM Control of Scientific Instrumentation through Model Context Protocol Skills",
+  "published": "2026-07-19"
+ },
+ {
+  "id": "2608.20390v1",
+  "title": "Ansari: A Retrieval-Grounded Islamic AI Assistant -- Architecture, Deployment, and Lessons from 140,000 Conversations",
+  "published": "2026-06-30"
+ },
+ {
+  "id": "2604.27996v3",
+  "title": "Exploring LLM Agent Designs and Interaction Modalities for Scientific Visualization",
+  "published": "2026-04-30"
+ },
+ {
+  "id": "2509.15957v1",
+  "title": "EHR-MCP: Real-world Evaluation of Clinical Information Retrieval by Large Language Models via Model Context Protocol",
+  "published": "2025-09-19"
+ },
+ {
+  "id": "2508.10277v3",
+  "title": "MCP-Enabled LLM for Meta-optics Inverse Design: Leveraging Differentiable Solver without LLM Expertise",
+  "published": "2025-08-14"
+ },
+ {
+  "id": "2506.13800v1",
+  "title": "Enhancing Clinical Decision Support and EHR Insights through LLMs and the Model Context Protocol: An Open-Source MCP-FHIR Framework",
+  "published": "2025-06-13"
+ },
+ {
+  "id": "2607.24663v1",
+  "title": "A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility",
+  "published": "2026-07-27"
+ },
+ {
+  "id": "2509.18178v2",
+  "title": "Foam-Agent 2.0: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM",
+  "published": "2025-09-17"
+ },
+ {
+  "id": "2508.02866v3",
+  "title": "PROV-AGENT: Unified Provenance for Tracking AI Agent Interactions in Agentic Workflows",
+  "published": "2025-08-04"
+ },
+ {
+  "id": "2603.09052v1",
+  "title": "From Days to Minutes: An Autonomous AI Agent Achieves Reliable Clinical Triage in Remote Patient Monitoring",
+  "published": "2026-03-10"
+ },
+ {
+  "id": "2510.02271v2",
+  "title": "InfoMosaic-Bench: Evaluating Multi-Source Information Seeking in Tool-Augmented Agents",
+  "published": "2025-10-02"
+ },
+ {
+  "id": "2603.27094v1",
+  "title": "Sovereign Context Protocol: An Open Attribution Layer for Human-Generated Content in the Age of Large Language Models",
+  "published": "2026-03-28"
+ },
+ {
+  "id": "2609.31358v1",
+  "title": "A Safety-Bounded SDC-to-MCP Gateway for Medical AI Agents",
+  "published": "2026-09-25"
+ },
+ {
+  "id": "2601.23132v2",
+  "title": "Verifiable Manifest Signing and Transparency Enforcement for Secure MCP-Based LLM Pipelines",
+  "published": "2026-01-30"
+ },
+ {
+  "id": "2608.26198v1",
+  "title": "Agentic AI for operating scientific instruments for nanoscale characterization",
+  "published": "2026-08-25"
+ },
+ {
+  "id": "2601.12560v1",
+  "title": "Agentic Artificial Intelligence (AI): Architectures, Taxonomies, and Evaluation of Large Language Model Agents",
+  "published": "2026-01-18"
+ },
+ {
+  "id": "2601.08687v2",
+  "title": "Data Product MCP: Chat with your Enterprise Data",
+  "published": "2026-01-13"
+ },
+ {
+  "id": "2605.11522v1",
+  "title": "State Twins: An Off-Chain Substrate for Agentic Reasoning over Decentralized Finance Protocols",
+  "published": "2026-05-12"
+ },
+ {
+  "id": "2604.06280v1",
+  "title": "DosimeTron: Automating Personalized Monte Carlo Radiation Dosimetry in PET/CT with Agentic AI",
+  "published": "2026-04-07"
+ },
+ {
+  "id": "2608.04457v2",
+  "title": "Eigenius: A Typed Knowledge-Graph DBMS with Epistemic Stratification and Institution-Mediated Reasoning",
+  "published": "2026-08-05"
+ }
+]

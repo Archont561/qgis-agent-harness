@@ -1,0 +1,557 @@
+[
+ {
+  "id": "2508.13774v1",
+  "title": "Agentic DraCor and the Art of Docstring Engineering: Evaluating MCP-empowered LLM Usage of the DraCor API",
+  "published": "2025-08-19"
+ },
+ {
+  "id": "2605.00827v1",
+  "title": "Separating Intelligence from Execution: A Workflow Engine for the Model Context Protocol",
+  "published": "2026-03-13"
+ },
+ {
+  "id": "2508.20637v2",
+  "title": "GDS Agent for Graph Algorithmic Reasoning",
+  "published": "2025-08-28"
+ },
+ {
+  "id": "2610.22301v1",
+  "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+  "published": "2026-10-15"
+ },
+ {
+  "id": "2511.03497v1",
+  "title": "ROSBag MCP Server: Analyzing Robot Data with LLMs for Agentic Embodied AI Applications",
+  "published": "2025-11-05"
+ },
+ {
+  "id": "2603.20313v1",
+  "title": "Semantic Tool Discovery for Large Language Models: A Vector-Based Approach to MCP Tool Selection",
+  "published": "2026-03-19"
+ },
+ {
+  "id": "2512.23611v1",
+  "title": "Close the Loop: Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing",
+  "published": "2025-12-29"
+ },
+ {
+  "id": "2508.07575v1",
+  "title": "MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool Use Benchmark",
+  "published": "2025-08-11"
+ },
+ {
+  "id": "2609.30717v2",
+  "title": "RecToolBench: Benchmarking Recommendation-Specific Tool Orchestration under Fuzzy User Intent",
+  "published": "2026-09-25"
+ },
+ {
+  "id": "2609.33731v1",
+  "title": "HTN Planning as a Coordination Layer for Multi-Server MCP Tool Orchestration",
+  "published": "2026-09-27"
+ },
+ {
+  "id": "2509.07595v1",
+  "title": "AgentX: Towards Orchestrating Robust Agentic Workflow Patterns with FaaS-hosted MCP Services",
+  "published": "2025-09-09"
+ },
+ {
+  "id": "2601.00809v2",
+  "title": "A Modular Reference Architecture for MCP-Servers Enabling Agentic BIM Interaction",
+  "published": "2025-12-21"
+ },
+ {
+  "id": "2608.21417v1",
+  "title": "Retrieval-grounded robot program generation and simulation-based correction via Model Context Protocol",
+  "published": "2026-08-13"
+ },
+ {
+  "id": "2602.00933v3",
+  "title": "MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers",
+  "published": "2026-01-31"
+ },
+ {
+  "id": "2609.35381v2",
+  "title": "MCP Error Messages Written for Developers Hurt the Most Capable Agents Most",
+  "published": "2026-09-28"
+ },
+ {
+  "id": "2606.26118v1",
+  "title": "The Open Source Economic Index of AI Adoption and Capability",
+  "published": "2026-05-23"
+ },
+ {
+  "id": "2605.19604v1",
+  "title": "Formal Skill: Programmable Runtime Skills for Efficient and Accurate LLM Agents",
+  "published": "2026-05-19"
+ },
+ {
+  "id": "2510.19286v2",
+  "title": "TheMCPCompany: Creating General-purpose Agents with Task-specific Tools",
+  "published": "2025-10-22"
+ },
+ {
+  "id": "2610.36108v1",
+  "title": "Log-To-Leak: Prompt Injection Attacks on Tool-Using LLM Agents via the Model Context Protocol",
+  "published": "2026-10-26"
+ },
+ {
+  "id": "2604.18500v1",
+  "title": "QRAFTI: An Agentic Framework for Empirical Research in Quantitative Finance",
+  "published": "2026-04-20"
+ },
+ {
+  "id": "2608.26199v1",
+  "title": "Benchmarking AI Agents for Hardware Design Automation via MCP Tool Calling",
+  "published": "2026-08-25"
+ },
+ {
+  "id": "2510.01260v1",
+  "title": "IoT-MCP: Bridging LLMs and IoT Systems Through Model Context Protocol",
+  "published": "2025-09-25"
+ },
+ {
+  "id": "2508.04604v2",
+  "title": "TURA: Tool-Augmented Unified Retrieval Agent for AI Search",
+  "published": "2025-08-06"
+ },
+ {
+  "id": "2601.07367v2",
+  "title": "FOCAL: A Novel Benchmarking Technique for Multi-modal Agents",
+  "published": "2026-01-12"
+ },
+ {
+  "id": "2506.13538v5",
+  "title": "Model Context Protocol (MCP) at First Glance: Studying the Security and Maintainability of MCP Servers",
+  "published": "2025-06-16"
+ },
+ {
+  "id": "2605.24941v2",
+  "title": "Memory-Induced Tool-Drift in LLM Agents",
+  "published": "2026-05-24"
+ },
+ {
+  "id": "2605.17558v2",
+  "title": "Firefly: Illuminating Large-Scale Verified Tool-Call Data Generation from Real APIs",
+  "published": "2026-05-17"
+ },
+ {
+  "id": "2610.03213v1",
+  "title": "Toward SLM-based agentic task-tool intent matching",
+  "published": "2026-10-02"
+ },
+ {
+  "id": "2510.25726v2",
+  "title": "The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution",
+  "published": "2025-10-29"
+ },
+ {
+  "id": "2608.22167v1",
+  "title": "MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning",
+  "published": "2026-08-23"
+ },
+ {
+  "id": "2604.07681v1",
+  "title": "Multi-Agent Orchestration for High-Throughput Materials Screening on a Leadership-Class System",
+  "published": "2026-04-09"
+ },
+ {
+  "id": "2505.08446v1",
+  "title": "Agent-as-a-Service based on Agent Network",
+  "published": "2025-05-13"
+ },
+ {
+  "id": "2508.15760v2",
+  "title": "LiveMCP-101: Stress Testing and Diagnosing MCP-enabled Agents on Challenging Queries",
+  "published": "2025-08-21"
+ },
+ {
+  "id": "2610.33350v1",
+  "title": "EVM-Anchored Provenance for AI-Assisted Code Evolution: A Smoke-Scale Deployment Report",
+  "published": "2026-10-23"
+ },
+ {
+  "id": "2506.23394v1",
+  "title": "Teaching a Language Model to Speak the Language of Tools",
+  "published": "2025-06-29"
+ },
+ {
+  "id": "2606.27231v1",
+  "title": "A hardware-safety-gated system for LLM-written native ARTIQ control code on a trapped-ion platform",
+  "published": "2026-06-25"
+ },
+ {
+  "id": "2610.00056v1",
+  "title": "Agentic AI for Staged Three-Dimensional Finite-Element Tunnel Modelling",
+  "published": "2026-09-04"
+ },
+ {
+  "id": "2601.14735v3",
+  "title": "FAME: QoS-aware Async Service Orchestration for Agentic Workflows",
+  "published": "2026-01-21"
+ },
+ {
+  "id": "2608.26133v1",
+  "title": "Agent Seer: Synthesizing Scenarios from Specification Understanding",
+  "published": "2026-06-24"
+ },
+ {
+  "id": "2507.06323v1",
+  "title": "Bridging AI and Software Security: A Comparative Vulnerability Assessment of LLM Agent Deployment Paradigms",
+  "published": "2025-07-08"
+ },
+ {
+  "id": "2606.07992v1",
+  "title": "VATS: Exploiting Implicit Authority in Error-Path Injection via Systematic Mutation",
+  "published": "2026-06-06"
+ },
+ {
+  "id": "2602.13591v1",
+  "title": "AgentRob: From Virtual Forum Agents to Hijacked Physical Robots",
+  "published": "2026-02-14"
+ },
+ {
+  "id": "2506.23260v2",
+  "title": "From Prompt Injections to Protocol Exploits: Threats in LLM-Powered AI Agents Workflows",
+  "published": "2025-06-29"
+ },
+ {
+  "id": "2607.11098v3",
+  "title": "AgentCheck: A Reproduce-Intervene-Mitigate Workbench for LLM Agents over MCP",
+  "published": "2026-07-13"
+ },
+ {
+  "id": "2608.17275v1",
+  "title": "When Agents Act on Web3: An Attack-Surface Survey of MCP, Skills, and Tool Calling",
+  "published": "2026-08-18"
+ },
+ {
+  "id": "2609.28585v1",
+  "title": "Persistent Billable State: Denial-of-Wallet Attacks and Defenses in Tool-Calling LLM Agents",
+  "published": "2026-09-23"
+ },
+ {
+  "id": "2606.03892v2",
+  "title": "Synthesize and Reward -- Reinforcement Learning for Multi-Step Tool Use in Live Environments",
+  "published": "2026-06-02"
+ },
+ {
+  "id": "2512.24939v1",
+  "title": "Vibe Coding, Interface Flattening",
+  "published": "2025-12-31"
+ },
+ {
+  "id": "2607.15593v1",
+  "title": "Scalable LLM Agent Tool Access in the Cloud",
+  "published": "2026-07-17"
+ },
+ {
+  "id": "2601.10955v2",
+  "title": "Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains in LLM Agents",
+  "published": "2026-01-16"
+ },
+ {
+  "id": "2606.11869v1",
+  "title": "Agents All the Way Down; A Methodology for Building Custom AI Agents from Substrate to Production",
+  "published": "2026-06-10"
+ },
+ {
+  "id": "2510.15994v2",
+  "title": "MCP Security Bench (MSB): Benchmarking Attacks Against Model Context Protocol in LLM Agents",
+  "published": "2025-10-14"
+ },
+ {
+  "id": "2607.17012v1",
+  "title": "Schema-Bound LLM Control of Scientific Instrumentation through Model Context Protocol Skills",
+  "published": "2026-07-19"
+ },
+ {
+  "id": "2602.09372v1",
+  "title": "AgentSkiller: Scaling Generalist Agent Intelligence through Semantically Integrated Cross-Domain Data Synthesis",
+  "published": "2026-02-10"
+ },
+ {
+  "id": "2608.24957v1",
+  "title": "ToolMinimize: Auditing and Rewriting LLM Agent Tool Calls to Minimize Privacy Exposure",
+  "published": "2026-08-25"
+ },
+ {
+  "id": "2505.18135v2",
+  "title": "Tool Preferences in Agentic LLMs are Unreliable",
+  "published": "2025-05-23"
+ },
+ {
+  "id": "2605.22634v2",
+  "title": "Contractual Skills: A GovernSpec Design Framework for Enterprise AI Agents",
+  "published": "2026-05-21"
+ },
+ {
+  "id": "2510.02567v3",
+  "title": "Agentic Additive Manufacturing Alloy Evaluation",
+  "published": "2025-10-02"
+ },
+ {
+  "id": "2606.16534v2",
+  "title": "Generated, Parallel, Scalable? A Study of Agentic AI-Generated Julia Code on Supercomputers",
+  "published": "2026-06-15"
+ },
+ {
+  "id": "2603.27277v1",
+  "title": "Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP",
+  "published": "2026-03-28"
+ },
+ {
+  "id": "2609.24620v1",
+  "title": "Ascent: An Agentic System over the Model Context Protocol for Real-World Clinical Data Analysis",
+  "published": "2026-09-21"
+ },
+ {
+  "id": "2610.32555v1",
+  "title": "Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance",
+  "published": "2026-10-23"
+ },
+ {
+  "id": "2609.28693v1",
+  "title": "Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Role-Scoped Capability Delivery",
+  "published": "2026-09-23"
+ },
+ {
+  "id": "2608.14074v1",
+  "title": "Mandato: Protocol-Level Enforcement of Digitally Signed Mandates on AI Agent Actions with Cryptographically Chained Audit Trails",
+  "published": "2026-08-14"
+ },
+ {
+  "id": "2609.22819v1",
+  "title": "Counterfactual Tool Ranking under Utility, Cost, and Privilege Constraints",
+  "published": "2026-09-19"
+ },
+ {
+  "id": "2512.06556v2",
+  "title": "Semantic Attacks on Tool-Augmented LLMs: Securing the Model Context Protocol Against Descriptor-Level Manipulation",
+  "published": "2025-12-06"
+ },
+ {
+  "id": "2603.25930v2",
+  "title": "AVDA: Autonomous Vibe Detection Authoring for Cybersecurity",
+  "published": "2026-03-26"
+ },
+ {
+  "id": "2602.20144v2",
+  "title": "Agentic AI for Scalable and Robust Optical Systems Control",
+  "published": "2026-02-23"
+ },
+ {
+  "id": "2508.12566v1",
+  "title": "Help or Hurdle? Rethinking Model Context Protocol-Augmented Large Language Models",
+  "published": "2025-08-18"
+ },
+ {
+  "id": "2511.05533v1",
+  "title": "MCP4IFC: IFC-Based Building Design Using Large Language Models",
+  "published": "2025-10-29"
+ },
+ {
+  "id": "2607.14158v1",
+  "title": "Orchestrating Power Grid Studies with Multi-Agent AI and MCP Servers",
+  "published": "2026-07-14"
+ },
+ {
+  "id": "2605.11053v3",
+  "title": "Content-Aware Attack Detection in LLM Agent Tool-Call Traffic: An Empirical Study of Features, Architectures, and Evaluation Protocols",
+  "published": "2026-05-11"
+ },
+ {
+  "id": "2605.04785v1",
+  "title": "AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use",
+  "published": "2026-05-06"
+ },
+ {
+  "id": "2511.07426v1",
+  "title": "Network and Systems Performance Characterization of MCP-Enabled LLM Agents",
+  "published": "2025-10-20"
+ },
+ {
+  "id": "2512.03289v1",
+  "title": "DAWZY: A New Addition to AI powered \"Human in the Loop\" Music Co-creation",
+  "published": "2025-12-02"
+ },
+ {
+  "id": "2602.13320v1",
+  "title": "Information Fidelity in Tool-Using LLM Agents: A Martingale Analysis of the Model Context Protocol",
+  "published": "2026-02-10"
+ },
+ {
+  "id": "2604.16870v2",
+  "title": "Governed MCP: Kernel-Level Tool Governance for AI Agents via Logit-Based Safety Primitives",
+  "published": "2026-04-18"
+ },
+ {
+  "id": "2606.10209v1",
+  "title": "Less Context, Better Agents: Efficient Context Engineering for Long-Horizon Tool-Using LLM Agents",
+  "published": "2026-06-08"
+ },
+ {
+  "id": "2610.23921v1",
+  "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
+  "published": "2026-10-05"
+ },
+ {
+  "id": "2511.17729v4",
+  "title": "M^3-Bench: Multi-Modal, Multi-Hop, Multi-Threaded Tool-Using MLLM Agent Benchmark",
+  "published": "2025-11-21"
+ },
+ {
+  "id": "2607.19432v1",
+  "title": "ChainWatch: A Kill Chain-Aligned Sequential Detection Framework for Multi-Step Attacks in MCP-Based AI Agent Systems",
+  "published": "2026-07-20"
+ },
+ {
+  "id": "2603.24703v1",
+  "title": "IndustriConnect: MCP Adapters and Mock-First Evaluation for AI-Assisted Industrial Operations",
+  "published": "2026-03-25"
+ },
+ {
+  "id": "2603.15538v1",
+  "title": "QiboAgent: a practitioner's guideline to open source assistants for Quantum Computing code development",
+  "published": "2026-03-16"
+ },
+ {
+  "id": "2605.03788v1",
+  "title": "Say the Mission, Execute the Swarm: Agent-Enhanced LLM Reasoning in the Web-of-Drones",
+  "published": "2026-05-05"
+ },
+ {
+  "id": "2511.01527v1",
+  "title": "TPS-Bench: Evaluating AI Agents' Tool Planning \\&amp; Scheduling Abilities in Compounding Tasks",
+  "published": "2025-11-03"
+ },
+ {
+  "id": "2603.22577v1",
+  "title": "STRIATUM-CTF: A Protocol-Driven Agentic Framework for General-Purpose CTF Solving",
+  "published": "2026-03-23"
+ },
+ {
+  "id": "2610.22373v1",
+  "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
+  "published": "2026-07-27"
+ },
+ {
+  "id": "2605.28914v1",
+  "title": "AIRGuard: Guarding Agent Actions with Runtime Authority Control",
+  "published": "2026-05-27"
+ },
+ {
+  "id": "2601.12744v1",
+  "title": "Vision Language Models for Optimization-Driven Intent Processing in Autonomous Networks",
+  "published": "2026-01-19"
+ },
+ {
+  "id": "2610.31974v1",
+  "title": "Agentic AI Defense: Decode-Time Provenance Binding for MCP",
+  "published": "2026-10-22"
+ },
+ {
+  "id": "2602.20048v1",
+  "title": "CodeCompass: Navigating the Navigation Paradox in Agentic Code Intelligence",
+  "published": "2026-02-23"
+ },
+ {
+  "id": "2610.09901v1",
+  "title": "A Chat Assistant for Software Exploration in a 3D Software Visualization",
+  "published": "2026-10-07"
+ },
+ {
+  "id": "2510.24563v2",
+  "title": "OSWorld-MCP: Benchmarking MCP Tool Invocation In Computer-Use Agents",
+  "published": "2025-10-28"
+ },
+ {
+  "id": "2504.19678v2",
+  "title": "From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review",
+  "published": "2025-04-28"
+ },
+ {
+  "id": "2608.29379v1",
+  "title": "Bridging Semantics and Physics with Constrained LLMs for Safe and Trustworthy Robotic Manipulation",
+  "published": "2026-08-29"
+ },
+ {
+  "id": "2609.16635v1",
+  "title": "EchoPath: Execution-Level Replayable Memory for GUI Agents",
+  "published": "2026-09-15"
+ },
+ {
+  "id": "2609.23695v1",
+  "title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
+  "published": "2026-09-20"
+ },
+ {
+  "id": "2605.30604v1",
+  "title": "An Organization-Scoped LLM Agent Runtime Architecture for Regulated Cybersecurity Operations",
+  "published": "2026-05-28"
+ },
+ {
+  "id": "2603.06064v1",
+  "title": "Agentic LLM Planning via Step-Wise PDDL Simulation: An Empirical Characterisation",
+  "published": "2026-03-06"
+ },
+ {
+  "id": "2609.02690v1",
+  "title": "ACLE-MCP: Attested Capability Leases for Execution-Time Trust in Remote LLM Tool Use",
+  "published": "2026-09-02"
+ },
+ {
+  "id": "2604.01532v3",
+  "title": "PHMForge: Evaluating LLM Agents on Industrial Prognostics through MCP-Native, Algorithm-Grounded Tools",
+  "published": "2026-04-02"
+ },
+ {
+  "id": "2609.19425v1",
+  "title": "Closed-World Resolution Against Tool Hallucination in LLM Agents",
+  "published": "2026-09-16"
+ },
+ {
+  "id": "2610.02432v2",
+  "title": "Evaluating and Improving the Robustness of Large Language Models to Input Sequence Variations",
+  "published": "2026-10-01"
+ },
+ {
+  "id": "2604.25318v1",
+  "title": "Cutscene Agent: An LLM Agent Framework for Automated 3D Cutscene Generation",
+  "published": "2026-04-28"
+ },
+ {
+  "id": "2605.26159v1",
+  "title": "Device Context Protocol: A Compact, Safety-First Architecture for LLM-Driven Control of Constrained Devices",
+  "published": "2026-05-24"
+ },
+ {
+  "id": "2608.23858v1",
+  "title": "Beyond the Mandate: A Systematic Security Analysis of the Agent Payments Protocol (AP2)",
+  "published": "2026-08-24"
+ },
+ {
+  "id": "2608.14680v1",
+  "title": "When Agentic Executions Fail: Detecting and Localizing Runtime Faults from Telemetry",
+  "published": "2026-08-04"
+ },
+ {
+  "id": "2609.02459v1",
+  "title": "CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI",
+  "published": "2026-09-02"
+ },
+ {
+  "id": "2609.22573v1",
+  "title": "Zero-Trust Authorization and Discovery for Enterprise MCP",
+  "published": "2026-09-18"
+ },
+ {
+  "id": "2603.28986v1",
+  "title": "Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research",
+  "published": "2026-03-30"
+ },
+ {
+  "id": "2601.15486v3",
+  "title": "An LLM-Agnostic, MAVLink-Based Drone Command and Control Interface and Agentic Harness Using the Model Context Protocol",
+  "published": "2026-01-21"
+ }
+]

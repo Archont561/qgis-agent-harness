@@ -1,0 +1,19 @@
+{
+  "name": "research",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MSc research workspace: task tracking with Backlog.md, agent skills via the skills CLI",
+  "type": "module",
+  "scripts": {
+    "backlog": "bunx --bun backlog",
+    "board": "bunx --bun backlog board",
+    "browser": "bunx --bun backlog browser",
+    "skills": "bunx --bun skills"
+  },
+  "dependencies": {
+    "backlog.md": "^1.55.3",
+    "opencode-ai": "^1.19.5",
+    "skills": "^1.7.4"
+  },
+  "packageManager": "bun@1.4.4"
+}

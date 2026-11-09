@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "2505.06416v1",
+  "title": "ScaleMCP: Dynamic and Auto-Synchronizing Model Context Protocol Tools for LLM Agents",
+  "published": "2025-05-09"
+ },
+ {
+  "id": "2602.17046v1",
+  "title": "Dynamic System Instructions and Tool Exposure for Efficient Agentic LLMs",
+  "published": "2025-12-01"
+ },
+ {
+  "id": "2606.16591v2",
+  "title": "SING: Synthetic Intention Graph for Scalable Active Tool Discovery in LLM Agents",
+  "published": "2026-06-15"
+ },
+ {
+  "id": "2607.25718v2",
+  "title": "Tools Are Not Islands: Set-Level Tool Retrieval for LLM Agents via Query-Conditioned Hyperedge Prediction",
+  "published": "2026-07-28"
+ },
+ {
+  "id": "2506.01056v4",
+  "title": "MCP-Zero: Active Tool Discovery for Autonomous LLM Agents",
+  "published": "2025-06-01"
+ },
+ {
+  "id": "2510.00023v2",
+  "title": "ToolBrain: A Flexible Reinforcement Learning Framework for Agentic Tools",
+  "published": "2025-09-24"
+ },
+ {
+  "id": "2512.13278v2",
+  "title": "AutoTool: Dynamic Tool Selection and Integration for Agentic Reasoning",
+  "published": "2025-12-15"
+ },
+ {
+  "id": "2607.19739v1",
+  "title": "Personalized Recommendation Tool Learning via Autonomous Language Agents",
+  "published": "2026-07-22"
+ },
+ {
+  "id": "2510.17843v1",
+  "title": "GRETEL: A Goal-driven Retrieval and Execution-based Trial Framework for LLM Tool Selection Enhancing",
+  "published": "2025-10-10"
+ },
+ {
+  "id": "2608.24039v1",
+  "title": "Design-to-Plan: A Large Language Model-Based Multi-Agent Framework for Manufacturing Process Planning from 3D CAD Models and 2D Engineering Drawings",
+  "published": "2026-08-25"
+ },
+ {
+  "id": "2511.14650v1",
+  "title": "AutoTool: Efficient Tool Selection for Large Language Model Agents",
+  "published": "2025-11-18"
+ },
+ {
+  "id": "2510.19286v2",
+  "title": "TheMCPCompany: Creating General-purpose Agents with Task-specific Tools",
+  "published": "2025-10-22"
+ },
+ {
+  "id": "2606.07538v1",
+  "title": "Bidirectional Semantic Complementary Tool Retrieval for Remote Sensing Agents",
+  "published": "2026-04-29"
+ },
+ {
+  "id": "2610.00613v1",
+  "title": "Spatial Strategies, Not Actions: Vector-Quantized Geodesics as Tools for LLM-Driven Agents",
+  "published": "2026-09-30"
+ },
+ {
+  "id": "2603.05860v1",
+  "title": "Evolving Medical Imaging Agents via Experience-driven Self-skill Discovery",
+  "published": "2026-03-06"
+ },
+ {
+  "id": "2604.19633v1",
+  "title": "Time Series Augmented Generation for Financial Applications",
+  "published": "2026-04-21"
+ },
+ {
+  "id": "2603.20313v1",
+  "title": "Semantic Tool Discovery for Large Language Models: A Vector-Based Approach to MCP Tool Selection",
+  "published": "2026-03-19"
+ },
+ {
+  "id": "2510.03992v2",
+  "title": "Quantitative Certification of Agentic Tool Selection",
+  "published": "2025-10-05"
+ },
+ {
+  "id": "2503.10071v1",
+  "title": "Advanced Tool Learning and Selection System (ATLASS): A Closed-Loop Framework Using LLM",
+  "published": "2025-03-13"
+ },
+ {
+  "id": "2604.13787v1",
+  "title": "ToolOmni: Enabling Open-World Tool Use via Agentic learning with Proactive Retrieval and Grounded Execution",
+  "published": "2026-04-15"
+ },
+ {
+  "id": "2607.15715v2",
+  "title": "Behavioral Controllability of Agentic Models for Information Extraction: From Fixed Workflows to Reflective Agents",
+  "published": "2026-07-17"
+ },
+ {
+  "id": "2510.14537v1",
+  "title": "JSPLIT: A Taxonomy-based Solution for Prompt Bloating in Model Context Protocol",
+  "published": "2025-10-16"
+ },
+ {
+  "id": "2604.00555v5",
+  "title": "Ontology-Constrained Neural Reasoning in Enterprise Agentic Systems: A Neurosymbolic Architecture for Domain-Grounded AI Agents",
+  "published": "2026-04-01"
+ },
+ {
+  "id": "2603.12740v1",
+  "title": "ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning",
+  "published": "2026-03-13"
+ },
+ {
+  "id": "2601.02757v1",
+  "title": "LLM Agent Framework for Intelligent Change Analysis in Urban Environment using Remote Sensing Imagery",
+  "published": "2026-01-06"
+ },
+ {
+  "id": "2606.20023v2",
+  "title": "When Lower Privileges Suffice: Investigating Over-Privileged Tool Selection in LLM Agents",
+  "published": "2026-06-18"
+ },
+ {
+  "id": "2503.01763v2",
+  "title": "Retrieval Models Aren't Tool-Savvy: Benchmarking Tool Retrieval for Large Language Models",
+  "published": "2025-03-03"
+ },
+ {
+  "id": "2509.05363v1",
+  "title": "SasAgent: Multi-Agent AI System for Small-Angle Scattering Data Analysis",
+  "published": "2025-09-04"
+ },
+ {
+  "id": "2601.05214v1",
+  "title": "Internal Representations as Indicators of Hallucinations in Agent Tool Selection",
+  "published": "2026-01-08"
+ },
+ {
+  "id": "2510.00229v4",
+  "title": "AgentFlux: Decoupled Fine-Tuning &amp; Inference for On-Device Agentic Systems",
+  "published": "2025-09-30"
+ },
+ {
+  "id": "2609.30906v1",
+  "title": "ToolSearcher: Optimizing Tool Selection at Scale via Reinforcement Learning",
+  "published": "2026-09-25"
+ },
+ {
+  "id": "2512.24565v5",
+  "title": "MCPAgentBench: A Real-world Task Benchmark for Evaluating LLM Agent MCP Tool Use",
+  "published": "2025-12-31"
+ },
+ {
+  "id": "2609.28693v1",
+  "title": "Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Role-Scoped Capability Delivery",
+  "published": "2026-09-23"
+ },
+ {
+  "id": "2510.00307v2",
+  "title": "BiasBusters: Uncovering and Mitigating Tool Selection Bias in Large Language Models",
+  "published": "2025-09-30"
+ },
+ {
+  "id": "2510.06664v1",
+  "title": "ToolMem: Enhancing Multimodal Agents with Learnable Tool Capability Memory",
+  "published": "2025-10-08"
+ },
+ {
+  "id": "2508.13774v1",
+  "title": "Agentic DraCor and the Art of Docstring Engineering: Evaluating MCP-empowered LLM Usage of the DraCor API",
+  "published": "2025-08-19"
+ },
+ {
+  "id": "2603.28986v1",
+  "title": "Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research",
+  "published": "2026-03-30"
+ },
+ {
+  "id": "2509.05933v2",
+  "title": "MapAgent: A Hierarchical Agent for Geospatial Reasoning with Dynamic Map Tool Integration",
+  "published": "2025-09-07"
+ },
+ {
+  "id": "2603.04743v1",
+  "title": "DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distribution-Aware Retrieval",
+  "published": "2026-03-05"
+ },
+ {
+  "id": "2510.21618v3",
+  "title": "DeepAgent: A General Reasoning Agent with Scalable Toolsets",
+  "published": "2025-10-24"
+ },
+ {
+  "id": "2411.15399v1",
+  "title": "Less is More: Optimizing Function Calling for LLM Execution on Edge Devices",
+  "published": "2024-11-23"
+ },
+ {
+  "id": "2504.19793v3",
+  "title": "Prompt Injection Attack to Tool Selection in LLM Agents",
+  "published": "2025-04-28"
+ },
+ {
+  "id": "2509.11626v1",
+  "title": "Automated Creation and Enrichment Framework for Improved Invocation of Enterprise APIs as Tools",
+  "published": "2025-09-15"
+ },
+ {
+  "id": "2509.20386v1",
+  "title": "Dynamic ReAct: Scalable Tool Selection for Large-Scale MCP Environments",
+  "published": "2025-09-22"
+ },
+ {
+  "id": "2604.20994v2",
+  "title": "Breaking MCP with Function Hijacking Attacks: Novel Threats for Function Calling and Agentic Models",
+  "published": "2026-04-22"
+ },
+ {
+  "id": "2603.15125v3",
+  "title": "From Storage to Steering: Memory Control Flow Attacks on LLM Agents",
+  "published": "2026-03-16"
+ },
+ {
+  "id": "2609.16268v1",
+  "title": "Spurious Tool Use: When RL Agents Learn the Wrong Reason to Act",
+  "published": "2026-09-14"
+ },
+ {
+  "id": "2606.15508v1",
+  "title": "ToolMenuBench: Benchmarking Tool-Menu Filtering Strategies for Reliable and Efficient LLM Agents",
+  "published": "2026-06-13"
+ },
+ {
+  "id": "2502.07223v1",
+  "title": "Graph RAG-Tool Fusion",
+  "published": "2025-02-11"
+ },
+ {
+  "id": "2606.03841v1",
+  "title": "EvoDS: Self-Evolving Autonomous Data Science Agent with Skill Learning and Context Management",
+  "published": "2026-06-02"
+ },
+ {
+  "id": "2602.13802v2",
+  "title": "Learning Agentic Time Series Forecasting via Trajectory Distillation and Memory-Based Reinforcement Learning",
+  "published": "2026-02-14"
+ },
+ {
+  "id": "2510.24284v3",
+  "title": "MCP-Flow: Facilitating LLM Agents to Master Real-World, Diverse and Scaling MCP Tools",
+  "published": "2025-10-28"
+ },
+ {
+  "id": "2507.20280v1",
+  "title": "SciToolAgent: A Knowledge Graph-Driven Scientific Agent for Multi-Tool Integration",
+  "published": "2025-07-27"
+ },
+ {
+  "id": "2602.20683v1",
+  "title": "Grid-Mind: An LLM-Orchestrated Multi-Fidelity Agent for Automated Connection Impact Assessment",
+  "published": "2026-02-24"
+ },
+ {
+  "id": "2510.20036v2",
+  "title": "ToolScope: Enhancing LLM Agent Tool Use through Tool Merging and Context-Aware Filtering",
+  "published": "2025-10-22"
+ },
+ {
+  "id": "2610.38209v1",
+  "title": "Is it my preference? Role Grounding Attack against Agent's Memory via Social Interaction",
+  "published": "2026-10-28"
+ },
+ {
+  "id": "2609.18283v1",
+  "title": "Where Should Agents Live? Energy-Memory Characterization of Agentic AI for the Edge-Cloud Continuum",
+  "published": "2026-09-16"
+ },
+ {
+  "id": "2605.20630v1",
+  "title": "Evaluating Temporal Semantic Caching and Workflow Optimization in Agentic Plan-Execute Pipelines",
+  "published": "2026-05-20"
+ },
+ {
+  "id": "2507.19543v1",
+  "title": "Agent WARPP: Workflow Adherence via Runtime Parallel Personalization",
+  "published": "2025-07-23"
+ },
+ {
+  "id": "2505.03275v1",
+  "title": "RAG-MCP: Mitigating Prompt Bloat in LLM Tool Selection via Retrieval-Augmented Generation",
+  "published": "2025-05-06"
+ },
+ {
+  "id": "2606.04494v1",
+  "title": "Beyond Prompt-Based Planning: MCP-Native Graph Planning-based Biomedical Agent System",
+  "published": "2026-06-03"
+ },
+ {
+  "id": "2508.02110v2",
+  "title": "Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools",
+  "published": "2025-08-04"
+ },
+ {
+  "id": "2609.07395v1",
+  "title": "Uncertainty Quantification for LLM Agents: A Taxonomy, an Evaluation Protocol, and an Empirical Study",
+  "published": "2026-09-07"
+ },
+ {
+  "id": "2608.23635v1",
+  "title": "ToolRobustBench: Stage-Wise Perturbation Evaluation and Failure Diagnosis for Tool-Calling Agents",
+  "published": "2026-08-23"
+ },
+ {
+  "id": "2508.17435v1",
+  "title": "An LLM-LVLM Driven Agent for Iterative and Fine-Grained Image Editing",
+  "published": "2025-08-24"
+ },
+ {
+  "id": "2606.11702v1",
+  "title": "MedCTA: A Benchmark for Clinical Tool Agents",
+  "published": "2026-06-10"
+ },
+ {
+  "id": "2608.22339v1",
+  "title": "When Not to Imitate: Boundary-Aware Skill Memory for Reliable Tool-Use LLM Agents",
+  "published": "2026-08-23"
+ },
+ {
+  "id": "2604.19821v1",
+  "title": "JTPRO: A Joint Tool-Prompt Reflective Optimization Framework for Language Agents",
+  "published": "2026-04-20"
+ },
+ {
+  "id": "2509.04518v2",
+  "title": "Advancing SLM Tool-Use Capability using Reinforcement Learning",
+  "published": "2025-09-03"
+ },
+ {
+  "id": "2511.00330v1",
+  "title": "Sherlock: Reliable and Efficient Agentic Workflow Execution",
+  "published": "2025-11-01"
+ },
+ {
+  "id": "2603.14393v1",
+  "title": "From Scanning Guidelines to Action: A Robotic Ultrasound Agent with LLM-Based Reasoning",
+  "published": "2026-03-15"
+ },
+ {
+  "id": "2603.13950v1",
+  "title": "ToolFlood: Beyond Selection -- Hiding Valid Tools from LLM Agents via Semantic Covering",
+  "published": "2026-03-14"
+ },
+ {
+  "id": "2605.26154v1",
+  "title": "MemMorph: Tool Hijacking in LLM Agents via Memory Poisoning",
+  "published": "2026-05-24"
+ },
+ {
+  "id": "2510.27363v1",
+  "title": "ToolScope: An Agentic Framework for Vision-Guided and Long-Horizon Tool Use",
+  "published": "2025-10-31"
+ },
+ {
+  "id": "2601.22571v2",
+  "title": "PerfGuard: A Performance-Aware Agent for Visual Content Generation",
+  "published": "2026-01-30"
+ },
+ {
+  "id": "2606.25960v1",
+  "title": "Agentic System as Compressor: Quantifying System Intelligence in Bits",
+  "published": "2026-06-24"
+ },
+ {
+  "id": "2609.09875v1",
+  "title": "AgentAudit: An Open, Extensible Framework for Full-Lifecycle Trust Evaluation of AI Agents",
+  "published": "2026-09-09"
+ },
+ {
+  "id": "2411.14461v1",
+  "title": "Towards Next-Generation Medical Agent: How o1 is Reshaping Decision-Making in Medical Scenarios",
+  "published": "2024-11-16"
+ },
+ {
+  "id": "2604.03515v2",
+  "title": "Inside the Scaffold: A Source-Code Taxonomy of Coding Agent Architectures",
+  "published": "2026-04-03"
+ },
+ {
+  "id": "2606.12451v2",
+  "title": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
+  "published": "2026-06-04"
+ },
+ {
+  "id": "2512.00672v2",
+  "title": "ML-Tool-Bench: Tool-Augmented Planning for ML Tasks",
+  "published": "2025-11-29"
+ },
+ {
+  "id": "2607.17331v1",
+  "title": "Agentic ERP: Multi-Agent Large Language Model Architecture for Autonomous Enterprise Resource Planning",
+  "published": "2026-07-19"
+ },
+ {
+  "id": "2608.03169v2",
+  "title": "Low Reasoning Effort Is Enough for Routine Office Work by Language-Model Agents",
+  "published": "2026-08-04"
+ },
+ {
+  "id": "2508.01012v2",
+  "title": "AutoEDA: Enabling EDA Flow Automation through Microservice-Based LLM Agents",
+  "published": "2025-08-01"
+ },
+ {
+  "id": "2601.12979v3",
+  "title": "The Bitter Lesson of Diffusion Language Models for Agentic Workflows: A Comprehensive Reality Check",
+  "published": "2026-01-19"
+ },
+ {
+  "id": "2609.05818v1",
+  "title": "Agentic BAIM-LLM Evaluation (ABLE): Benchmarking LLM Use of Protein Design Tools",
+  "published": "2026-09-05"
+ },
+ {
+  "id": "2608.22751v1",
+  "title": "Risk-Aware Reranking for Agentic Tool Retrieval",
+  "published": "2026-08-24"
+ },
+ {
+  "id": "2505.16700v2",
+  "title": "MCP-RADAR: A Multi-Dimensional Benchmark for Evaluating Tool Use Capabilities in Large Language Models",
+  "published": "2025-05-22"
+ },
+ {
+  "id": "2607.15593v1",
+  "title": "Scalable LLM Agent Tool Access in the Cloud",
+  "published": "2026-07-17"
+ },
+ {
+  "id": "2601.14735v3",
+  "title": "FAME: QoS-aware Async Service Orchestration for Agentic Workflows",
+  "published": "2026-01-21"
+ },
+ {
+  "id": "2505.13328v1",
+  "title": "Rethinking Stateful Tool Use in Multi-Turn Dialogues: Benchmarks and Challenges",
+  "published": "2025-05-19"
+ },
+ {
+  "id": "2510.04550v2",
+  "title": "TRAJECT-Bench:A Trajectory-Aware Benchmark for Evaluating Agentic Tool Use",
+  "published": "2025-10-06"
+ },
+ {
+  "id": "2610.04409v1",
+  "title": "Understanding and Mitigating Hallucination Escape in Tool-Using LLM Agents",
+  "published": "2026-10-03"
+ },
+ {
+  "id": "2603.08262v2",
+  "title": "FinToolBench: Evaluating LLM Agents for Real-World Financial Tool Use",
+  "published": "2026-03-09"
+ },
+ {
+  "id": "2510.07768v1",
+  "title": "ToolLibGen: Scalable Automatic Tool Creation and Aggregation for LLM Reasoning",
+  "published": "2025-10-09"
+ },
+ {
+  "id": "2508.05888v2",
+  "title": "Planning Agents on an Ego-Trip: Leveraging Hybrid Ego-Graph Ensembles for Improved Tool Retrieval in Enterprise Task Planning",
+  "published": "2025-08-07"
+ },
+ {
+  "id": "2610.03213v1",
+  "title": "Toward SLM-based agentic task-tool intent matching",
+  "published": "2026-10-02"
+ },
+ {
+  "id": "2510.07978v3",
+  "title": "VoiceAgentBench: Are Voice Assistants ready for agentic tasks?",
+  "published": "2025-10-09"
+ },
+ {
+  "id": "2610.20388v1",
+  "title": "From Relevance to Validity: Zero-Shot Tool Selection via Functional and Contextual Validation",
+  "published": "2026-10-14"
+ },
+ {
+  "id": "2605.10787v2",
+  "title": "ComplexMCP: Evaluation of LLM Agents in Dynamic, Interdependent, and Large-Scale Tool Sandbox",
+  "published": "2026-05-11"
+ },
+ {
+  "id": "2610.15228v1",
+  "title": "Words to World: Benchmarking LLMs in Interactive Physical Environments",
+  "published": "2026-10-10"
+ },
+ {
+  "id": "2511.11933v1",
+  "title": "InData: Towards Secure Multi-Step, Tool-Based Data Analysis",
+  "published": "2025-11-14"
+ },
+ {
+  "id": "2609.19425v1",
+  "title": "Closed-World Resolution Against Tool Hallucination in LLM Agents",
+  "published": "2026-09-16"
+ },
+ {
+  "id": "2512.18599v2",
+  "title": "Restore-R1: Efficient Image Restoration Agents via Reinforcement Learning with Multimodal LLM Perceptual Feedback",
+  "published": "2025-12-21"
+ },
+ {
+  "id": "2601.05366v2",
+  "title": "Lost in Execution: On the Multilingual Robustness of Tool Calling in Large Language Models",
+  "published": "2026-01-08"
+ },
+ {
+  "id": "2509.01560v3",
+  "title": "In-N-Out: A Parameter-Level API Graph Dataset for Tool Agents",
+  "published": "2025-09-01"
+ },
+ {
+  "id": "2607.25408v1",
+  "title": "Context Assembly as the Controlled Variable: A Control-Theoretic View of Harness Policies for Frozen LLM Agents",
+  "published": "2026-07-28"
+ },
+ {
+  "id": "2608.26197v1",
+  "title": "Harness Engineering for Predictable Agentic Systems: An Empirical Study of Deterministic Execution Constraints",
+  "published": "2026-08-25"
+ },
+ {
+  "id": "2511.17198v1",
+  "title": "Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism",
+  "published": "2025-11-21"
+ },
+ {
+  "id": "2605.03312v1",
+  "title": "MemFlow: Intent-Driven Memory Orchestration for Small Language Model Agents",
+  "published": "2026-05-05"
+ },
+ {
+  "id": "2506.07551v2",
+  "title": "CheMatAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning",
+  "published": "2025-06-09"
+ },
+ {
+  "id": "2512.06556v2",
+  "title": "Semantic Attacks on Tool-Augmented LLMs: Securing the Model Context Protocol Against Descriptor-Level Manipulation",
+  "published": "2025-12-06"
+ },
+ {
+  "id": "2610.05342v1",
+  "title": "IRSTD-Agent: Agentic Infrared Small Target Detection via Zoom-Guided Interaction Learning",
+  "published": "2026-10-04"
+ },
+ {
+  "id": "2509.18076v1",
+  "title": "Improving Large Language Models Function Calling and Interpretability via Guided-Structured Templates",
+  "published": "2025-09-22"
+ },
+ {
+  "id": "2605.15227v2",
+  "title": "NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol",
+  "published": "2026-05-13"
+ },
+ {
+  "id": "2601.09750v1",
+  "title": "SAGE: Tool-Augmented LLM Task Solving Strategies in Scalable Multi-Agent Environments",
+  "published": "2026-01-12"
+ },
+ {
+  "id": "2602.11238v2",
+  "title": "SurveyLens: A Discipline-Aware Benchmark for Automatic Survey Generation",
+  "published": "2026-02-11"
+ },
+ {
+  "id": "2510.22670v1",
+  "title": "Tools are under-documented: Simple Document Expansion Boosts Tool Retrieval",
+  "published": "2025-10-26"
+ },
+ {
+  "id": "2604.17159v1",
+  "title": "Systematic Capability Benchmarking of Frontier Large Language Models for Offensive Cyber Tasks",
+  "published": "2026-04-18"
+ },
+ {
+  "id": "2610.25372v1",
+  "title": "SEAL: Towards Persistent Tool Poisoning Attack against LLM Agents via Prefix-Eliciting Trigger",
+  "published": "2026-10-18"
+ },
+ {
+  "id": "2508.07976v4",
+  "title": "Beyond Ten Turns: Unlocking Long-Horizon Agentic Search with Large-Scale Asynchronous RL",
+  "published": "2025-08-11"
+ },
+ {
+  "id": "2509.17044v1",
+  "title": "AgriDoctor: A Multimodal Intelligent Assistant for Agriculture",
+  "published": "2025-09-21"
+ },
+ {
+  "id": "2609.12345v1",
+  "title": "ParaRecover: A Process-Level Benchmark for Error Localization and Recovery in Parallel Tool-Use Agents",
+  "published": "2026-09-11"
+ },
+ {
+  "id": "2607.21857v1",
+  "title": "SoundscapeAgent: Agentic Soundscape Construction for Controllable Synthesis and Scalable Audio-Language Supervision",
+  "published": "2026-07-23"
+ },
+ {
+  "id": "2605.26275v2",
+  "title": "SPEAR: Code-Augmented Agentic Prompt Optimization",
+  "published": "2026-05-25"
+ },
+ {
+  "id": "2609.31790v1",
+  "title": "CP-Agent: A Harness-Engineered Agent for Crystal Plasticity Simulation Workflows",
+  "published": "2026-09-25"
+ },
+ {
+  "id": "2607.24772v2",
+  "title": "RSMeM: Knowledge-Enhanced Memory Evolution for Remote Sensing Agents with Systematic Evaluation",
+  "published": "2026-06-11"
+ },
+ {
+  "id": "2601.13114v1",
+  "title": "IntAgent: NWDAF-Based Intent LLM Agent Towards Advanced Next Generation Networks",
+  "published": "2026-01-19"
+ },
+ {
+  "id": "2606.01416v1",
+  "title": "Self-Healing Agentic Orchestrators for Reliable Tool-Augmented Large Language Model Systems",
+  "published": "2026-05-31"
+ },
+ {
+  "id": "2510.17235v1",
+  "title": "Coinvisor: An RL-Enhanced Chatbot Agent for Interactive Cryptocurrency Investment Analysis",
+  "published": "2025-10-20"
+ },
+ {
+  "id": "2610.05009v1",
+  "title": "Rethinking Tool Design for Agentic RCA: A Controlled Empirical Study",
+  "published": "2026-10-04"
+ },
+ {
+  "id": "2505.02484v2",
+  "title": "El Agente: An Autonomous Agent for Quantum Chemistry",
+  "published": "2025-05-05"
+ },
+ {
+  "id": "2511.13948v1",
+  "title": "EchoAgent: Guideline-Centric Reasoning Agent for Echocardiography Measurement and Interpretation",
+  "published": "2025-11-17"
+ },
+ {
+  "id": "2608.23992v1",
+  "title": "Hybrid Semantic Tool Discovery for Enterprise MCP Gateway: Architecture and Implementation",
+  "published": "2026-08-25"
+ },
+ {
+  "id": "2604.27233v1",
+  "title": "Reinforced Agent: Inference-Time Feedback for Tool-Calling Agents",
+  "published": "2026-04-29"
+ },
+ {
+  "id": "2605.21850v2",
+  "title": "ACC: Compiling Agent Trajectories for Long-Context Training",
+  "published": "2026-05-21"
+ },
+ {
+  "id": "2605.13119v2",
+  "title": "Towards Long-horizon Embodied Agents with Tool-Aligned Vision-Language-Action Models",
+  "published": "2026-05-13"
+ },
+ {
+  "id": "2602.05366v1",
+  "title": "Multi-Field Tool Retrieval",
+  "published": "2026-02-05"
+ },
+ {
+  "id": "2502.05174v4",
+  "title": "MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents",
+  "published": "2025-02-07"
+ },
+ {
+  "id": "2603.03640v1",
+  "title": "MistyPilot: An Agentic Fast-Slow Thinking LLM Framework for Misty Social Robots",
+  "published": "2026-03-04"
+ },
+ {
+  "id": "2608.30288v1",
+  "title": "Extracting Knowledge from Tools in LLM Agents",
+  "published": "2026-08-31"
+ },
+ {
+  "id": "2606.06566v1",
+  "title": "NTILC: Neural Tool Invocation via Learned Compression",
+  "published": "2026-06-04"
+ },
+ {
+  "id": "2608.03214v1",
+  "title": "The Agent Operating System (AOS): A Reference Operating Architecture for Distributed Agentic Systems",
+  "published": "2026-08-04"
+ },
+ {
+  "id": "2510.00161v1",
+  "title": "TAMA: Tool-Augmented Multimodal Agent for Procedural Activity Understanding",
+  "published": "2025-09-30"
+ },
+ {
+  "id": "2604.05589v2",
+  "title": "Foundations for Investigations of Agentic AI Systems from the Forensic Analysis of OpenClaw",
+  "published": "2026-04-07"
+ },
+ {
+  "id": "2504.04789v1",
+  "title": "Multimodal Agricultural Agent Architecture (MA3): A New Paradigm for Intelligent Agricultural Decision-Making",
+  "published": "2025-04-07"
+ },
+ {
+  "id": "2606.30317v1",
+  "title": "MCP Server Architecture Patterns for LLM-Integrated Applications",
+  "published": "2026-06-29"
+ },
+ {
+  "id": "2607.02879v1",
+  "title": "MedCalc-Pro: Solving Complex Medical Calculations with LLM Agents",
+  "published": "2026-07-03"
+ },
+ {
+  "id": "2605.13391v1",
+  "title": "RS-Claw: Progressive Active Tool Exploration via Hierarchical Skill Trees for Remote Sensing Agents",
+  "published": "2026-05-13"
+ },
+ {
+  "id": "2601.07107v1",
+  "title": "MEDVISTAGYM: A Scalable Training Environment for Thinking with Medical Images via Tool-Integrated Reinforcement Learning",
+  "published": "2026-01-12"
+ },
+ {
+  "id": "2609.35811v1",
+  "title": "Lookahead-R: Budget-Aware Tool Retrieval via Execution-Centric Planning",
+  "published": "2026-09-20"
+ },
+ {
+  "id": "2605.24660v2",
+  "title": "How Many Tools Should an LLM Agent See? A Chance-Corrected Answer",
+  "published": "2026-05-23"
+ },
+ {
+  "id": "2509.25185v1",
+  "title": "PixelCraft: A Multi-Agent System for High-Fidelity Visual Reasoning on Structured Images",
+  "published": "2025-09-29"
+ },
+ {
+  "id": "2608.13926v1",
+  "title": "Never the Number: Structural Abstention for AI Systems Whose Answers Are Consumed as Fact",
+  "published": "2026-08-14"
+ },
+ {
+  "id": "2605.14312v1",
+  "title": "Making OpenAPI Documentation Agent-Ready: Detecting Documentation and REST Smells with a Multi-Agent LLM System",
+  "published": "2026-05-14"
+ },
+ {
+  "id": "2609.22218v2",
+  "title": "Toollery: Scaling LLM Agents to Thousands of Skills and Tools",
+  "published": "2026-09-02"
+ },
+ {
+  "id": "2607.21495v1",
+  "title": "Toward Continuous Assurance for the Democratization of AI Agent Creation in Industry",
+  "published": "2026-07-23"
+ },
+ {
+  "id": "2504.19951v1",
+  "title": "Securing GenAI Multi-Agent Systems Against Tool Squatting: A Zero Trust Registry-Based Approach",
+  "published": "2025-04-28"
+ },
+ {
+  "id": "2605.11633v2",
+  "title": "Can LLM Agents Respond to Disasters? Benchmarking Heterogeneous Geospatial Reasoning in Emergency Operations",
+  "published": "2026-05-12"
+ },
+ {
+  "id": "2505.11154v2",
+  "title": "MPMA: Preference Manipulation Attack Against Model Context Protocol",
+  "published": "2025-05-16"
+ },
+ {
+  "id": "2604.01532v3",
+  "title": "PHMForge: Evaluating LLM Agents on Industrial Prognostics through MCP-Native, Algorithm-Grounded Tools",
+  "published": "2026-04-02"
+ },
+ {
+  "id": "2507.00487v2",
+  "title": "MassTool: A Multi-Task Search-Based Tool Retrieval Framework for Large Language Models",
+  "published": "2025-07-01"
+ },
+ {
+  "id": "2605.15028v1",
+  "title": "Multi-Agentic Approach for History Matching of Oil Reservoirs",
+  "published": "2026-05-14"
+ },
+ {
+  "id": "2604.07816v1",
+  "title": "Tool Retrieval Bridge: Aligning Vague Instructions with Retriever Preferences via Bridge Model",
+  "published": "2026-04-09"
+ },
+ {
+  "id": "2606.25647v3",
+  "title": "Smallholder Farmers on Remote Islands Receiving Retrieval-Grounded Multilingual LLM Assistance and Agronomic Advice",
+  "published": "2026-06-24"
+ },
+ {
+  "id": "2605.26112v1",
+  "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI",
+  "published": "2026-05-25"
+ },
+ {
+  "id": "2606.06284v1",
+  "title": "ToolChoiceConfusion: Causal Minimal Tool Filtering for Reliable LLM Agents",
+  "published": "2026-06-04"
+ },
+ {
+  "id": "2610.31483v1",
+  "title": "Training Small Language Models for Transferable Tool Selection",
+  "published": "2026-10-22"
+ },
+ {
+  "id": "2610.22412v1",
+  "title": "EnterpriseSynth: Zero-Execution SFT and Evaluation Data from OpenAPI Specs",
+  "published": "2026-10-14"
+ },
+ {
+  "id": "2609.24161v1",
+  "title": "MCP-GRANITE Benchmark: GRANularity Interface TEsting for MCP-Based LLM Agents",
+  "published": "2026-09-21"
+ },
+ {
+  "id": "2505.20289v2",
+  "title": "VisualToolAgent (VisTA): A Reinforcement Learning Framework for Visual Tool Selection",
+  "published": "2025-05-26"
+ },
+ {
+  "id": "2609.14987v1",
+  "title": "ActGuard: Pre-execution Action Auditing against Indirect Prompt Injection in LLM Agents",
+  "published": "2026-09-14"
+ },
+ {
+  "id": "2603.01548v1",
+  "title": "Graph-Based Self-Healing Tool Routing for Cost-Efficient LLM Agents",
+  "published": "2026-03-02"
+ },
+ {
+  "id": "2607.05441v1",
+  "title": "PORTS: Preference-Optimized Retrievers for Tool Selection with Large Language Models",
+  "published": "2026-07-03"
+ },
+ {
+  "id": "2508.07690v2",
+  "title": "LoSemB: Logic-Guided Semantic Bridging for Inductive Tool Retrieval",
+  "published": "2025-08-11"
+ },
+ {
+  "id": "2503.19584v3",
+  "title": "Multi-agent Application System in Office Collaboration Scenarios",
+  "published": "2025-03-25"
+ },
+ {
+  "id": "2509.26006v2",
+  "title": "AgenticIQA: An Agentic Framework for Adaptive and Interpretable Image Quality Assessment",
+  "published": "2025-09-30"
+ },
+ {
+  "id": "2607.22642v1",
+  "title": "CRAFT: Learn the Schema, Execute the Plan",
+  "published": "2026-06-24"
+ },
+ {
+  "id": "2610.04378v2",
+  "title": "COPEX: Benchmarking LLM Robustness to Adversarial Context Across Model Context Protocol (MCP) Layers",
+  "published": "2026-10-03"
+ },
+ {
+  "id": "2605.28862v1",
+  "title": "Molecular Lead Optimization via Agentic Tool Planning",
+  "published": "2026-05-21"
+ },
+ {
+  "id": "2603.21354v2",
+  "title": "The Workload-Router-Pool Architecture for LLM Inference Optimization: A Vision Paper from the vLLM Semantic Router Project",
+  "published": "2026-03-22"
+ },
+ {
+  "id": "2608.24509v1",
+  "title": "PeakBench: Benchmarking Resource-Aware Tool Invocation in LLM Agents",
+  "published": "2026-08-25"
+ },
+ {
+  "id": "2412.04141v3",
+  "title": "Reducing Tool Hallucination via Reliability Alignment",
+  "published": "2024-12-05"
+ },
+ {
+  "id": "2602.18914v1",
+  "title": "From Docs to Descriptions: Smell-Aware Evaluation of MCP Server Descriptions",
+  "published": "2026-02-21"
+ },
+ {
+  "id": "2607.27083v1",
+  "title": "Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
+  "published": "2026-07-29"
+ },
+ {
+  "id": "2505.13176v2",
+  "title": "ToolSpectrum : Towards Personalized Tool Utilization for Large Language Models",
+  "published": "2025-05-19"
+ },
+ {
+  "id": "2604.14362v1",
+  "title": "APEX-MEM: Agentic Semi-Structured Memory with Temporal Reasoning for Long-Term Conversational AI",
+  "published": "2026-04-15"
+ },
+ {
+  "id": "2608.19902v1",
+  "title": "Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis",
+  "published": "2026-08-20"
+ },
+ {
+  "id": "2602.02548v1",
+  "title": "ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents",
+  "published": "2026-01-30"
+ },
+ {
+  "id": "2511.19773v1",
+  "title": "Scaling Agentic Reinforcement Learning for Tool-Integrated Reasoning in VLMs",
+  "published": "2025-11-24"
+ },
+ {
+  "id": "2604.13822v1",
+  "title": "UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization",
+  "published": "2026-04-15"
+ },
+ {
+  "id": "2608.03468v1",
+  "title": "ToolLIFT: Lifting Tool-Specific Trajectories into Function-Level Graphs for Generalizable Tool Planning",
+  "published": "2026-08-04"
+ },
+ {
+  "id": "2605.09817v2",
+  "title": "Evaluating Tool Cloning in Agentic-AI Ecosystems",
+  "published": "2026-05-10"
+ },
+ {
+  "id": "2605.00060v1",
+  "title": "TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data",
+  "published": "2026-04-30"
+ },
+ {
+  "id": "2602.01550v2",
+  "title": "S1-NexusAgent: a Self-Evolving Agent Framework for Multidisciplinary Scientific Research",
+  "published": "2026-02-02"
+ },
+ {
+  "id": "2603.05344v3",
+  "title": "Building Effective AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned",
+  "published": "2026-03-05"
+ },
+ {
+  "id": "2512.03065v1",
+  "title": "Optimizing Life Sciences Agents in Real-Time using Reinforcement Learning",
+  "published": "2025-11-26"
+ },
+ {
+  "id": "2609.22573v1",
+  "title": "Zero-Trust Authorization and Discovery for Enterprise MCP",
+  "published": "2026-09-18"
+ },
+ {
+  "id": "2603.01620v4",
+  "title": "ToolRLA: Multiplicative Reward Decomposition for Tool-Integrated Agents",
+  "published": "2026-03-02"
+ },
+ {
+  "id": "2602.23899v1",
+  "title": "Experience-Guided Self-Adaptive Cascaded Agents for Breast Cancer Screening and Diagnosis with Reduced Biopsy Referrals",
+  "published": "2026-02-27"
+ }
+]

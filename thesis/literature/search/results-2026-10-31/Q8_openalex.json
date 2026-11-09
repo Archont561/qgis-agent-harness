@@ -1,0 +1,492 @@
+[
+ {
+  "id": "W4409881395",
+  "doi": "10.1080/17538947.2025.2497489",
+  "title": "GIS Copilot: towards an autonomous GIS agent for spatial analysis",
+  "year": 2025,
+  "cites": 67
+ },
+ {
+  "id": "W4404390520",
+  "doi": "10.48550/arxiv.2411.03205",
+  "title": "GIS Copilot: Towards an Autonomous GIS Agent for Spatial Analysis",
+  "year": 2024,
+  "cites": 3
+ },
+ {
+  "id": "W4415240829",
+  "doi": "10.48550/arxiv.2508.14704",
+  "title": "MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers",
+  "year": 2025,
+  "cites": 3
+ },
+ {
+  "id": "W4417100884",
+  "doi": "10.1145/3770855.3817478",
+  "title": "LiveMCPBench: Can Agents Navigate an Ocean of MCP Tools?",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7204173965",
+  "doi": "10.48550/arxiv.2608.22167",
+  "title": "MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7127367462",
+  "doi": "10.48550/arxiv.2602.00933",
+  "title": "MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W4414448307",
+  "doi": "10.48550/arxiv.2508.20453",
+  "title": "MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
+  "year": 2025,
+  "cites": 4
+ },
+ {
+  "id": "W7162859704",
+  "doi": "10.5281/zenodo.20450995",
+  "title": "GeoNatureAgent Benchmark - Dataset (tasks, results, derived environmental indicators)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155380683",
+  "doi": "10.13140/rg.2.2.29344.75525",
+  "title": "Scopus y ORCID: Autoridad y Mitigaci\u00f3n de Alucinaciones en LLMs (GEO)",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7154610236",
+  "doi": "10.1080/10095020.2026.2736957",
+  "title": "GeoAgentbench: a dynamic execution benchmark for tool-augmented agents in spatial analysis",
+  "year": 2026,
+  "cites": 1
+ },
+ {
+  "id": "W7172286987",
+  "doi": "10.1080/13658816.2026.2715051",
+  "title": "OGSAgent: an MCP-based multi-agent collaboration framework for intelligent GIServices",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162875968",
+  "doi": "10.5281/zenodo.20450997",
+  "title": "GeoNatureAgent Benchmark - Evaluation Harness, Agent and Self-Hostable Geospatial API",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7215130607",
+  "doi": "10.6084/m9.figshare.34050262",
+  "title": "GeoAgentbench: a dynamic execution benchmark for tool-augmented agents in spatial analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7172344763",
+  "doi": "10.6084/m9.figshare.30963251",
+  "title": "OGSAgent: An MCP-based multi-agent collaboration framework for intelligent GIServices",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415131607",
+  "doi": "10.1111/tgis.70135",
+  "title": "GeoAnalystBench : A GeoAI Benchmark for Assessing Large Language Models for Spatial Analysis Workflow and Code Generation",
+  "year": 2025,
+  "cites": 17
+ },
+ {
+  "id": "W4416242557",
+  "doi": "10.48550/arxiv.2508.07575",
+  "title": "MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool Use Benchmark",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4415054480",
+  "doi": "10.48550/arxiv.2509.05881",
+  "title": "GeoAnalystBench: A GeoAI benchmark for assessing large language models for spatial analysis workflow and code generation",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7220973797",
+  "doi": "10.48550/arxiv.2610.09112",
+  "title": "GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164543465",
+  "doi": "10.48550/arxiv.2606.12821",
+  "title": "GeoNatureAgent Benchmark: Benchmarking LLM Agents for Environmental Geospatial Analysis Across Frontier and Open-Weight Foundation Models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7105736423",
+  "doi": "10.7488/era/6740",
+  "title": "LLM Geo-Chat Interfaces: Designing A Retrieval Augmented Generation (RAG) Model to Improve Large Language Model (LLM) Geographical Understanding, Answer Spatial Queries and Create Scottish Maps",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7221510606",
+  "doi": "10.2139/ssrn.7597219",
+  "title": "Benchmarking Without Constructs: A Measurement Theory Critique of MCP Evaluation Frameworks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4388616070",
+  "doi": "10.1080/17538947.2023.2278895",
+  "title": "Autonomous GIS: the next-generation AI-powered GIS",
+  "year": 2023,
+  "cites": 201
+ },
+ {
+  "id": "W7167621924",
+  "doi": "10.48550/arxiv.2607.02577",
+  "title": "Benchmarking the Benchmarks: A Validity Audit of Tool-Calling Evaluation",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7168995846",
+  "doi": "10.48448/e086-jy55",
+  "title": "ProMCP: Profiling Token Flows and Latency Costs in Model Context Protocol\u2013Based LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4376311928",
+  "doi": "10.48550/arxiv.2305.06453",
+  "title": "Autonomous GIS: the next-generation AI-powered GIS",
+  "year": 2023,
+  "cites": 3
+ },
+ {
+  "id": "W7222204483",
+  "doi": "10.48550/arxiv.2610.19148",
+  "title": "Compiling Expert Procedures into Verified Programs: When a Small Model Is Enough",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223299377",
+  "doi": "10.5281/zenodo.23573764",
+  "title": "MCP-Injector: protocol-level fault injection for tool-calling LLM agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7138918868",
+  "doi": "10.1002/9781118786352.wbieg2254",
+  "title": "GeoAI and AI Copilot",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222916265",
+  "doi": "10.48550/arxiv.2610.22688",
+  "title": "Explore Separately, Adopt Selectively: Execution-Guided Tool Use over Large Tool Libraries",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214944836",
+  "doi": "10.48550/arxiv.2609.37025",
+  "title": "AnyAct: Universal Action for Self-Evolving Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163421023",
+  "doi": "10.5281/zenodo.20299180",
+  "title": "Constraint-Aware AoV Planning for Orchestrating Autonomous Geospatial Analysis with LLMs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161294724",
+  "doi": "10.48550/arxiv.2605.14051",
+  "title": "SPIN: Structural LLM Planning via Iterative Navigation for Industrial Tasks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7124168597",
+  "doi": "10.48550/arxiv.2601.08276",
+  "title": "ACE-Router: Generalizing History-Aware Routing from MCP Tools to the Agent Web",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415945867",
+  "doi": "10.48550/arxiv.2511.01854",
+  "title": "Tool-to-Agent Retrieval: Bridging Tools and Agents for Scalable LLM Multi-Agent Systems",
+  "year": 2025,
+  "cites": 1
+ },
+ {
+  "id": "W7221807737",
+  "doi": "10.5281/zenodo.23365411",
+  "title": "G-G MCP Parameter Risk: Internet-Draft -00 Source and Canonical Checker",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4415616311",
+  "doi": "10.1145/3737895.3768303",
+  "title": "IoT-MCP: Bridging LLMs and IoT Systems Through Model Context Protocol",
+  "year": 2025,
+  "cites": 8
+ },
+ {
+  "id": "W7168370486",
+  "doi": "10.48448/jxf9-f312",
+  "title": "ACE-Router: Generalizing History-Aware Routing from MCP Tools to the Agent Web",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7214126280",
+  "doi": "10.48550/arxiv.2609.26761",
+  "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164560379",
+  "doi": "10.48550/arxiv.2606.12674",
+  "title": "EvoFlux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7160934765",
+  "doi": "10.48550/arxiv.2605.09131",
+  "title": "MCP-Cosmos: World Model-Augmented Agents for Complex Task Execution in MCP Environments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7224675763",
+  "doi": "10.18653/2026.emnlp-main.2260",
+  "title": "ActionRAG: Constraint-Aware Action Retrieval for Large Action Models",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7162776753",
+  "doi": "10.48550/arxiv.2605.29676",
+  "title": "Notation Matters: A Benchmark Study of Token-Optimized Formats in Agentic AI Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414812176",
+  "doi": "10.18653/2026.emnlp-main.809",
+  "title": "TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7164489554",
+  "doi": "10.48550/arxiv.2606.13663",
+  "title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7170077584",
+  "doi": "10.26258/heal.hua.7759",
+  "title": "Development of a Multi-Agent System for Efficient Retrieval-Augmented Generation in Generative AI Systems",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223857187",
+  "doi": "10.48550/arxiv.2610.33633",
+  "title": "ProbeID: Verifying MCP Tool Identity for LLM Agents under Registry Drift",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166825960",
+  "doi": "10.18653/v1/2026.findings-acl.1967",
+  "title": "ProMCP: Profiling Token Flows and Latency Costs in Model Context Protocol\u2013Based LLM Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221121116",
+  "doi": "10.21227/5kkr-nj92",
+  "title": "\"Geoseal\"",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7155407565",
+  "doi": "10.48550/arxiv.2604.20714",
+  "title": "Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems via Textual Parameter Graph Optimization",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7166882821",
+  "doi": "10.18653/v1/2026.findings-acl.1534",
+  "title": "Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems via Textual Parameter Graph Optimization",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7124618704",
+  "doi": "10.11591/ijece.v16i1.pp423-436",
+  "title": "Enhancing Autonomous GIS with DeepSeek-Coder: an open-source large language model approach",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7128701304",
+  "doi": "10.48550/arxiv.2602.10525",
+  "title": "LHAW: Controllable Underspecification for Long-Horizon Tasks",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7203887993",
+  "doi": "10.48550/arxiv.2608.20314",
+  "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161732709",
+  "doi": "10.48550/arxiv.2605.17558",
+  "title": "Firefly: Illuminating Large-Scale Verified Tool-Call Data Generation from Real APIs",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221762837",
+  "doi": "10.48550/arxiv.2610.14956",
+  "title": "MCPDisCo: Seesaw-Mitigated Tuning for MCP-Native Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W4414804968",
+  "doi": "10.48550/arxiv.2510.00229",
+  "title": "AgentFlux: Decoupled Fine-Tuning & Inference for On-Device Agentic Systems",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W4415154443",
+  "doi": "10.48550/arxiv.2504.08999",
+  "title": "MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers",
+  "year": 2025,
+  "cites": 0
+ },
+ {
+  "id": "W7221859080",
+  "doi": "10.5281/zenodo.23392601",
+  "title": "Beyond task success: domain-grounded evaluation of Earth-observation agents in environmental risk workflows",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7208727120",
+  "doi": "10.48550/arxiv.2609.02964",
+  "title": "When Optimization Becomes Manipulation: Defending Generative Search against Malicious Generative Engine Optimization",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161717673",
+  "doi": "10.48550/arxiv.2605.18703",
+  "title": "EnvFactory: Scaling Tool-Use Agents via Executable Environments Synthesis and Robust RL",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221904769",
+  "doi": "10.5281/zenodo.23396109",
+  "title": "SEO Sem\u00e1ntico y Autoridad T\u00f3pica: De la Teor\u00eda de Grafos a los Modelos de Lenguaje",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7204758251",
+  "doi": "10.21203/rs.3.rs-10844781/v1",
+  "title": "Context-aware LLM extraction and controlled-vocabulary normalization of GEO transcriptomic sample metadata",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7161255430",
+  "doi": "10.48550/arxiv.2605.13880",
+  "title": "PREPING: Zero-Task Agent Memory Construction via Self-Practice",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7223099241",
+  "doi": "10.48550/arxiv.2610.27234",
+  "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7130604422",
+  "doi": "10.48550/arxiv.2602.15945",
+  "title": "From Tool Orchestration to Code Execution: A Study of MCP Design Choices",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7221758421",
+  "doi": "10.48550/arxiv.2610.16867",
+  "title": "Davinci-Tool: Scaling Agentic Tool-Use Supervision with Verifiable Executable Environments",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7147016864",
+  "doi": "10.48550/arxiv.2603.26845",
+  "title": "GISclaw: A Comprehensive Open-Source LLM Agent System for Realistic Multi-Step Geospatial Analysis",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222488743",
+  "doi": "10.48550/arxiv.2610.21463",
+  "title": "Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7163658680",
+  "doi": "10.48550/arxiv.2606.05548",
+  "title": "ADK Arena: Evaluating Agent Development Kits via LLM-as-a-Developer",
+  "year": 2026,
+  "cites": 0
+ },
+ {
+  "id": "W7222809561",
+  "doi": "10.5281/zenodo.23433349",
+  "title": "GIS-IR: Execution-Verified Multi-Step Spatial Analysis Workflows with Small Language Models \u2014 Code, Corpus and Evaluation Records (v1.0)",
+  "year": 2026,
+  "cites": 0
+ }
+]

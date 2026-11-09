@@ -1,0 +1,274 @@
+# alint — repository structure / naming / content linter.
+# Docs: https://alint.org/docs/configuration/   Rule catalog: `pixi run alint rules list`
+version: 1
+
+extends:
+  - alint://bundled/oss-baseline@v1   # README, gitignore, trailing whitespace, bidi controls…
+  - alint://bundled/python@v1         # .py naming, __pycache__, test layout
+  - alint://bundled/node@v1           # package.json / lockfile hygiene (bun lives here too)
+
+# Generated or vendored trees — never lint them.
+ignore:
+  - node_modules/**
+  - .pixi/**
+  - thesis/literature/fulltexts/**      # machine-extracted paper transcripts
+  - thesis/literature/search/results-2026-10-31/**  # raw API dumps
+  - backlog/**                        # managed by the Backlog.md CLI
+  - package-lock.json
+  - .agents/skills/**                 # vendored skills, pinned by skills-lock.json hashes
+  - experiment/build/**
+  - '*.egg-info/**'
+  - __pycache__/**
+
+rules:
+  # OSS-governance boilerplate does not apply to a private research workspace.
+  - id: oss-license-exists
+    level: off
+  - id: oss-security-policy-exists
+    level: off
+  - id: oss-dependency-update-tool
+    level: off
+  - id: oss-codeowners-exists
+    level: off
+  - id: oss-code-of-conduct-exists
+    level: off
+  # Node is not used here — bun is the runtime, pinned in pixi.toml.
+  - id: node-engine-or-nvmrc
+    level: off
+  # The Python project lives in experiment/, not at the repo root.
+  - id: python-manifest-exists
+    kind: file_exists
+    level: error
+    root_only: false
+    paths: ["experiment/pyproject.toml"]
+  # Gherkin linting (gherlint) is config-driven: without this file `pixi run qa` would
+  # silently lose the tag conventions the scenario tags are checked against.
+  # BDD wiring: a .feature file nothing references is documentation, not a test. Every feature must
+  # be pulled in by a module under experiment/tests (pytest-bdd `scenarios("../features/<name>.feature")`).
+  - id: bdd-feature-has-test
+    kind: command
+    level: error
+    paths: "experiment/features/*.feature"
+    command:
+      [
+        "sh",
+        "-c",
+        'grep -rqF -- "{stem}.feature" experiment/tests || { echo "{path} is not referenced by any module under experiment/tests"; exit 1; }',
+      ]
+  # The offline transport is only restorable if its reviewed plan and its launcher survive.
+  - id: sandbox-config-exists
+    kind: file_exists
+    level: error
+    root_only: false
+    paths: ["pixi-sandbox.toml", "scripts/restore.sh"]
+  - id: gherlint-config-exists
+    kind: file_exists
+    level: error
+    paths: ["gherlint.toml"]
+    root_only: false
+  # Prose linting is config-driven too: .vale.ini holds both the rule set and the list of paths that
+  # are not ours to restyle. Vale refuses to run without it, but the failure then points at every
+  # markdown file at once instead of at the one missing config.
+  - id: vale-config-exists
+    kind: file_exists
+    level: error
+    paths: [".vale.ini"]
+    root_only: false
+  # Links and path references rot silently: both of these were green before the check existed.
+  # `markdown_paths_resolve` is the one that matters most here — every backticked `thesis/...` or
+  # `scripts/...` in prose is a promise that the file is where the sentence says it is.
+  - id: markdown-links-resolve
+    kind: markdown_links_resolve
+    level: error
+    paths:
+      - "README.md"
+      - "AGENTS.md"
+      - "docs/**/*.md"
+      - "experiment/**/*.md"
+      - "thesis/*.md"
+      - "thesis/analysis/**/*.md"
+      - "thesis/competitions/**/*.md"
+      - "thesis/design/**/*.md"
+      - "thesis/draft/**/*.md"
+      - "thesis/framing/**/*.md"
+      - "thesis/writing/**/*.md"
+      - ".agents/skills/archont561-render/**/*.md"
+  - id: markdown-paths-resolve
+    kind: markdown_paths_resolve
+    level: error
+    paths:
+      - "README.md"
+      - "AGENTS.md"
+      - "docs/**/*.md"
+      - "experiment/**/*.md"
+      - "thesis/*.md"
+      - "thesis/analysis/**/*.md"
+      - "thesis/competitions/**/*.md"
+      - "thesis/design/**/*.md"
+      - "thesis/draft/**/*.md"
+      - "thesis/framing/**/*.md"
+      - "thesis/writing/**/*.md"
+      - ".agents/skills/archont561-render/**/*.md"
+    prefixes: ["thesis/", "docs/", "experiment/", "scripts/", ".github/"]
+  - id: markdown-fragments-resolve
+    kind: markdown_fragments_resolve
+    level: error
+    paths:
+      - "README.md"
+      - "AGENTS.md"
+      - "docs/**/*.md"
+      - "experiment/**/*.md"
+      - "thesis/*.md"
+      - "thesis/analysis/**/*.md"
+      - "thesis/competitions/**/*.md"
+      - "thesis/design/**/*.md"
+      - "thesis/draft/**/*.md"
+      - "thesis/framing/**/*.md"
+      - "thesis/writing/**/*.md"
+      - ".agents/skills/archont561-render/**/*.md"
+
+  # The task-card schema lives in exactly one file, and these three rules keep it that way: the
+  # examples in the documents are parsed against it, the card files are parsed against it, and the
+  # corpus numbers quoted beside it must be the ones the corpus document owns.
+  # Prose that counts things drifts as soon as the tree changes: these three scripts re-count for you.
+  # Pinned to the index document because alint's `command` kind runs once per matched file, and the
+  # scripts walk the tree themselves; a rule on `**/*.md` would spawn the same walk 90 times.
+  - id: repo-counts
+    kind: command
+    level: error
+    paths: ["README.md"]
+    command: [python3, scripts/repo_facts.py, counts]
+  - id: repo-retired-values
+    kind: command
+    level: error
+    paths: ["README.md"]
+    command: [python3, scripts/repo_facts.py, retired]
+  - id: repo-backlog-ids
+    kind: command
+    level: error
+    paths: ["README.md"]
+    command: [python3, scripts/repo_facts.py, ids]
+  # A rule whose `paths` match nothing passes without saying anything: this one makes that loud.
+  - id: repo-rule-coverage
+    kind: command
+    level: error
+    paths: ["README.md"]
+    command: [python3, scripts/repo_facts.py, coverage]
+  # The version is written once, in experiment/pyproject.toml: this keeps the export honest.
+  - id: version-exported
+    kind: command
+    level: error
+    paths: ["experiment/src/__init__.py"]
+    command: [python3, scripts/version_export.py, "{path}"]
+  # The backlog is the only place work is tracked, so its records have to resolve: ids, paths,
+  # milestones and the ticked boxes of a Done task.
+  - id: backlog-records-resolve
+    kind: command
+    level: error
+    paths: ["README.md"]
+    command: [python3, scripts/repo_facts.py, backlog]
+  - id: task-card-schema-docs
+    kind: command
+    level: error
+    paths: ["experiment/tasks/README.md", "thesis/design/corpus.md"]
+    command: [python3, scripts/task_cards.py, schema, "{path}"]
+  # No cards exist yet (TASK-15); the rule starts checking the day the first one lands.
+  - id: task-card-schema-cards
+    kind: command
+    level: error
+    paths: ["experiment/tasks/cards/*.yaml", "experiment/corpus/cards/*.yaml"]
+    command: [python3, scripts/task_cards.py, schema, "{path}"]
+  # Retired keys (the 50-task generation) and the card/repetition/run arithmetic. Reads both files,
+  # so it is pinned to the document that owns the numbers rather than to each of them.
+  - id: task-card-numbers
+    kind: command
+    level: error
+    paths: "thesis/design/corpus.md"
+    command: [python3, scripts/task_cards.py, numbers, "{path}"]
+
+  # A comment in a config file is one line: no stacked `#` blocks, so the reason beside a pin has to
+  # survive compression or move to docs/. Trailing comments are unaffected — the rule caps a block,
+  # and two comment-only lines in a row are the block. Config is read far more often than written,
+  # and a five-line essay above `manim = "0.22.*"` is read as noise.
+  - id: config-comment-one-line
+    kind: command
+    level: error
+    paths:
+      - "pixi.toml"
+      - "experiment/pyproject.toml"
+      - "gherlint.toml"
+      - "lefthook.yml"
+    command:
+      - python3
+      - -c
+      - |
+        import pathlib, sys
+        p = pathlib.Path(sys.argv[1])
+        runs, cur = [], []
+        for n, line in enumerate(p.read_text().splitlines(), 1):
+            if line.lstrip().startswith("#"):
+                cur.append(n)
+            else:
+                if len(cur) > 1:
+                    runs.append((cur[0], cur[-1]))
+                cur = []
+        if len(cur) > 1:
+            runs.append((cur[0], cur[-1]))
+        for first, last in runs:
+            print(f"{p}:{first}: comment spans {last - first + 1} lines ({first}-{last}); a config comment is one line")
+        sys.exit(1 if runs else 0)
+      - "{path}"
+  # House markdown style: the shape every repository under this account already has. `invariants` are
+  # the conventions all seven of them pass (H1 on line 1, no emoji, tagged fences, alt on every badge,
+  # an alignment row under every table header, `## License` last and spelled the American way); the
+  # README *skeleton* — badge block, bold tagline, status line, Try it/Develop/Documentation/License —
+  # is opt-in, because a rule that six of seven repositories fail is an opinion rather than a convention.
+  - id: readme-house-style
+    kind: command
+    level: error
+    paths: ["README.md"]
+    command: [python3, scripts/house_style.py, invariants, "{path}"]
+  - id: docs-house-style
+    kind: command
+    level: error
+    paths: "docs/**/*.md"
+    command: [python3, scripts/house_style.py, invariants, "{path}"]
+  # Labels: `N1` and `N4` are the two catalogue conditions, contributions are C1–C6, currents F1–F6.
+  # Pinned to one index file because the checker walks the tree itself — per-file it would spawn N times.
+  - id: terminology-labels
+    kind: command
+    level: error
+    paths: ["thesis/README.md"]
+    command: [python3, scripts/terminology.py]
+
+  # Reproducibility is covered by pixi.lock (conda) + bun.lock (JS), not a PEP-621 lockfile.
+  - id: python-has-lockfile
+    level: off
+  # Frontmatter is the machine-readable half of every thesis document: the same idea as a backlog
+  # task (id, title, type, status), plus the two fields this tree needs — which language a file is in
+  # (TASK-20) and which notes it was merged from (TASK-21). Frozen records (rulebooks, transcripts,
+  # the two Polish registers) carry no updated_date, because nothing in them is ours to update.
+  - id: thesis-frontmatter
+    kind: command
+    level: error
+    paths: "thesis/**/*.md"
+    command:
+      - python3
+      - -c
+      - |
+        import re, sys, pathlib, yaml
+        p = pathlib.Path(sys.argv[1])
+        t = p.read_text()
+        m = re.match(r"---\n(.*?)\n---\n", t, re.S)
+        if not m:
+            sys.exit(f"{p}: no YAML frontmatter")
+        d = yaml.safe_load(m.group(1)) or {}
+        missing = [k for k in ("id", "title", "type", "status", "language") if k not in d]
+        if d.get("status") != "frozen" and "updated_date" not in d:
+            missing.append("updated_date")
+        if missing:
+            sys.exit(f"{p}: frontmatter missing {', '.join(missing)}")
+        want = str(p).split("thesis/", 1)[1][:-3]
+        if d.get("id") != want:
+            sys.exit(f"{p}: id {d.get('id')!r} does not match the path ({want!r})")
+      - "{path}"

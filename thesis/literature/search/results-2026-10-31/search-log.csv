@@ -1,0 +1,11 @@
+id,rq,concept,date,arxiv_hits,openalex_hits
+Q1,"PB1,PB7",MCP x GIS (existence / core gap query),2026-10-31,4,37
+Q1b,PB1,bare-acronym recall guard (papers that only ever write 'MCP'),2026-10-31,5,36
+Q2,"PB1,PB2",MCP vs CodeGen / function calling (the head-to-head the thesis claims is missing),2026-10-31,111,172
+Q3,"PB1,PB3,PB4",MCP evaluation / benchmark landscape,2026-10-31,401,1459
+Q4,PB5,MCP security / tool poisoning,2026-10-31,221,834
+Q5,PB7,tool-set size / tool retrieval / schema overhead,2026-10-31,328,835
+Q6,"PB4,PB6",determinism / reproducibility of agentic tool use,2026-10-31,1048,2213
+Q7,Ch. III.4,"cross-domain MCP evaluation (medical / legal / scientific) — the 'other domains did this, GIS did not' argument",2026-10-31,51,423
+Q8,all,named-artifact sweep (known-item recall + derivatives),2026-10-31,43,70
+Q9,"PB1,PB2","domain-anchored paradigm comparison, protocol-agnostic (catches precedents that never say 'MCP')",2026-10-31,46,1539

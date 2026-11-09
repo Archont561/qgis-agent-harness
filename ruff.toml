@@ -1,0 +1,19 @@
+# Ruff config for the harness. Scoped here because the Python project lives in experiment/.
+target-version = "py312"
+line-length = 100
+
+exclude = [
+  "node_modules",
+  ".pixi",
+  ".agents/skills",   # agent skills: vendored ones pinned by skills-lock.json, plus archont561-render
+  "experiment/build",
+  "*.egg-info",
+  "__pycache__",
+]
+
+[lint]
+select = ["E", "F", "I", "UP", "B", "RUF"]
+# typography is deliberate in CLI output: "conditions × tasks × repetitions", “…” etc.
+allowed-confusables = ["×", "—", "…", "≥", "≈", "−", "α", "β", "σ", "κ", "²"]
+
+[lint.per-file-ignores]

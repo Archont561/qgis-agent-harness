@@ -1,0 +1,98 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# A newer push to the same branch makes the older run irrelevant.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+# One job per concern, each installing the smallest environment it can: everything that reads or
+# rewrites repo text is `qa`, and the test job must not download QGIS to check four tests. The
+# environments are derived from pixi.toml, so this mirrors the split rather than inventing a second one.
+jobs:
+  lint:
+    name: Lint, lint-check, structure
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # convco needs the full history to compute a range
+
+      - name: Set up Pixi
+        uses: prefix-dev/setup-pixi@v0.9.6
+        with:
+          environments: qa
+
+      - name: Lint Python
+        run: pixi run lint-py
+
+      - name: Check repository structure
+        run: pixi run alint
+
+      - name: Lint GitHub Actions workflows
+        run: pixi run lint
+
+      - name: Lint prose
+        # Vale over thesis/ and docs/, in the same env as the linters above: vale, ruff and alint are
+        # one toolchain. The rules are committed, so no network is needed; .vale.ini decides which
+        # markdown counts as prose at all, and only error-level findings fail here.
+        run: pixi run prose
+
+  test:
+    name: Test, coverage
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Pixi
+        uses: prefix-dev/setup-pixi@v0.9.6
+        with:
+          environments: test # pytest + harness, no QGIS
+
+      - name: Test with coverage
+        run: pixi run test
+
+      - name: Upload coverage to Codecov
+        # Public repo: tokenless upload works. Private repo: add CODECOV_TOKEN.
+        run: pixi run cov-upload
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
+  commits:
+    name: Conventional commits
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # convco needs the full history to compute a range
+
+      - name: Set up Pixi
+        uses: prefix-dev/setup-pixi@v0.9.6
+        with:
+          environments: qa
+
+      # Every commit introduced by this push/PR must be a conventional commit.
+      - name: Conventional commits introduced by this push
+        # github.event.before is all-zeros on a repo's first push — nothing to range-check.
+        if: github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000'
+        run: pixi run check-commits ${{ github.event.before }}..HEAD --first-parent
+
+      - name: Fetch base branch for commit linting (PR)
+        if: github.event_name == 'pull_request'
+        # Plain `git`, not `pixi run git`: the pixi `default` environment is empty on purpose, and
+        # the runner's git is the one that has the credentials.
+        run: git fetch --no-tags origin +refs/heads/main:refs/remotes/origin/main
+
+      - name: Conventional commits introduced by this PR
+        if: github.event_name == 'pull_request'
+        run: pixi run check-commits origin/main..HEAD --first-parent
