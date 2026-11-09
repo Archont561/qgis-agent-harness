@@ -8,10 +8,9 @@ max_transport_mib = 2048
 max_repository_push_mib = 2048
 max_restore_required_mib = 8192
 
-# Every environment pixi declares, in the order pixi.toml declares them: a restored sandbox then lints,
-# tests, measures, runs the backlog and renders without a second install. The empty `default` is listed
-# because it is an environment; it carries no blob.
+# Not every environment pixi declares: `pack` refuses a PyPI entry the lock does not record as a
+# wheel, and the harness path dependency locks as `pypi: ./experiment` in `experiment` and `test`.
 [[bundle]]
 name = "developer"
-environments = ["default", "experiment", "test", "qa", "js", "renderers"]
+environments = ["qa", "js"]
 platforms = ["linux-64"]
