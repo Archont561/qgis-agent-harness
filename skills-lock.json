@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "skills": {
+    "archont561": {
+      "source": "Archont561/skills",
+      "sourceType": "github",
+      "skillPath": "skills/archont561/SKILL.md",
+      "computedHash": "07f4f2ea7b81d1549174d7b6ab1291831036913805154c3c7db651e34757dc99"
+    },
+    "audit": {
+      "source": "Archont561/qgis-sdk",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/audit/SKILL.md",
+      "computedHash": "c97c3103a912ba8d9421dbe9ccdf75a5130a6a8fc0533538d8f8f06eb0b6118c"
+    },
+    "backlog": {
+      "source": "Archont561/qgis-sdk",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/backlog/SKILL.md",
+      "computedHash": "0852b1eb4a54fc977cc649c87e04eb590f4e83d574e84f1196dc920bf13fe934"
+    },
+    "bdd": {
+      "source": "Archont561/universe",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/bdd/SKILL.md",
+      "computedHash": "e597b6f2de50f1a700fd7196ea5830aa230ede5b54d47393338eb6ecc0a59898"
+    },
+    "clean-code-principles": {
+      "source": "Archont561/qgis-sdk",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/clean-code-principles/SKILL.md",
+      "computedHash": "85b96d51b30e226469104be2eebf36dc3067ea1307fdd960ad070fadef41652e"
+    },
+    "playwright-cli": {
+      "source": "Archont561/bun-test-utils",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/playwright-cli/SKILL.md",
+      "computedHash": "ffbd59a973d4e2c19c6ecc31254a14497069c362f1d1820b6a6cfbe62de34a73"
+    },
+    "refactor": {
+      "source": "Archont561/qgis-sdk",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/refactor/SKILL.md",
+      "computedHash": "458415b990888aa76c2b199e2ab27eab4272df50b7381d2599844376120f7421"
+    },
+    "skill-creator": {
+      "source": "Archont561/qgis-sdk",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/skill-creator/SKILL.md",
+      "computedHash": "e8258c9b0a50175a099fb65430efd876a273023d870e5cba122ca4a1e01d0dea"
+    },
+    "tdd": {
+      "source": "Archont561/qgis-sdk",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/tdd/SKILL.md",
+      "computedHash": "50fa1a1297be5c23e106df5d36639973ca4a9e8649c87a65bae580309a5e4ba9"
+    },
+    "writing-for-agents": {
+      "source": "Archont561/universe",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/writing-for-agents/SKILL.md",
+      "computedHash": "95da47fc97af998e85b7d7e6d57b3ac76727c1e290cfe9ea09005aacb826959f"
+    }
+  }
+}
