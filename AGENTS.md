@@ -44,6 +44,11 @@ skips the suite — the failure then arrives from CI, later and further from the
 lives in the `qa` environment, so it only runs after the restore
 ([docs/commits.md](docs/commits.md)).
 
+The push gate also works without lefthook: `cp scripts/pre-push.sh .git/hooks/pre-push` is the same
+gate for a session with no `qa` environment yet. The script runs `pixi run test` where pixi exists,
+the suite on the ambient interpreter where it does not, and refuses the push with the remedy where
+neither is there.
+
 ## Agent skills
 
 Repository skills live in `.agents/skills/<name>/SKILL.md` and are pinned in `skills-lock.json`.
