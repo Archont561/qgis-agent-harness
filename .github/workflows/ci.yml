@@ -17,6 +17,72 @@ permissions:
 # rewrites repo text is `qa`, and the test job must not download QGIS to check four tests. The
 # environments are derived from pixi.toml, so this mirrors the split rather than inventing a second one.
 jobs:
+  scope:
+    # One question, answered once: does this range touch anything but prose? The suite measures
+    # Python under experiment/ and scripts/, so a docs-only change pays for a job it cannot fail
+    # — and pays for it again on every force-push. Linting still runs unconditionally: prose,
+    # structure and commit messages are exactly what a docs change has to answer for.
+    #
+    # The list is an allowlist, never a denylist: a file the case below does not recognise counts
+    # as code, and the safest answer to "is this docs?" is "no". Same for an unreadable range —
+    # the suite then runs, which is the status quo, not a silent skip.
+    name: Scope of the change
+    runs-on: ubuntu-latest
+    outputs:
+      docs-only: ${{ steps.scope.outputs.docs_only }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # the range below names commits, so the history has to be there
+
+      - name: Fetch the base branch (PR)
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+        run: git fetch --no-tags origin "+refs/heads/${BASE_REF}:refs/remotes/origin/${BASE_REF}"
+
+      - name: Is the change prose only
+        id: scope
+        env:
+          EVENT: ${{ github.event_name }}
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.event.after }}
+        run: |
+          set -eu
+          if [ "$EVENT" = pull_request ]; then
+            range="$BASE...$HEAD"
+          else
+            range="$BEFORE...$AFTER"
+          fi
+          changed=$(git diff --name-only "$range" 2>/dev/null || true)
+          # Markdown wherever it stands, the three prose trees, the prose linter's own config
+          # and the licence: nothing a Python import can reach.
+          files=0
+          code=0
+          while IFS= read -r path; do
+            [ -n "$path" ] || continue
+            files=$((files + 1))
+            case "$path" in
+              *.md|docs/*|thesis/*|backlog/*|LICENSE|.vale/*|.vale.ini) ;;
+              *) code=$((code + 1)) ;;
+            esac
+          done <<< "$changed"
+          # Nothing in the range, or a range that could not be read: not a docs-only change.
+          if [ "$files" -gt 0 ] && [ "$code" -eq 0 ]; then
+            docs_only=true
+          else
+            docs_only=false
+          fi
+          echo "docs_only=$docs_only" >> "$GITHUB_OUTPUT"
+          # Twice on purpose: the job page shows the step summary, and a verdict nobody can read
+          # from the log is a gate nobody can debug.
+          printf '%s\n' "range: \`$range\`" > "$GITHUB_STEP_SUMMARY"
+          echo "changed files: $files, outside the docs set: $code, docs-only: $docs_only" |
+            tee -a "$GITHUB_STEP_SUMMARY"
+
   lint:
     name: Lint, lint-check, structure
     runs-on: ubuntu-latest
@@ -48,6 +114,10 @@ jobs:
 
   test:
     name: Test, coverage
+    needs: scope
+    # Skipped, not failed: a docs-only change has nothing for pytest to measure, and a green
+    # suite that cannot fail is noise. The lint job above is the gate that does apply to it.
+    if: needs.scope.outputs.docs-only != 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
