@@ -168,7 +168,7 @@ trees (`node_modules`, `.pixi`, `thesis/literature/fulltexts`, `thesis/literatur
 SECURITY.md, CODEOWNERS, a code of conduct and a dependency-update bot — plus `.nvmrc`, because bun
 is the runtime here and pinning a Node version would be a second one. The licence is real: the
 workspace is MIT, `oss-license-exists` is left on, and `experiment/pyproject.toml` says so too.
-Current state: **46 rules pass, 0 violations**.
+Current state: **47 rules pass, 0 violations**.
 
 Eighteen rules are configured here rather than inherited, and they are the ones a bundled ruleset
 cannot know on its own:

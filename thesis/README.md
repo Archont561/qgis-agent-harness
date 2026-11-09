@@ -120,7 +120,7 @@ Three rules keep it honest:
 `alint` rule `thesis-frontmatter` enforces the five universal keys, the `updated_date`-unless-frozen rule, and that `id` matches the path — so a document cannot be moved or renamed without its metadata following:
 
 ```bash
-pixi run alint        # 46 rules, one of which is this schema
+pixi run alint        # 47 rules, one of which is this schema
 ```
 
 ## Rules
