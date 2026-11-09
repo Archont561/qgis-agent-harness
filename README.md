@@ -15,7 +15,7 @@ data, surface and task class — never as "MCP beats codegen".
 | `experiment/` | the measurement harness — `src/` package, `tests/`, Gherkin `features/` | [`experiment/README.md`](experiment/README.md) |
 | `backlog/` | 20 tasks, 8 documents, 7 decisions, 6 milestones — the only place work is tracked | [`docs/backlog.md`](docs/backlog.md) |
 | `docs/` | how this repository works: environments, tests, sandbox, commits, agents | [below](#documentation) |
-| `scripts/` | `restore.sh` (airlocked-host launcher, owned by pixi-sandbox) and `task_cards.py`, `repo_facts.py` and `version_export.py` (the checkers the card-schema, count, retired-vocabulary, backlog-id, backlog-record and version-export alint rules call) | [`docs/sandbox.md`](docs/sandbox.md) |
+| `scripts/` | `restore.sh` (airlocked-host launcher, owned by pixi-sandbox), `pre-push.sh` (the push gate: `pixi run test`, or the suite on the ambient interpreter where pixi is missing) and `task_cards.py`, `repo_facts.py` and `version_export.py` (the checkers the card-schema, count, retired-vocabulary, backlog-id, backlog-record and version-export alint rules call) | [`docs/sandbox.md`](docs/sandbox.md) |
 | `.agents/skills/` | the agent skills, including `archont561-render` — the maths commands behind `pixi run render` | [`docs/environments.md`](docs/environments.md#rendering-is-a-skill-command) |
 
 Nothing here is published: no package, no release, no version.

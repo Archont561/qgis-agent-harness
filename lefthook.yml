@@ -46,5 +46,5 @@ pre-commit:
 pre-push:
   commands:
     tests:
-      # The coverage gate CI applies, so a push cannot be greener than the PR; bare `test` finds its env.
-      run: pixi run test
+      # One definition of the gate, in scripts/pre-push.sh: pixi when it is there, pytest when not.
+      run: bash scripts/pre-push.sh
