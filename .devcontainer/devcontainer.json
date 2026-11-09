@@ -1,0 +1,34 @@
+{
+  "name": "qgis-agent-harness",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "dev",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "mounts": ["source=pixi-cache,target=/pixi-cache,type=volume"],
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "4gb",
+    "storage": "32gb"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "charliermarsh.ruff",
+        "ms-python.python",
+        "tamasfe.even-better-toml",
+        "redhat.vscode-yaml"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/workspaces/${localWorkspaceFolderBasename}/.pixi/envs/experiment/bin/python",
+        "editor.rulers": [100],
+        "[markdown]": {
+          "editor.wordWrap": "on"
+        },
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true
+      }
+    }
+  }
+}

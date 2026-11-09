@@ -1,0 +1,50 @@
+# Git hooks (lefthook.dev): `pixi run hooks` installs them; every command runs inside a pixi env.
+
+commit-msg:
+  commands:
+    # Conventional Commits from git's message file ({1}, read via stdin); merge/rebase messages are exempt.
+    conventional-commit:
+      skip: [merge, rebase]
+      run: pixi run convco check --from-stdin --strip < {1}
+
+pre-commit:
+  parallel: false # ruff --fix and ruff format would race on the same files
+  commands:
+    ruff-lint:
+      glob: "**/*.py"
+      run: pixi run ruff check --fix {staged_files}
+      stage_fixed: true
+    ruff-format:
+      glob: "**/*.py"
+      run: pixi run ruff format {staged_files}
+      stage_fixed: true
+    actionlint:
+      glob: ".github/workflows/*.{yml,yaml}"
+      run: pixi run lint
+    tests-with-src:
+      # TDD guard (AGENTS.md): src/ may not travel without a test — escape with LEFTHOOK_EXCLUDE or --no-verify.
+      run: |
+        set -eu
+        staged=$(git diff --cached --name-only --diff-filter=ACMR)
+        printf '%s\n' "$staged" | grep -q '^experiment/src/' || exit 0
+        printf '%s\n' "$staged" | grep -q '^experiment/tests/' && exit 0
+        echo "TDD guard: experiment/src/ changed without experiment/tests/." >&2
+        echo "Write the failing test first, or skip with LEFTHOOK_EXCLUDE=tests-with-src." >&2
+        exit 1
+    gherkin:
+      # gherlint only: the corpus is cheap to lint in full, so nothing slips through half-checked.
+      glob: "**/*.feature"
+      run: pixi run gherlint
+    prose:
+      # Vale on staged markdown; .vale.ini decides what is prose, and only errors block (not suggestions).
+      glob: "**/*.md"
+      run: pixi run vale {staged_files}
+    repo-structure:
+      # alint is repo-wide and cheap (~0.6 s), so it runs on every commit, not just on staged files.
+      run: pixi run alint
+
+pre-push:
+  commands:
+    tests:
+      # The coverage gate CI applies, so a push cannot be greener than the PR; bare `test` finds its env.
+      run: pixi run test

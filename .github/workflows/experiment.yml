@@ -1,0 +1,252 @@
+name: Experiment sweep
+
+# Runs the thesis harness, not the unit tests (that is ci.yml).
+#
+# Status: target wiring. The CLI currently registers no commands; the
+# `tasks validate | run | score | merge | analyse | report` stages come from the
+# pre-registration (TASK-1) and are the contract this workflow assumes.
+#
+# Cost is the reason this is not part of ci.yml: a full sweep is conditions × tasks ×
+# repetitions agent runs, i.e. hours of wall clock and real API spend. The grid itself is
+# frozen by the pre-registration (TASK-1), so it is passed in rather than written here.
+# The expensive path is workflow_dispatch / schedule only, and pull requests exercise the
+# plumbing without calling a model.
+
+on:
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: "validate = cards only; pilot = calibration run; main = full grid; transfer = probe"
+        type: choice
+        options: [validate, pilot, main, transfer]
+        default: validate
+      dry_run:
+        description: "Plan the sweep without calling any agent"
+        type: boolean
+        default: false
+      resume:
+        description: "Skip run dirs that already have result.json"
+        type: boolean
+        default: true
+  schedule:
+    - cron: "0 3 * * 1" # Mondays 03:00 UTC — weekly full sweep on main
+  pull_request:
+    paths:
+      - "experiment/**"
+      - ".github/workflows/experiment.yml"
+
+permissions:
+  contents: read
+
+# Never cancel a sweep to start the next one: each shard is money and model time.
+concurrency:
+  group: experiment-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  QT_QPA_PLATFORM: offscreen # QGIS 3.44 in headless CI
+  PYTHONUNBUFFERED: "1"
+  SWEEP_SEED: "42"
+
+jobs:
+  # ── Plumbing: runs on every PR, no model calls, ~2 minutes ──────────────────
+  plumbing:
+    name: Plumbing (no agent calls)
+    if: github.event_name == 'pull_request' || inputs.dry_run
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: prefix-dev/setup-pixi@v0.9.6
+        with:
+          environments: experiment # harness + QGIS: this workflow measures, it does not lint
+          cache: true
+
+      - name: Design matrix adds up
+        run: pixi run harness matrix
+
+      - name: Runtime pieces present
+        run: pixi run harness check
+
+      - name: Task cards validate
+        run: pixi run harness tasks validate --strict
+
+      - name: Sweep plans without executing
+        run: pixi run harness run --dry-run --stage ${{ inputs.stage || 'main' }}
+
+  # ── Cards: the pre-registration gate, and the id every later job joins on ───
+  cards:
+    name: Validate cards and freeze sweep id
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      sweep_id: ${{ steps.id.outputs.sweep_id }}
+      stage: ${{ steps.id.outputs.stage }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: prefix-dev/setup-pixi@v0.9.6
+        with:
+          environments: experiment # harness + QGIS: this workflow measures, it does not lint
+          cache: true
+
+      - name: Task cards validate
+        run: pixi run harness tasks validate --strict
+
+      - name: Cards match the frozen pre-registration
+        # The sweep is only interpretable if the cards did not move while it ran.
+        run: sha256sum --check experiment/tasks/cards.lock
+
+      - name: Sweep id
+        id: id
+        run: |
+          echo "sweep_id=$(date -u +%Y%m%dT%H%MZ)-${GITHUB_SHA::8}" >> "$GITHUB_OUTPUT"
+          echo "stage=${{ inputs.stage || 'main' }}" >> "$GITHUB_OUTPUT"
+
+  # ── Sweep: one shard per (agent × paradigm × task block) ────────────────────
+  # Sharded so a single failure costs one cell, not the sweep, and so no job gets near
+  # the 6-hour GitHub limit: 4 × 3 × 5 = 60 shards of 30 runs each.
+  sweep:
+    name: ${{ matrix.agent }}/${{ matrix.paradigm }}/T${{ matrix.tasks }}
+    needs: cards
+    if: ${{ !inputs.dry_run && needs.cards.outputs.stage != 'validate' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 330 # hard stop well inside the 6-hour job limit
+    strategy:
+      fail-fast: false # one broken cell must not discard the other 59
+      max-parallel: 8 # tune to the plan's minute budget
+      matrix:
+        agent: [agent-1, agent-2, agent-3, agent-4]
+        paradigm: [mcp-5, mcp-15, codegen]
+        tasks: ["001-010", "011-020", "021-030", "031-040", "041-050"]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: prefix-dev/setup-pixi@v0.9.6
+        with:
+          environments: experiment # harness + QGIS: this workflow measures, it does not lint
+          cache: true
+
+      - name: Start GeoMCP server
+        run: |
+          pixi run harness serve --port 9876 --catalogue ${{ matrix.paradigm }} \
+            > logs/geomcp-${{ matrix.paradigm }}.log 2>&1 &
+          timeout 60 bash -c 'until (exec 3<>/dev/tcp/127.0.0.1/9876) 2>/dev/null; do sleep 1; done'
+
+      - name: Run shard
+        run: |
+          pixi run harness run \
+            --sweep-id "${{ needs.cards.outputs.sweep_id }}" \
+            --stage "${{ needs.cards.outputs.stage }}" \
+            --agent "${{ matrix.agent }}" \
+            --paradigm "${{ matrix.paradigm }}" \
+            --tasks "${{ matrix.tasks }}" \
+            ${{ inputs.resume && '--resume' || '' }}
+
+      - name: Score shard
+        if: always() # score whatever rows exist, including error/timeout runs
+        run: pixi run harness score --sweep-id "${{ needs.cards.outputs.sweep_id }}"
+
+      - name: Upload shard artefacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          # v4 artefacts are immutable and must be uniquely named per job.
+          name: shard-${{ matrix.agent }}-${{ matrix.paradigm }}-T${{ matrix.tasks }}
+          path: |
+            runs/raw/**
+            runs/scored/**
+            data/fragments/**
+            logs/**
+          retention-days: 30
+          if-no-files-found: error # a shard that produced nothing must fail loudly
+          compression-level: 9
+
+  # ── Merge: one tidy dataset out of 60 shards ────────────────────────────────
+  merge:
+    name: Merge and check the run grid
+    needs: [cards, sweep]
+    if: always() && needs.sweep.result != 'cancelled' && needs.sweep.result != 'skipped'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: prefix-dev/setup-pixi@v0.9.6
+        with:
+          environments: experiment # harness + QGIS: this workflow measures, it does not lint
+          cache: true
+
+      - name: Download every shard
+        uses: actions/download-artifact@v4
+        with:
+          pattern: shard-*
+          merge-multiple: true
+          path: .
+
+      - name: Merge into tidy tables
+        run: pixi run harness merge --sweep-id "${{ needs.cards.outputs.sweep_id }}"
+
+      - name: Assert the design grid is complete
+        # The expected row count comes from the pre-registration (TASK-1), not from this file:
+        # missing runs are recorded as status=missing, never dropped.
+        env:
+          EXPECTED_RUNS: ${{ vars.EXPECTED_RUNS }}
+        run: pixi run harness merge --check --expected-runs "$EXPECTED_RUNS"
+
+      - name: Upload merged dataset
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-${{ needs.cards.outputs.sweep_id }}
+          path: |
+            data/*.parquet
+            data/*.csv
+            data/manifest.json
+          retention-days: 400
+          if-no-files-found: error
+
+  # ── Analyse and report: cheap, and the only job whose output humans read ────
+  analyse:
+    name: Analyse and report
+    needs: [cards, merge]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: prefix-dev/setup-pixi@v0.9.6
+        with:
+          environments: experiment # harness + QGIS: this workflow measures, it does not lint
+          cache: true
+
+      - name: Download merged dataset
+        uses: actions/download-artifact@v4
+        with:
+          name: data-${{ needs.cards.outputs.sweep_id }}
+          path: data
+
+      - name: Statistics
+        run: pixi run harness analyse --sweep-id "${{ needs.cards.outputs.sweep_id }}"
+
+      - name: Report
+        run: pixi run harness report --sweep-id "${{ needs.cards.outputs.sweep_id }}"
+
+      - name: Job summary
+        # The six confirmatory tests, rendered in the Actions UI — no download needed.
+        run: cat results/report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: results-${{ needs.cards.outputs.sweep_id }}
+          path: |
+            results/**
+            data/manifest.json
+          retention-days: 400
+          if-no-files-found: error

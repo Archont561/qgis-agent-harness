@@ -1,0 +1,82 @@
+# convco configuration — https://convco.github.io/configuration
+# Read by every convco command: `convco check` (lefthook commit-msg + CI),
+# `convco changelog`, `convco version`. Must sit at the repo root as `.versionrc`.
+# host/owner/repository are auto-detected from `git remote get-url origin`, so no
+# URL formats are hard-coded here.
+---
+header: |
+  # Changelog
+
+  All notable changes to the thesis harness are documented here. Generated with
+  [convco](https://convco.github.io) from conventional commits.
+
+# Commit types accepted by `convco check` and how they map into the changelog.
+#   hidden: true  -> valid in messages, kept out of the changelog
+#   increment     -> None keeps a type from moving the version
+types:
+  - type: feat
+    section: Features
+    hidden: false
+    increment: Patch
+  - type: fix
+    section: Fixes
+    hidden: false
+    increment: Patch
+  - type: perf
+    section: Performance
+    hidden: false
+    increment: Patch
+  - type: refactor
+    section: Refactoring
+    hidden: false
+    increment: None
+  - type: docs
+    section: Documentation
+    hidden: false # thesis prose and runbooks are deliverables, not chores
+    increment: None
+  - type: test
+    section: Tests
+    hidden: false
+    increment: None
+  - type: build
+    section: Build
+    hidden: true
+    increment: None
+  - type: ci
+    section: CI
+    hidden: true
+    increment: None
+  - type: chore
+    section: Chores
+    hidden: true
+    increment: None
+  - type: style
+    section: Style
+    hidden: true
+    increment: None
+  - type: revert
+    section: Reverts
+    hidden: false
+    increment: Patch
+
+# Still pre-1.0: a breaking change bumps 0.(x+1).0 rather than to 1.0.0.
+preMajor: true
+initialBumpVersion: "0.1.0"
+versionScheme: semver
+
+# `feat(harness): …`, `docs(thesis): …` — lowercase scopes, no spaces.
+scopeRegex: ^[[:alnum:]]+(?:[-_/][[:alnum:]]+)*$
+
+lineLength: 100
+wrapDisabled: false
+linkCompare: true
+linkReferences: true
+merges: false
+firstParent: false
+
+ignoreMessagePattern:
+  - ^Initial commit[[:space:]]*$
+  - ^Merge (branch|remote-tracking branch|pull request)
+
+issuePrefixes:
+  - "#"
