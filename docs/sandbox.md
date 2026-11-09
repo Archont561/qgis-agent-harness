@@ -21,15 +21,15 @@ Files owned by the generator (never hand-edit — `init --check` reports drift):
 | `.github/workflows/relock.yml` | lockfile-refresh bot for the connected side |
 | `scripts/restore.sh` | airlock-side entrypoint (`bash scripts/restore.sh`), no network calls |
 
-Current plan: **1 target** — bundle `developer`, envs `qa` `test` `experiment` `js`, `linux-64`,
-runner `ubuntu-latest`, branch **`sandbox/developer-linux-64`**, `cargo_vendor = false` (no Rust
-workspace here — the starter's old default of vendoring would be wrong).
+Current plan: **1 target** — bundle `developer`, envs `qa` `js`, `linux-64`, runner
+`ubuntu-latest`, branch **`sandbox/developer-linux-64`**, `cargo_vendor = false` (no Rust workspace
+here — the starter's old default of vendoring would be wrong).
 
-Four environments, because there is no longer a single one to bundle: each command owner is its own
-env (`docs/environments.md`), so the airlock gets the same four the connected side runs commands in.
-Together they are ~4.2 GB — the old single `default` was 3.8 GB and did not have the split — against
-the 8192 MiB `max_restore_required_mib` budget. `renderers` was never bundled and still is not, and
-the empty `default` is not worth a blob.
+Two environments, not the four this document used to name. `pack` refuses a PyPI entry that the lock
+does not record as a wheel, and the harness is a path dependency that `pixi.lock` records as
+`pypi: ./experiment`; `experiment` and `test` both carry it, so the instrument stays out of the
+transport until it ships as a wheel. `renderers` was never bundled and still is not, and the empty
+`default` is not worth a blob.
 
 ## Restoring on an airlocked host
 
@@ -44,11 +44,16 @@ why the two pixi tasks exist instead of calling the CLI bare. Calling `pixi-sand
 flag would regenerate a root `restore.sh` and rewrite `publish-sandbox.yml` (it embeds the launcher
 path), and `init --check` would then report drift.
 
-## Two caveats found on this tree
+## Three caveats found on this tree
 
 - `shellcheck scripts/restore.sh` reports **SC1087** on the generated line that greps `platforms`
   entries (`$PLATFORM["']` looks like an array index). It is a false positive in generated code; the
   file must stay byte-identical to the template, so the warning is documented rather than patched away.
+- `pack` refuses a PyPI dependency that `pixi.lock` does not record as a wheel. The harness is a path
+  dependency, so the two environments carrying it — `experiment` and `test` — cannot be packed until
+  it is published as a wheel, or until `pixi-sandbox` carries a local path source. The first publish
+  of this tree stopped on it: run `42639796286`, red at `Pack, verify, and publish`, with the
+  annotation `publish pipeline failed during pack (exit 1)`.
 - `pixi run lint` (actionlint) refuses to run because `.github/workflows` is not inside a Git
   repository — it looks for `.git` upwards from the working directory. It becomes usable once the
   project is a Git checkout.
