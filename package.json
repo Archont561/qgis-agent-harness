@@ -15,5 +15,10 @@
     "opencode-ai": "^1.19.5",
     "skills": "^1.7.4"
   },
-  "packageManager": "bun@1.4.4"
+  "packageManager": "bun@1.4.4",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Archont561/qgis-agent-harness.git"
+  }
 }

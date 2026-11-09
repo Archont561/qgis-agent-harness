@@ -33,7 +33,7 @@ should not merge an untested branch path. Config lives in
 rather than at the installed copy in `site-packages`.
 
 ```bash
-pixi run test              # both suites + coverage table + coverage.xml   (94 %, 16 + 82 tests)
+pixi run test              # three suites + coverage table + coverage.xml  (94 %, 16 + 82 + 25 tests)
 pixi run cov-upload        # codecovcli upload — CI only
 ```
 
@@ -69,6 +69,57 @@ in. Lint, structure, prose and commit messages always run — they are what a do
 the harness has commands; its stage names come from the pre-registration (`TASK-1`). It already
 carries its own `paths:` filter (`experiment/**`), so a docs pull request does not start a sweep
 either.
+
+## The sweep host
+
+The series does not run on GitHub's runners: they have no GPU, and `thesis/design/harness.md` §8
+froze the host as pinned local weights on a university machine. Actions therefore only *drives* the
+sweep, and `experiment.yml` prepares the machine before it asks anything of it:
+
+| Job | What it does |
+|---|---|
+| `plumbing` | every pull request: cards, matrix and a dry run, no model calls |
+| `setup` | every push, schedule and dispatch: is the host provisioned, and provision it if not |
+| `cards`, `sweep`, `merge`, `analyse` | the pre-registration gate, the shards, the tidy tables, the statistics |
+
+`setup` sends [`setup.sh`](../.cluster/setup.sh) over ssh and runs it with
+`bash -s`, so the copy that provisions the host is the one reviewed in this repository and the host
+needs nothing installed first but bash. Its defaults are a configuration block at the top of the
+script, each one a `${VAR:-default}` that the environment overrides, because a script arriving on
+stdin cannot read a file beside itself. The script has four modes and is safe to re-run:
+
+| Mode | What it does |
+|---|---|
+| `--probe` | reports cores, memory, disk, GPU and VRAM, and the engine those facts imply |
+| `--plan` | prints the steps, resolved against the probe |
+| `--check` | compares the host against the configuration at the top of `setup.sh`: `0` ready, `10` nothing provisioned, `11` drifted, `12` a sweep is running, `13` the host lacks something |
+| `provision` | pixi, the checkout at a named commit, `pixi install --frozen`, the harness wheel, headless QGIS, the engine, the weights, a health check, and a marker |
+
+The engine is the one decision the script makes from the machine: vLLM when the probe finds a CUDA
+GPU at or above `MIN_VRAM_MIB`, Ollama otherwise, because §8 keeps Ollama as the development mirror
+and not as a sweep engine. Weights are pinned through `MODEL_ID`/`MODEL_REVISION`, since `run_id` is
+derived from `model_digest` and an unpinned model is a sweep whose rows cannot be compared. A host
+provisioned without a GPU is marked `cpu_only=1` and refuses to serve a measurement unless
+`--allow-cpu` says the run is plumbing only.
+
+Three secrets drive it — `SSH_TARGET` (`user@host`), `SSH_KEY` (ed25519) and `SSH_KNOWN_HOSTS` — and
+the job does nothing but report when they are absent. The host key is compared rather than accepted,
+and the key file is removed again in a step that runs `if: always()`. To keep a leaked workflow key
+from becoming a shell on a machine that is reachable from the internet, install
+[`sweep-ctl`](../.cluster/sweep-ctl) on the host and pin it in
+`authorized_keys` as `restrict,command="/opt/sweep-ctl"`: it accepts four verbs and two flags and
+refuses everything else. Host-specific overrides that should not live in git go next to it as
+`environment="MODEL_ID=…"`.
+
+The host tooling is proved twice, because the two questions are different. What the script *decides*
+is pinned behaviourally in `.cluster/tests/test_cluster_setup.py` and `test_sweep_ctl.py`, which run
+`bash setup.sh <mode>` against a throwaway home whose `nvidia-smi` is a stub — the promise under test
+is the engine, the worker count and the exit code, never the installs, which need a real GPU. What
+the script is *for* is written as scenarios in `.cluster/features/cluster-setup.feature`, bound by
+`.cluster/tests/test_cluster_setup_bdd.py` in the same way the harness binds `experiment/features`,
+so the workflow's branch points read as Gherkin: which engine a host is offered, what each `--check`
+code means, and the one refusal with no override. Both trees are linted by `pixi run gherlint` and
+both are collected by `pixi run test-cluster`.
 
 ## The harness package
 

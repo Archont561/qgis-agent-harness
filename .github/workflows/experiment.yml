@@ -77,6 +77,92 @@ jobs:
       - name: Sweep plans without executing
         run: pixi run harness run --dry-run --stage ${{ inputs.stage || 'main' }}
 
+  # ── Setup: the host is provisioned before anything is asked of it ───────────
+  # The script travels over ssh and runs with `bash -s`, so the copy that provisions the host is
+  # the one in this repository and the host needs nothing installed first but bash. A cold host
+  # installs QGIS, an engine and several GB of weights; the script is idempotent, so a run that
+  # hits the timeout is re-run rather than repaired.
+  setup:
+    name: Prepare the run host
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    outputs:
+      configured: ${{ steps.host.outputs.configured }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Is a sweep host configured
+        id: host
+        env:
+          SSH_KEY: ${{ secrets.SSH_KEY }}
+        run: |
+          if [ -n "$SSH_KEY" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            {
+              echo "### No sweep host"
+              echo
+              # No backticks in here on purpose: actionlint runs shellcheck over every run block,
+              # and SC2016 reads one inside single quotes as a command substitution.
+              echo "No SSH_KEY secret is set: nothing was prepared and the sweep stays skipped."
+              echo "See docs/tests.md, The sweep host."
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Load the ssh key
+        if: steps.host.outputs.configured == 'true'
+        env:
+          SSH_KEY: ${{ secrets.SSH_KEY }}
+          SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
+        run: |
+          set -eu
+          install -m 700 -d "$HOME/.ssh"
+          printf '%s\n' "$SSH_KEY" > "$HOME/.ssh/id_ed25519"
+          # The host key is compared, not accepted: `StrictHostKeyChecking=no` would make the
+          # sweep's own credentials forgeable by anything that answers first.
+          printf '%s\n' "$SSH_KNOWN_HOSTS" > "$HOME/.ssh/known_hosts"
+          chmod 600 "$HOME/.ssh/id_ed25519" "$HOME/.ssh/known_hosts"
+
+      - name: What the host has
+        if: steps.host.outputs.configured == 'true'
+        env:
+          SSH_TARGET: ${{ secrets.SSH_TARGET }}
+        run: |
+          set -eu
+          {
+            echo '```'
+            ssh -T -o BatchMode=yes "$SSH_TARGET" 'bash -s -- --probe' < .cluster/setup.sh
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Is it provisioned as host.env demands
+        id: check
+        if: steps.host.outputs.configured == 'true'
+        # 10 ("nothing provisioned") and 11 ("drifted") are answers, not failures: they mean
+        # provision it. 12 and 13 are refusals and the next step repeats them, loudly.
+        continue-on-error: true
+        env:
+          SSH_TARGET: ${{ secrets.SSH_TARGET }}
+          SHA: ${{ github.sha }}
+        run: |
+          set +e
+          ssh -T -o BatchMode=yes "$SSH_TARGET" "bash -s -- --check --sha $SHA" < .cluster/setup.sh
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Provision the host
+        if: steps.host.outputs.configured == 'true' && steps.check.outputs.code != '0'
+        env:
+          SSH_TARGET: ${{ secrets.SSH_TARGET }}
+          SHA: ${{ github.sha }}
+        run: |
+          ssh -T -o BatchMode=yes "$SSH_TARGET" "bash -s -- provision --sha $SHA" < .cluster/setup.sh
+
+      - name: Drop the ssh key
+        if: always()
+        run: rm -f "$HOME/.ssh/id_ed25519" "$HOME/.ssh/known_hosts"
+
   # ── Cards: the pre-registration gate, and the id every later job joins on ───
   cards:
     name: Validate cards and freeze sweep id
@@ -114,7 +200,10 @@ jobs:
   # the 6-hour GitHub limit: 4 × 3 × 5 = 60 shards of 30 runs each.
   sweep:
     name: ${{ matrix.agent }}/${{ matrix.paradigm }}/T${{ matrix.tasks }}
-    needs: cards
+    # `setup` as well as `cards`: a sweep on a host that was never provisioned fails on the first
+    # shard, and then on the other 59 in the same way. Without an `SSH_KEY` secret the setup job
+    # no-ops and says so in its summary, which is how the runner-only path still runs today.
+    needs: [cards, setup]
     if: ${{ !inputs.dry_run && needs.cards.outputs.stage != 'validate' }}
     runs-on: ubuntu-latest
     timeout-minutes: 330 # hard stop well inside the 6-hour job limit

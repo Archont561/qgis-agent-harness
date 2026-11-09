@@ -95,12 +95,16 @@ bun = { cmd = "bun --bun", description = "bun (bun runtime for node shebangs); t
 install = { cmd = "bun install", description = "install package.json deps" }
 skills = { cmd = "bun x --bun skills", depends-on = ["install"], description = "skills CLI on bun's runtime" }
 backlog = { cmd = "bun x --bun backlog", depends-on = ["install"], description = "backlog CLI against ./backlog" }
+readme = { cmd = "bash scripts/readme.sh", description = "render README.md from .readme/README.md.ejs" }
+readme-check = { cmd = "bash scripts/readme.sh --check", description = "fail when README.md is not the render of the template" }
 
 [feature.test.tasks]
 # Behavioural: each checker in scripts/ is run as alint runs it, against a throwaway tree.
 test-scripts = { cmd = "pytest scripts/tests", description = "behavioural tests for the alint checkers in scripts/" }
+# The sweep host is not a checker: .cluster/ is proved the same behavioural way, plus Gherkin.
+test-cluster = { cmd = "pytest .cluster/tests", description = "behavioural and BDD tests for the sweep-host tooling in .cluster/" }
 # --cov reads source/paths from experiment/pyproject.toml; the XML is what Codecov ingests.
-test = { cmd = "pytest experiment --cov=experiment/src --cov-report=term-missing --cov-report=xml:coverage.xml", depends-on = ["test-scripts"], description = "both suites + coverage (pytest-bdd, hypothesis)" }
+test = { cmd = "pytest experiment --cov=experiment/src --cov-report=term-missing --cov-report=xml:coverage.xml", depends-on = ["test-scripts", "test-cluster"], description = "all three suites + coverage (pytest-bdd, hypothesis)" }
 cov-upload = { cmd = "codecovcli upload-process --disable-search --fail-on-error -f coverage.xml", description = "upload coverage.xml to Codecov (CI only)" }
 
 [feature.experiment.tasks]
@@ -118,7 +122,7 @@ check-commits = { cmd = "convco check", description = "lint the commit range sin
 changelog = { cmd = "convco changelog", description = "print the unreleased changelog from conventional commits" }
 alint = { cmd = "alint", description = "repo-structure linter (.alint.yml)" }
 # gherlint exits 0 even on findings, so the awk below fails on any line ending in "(rule)" — except R202.
-gherlint = { cmd = "gherlint lint experiment/features | awk '/\\)$/ && !/\\(consider-using-background\\)$/ {print; bad=1} END {exit bad+0}'", description = "Gherkin lint on experiment/features; non-zero exit on any finding not accepted on purpose" }
+gherlint = { cmd = "gherlint lint experiment/features | awk '/\\)$/ && !/\\(consider-using-background\\)$/ {print; bad=1} END {exit bad+0}' && gherlint lint .cluster/features | awk '/\\)$/ && !/\\(consider-using-background\\)$/ {print; bad=1} END {exit bad+0}'", description = "Gherkin lint on experiment/features and .cluster/features; non-zero exit on any finding not accepted on purpose" }
 gherlint-stats = { cmd = "gherlint stats experiment/features", description = "Gherkin metrics (scenarios, steps, background, tags) as a table" }
 # pixi-sandbox is a GLOBAL CLI, not an env dependency; --script-path must be passed or `init` moves the launcher.
 sandbox-init = { cmd = "pixi-sandbox init --script-path scripts/restore.sh", description = "regenerate the pixi-sandbox owned files (launcher in scripts/)" }

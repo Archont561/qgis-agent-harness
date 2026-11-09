@@ -173,8 +173,10 @@ def test_coverage_reports_a_rule_that_lints_nothing(
 def test_coverage_reports_a_sleeping_rule_that_woke_up(
     run: Run, write: Write, tmp_path: pathlib.Path
 ) -> None:
-    write(tmp_path, "experiment/features/a.feature", "Feature: a\n")
-    _config(write, tmp_path, _rule("bdd-feature-has-test", '["experiment/features/*.feature"]'))
+    # `task-card-schema-cards` is the rule still declared sleeping: TASK-15 wakes it by adding the
+    # first card. The exemption is what is tested, so the rule named here is the one in SLEEPING.
+    write(tmp_path, "experiment/tasks/cards/a.yaml", "id: a\n")
+    _config(write, tmp_path, _rule("task-card-schema-cards", '["experiment/tasks/cards/*.yaml"]'))
     done = run("repo_facts.py", "coverage", cwd=tmp_path)
     assert done.returncode == 1
     assert "is declared sleeping" in done.stdout

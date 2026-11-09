@@ -42,7 +42,6 @@ EXEMPT = {
 # condition. If a sleeping rule starts matching, that is a problem too: the entry is now a lie.
 SLEEPING = {
     "task-card-schema-cards": "no card files exist yet, and TASK-15 creates them",
-    "bdd-feature-has-test": "no .feature file exists yet, and the rebuilt suite brings them",
 }
 
 # The rules that check links, backticked paths and fragments. Every document we own must be covered
