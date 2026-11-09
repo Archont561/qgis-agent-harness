@@ -95,6 +95,8 @@ bun = { cmd = "bun --bun", description = "bun (bun runtime for node shebangs); t
 install = { cmd = "bun install", description = "install package.json deps" }
 skills = { cmd = "bun x --bun skills", depends-on = ["install"], description = "skills CLI on bun's runtime" }
 backlog = { cmd = "bun x --bun backlog", depends-on = ["install"], description = "backlog CLI against ./backlog" }
+readme = { cmd = "bash scripts/readme.sh", description = "render README.md from .readme/README.md.ejs" }
+readme-check = { cmd = "bash scripts/readme.sh --check", description = "fail when README.md is not the render of the template" }
 
 [feature.test.tasks]
 # Behavioural: each checker in scripts/ is run as alint runs it, against a throwaway tree.

@@ -234,6 +234,8 @@ Tag conventions live in `gherlint.toml` (`[convention]`): scenario tags must nam
 pixi run bun install
 pixi run skills list
 pixi run backlog task list
+pixi run readme                            # render README.md from .readme/README.md.ejs
+pixi run readme-check                      # fail when README.md is not that render
 ```
 
 Package scripts are one-liners that need no `node_modules` paths:
@@ -243,6 +245,24 @@ Package scripts are one-liners that need no `node_modules` paths:
 | `backlog` | `bunx --bun backlog` | backlog CLI (1.55.3) |
 | `board` / `browser` | `bunx --bun backlog board` / `… browser` | kanban / web UI |
 | `skills` | `bunx --bun skills` | skills CLI (1.7.4) |
+
+### The README is rendered, not edited
+
+`README.md` is generated from `.readme/README.md.ejs` by
+[readme-md-generator](https://github.com/kefranabg/readme-md-generator):
+
+| Task | What it does |
+|---|---|
+| `pixi run readme` | renders the template against the workspace facts and writes `README.md` |
+| `pixi run readme-check` | exits non-zero when the committed `README.md` is not that render, and prints the diff |
+
+The generator's own template cannot be used here — it opens with an emoji inside the H1 and builds a
+shape `scripts/house_style.py` rejects. Ours keeps the sections the README already had and leaves
+holes only for what the tool can read out of the workspace: the project name and the licence from
+`package.json`, the clone URL from its `repository` field. Both fields are there for this reason;
+without a `repository` entry the generator's git fallback throws (a Buffer handed to a String
+method, inside its own `try`) and every URL renders empty. Everything else is prose in the
+template — including the backlog counts in the status line, which `repo_facts` checks.
 
 **Why there is no nodejs in the env.** `bun x <pkg>` normally executes a package's bin through its
 shebang — `#!/usr/bin/env node` — which would need Node on PATH (and `skills` needs ≥ 22.20, so

@@ -1,5 +1,7 @@
 # research
 
+<!-- Generated from .readme/README.md.ejs by pixi run readme — edit the template, not this file. -->
+
 **Does exposing GIS operations as MCP tools change how often a fixed model produces correct QGIS
 work, compared with generating PyQGIS code?** The comparison is pre-registered, run on one pinned
 model, scored by spatial predicates rather than by a judging model, and reported as conditional on
@@ -23,9 +25,11 @@ Nothing here is published: no package, no release, no version.
 ## Try it
 
 ```sh
+git clone https://github.com/Archont561/qgis-agent-harness.git research
+cd research
 bash scripts/restore.sh                    # locked pixi environments, offline-capable
 pixi run qa                                # alint + ruff + gherlint + prose (Vale), no QGIS
-pixi run test                              # pytest — 16 harness tests + 36 checker tests, 94 % coverage, no QGIS
+pixi run test                              # pytest — 123 tests over harness, checkers and sweep host, 94 % coverage, no QGIS
 pixi run harness --help                    # harness CLI: discovered commands, registration rule
 pixi run backlog task list                 # committed work
 pixi run render math-slide '\frac{a}{b}' -o slide.pptx   # maths via the archont561 skill
@@ -50,5 +54,5 @@ Contributors — human or agent — start with [AGENTS.md](AGENTS.md). Tests com
 
 ## License
 
-MIT — see [LICENSE](LICENSE). The thesis text under `thesis/` is licensed with it; the full-text
-transcripts in `thesis/literature/fulltexts/` remain the work of the authors they quote.
+MIT — see [LICENSE](LICENSE). The thesis text under `thesis/` is licensed with it; the
+full-text transcripts in `thesis/literature/fulltexts/` remain the work of the authors they quote.
