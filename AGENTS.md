@@ -22,6 +22,28 @@ Do not edit Backlog task, draft, document, decision, or milestone markdown files
 
 </CRITICAL_INSTRUCTION>
 <!-- BACKLOG.MD GUIDELINES END -->
+
+## Starting a session
+
+Run these two at the start of every session, in this order:
+
+```bash
+bash scripts/restore.sh     # the locked pixi environments, unpacked from the sandbox branch
+pixi run hooks              # lefthook: commit-msg, pre-commit and pre-push
+```
+
+The restore is the way into the environments every command below runs in: `restore.sh` reads
+`pixi-sandbox.toml`, unpacks the transport branch into `.pixi`, and leaves the prefixes exactly as
+`pixi.lock` describes them. It is safe to repeat — it restores over what is there — and a host that
+already carries the branch needs no network
+([docs/sandbox.md](docs/sandbox.md)).
+
+`pixi run hooks` is what turns the gates below from advice into behaviour. Until lefthook is
+installed, a commit skips `convco`, `ruff`, `alint`, and the `tests-with-src` guard, and a push
+skips the suite — the failure then arrives from CI, later and further from the change. The task
+lives in the `qa` environment, so it only runs after the restore
+([docs/commits.md](docs/commits.md)).
+
 ## Agent skills
 
 Repository skills live in `.agents/skills/<name>/SKILL.md` and are pinned in `skills-lock.json`.
