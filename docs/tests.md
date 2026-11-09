@@ -58,9 +58,17 @@ backlog files — and nothing is inherited from the repository it runs in.
 
 ## Workflows
 
-[`ci.yml`](../.github/workflows/ci.yml) lints, tests and uploads coverage on every push;
+[`ci.yml`](../.github/workflows/ci.yml) lints, tests and uploads coverage on every push — with one
+exception, decided by a `scope` job every other test gate reads: when the whole range touches nothing
+but prose, `Test, coverage` is **skipped** rather than run. Prose means markdown wherever it stands,
+`docs/`, `thesis/`, `backlog/`, `LICENSE` and the Vale config; a file the list does not recognise
+counts as code, and so does a range that cannot be read, which is the direction a gate should fail
+in. Lint, structure, prose and commit messages always run — they are what a docs change answers for.
+
 [`experiment.yml`](../.github/workflows/experiment.yml) is the runner workflow — plumbing only until
-the harness has commands; its stage names come from the pre-registration (`TASK-1`).
+the harness has commands; its stage names come from the pre-registration (`TASK-1`). It already
+carries its own `paths:` filter (`experiment/**`), so a docs pull request does not start a sweep
+either.
 
 ## The harness package
 
