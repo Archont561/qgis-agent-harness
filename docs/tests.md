@@ -33,7 +33,7 @@ should not merge an untested branch path. Config lives in
 rather than at the installed copy in `site-packages`.
 
 ```bash
-pixi run test              # both suites + coverage table + coverage.xml   (94 %, 16 + 82 tests)
+pixi run test              # three suites + coverage table + coverage.xml  (94 %, 16 + 82 + 25 tests)
 pixi run cov-upload        # codecovcli upload — CI only
 ```
 
@@ -110,6 +110,16 @@ from becoming a shell on a machine that is reachable from the internet, install
 `authorized_keys` as `restrict,command="/opt/sweep-ctl"`: it accepts four verbs and two flags and
 refuses everything else. Host-specific overrides that should not live in git go next to it as
 `environment="MODEL_ID=…"`.
+
+The host tooling is proved twice, because the two questions are different. What the script *decides*
+is pinned behaviourally in `.cluster/tests/test_cluster_setup.py` and `test_sweep_ctl.py`, which run
+`bash setup.sh <mode>` against a throwaway home whose `nvidia-smi` is a stub — the promise under test
+is the engine, the worker count and the exit code, never the installs, which need a real GPU. What
+the script is *for* is written as scenarios in `.cluster/features/cluster-setup.feature`, bound by
+`.cluster/tests/test_cluster_setup_bdd.py` in the same way the harness binds `experiment/features`,
+so the workflow's branch points read as Gherkin: which engine a host is offered, what each `--check`
+code means, and the one refusal with no override. Both trees are linted by `pixi run gherlint` and
+both are collected by `pixi run test-cluster`.
 
 ## The harness package
 
