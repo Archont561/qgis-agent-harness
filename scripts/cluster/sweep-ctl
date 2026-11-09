@@ -1,0 +1,73 @@
+#!/usr/bin/env bash
+# The only command an ssh key to the sweep host is allowed to run.
+#
+# In `authorized_keys`, `restrict,command="/opt/sweep-ctl"` decides *which* program runs — but the
+# client still controls `$SSH_ORIGINAL_COMMAND` in full, so the wrapper has to decide what that
+# program is told. This one accepts an allowlisted verb and an allowlisted set of flags and refuses
+# everything else: a leaked workflow key then buys a menu, not a shell.
+#
+# Install once, by hand, as the sweep user:
+#   install -m 755 scripts/cluster/sweep-ctl /opt/sweep-ctl
+#   printf 'restrict,command="/opt/sweep-ctl" %s\n' "$(cat sweep.pub)" >> ~/.ssh/authorized_keys
+
+set -euo pipefail
+
+SWEEP_HOME=${SWEEP_HOME:-$HOME/.config/qgis-agent-harness}
+HOST_DIR=${HOST_DIR:-$HOME/research}
+LOG=$SWEEP_HOME/logs/sweep-ctl.log
+# The script lives in the checkout, so the host always runs the reviewed copy. The fallback keeps a
+# virgin box provisionable before the first clone.
+SCRIPT=$HOST_DIR/scripts/cluster/setup.sh
+FALLBACK=${SWEEP_CTL_FALLBACK:-/opt/sweep-ctl.d/setup.sh}
+
+refuse() {
+	printf 'sweep-ctl: %s\n' "$*" >&2
+	exit 64
+}
+
+# shellcheck disable=SC2124  # the whole request, verb included, is what gets checked.
+request=${SSH_ORIGINAL_COMMAND:-}
+[ -n "$request" ] || refuse "no command; try: probe | check | plan | setup"
+# shellcheck disable=SC2206  # word splitting on purpose: the request is a shell command line.
+words=($request)
+verb=${words[0]}
+case "$verb" in
+probe | check | plan | setup) ;;
+*) refuse "unknown verb '$verb'; allowed: probe, check, plan, setup" ;;
+esac
+
+args=()
+i=1
+while [ $i -lt ${#words[@]} ]; do
+	case "${words[$i]}" in
+	--sha)
+		sha=${words[$((i + 1))]-}
+		# A hex commit and nothing else: no paths, no shell metacharacters, no second opinion.
+		[[ $sha =~ ^[0-9a-f]{7,40}$ ]] || refuse "--sha needs a commit sha, got '${sha}'"
+		args+=(--sha "$sha")
+		i=$((i + 2))
+		;;
+	--allow-cpu)
+		args+=(--allow-cpu)
+		i=$((i + 1))
+		;;
+	*)
+		refuse "argument not allowed: ${words[$i]}"
+		;;
+	esac
+done
+
+entry=$SCRIPT
+[ -f "$entry" ] || entry=$FALLBACK
+[ -f "$entry" ] || refuse "no provisioner at $SCRIPT or $FALLBACK"
+
+# The verbs read as English over ssh; the script takes flags, and `setup` is spelled `provision`.
+case "$verb" in
+setup) mode=provision ;;
+*) mode="--$verb" ;;
+esac
+
+mkdir -p "$(dirname "$LOG")"
+printf '%s %s %s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$verb" "${args[*]:-}" >>"$LOG"
+
+exec bash "$entry" "$mode" ${args[@]+"${args[@]}"}
