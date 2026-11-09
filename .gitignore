@@ -32,6 +32,10 @@ node_modules/
 bun-debug.log
 *.tsbuildinfo
 
+# ─── Python version coverage (tox) ────────────────────────────────────────────
+# One environment per interpreter, rebuilt from tox.ini; the pins live there.
+.tox/
+
 # ─── Browser automation artefacts ─────────────────────────────────────────────
 .playwright/
 .playwright-cli/

@@ -137,6 +137,42 @@ jobs:
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
+  python:
+    name: Python ${{ matrix.python-version }}
+    needs: scope
+    # Same gate as the suite: a docs-only change has no Python to measure against another
+    # interpreter. fail-fast is off so one version failing does not hide the other two.
+    if: needs.scope.outputs.docs-only != 'true'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # Explicit pairs, not a computed env name: the interpreter actions/setup-python installs
+        # and the tox environment that runs on it are named differently on purpose.
+        include:
+          - python-version: "3.12"
+            toxenv: py312
+          - python-version: "3.13"
+            toxenv: py313
+          - python-version: "3.14"
+            toxenv: py314
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      # tox is the one tool in this repository pixi does not own: it needs the interpreters pixi
+      # does not solve, which is the entire point of the job.
+      - name: Install tox
+        run: pip install tox==4.67.13
+
+      - name: Test on ${{ matrix.python-version }}
+        run: tox -e ${{ matrix.toxenv }}
+
   commits:
     name: Conventional commits
     runs-on: ubuntu-latest
