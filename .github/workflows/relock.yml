@@ -11,6 +11,14 @@ name: relock
 
 on:
   pull_request:
+    paths:
+      - "bun.lock"
+      - "experiment/pyproject.toml"
+      - "package.json"
+      - "pixi-sandbox.toml"
+      - "pixi.lock"
+      - "pixi.toml"
+
   workflow_dispatch:
     inputs:
       repaired_sha:

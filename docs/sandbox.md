@@ -31,6 +31,29 @@ does not record as a wheel, and the harness is a path dependency that `pixi.lock
 transport until it ships as a wheel. `renderers` was never bundled and still is not, and the empty
 `default` is not worth a blob.
 
+## What triggers a publish
+
+As generated, the publisher answered `on: push: branches: [main]` with no filter, so every merge to
+`main` repacked both environments and force-pushed the transport branch — a README typo cost a full
+republish. The `[workflow]` table in `pixi-sandbox.toml` narrows the two generated triggers to the
+files the transport is actually built from:
+
+| Field | Renders as | Entries |
+|---|---|---|
+| `push_paths` | `on.push.paths` in the publisher | `bun.lock`, `experiment/**`, `package.json`, `pixi-sandbox.toml`, `pixi.lock`, `pixi.toml` |
+| `relock_paths` | `on.pull_request.paths` in the lock guard | the same manifests and locks, with `experiment/pyproject.toml` instead of the whole tree |
+
+Leaving a field unset derives the same manifests and locks and stops there: the generator cannot see
+that the harness is a path dependency, packed into `experiment` and `test` as a wheel built from that
+tree, so the publisher has to be told about `experiment/` and the guard about the manifest the solve
+reads. A docs-only merge now triggers neither workflow. The Monday schedule and a manual dispatch
+still publish whenever a fresh transport is wanted.
+
+Adding the table also switches `setup-pixi`'s `cache:` to `false`, the default the table selects
+(ADR-18): a cache keyed on the consumer manifest can restore a solve the publisher's own native
+`pixi install` will not reuse. Both workflows stay generated — `pixi run sandbox-init` writes them,
+`pixi run sandbox-check` is what proves a hand-applied config change matches a fresh render.
+
 ## Restoring on an airlocked host
 
 Carry the project **and** the sandbox branch (`git bundle create project-airlock.bundle main

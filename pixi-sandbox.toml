@@ -14,3 +14,20 @@ max_restore_required_mib = 8192
 name = "developer"
 environments = ["qa", "js"]
 platforms = ["linux-64"]
+
+# What a push has to touch before the publisher repacks and force-pushes the transport branch, and
+# what a pull request has to touch before the lock guard runs. Nothing in `docs/`, `thesis/`,
+# `backlog/` or the prose at the root is in either list: unfiltered, a README typo republished the
+# sandbox, and the whole point of the branch is that it carries environments, not documents.
+#
+# Both lists are explicit rather than derived, so the trigger reads here beside the bundle it
+# guards. `pixi-sandbox` would derive the same manifests and locks and stop there — it cannot see
+# that the harness is a path dependency (`experiment/pyproject.toml`), packed into `test` and
+# `experiment` as a wheel built from that tree, which is why `experiment/` is spelled out: the
+# guard needs the manifest the solve reads, the publisher needs the source the wheel is built from.
+#
+# `setup_pixi_cache` keeps the default this table selects, `false`: a cache keyed on the consumer
+# manifest can restore a solve the publisher's own native `pixi install` will not reuse.
+[workflow]
+push_paths = ["bun.lock", "experiment/**", "package.json", "pixi-sandbox.toml", "pixi.lock", "pixi.toml"]
+relock_paths = ["bun.lock", "experiment/pyproject.toml", "package.json", "pixi-sandbox.toml", "pixi.lock", "pixi.toml"]
