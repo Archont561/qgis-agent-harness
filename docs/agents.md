@@ -44,6 +44,33 @@ correctly declines to attribute them to the middle repo. Verified: of the nine, 
 re-installs from `Archont561/qgis-sdk`; the other eight report "No matching skills found". Re-vendor
 those from their upstream source by hand if they ever need updating.
 
+## AGENTS.md is generated in zones
+
+`AGENTS.md` is written by hand and refreshed by
+[agents-md](https://github.com/eugeniughelbur/agents-md) (npm), which owns only what sits between
+its markers:
+
+```bash
+pixi run agents-md-check        # what a refresh would change, without writing it
+pixi run agents-md              # rewrite the nine marked sections
+```
+
+| Zone | Owner |
+|---|---|
+| Backlog.md guidelines, at the top of the file | the `backlog` CLI, v1.55.3 |
+| the nine `agents-md:begin` / `end` sections | `pixi run agents-md` |
+| `## Notes`, and anything else outside the markers | us — neither tool touches it |
+
+**A refresh replaces everything inside the markers**, including prose written there by hand. The tool
+reads the repository and leaves a `_TBD_` stub for what it cannot detect, which here is most of it:
+it sees `package.json` and reports "stack: node", when the Python is pixi's and the JS is bun's. So
+the marked sections are filled deliberately, and the diff of a refresh is reviewed the way any
+generated change is. The `## Notes` section says so in the file itself, because it is the part that
+survives.
+
+`--no-symlink` is deliberate: the tool also offers to point `CLAUDE.md` at `AGENTS.md`, and that is a
+second file to keep in step for a tool nobody here has asked for yet.
+
 ## Runtime notes
 
 **bun** — comes from the `js` feature of `pixi.toml` (v1.4.x), reached as `pixi run bun …`; the

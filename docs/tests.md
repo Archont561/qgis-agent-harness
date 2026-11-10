@@ -56,6 +56,33 @@ script whose whole job is to exit non-zero.
 Fixtures are written per test, so a case states its whole world — a card, a corpus table, a tree of
 backlog files — and nothing is inherited from the repository it runs in.
 
+## Python versions
+
+pixi solves one interpreter — 3.12, pinned in `pixi.toml` — because QGIS 3.44 is a 3.12 build and a
+measurement must not move underneath it. `tox.ini` asks a second question: does the *code* still
+pass on the interpreters that come next?
+
+```bash
+tox                                        # 3.12, 3.13 and 3.14
+tox -e py313                               # one of them
+tox -e py313 -- -k "design matrix"         # one test, on one interpreter
+```
+
+Three environments, each a fresh venv carrying the `test` feature's pins from PyPI: `pytest 8`
+(`pytest-bdd 8.1.0` reads `FixtureManager._arg2fixturedefs`, which pytest 9 removed),
+`hypothesis 6.170.15`, `pyyaml` and `typer`. QGIS is absent on purpose — it is a conda package, and
+every suite here is already written to pass without it — so what tox measures is the code, not the
+measurement environment. The suites run from source, exactly as they do under pixi:
+`experiment/tests/conftest.py` loads `src/` itself, and the checker tests spawn `scripts/*.py` with
+`sys.executable`.
+
+`skip_missing_interpreters = false`: an interpreter nobody installed fails the run instead of
+skipping it, because a version nobody ran is the one that breaks.
+
+tox is the one tool here that pixi does not own — it needs the interpreters pixi does not solve — so
+it is not a pixi dependency and has no task. CI installs it (`pip install tox==4.67.13`) and runs the
+matrix in the `Python 3.12 / 3.13 / 3.14` job; the environments it builds land in `.tox/`.
+
 ## Workflows
 
 [`ci.yml`](../.github/workflows/ci.yml) lints, tests and uploads coverage on every push — with one

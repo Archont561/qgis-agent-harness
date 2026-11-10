@@ -39,7 +39,7 @@ pixi run render math-slide '\frac{a}{b}' -o slide.pptx   # maths via the archont
 
 - [Environments](docs/environments.md) — pixi features and environments, task catalogue, linters
 - [Prose](docs/prose.md) — Vale over `thesis/` and `docs/`: what is prose, what is switched off, and why
-- [Tests](docs/tests.md) — TDD + BDD rule, layers, enforcement, coverage gate, the harness package
+- [Tests](docs/tests.md) — TDD + BDD rule, layers, enforcement, coverage gate, the harness package, the interpreters tox covers
 - [Offline sandbox](docs/sandbox.md) — pixi-sandbox transport, restore procedure, generator-owned files
 - [Commits and CI](docs/commits.md) — Conventional Commits, hooks, workflows
 - [Agent skills](docs/agents.md) — nine pinned skills, provenance, runtime notes
