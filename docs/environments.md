@@ -367,6 +367,34 @@ every path and link in them resolves — a link in a published page rots in publ
 `site/`: the CI job lints `thesis/` and `docs/`, and site prose is full of directives that are not
 prose.
 
+### Running the site locally
+
+`myst start` runs two servers: the content server on 3100, which serves the parsed pages, and the
+theme's own app on 3000, which is the one to open. Both are the MyST CLI reached through the task:
+
+```sh
+pixi run site-css     # the stylesheet first — a build from a clean checkout has none
+pixi run docs start   # content server on 3100, the site on 3000
+```
+
+The theme is **fetched, not installed from npm**: the build queries `api.mystmd.org` for
+`book-theme` and unpacks it under `_build/`. Where that host is unreachable — an airlocked host, or a
+sandbox with an allowlist — `myst start --template <path>` takes a local copy instead, and the built
+theme is a public repository:
+
+```sh
+git clone --depth 1 https://github.com/myst-templates/book-theme /tmp/book-theme
+pixi run docs start --template /tmp/book-theme
+```
+
+A local template is used where it stands, so `npm install` runs in it: the built theme's
+`package.json` is `{"type": "module"}` and its dependencies are already bundled, so there is nothing
+to install and the server starts in a couple of seconds.
+
+`myst start` also writes a markdown copy of every page under `_build/site/public/`. That tree is
+generated, so `scripts/repo_facts.py` declares it exempt and `.alint.yml` ignores it — otherwise the
+linters review the build's own output as if it were prose.
+
 ### The README is rendered, not edited
 
 `README.md` is generated from `.readme/README.md.ejs` by

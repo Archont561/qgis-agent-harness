@@ -141,6 +141,18 @@ def test_an_unknown_fence_language_is_reported(
     assert "unknown fence language" in result.stdout
 
 
+def test_a_myst_directive_fence_counts_as_named(
+    run: Run, write: Write, tmp_path: pathlib.Path
+) -> None:
+    """A MyST page tags a fence with a directive, not a language — the fence is still named."""
+    with_directive = README.replace(
+        "```sh\npixi install\n```", "```{note}\nNothing to install yet.\n```"
+    )
+    _readme(write, tmp_path, with_directive)
+    result = run("house_style.py", "invariants", "README.md", cwd=tmp_path)
+    assert result.returncode == 0, result.stdout
+
+
 def test_emoji_is_reported_and_a_fence_is_not_scanned_for_it(
     run: Run, write: Write, tmp_path: pathlib.Path
 ) -> None:

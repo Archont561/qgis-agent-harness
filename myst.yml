@@ -20,6 +20,12 @@ project:
   github: https://github.com/Archont561/qgis-agent-harness
   toc:
     - file: site/index.md
+    # Placeholder pages — scaffolding, deleted when the site has real content.
+    - title: Placeholder
+      children:
+        - file: site/demo/overview.md
+        - file: site/demo/tokens.md
+        - file: site/demo/numbers.md
 site:
   template: book-theme
   options:

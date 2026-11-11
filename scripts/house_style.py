@@ -11,8 +11,9 @@ account, while the skeleton describes the shape the newest ones settled on. A ru
 repositories fail is an opinion, not a convention, so it is opt-in:
 
   1. `invariants` — one H1 on line 1, no skipped heading levels, no punctuation at the end of a
-     heading, no emoji, tagged fences from a known vocabulary, `alt` on every badge, an alignment
-     row under every table header, `## License` last and spelled the American way;
+     heading, no emoji, tagged fences from a known vocabulary (a MyST `{note}` counts: the fence is
+     named by its directive), `alt` on every badge, an alignment row under every table header,
+     `## License` last and spelled the American way;
   2. `skeleton` — the README shape of `qgis-sdk` and `skills`: a centred `<p align="center">` badge
      block, a bold tagline and a `> Status:` line above the first `##`, then `Try it` → `Develop` →
      `Documentation` → `License`;
@@ -38,6 +39,10 @@ import re
 import sys
 
 SHELL_FENCES = {"sh", "bash", "console", "shell", "zsh"}
+# A MyST page's fences are not all code: ```{note} opens an admonition, `{figure}` a figure, and
+# the directive's name is what the fence is tagged with. A fence is *named* here, in other words,
+# even though the name is not a language — which is the property the rule is actually after.
+MYST_DIRECTIVE = re.compile(r"^\{[a-z][a-z0-9_+-]*\}$")
 FENCE_LANGUAGES = SHELL_FENCES | {
     "text", "yaml", "toml", "json", "python", "py", "ts", "tsx", "js", "rust", "sql", "diff", "ini",
     "markdown", "md", "csv", "gherkin", "dockerfile", "mermaid", "xml", "html", "css", "powershell",
@@ -184,7 +189,7 @@ def check_shared(doc: Document) -> list[str]:
                     "fence with no language — name it (`sh`, `text`, `yaml`) so it reads as code",
                 )
             )
-        elif language not in FENCE_LANGUAGES:
+        elif language not in FENCE_LANGUAGES and not MYST_DIRECTIVE.match(language):
             problems.append(
                 _at(
                     where,

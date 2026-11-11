@@ -10,6 +10,8 @@ extends:
 # Generated or vendored trees — never lint them.
 ignore:
   - node_modules/**
+  - _build/**                      # MyST build output: myst start writes markdown copies of
+                                   # every page here, and a generated tree is not prose
   - .pixi/**
   - thesis/literature/fulltexts/**      # machine-extracted paper transcripts
   - thesis/literature/search/results-2026-10-31/**  # raw API dumps
