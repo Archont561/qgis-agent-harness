@@ -262,6 +262,7 @@ second chart library is a second thing to learn, and the set has to survive a ye
 | Search | `pagefind` | indexes the *built* HTML after `myst build`; its JS API (`debouncedSearch`) feeds a custom UI |
 | Palette | `ninja-keys` | a VS Code-style command palette as a web component — no React, no build step |
 | Icons | `@vscode/codicons` | the actual VS Code icon font, so the palette's glyphs match its behaviour |
+| Styling | `unocss`, `@unocss/cli` | design tokens, and the one stylesheet MyST merges into `myst-theme.css` |
 
 Dropped for overlapping a job that is already taken: `@observablehq/plot`, `echarts`,
 `plotly.js-dist-min` and `chart.js` (all charts, behind Vega-Lite); `leaflet` and the four
@@ -280,6 +281,35 @@ are MyST's own**, as are the theme toggle, the built-in search and the GitHub li
 **`pagefind` runs after the build, not inside it**, and so does anything that injects JavaScript:
 `site.options.style` is MyST's only hook and it takes CSS, so a palette has to be added to the built
 pages by a post-build step. Both want a script of their own beside `scripts/readme.sh`.
+
+### Design tokens (UnoCSS)
+
+MyST's single styling hook is `site.options.style`: one stylesheet, merged into `myst-theme.css` at
+build time. `uno.config.ts` is where the tokens live — colours, a type scale, spacing, radii — and
+`pixi run site-css` turns them, plus only the utilities the content actually uses, into
+`assets/site.css`:
+
+```bash
+pixi run site-css        # uno.config.ts + the scanned content -> assets/site.css
+```
+
+| Piece | Where |
+|---|---|
+| Tokens, the theme mapping, the preflights | `uno.config.ts` |
+| The generated stylesheet | `assets/site.css` — never committed |
+| The line the MyST project needs | `site.options.style: assets/site.css` |
+| The globs the CLI scans | `cli.entry`, in the same config, so the task runs as a bare `unocss` |
+
+The tokens are emitted as custom properties on `:root`, overridden under `.dark` — the class the
+theme's own toggle puts on `html` — so a utility like `text-ink` or `bg-surface` follows the reader's
+theme with no second rule. The theme's typography is left alone: these tokens style the markup *we*
+write (raw HTML blocks, chart wrappers, the palette), not the article.
+
+Two things the next page has to respect. Markup that exists only at run time — the command palette,
+injected after the build — is scanned by nobody, so its classes belong in `safelist` as they are
+written. And `uno.config.ts` is one of the scanned patterns itself: the CLI writes nothing at all when
+every pattern matches zero files, and a `myst.yml` naming a stylesheet that was never generated is a
+broken build.
 
 ### The README is rendered, not edited
 
