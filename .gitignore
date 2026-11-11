@@ -43,7 +43,7 @@ bun-debug.log
 _build
 # The stylesheet is generated from uno.config.ts and the content it scans, so it is never
 # committed: a sheet that looks live and is not costs somebody an afternoon.
-/assets/site.css
+/sites/assets/site.css
 
 # ─── Browser automation artefacts ─────────────────────────────────────────────
 .playwright/

@@ -143,7 +143,7 @@ thesis/        the text: framing, design, analysis, draft chapters; index in the
 experiment/    the instrument: src/ (package qgis_agent_harness), tests/, features/
 backlog/       tasks, documents, decisions, milestones — managed by the backlog CLI
 docs/          how the repository works (environments, tests, sandbox, commits, agents, backlog)
-site/          the documentation site's pages; myst.yml at the root, text pulled from thesis/
+sites/         the documentation site: pages, myst.yml, design tokens, its own package.json
 scripts/       restore.sh, pre-push.sh, readme.sh and the checkers alint runs
 .cluster/      the sweep host: setup.sh, sweep-ctl, their tests and their Gherkin features
 .agents/       vendored agent skills, pinned by skills-lock.json

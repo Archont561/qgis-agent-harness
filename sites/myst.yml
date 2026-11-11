@@ -2,10 +2,11 @@
 #
 # Two decisions are worth knowing before editing this file.
 #
-# 1. It sits at the repository root, not inside `site/`, because the pages there pull their text
-#    from `thesis/` with `{include} ../thesis/...`. A project root that does not contain both
-#    directories makes every one of those paths reach outside the project, where MyST neither
-#    watches nor resolves it.
+# 1. The project root is this directory, so the pages pull their text from `thesis/` with
+#    `{include} ../../thesis/...` — a path that reaches outside the project. The text resolves
+#    (measured), but a figure the included note references does not: MyST copies images that live
+#    inside the project and silently drops the rest. Any note with a figure in it needs either a
+#    copy of the image under `public/` or a page that quotes the passage instead.
 # 2. Navigation is this `toc` list, not a glob. `project.pages` was the key for that in mystmd 0.x
 #    and 1.12 rejects it — `⚠️ myst.yml 'config.project' extra key ignored: pages`. `myst init
 #    --write-toc` regenerates the list; afterwards it is hand-maintained, which is what makes the
@@ -19,13 +20,13 @@ project:
     that runs it.
   github: https://github.com/Archont561/qgis-agent-harness
   toc:
-    - file: site/index.md
+    - file: index.md
     # Placeholder pages — scaffolding, deleted when the site has real content.
     - title: Placeholder
       children:
-        - file: site/demo/overview.md
-        - file: site/demo/tokens.md
-        - file: site/demo/numbers.md
+        - file: demo/overview.md
+        - file: demo/tokens.md
+        - file: demo/numbers.md
 site:
   template: book-theme
   options:

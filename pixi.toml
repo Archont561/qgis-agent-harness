@@ -95,9 +95,10 @@ bun = { cmd = "bun --bun", description = "bun (bun runtime for node shebangs); t
 install = { cmd = "bun install", description = "install package.json deps" }
 skills = { cmd = "bun x --bun skills", depends-on = ["install"], description = "skills CLI on bun's runtime" }
 backlog = { cmd = "bun x --bun backlog", depends-on = ["install"], description = "backlog CLI against ./backlog" }
-docs = { cmd = "bun x --bun myst", depends-on = ["install"], description = "MyST CLI: build the documentation site from myst.yml" }
+# The site owns myst.yml, so the CLI runs inside sites/: a project root is where its config is.
+docs = { cmd = "bun x --bun myst", cwd = "sites", depends-on = ["install"], description = "MyST CLI, in the site: build, start, init" }
 # The stylesheet MyST merges into myst-theme.css, generated from uno.config.ts and the content.
-site-css = { cmd = "bun x --bun unocss", depends-on = ["install"], description = "generate assets/site.css from the design tokens in uno.config.ts and the content it scans" }
+site-css = { cmd = "bun x --bun unocss", cwd = "sites", depends-on = ["install"], description = "generate sites/assets/site.css from the design tokens in uno.config.ts and the content it scans" }
 readme = { cmd = "bash scripts/readme.sh", description = "render README.md from .readme/README.md.ejs" }
 readme-check = { cmd = "bash scripts/readme.sh --check", description = "fail when README.md is not the render of the template" }
 # agents-md rewrites only what sits between its markers; --no-symlink keeps a CLAUDE.md symlink out of the tree.

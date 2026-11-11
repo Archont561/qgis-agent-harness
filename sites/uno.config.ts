@@ -4,7 +4,8 @@ import { defineConfig, presetUno, transformerDirectives, transformerVariantGroup
  * Design tokens for the documentation site, and the only place they are written down.
  *
  * MyST's single styling hook is `site.options.style`: one stylesheet, merged into `myst-theme.css`
- * at build time. So the tokens are emitted as custom properties on `:root` and overridden under
+ * at build time. The paths below are relative to this directory, so the site can be picked up and
+ * moved without a second thing to edit. So the tokens are emitted as custom properties on `:root` and overridden under
  * `.dark`, which is the class the theme's own toggle puts on `html` — a utility like `text-ink`
  * therefore follows the reader's theme without a second set of rules.
  *
@@ -24,10 +25,14 @@ export default defineConfig({
     entry: [
       {
         patterns: [
-          'site/**/*.md', // MyST pages: classes in raw HTML blocks and in `:class:` options
-          'site/**/*.ipynb', // a page that is a notebook
-          'site/**/*.html', // widgets the pages iframe or include
-          'public/**/*.html', // static snippets copied to the site root
+          '**/*.md', // MyST pages: classes in raw HTML blocks and in `:class:` options
+          '**/*.ipynb', // a page that is a notebook
+          '**/*.html', // widgets the pages iframe or include
+          // Two trees inside this directory are not content, and a bare `**` walks both:
+          // node_modules (the workspace's own dependencies) and _build (MyST's output, which is
+          // the pages again, rewritten). Scanning either costs utilities that are already here.
+          '!**/node_modules/**',
+          '!_build/**',
           // This file itself, so the tokens are emitted even while there is no content to
           // scan: the CLI writes nothing at all when every pattern matches zero files, and a
           // myst.yml pointing at a stylesheet that was never generated is a broken build.

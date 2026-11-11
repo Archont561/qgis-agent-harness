@@ -313,26 +313,41 @@ broken build.
 
 ### Where the site's content lives
 
-Three places, and the split is the point: the text stays where it is written, and the site owns only
-what is published.
+The site is one directory — `sites/` — and it carries its own config, its own stylesheet and its own
+`package.json`. The text it publishes stays where it is written.
 
-| Path | Holds | Published |
-|---|---|---|
-| `myst.yml` | the project: the table of contents, the template, the stylesheet hook | at the repository root, not in a subdirectory |
-| `site/` | the pages — the only MyST content in the repository | everything here |
-| `thesis/`, `docs/` | the text the pages pull in with `{include}` | only what a page pulls in |
+| Path | Holds |
+|---|---|
+| `sites/myst.yml` | the project: the table of contents, the template, the stylesheet hook |
+| `sites/uno.config.ts` | the design tokens, and the globs the stylesheet is generated from |
+| `sites/package.json` | the site's dependencies — a bun workspace of the root `package.json` |
+| `sites/*.md`, `sites/**/*.md` | the pages: the only MyST content in the repository |
+| `thesis/`, `docs/` | the text the pages pull in with `{include}` |
 
-Two decisions behind that shape, both of them the kind that is expensive to reverse:
+`myst.yml` is inside `sites/`, which makes that directory the **project root** — so both site commands
+run there, and `pixi run docs` and `pixi run site-css` set `cwd = "sites"` to do it. A page reaches
+its text with `{include} ../../thesis/...`, a path that climbs out of the project.
 
-- **`myst.yml` sits at the repository root**, not inside `site/`, because a page there reaches its
-  text with `{include} ../thesis/...`. A project root that does not contain both directories makes
-  every one of those paths reach outside the project, where MyST neither watches nor resolves it.
+**That climb works for text and not for figures,** which was measured rather than assumed. A note
+included from `thesis/` renders, frontmatter and all; an image that note references is *not* copied
+into the build and disappears from the page with no warning — MyST copies the images that live inside
+the project and drops the rest. The same page under a root-level `myst.yml` copies the image
+(`_build/site/public/pic-<hash>.png`). So a note with a figure in it is published either by copying
+the image under `sites/public/` and pointing at it from the page, or by quoting the passage instead of
+including it. No note references a figure today — `thesis/img/` holds one SVG that nothing links to —
+so this is a constraint on the pages still to be written, not a defect in the ones that exist.
+
+Everything else about the shape is unchanged:
+
 - **Navigation is `project.toc`, an explicit list of files** — not a glob. `project.pages`, the key
   for that in mystmd 0.x, is rejected by 1.12 with `config.project extra key ignored: pages`, and
   `myst init --write-toc` only writes a table of contents where none exists: on a project that has
   one it answers `Not writing the table of contents, it already exists!`. So **adding a page is two
-  steps** — write `site/<name>.md`, then add it to `project.toc` by hand — and the order in the
+  steps** — write `sites/<name>.md`, then add it to `project.toc` by hand — and the order in the
   sidebar is a decision rather than a directory listing.
+- **Publishing a note costs eight warnings on a cold build**: the include merges the note's
+  frontmatter into the page, and a thesis note carries the eight backlog keys — `id`, `type`,
+  `status`, `language`, `question`, `tasks`, `sources`, `updated_date`. A warm cache is silent.
 
 A page that publishes a note is a frontmatter block, a heading, and one directive:
 
@@ -345,7 +360,7 @@ title: Aim and contributions
 
 Two sentences of framing that only the site needs.
 
-~~~{include} ../thesis/framing/aim-and-contributions.md
+~~~{include} ../../thesis/framing/aim-and-contributions.md
 ~~~
 ```
 
@@ -353,18 +368,15 @@ MyST reads a directive between tildes exactly as it reads one between backticks 
 against the same note, and both pull in the same eight frontmatter keys — and tildes are what lets
 this example sit inside a fenced block without closing it.
 
-The cost of that recipe, measured rather than guessed: **the included note's frontmatter is merged
-into the page**, so a thesis note brings its eight backlog keys with it and a cold build prints eight
-lines of `site/<name>.md 'frontmatter' extra key ignored:` — `id`, `type`, `status`, `language`,
-`question`, `tasks`, `sources`, `updated_date`. A warm cache is silent, so this is the first build of
-a checkout and nothing else. The alternative — pointing `project.toc` at the note in `thesis/`
-instead of including it — prints exactly the same eight lines, because the keys are the note's and
-not the include's.
+The site is a **bun workspace**, so there is one `bun.lock` and one `bun install`: the root
+`package.json` keeps the repository's own tooling (`backlog.md`, `opencode-ai`, `skills`) and declares
+`workspaces: ["sites"]`. Bun does not hoist a workspace's dependencies to the root — they land in
+`sites/node_modules` — which is the other reason the site's commands run inside `sites/`.
 
 Two things the pages are and are not held to. `alint` keeps them to the house markdown shape
 (`site-house-style`, the same `invariants` the documents in `docs/` answer to), and it checks that
 every path and link in them resolves — a link in a published page rots in public. Vale does not walk
-`site/`: the CI job lints `thesis/` and `docs/`, and site prose is full of directives that are not
+`sites/`: the CI job lints `thesis/` and `docs/`, and site prose is full of directives that are not
 prose.
 
 ### Running the site locally
@@ -378,7 +390,7 @@ pixi run docs start   # content server on 3100, the site on 3000
 ```
 
 The theme is **fetched, not installed from npm**: the build queries `api.mystmd.org` for
-`book-theme` and unpacks it under `_build/`. Where that host is unreachable — an airlocked host, or a
+`book-theme` and unpacks it under `sites/_build/`. Where that host is unreachable — an airlocked host, or a
 sandbox with an allowlist — `myst start --template <path>` takes a local copy instead, and the built
 theme is a public repository:
 
@@ -391,7 +403,7 @@ A local template is used where it stands, so `npm install` runs in it: the built
 `package.json` is `{"type": "module"}` and its dependencies are already bundled, so there is nothing
 to install and the server starts in a couple of seconds.
 
-`myst start` also writes a markdown copy of every page under `_build/site/public/`. That tree is
+`myst start` also writes a markdown copy of every page under `sites/_build/site/public/`. That tree is
 generated, so `scripts/repo_facts.py` declares it exempt and `.alint.yml` ignores it — otherwise the
 linters review the build's own output as if it were prose.
 

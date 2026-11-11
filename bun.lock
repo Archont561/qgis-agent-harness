@@ -5,17 +5,23 @@
     "": {
       "name": "research",
       "dependencies": {
+        "backlog.md": "^1.55.3",
+        "opencode-ai": "^1.19.5",
+        "skills": "^1.7.4",
+      },
+    },
+    "sites": {
+      "name": "research-site",
+      "version": "0.1.0",
+      "dependencies": {
         "@unocss/cli": "^66.12.0",
         "@vscode/codicons": "^0.0.46-24",
         "asciinema-player": "^3.18.0",
-        "backlog.md": "^1.55.3",
         "maplibre-gl": "^6.18.0",
         "mystmd": "^1.12.0",
         "ninja-keys": "^1.2.2",
-        "opencode-ai": "^1.19.5",
         "pagefind": "^1.6.0",
         "pmtiles": "^4.5.0",
-        "skills": "^1.7.4",
         "unocss": "^66.12.0",
         "vega": "^6.4.0",
         "vega-embed": "^7.3.0",
@@ -467,6 +473,8 @@
     "readdirp": ["readdirp@5.1.1", "", {}, "sha512-Kko+Y5XQ6fM+Ce3dq3m9YGxnacYZYl9cA1wZjaF3Vbry2L3i1qVg8+CAgNPsXRArPMUMCaOR7oa9Nqntc43JKA=="],
 
     "require-from-string": ["require-from-string@2.0.2", "", {}, "sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw=="],
+
+    "research-site": ["research-site@workspace:sites"],
 
     "resolve-protobuf-schema": ["resolve-protobuf-schema@2.1.0", "", { "dependencies": { "protocol-buffers-schema": "^3.3.1" } }, "sha512-kI5ffTiZWmJaS/huM8wZfEMer1eRd7oJQhDuxeCLe3t7N7mX3z94CN0xPxBQxFYQTSNz9T0i+v6inKqSdK8xrQ=="],
 
