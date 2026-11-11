@@ -8,10 +8,12 @@
     "backlog": "bunx --bun backlog",
     "board": "bunx --bun backlog board",
     "browser": "bunx --bun backlog browser",
+    "docs": "bunx --bun myst",
     "skills": "bunx --bun skills"
   },
   "dependencies": {
     "backlog.md": "^1.55.3",
+    "mystmd": "^1.12.0",
     "opencode-ai": "^1.19.5",
     "skills": "^1.7.4"
   },

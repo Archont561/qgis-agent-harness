@@ -245,6 +245,7 @@ Package scripts are one-liners that need no `node_modules` paths:
 | `backlog` | `bunx --bun backlog` | backlog CLI (1.55.3) |
 | `board` / `browser` | `bunx --bun backlog board` / `… browser` | kanban / web UI |
 | `skills` | `bunx --bun skills` | skills CLI (1.7.4) |
+| `docs` | `bunx --bun myst` | MyST CLI (1.12.0), reached as `pixi run docs` |
 
 ### The README is rendered, not edited
 

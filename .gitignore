@@ -36,6 +36,10 @@ bun-debug.log
 # One environment per interpreter, rebuilt from tox.ini; the pins live there.
 .tox/
 
+# ─── Documentation site (MyST) ────────────────────────────────────────────────
+# `pixi run docs build --html` writes the site here; the source is myst.yml.
+_build/
+
 # ─── Browser automation artefacts ─────────────────────────────────────────────
 .playwright/
 .playwright-cli/
