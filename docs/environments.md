@@ -311,6 +311,62 @@ written. And `uno.config.ts` is one of the scanned patterns itself: the CLI writ
 every pattern matches zero files, and a `myst.yml` naming a stylesheet that was never generated is a
 broken build.
 
+### Where the site's content lives
+
+Three places, and the split is the point: the text stays where it is written, and the site owns only
+what is published.
+
+| Path | Holds | Published |
+|---|---|---|
+| `myst.yml` | the project: the table of contents, the template, the stylesheet hook | at the repository root, not in a subdirectory |
+| `site/` | the pages — the only MyST content in the repository | everything here |
+| `thesis/`, `docs/` | the text the pages pull in with `{include}` | only what a page pulls in |
+
+Two decisions behind that shape, both of them the kind that is expensive to reverse:
+
+- **`myst.yml` sits at the repository root**, not inside `site/`, because a page there reaches its
+  text with `{include} ../thesis/...`. A project root that does not contain both directories makes
+  every one of those paths reach outside the project, where MyST neither watches nor resolves it.
+- **Navigation is `project.toc`, an explicit list of files** — not a glob. `project.pages`, the key
+  for that in mystmd 0.x, is rejected by 1.12 with `config.project extra key ignored: pages`, and
+  `myst init --write-toc` only writes a table of contents where none exists: on a project that has
+  one it answers `Not writing the table of contents, it already exists!`. So **adding a page is two
+  steps** — write `site/<name>.md`, then add it to `project.toc` by hand — and the order in the
+  sidebar is a decision rather than a directory listing.
+
+A page that publishes a note is a frontmatter block, a heading, and one directive:
+
+```markdown
+---
+title: Aim and contributions
+---
+
+# Aim and contributions
+
+Two sentences of framing that only the site needs.
+
+~~~{include} ../thesis/framing/aim-and-contributions.md
+~~~
+```
+
+MyST reads a directive between tildes exactly as it reads one between backticks — both were tried
+against the same note, and both pull in the same eight frontmatter keys — and tildes are what lets
+this example sit inside a fenced block without closing it.
+
+The cost of that recipe, measured rather than guessed: **the included note's frontmatter is merged
+into the page**, so a thesis note brings its eight backlog keys with it and a cold build prints eight
+lines of `site/<name>.md 'frontmatter' extra key ignored:` — `id`, `type`, `status`, `language`,
+`question`, `tasks`, `sources`, `updated_date`. A warm cache is silent, so this is the first build of
+a checkout and nothing else. The alternative — pointing `project.toc` at the note in `thesis/`
+instead of including it — prints exactly the same eight lines, because the keys are the note's and
+not the include's.
+
+Two things the pages are and are not held to. `alint` keeps them to the house markdown shape
+(`site-house-style`, the same `invariants` the documents in `docs/` answer to), and it checks that
+every path and link in them resolves — a link in a published page rots in public. Vale does not walk
+`site/`: the CI job lints `thesis/` and `docs/`, and site prose is full of directives that are not
+prose.
+
 ### The README is rendered, not edited
 
 `README.md` is generated from `.readme/README.md.ejs` by
