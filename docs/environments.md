@@ -250,39 +250,36 @@ Package scripts are one-liners that need no `node_modules` paths:
 ### The documentation site's dependencies
 
 `pixi run docs` builds the site (MyST, `mystmd` 1.12.0), and these are the libraries its pages will
-draw on. They are dependencies rather than packages fetched when a task runs, for the same reason
-`mystmd` is one: the site is a deliverable, and a build that resolves its renderer at run time is a
-build that can change under it.
+draw on. **One library per job.** Everything that duplicated a job was removed on purpose, because a
+second chart library is a second thing to learn, and the set has to survive a year of a thesis.
 
-| Group | Package | What it is for |
+| Job | Package | What it is for |
 |---|---|---|
-| Charts | `vega`, `vega-lite`, `vega-embed` | the statistics: confidence intervals, small multiples, layered and faceted specs, declared as JSON beside the results |
-| Charts | `@observablehq/plot` | concise exploratory charts, written in JS |
-| Charts | `echarts` | dashboards: zoom, heatmaps, sankey, graph |
-| Charts | `plotly.js-dist-min` | the 3D and scientific traces the others lack |
-| Charts | `chart.js` | plain business charts |
-| Terminal | `asciinema-player` | plays a recorded `.cast` — real output with real timing |
-| Terminal | `termynal` | a scripted typing animation, with no dependencies at all |
-| Terminal | `@xterm/xterm`, `@xterm/addon-fit` | a real emulator; it wants a pty behind it, which Pages cannot host |
-| Maps | `maplibre-gl`, `pmtiles` | task areas and spatial results as static vector tiles |
-| Maps | `leaflet` | the lighter alternative |
-| Maps | `@deck.gl/core`, `@deck.gl/layers`, `@deck.gl/geo-layers`, `@deck.gl/mapbox` | large point clouds and aggregations, drawn on top of the map |
-| Page | `scrollama` | scroll-driven narrative |
-| Page | `plausible-tracker` | analytics without a cookie banner |
-| Data | `apache-arrow` | columnar result tables, if JSON gets wasteful |
+| Site | `mystmd` | the build: MyST Markdown, notebooks and JupyterLite-free static output |
+| Charts | `vega`, `vega-lite`, `vega-embed` | the statistics — confidence intervals, small multiples, layered and faceted specs, declared as JSON beside the results |
+| Terminal | `asciinema-player` | plays a recorded `.cast`: real output, real timing, re-recordable in CI |
+| Maps | `maplibre-gl`, `pmtiles` | task areas and spatial results as static vector tiles, no tile server |
+| Search | `pagefind` | indexes the *built* HTML after `myst build`; its JS API (`debouncedSearch`) feeds a custom UI |
+| Palette | `ninja-keys` | a VS Code-style command palette as a web component — no React, no build step |
+| Icons | `@vscode/codicons` | the actual VS Code icon font, so the palette's glyphs match its behaviour |
 
-Two exclusions worth remembering. **Nothing here runs Python in the browser** — JupyterLite (a MyST
-flag, `project.jupyter.lite`), `pyodide`, `thebe` and `@jupyter-widgets/html-manager` are all absent,
-and QGIS could not run there anyway, being conda-only native code. And **mermaid, KaTeX and syntax
-highlighting are MyST's own**, so they are not dependencies.
+Dropped for overlapping a job that is already taken: `@observablehq/plot`, `echarts`,
+`plotly.js-dist-min` and `chart.js` (all charts, behind Vega-Lite); `leaflet` and the four
+`@deck.gl/*` submodules (all maps, behind MapLibre — and `@deck.gl/arcgis` drags in close to 200 MB of
+`@arcgis/core`); `termynal` and `@xterm/xterm` (both terminals, behind a recorded cast, and xterm wants
+a pty that Pages cannot host); `apache-arrow`, which only pays off if the result tables outgrow JSON;
+`scrollama` and `plausible-tracker`, which no page has asked for yet. That took `node_modules` from
+1.7 GB to 1.1 GB, and from 440 packages to 144.
 
-`deck.gl` is taken as four submodules rather than the `deck.gl` umbrella: the umbrella pulls
-`@deck.gl/arcgis` and with it `@arcgis/core`, close to 200 MB of a GIS stack this site never loads.
-The set still costs about 600 MB in `node_modules` — 1.4 GB with the toolchain that was already here —
-and `deck.gl` is most of it, because `@luma.gl` and `@loaders.gl` are its GPU and tile-loading stack.
-What ships is far smaller, since a page pays only for what it imports, but if the install ever gets in
-the way, `deck.gl` is the first thing to drop: `maplibre-gl` with `pmtiles` covers everything except
-drawing thousands of points at once.
+Two more exclusions worth remembering. **Nothing here runs Python in the browser** — no JupyterLite (a
+MyST flag, not a package), no `pyodide`, no `thebe`, no `@jupyter-widgets/html-manager` — and QGIS
+could not run there anyway, being conda-only native code. And **mermaid, KaTeX and syntax highlighting
+are MyST's own**, as are the theme toggle, the built-in search and the GitHub link that
+`project.github` gives you: a palette is an addition to those, not a replacement.
+
+**`pagefind` runs after the build, not inside it**, and so does anything that injects JavaScript:
+`site.options.style` is MyST's only hook and it takes CSS, so a palette has to be added to the built
+pages by a post-build step. Both want a script of their own beside `scripts/readme.sh`.
 
 ### The README is rendered, not edited
 
