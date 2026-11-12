@@ -106,6 +106,13 @@ def test_the_cli_managed_backlog_is_exempt(run: Run, write: Write, tmp_path: pat
     assert done.returncode == 0, done.stdout + done.stderr
 
 
+def test_the_myst_build_tree_is_exempt(run: Run, write: Write, tmp_path: pathlib.Path) -> None:
+    """A built tree is not prose: myst start rewrites every page under sites/_build/."""
+    write(tmp_path, "sites/_build/site/public/index-a3dad9ecfc933edd0e6e793bd5037052.md", STALE)
+    done = run("repo_facts.py", "retired", cwd=tmp_path)
+    assert done.returncode == 0, done.stdout + done.stderr
+
+
 # ── ids ────────────────────────────────────────────────────────────────────────────────────────
 
 

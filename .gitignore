@@ -36,6 +36,15 @@ bun-debug.log
 # One environment per interpreter, rebuilt from tox.ini; the pins live there.
 .tox/
 
+# ─── Documentation site (MyST) ────────────────────────────────────────────────
+# `pixi run docs build --html` writes the site here; the source is myst.yml. No trailing slash:
+# `myst build` runs `git check-ignore _build`, and a directory-only pattern does not answer for the
+# bare path — with the slash, every build appends its own `# MyST build outputs` block.
+_build
+# The stylesheet is generated from uno.config.ts and the content it scans, so it is never
+# committed: a sheet that looks live and is not costs somebody an afternoon.
+/sites/assets/site.css
+
 # ─── Browser automation artefacts ─────────────────────────────────────────────
 .playwright/
 .playwright-cli/

@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "description": "MSc research workspace: task tracking with Backlog.md, agent skills via the skills CLI",
+  "workspaces": [
+    "sites"
+  ],
   "type": "module",
   "scripts": {
     "backlog": "bunx --bun backlog",
     "board": "bunx --bun backlog board",
     "browser": "bunx --bun backlog browser",
+    "docs": "cd sites && bunx --bun myst",
     "skills": "bunx --bun skills"
   },
   "dependencies": {

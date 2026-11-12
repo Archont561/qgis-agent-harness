@@ -36,6 +36,7 @@ EXEMPT = {
     "thesis/literature/": "sources: transcripts and digests quote whatever the paper said",
     "thesis/writing/": "critique, defence and rehearsal notes argue against the retired design",
     ".agents/": "vendored skills, pinned by skills-lock.json",
+    "sites/_build/": "MyST build output: `myst start` writes a markdown copy of every page here",
 }
 
 # A rule is allowed to match nothing only while it is declared here, with the reason and a removal

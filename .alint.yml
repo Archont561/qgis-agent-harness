@@ -10,6 +10,8 @@ extends:
 # Generated or vendored trees — never lint them.
 ignore:
   - node_modules/**
+  - sites/_build/**                # MyST build output: myst start writes markdown copies of
+                                   # every page here, and a generated tree is not prose
   - .pixi/**
   - thesis/literature/fulltexts/**      # machine-extracted paper transcripts
   - thesis/literature/search/results-2026-10-31/**  # raw API dumps
@@ -88,6 +90,7 @@ rules:
       - "CONTRIBUTING.md"
       - "AGENTS.md"
       - "docs/**/*.md"
+      - "sites/**/*.md"  # the documentation site's pages: published, so links resolve in public
       - "experiment/**/*.md"
       - "thesis/*.md"
       - "thesis/analysis/**/*.md"
@@ -105,6 +108,7 @@ rules:
       - "CONTRIBUTING.md"
       - "AGENTS.md"
       - "docs/**/*.md"
+      - "sites/**/*.md"  # the documentation site's pages: published, so links resolve in public
       - "experiment/**/*.md"
       - "thesis/*.md"
       - "thesis/analysis/**/*.md"
@@ -123,6 +127,7 @@ rules:
       - "CONTRIBUTING.md"
       - "AGENTS.md"
       - "docs/**/*.md"
+      - "sites/**/*.md"  # the documentation site's pages: published, so links resolve in public
       - "experiment/**/*.md"
       - "thesis/*.md"
       - "thesis/analysis/**/*.md"
@@ -238,6 +243,14 @@ rules:
     kind: command
     level: error
     paths: "docs/**/*.md"
+    command: [python3, scripts/house_style.py, invariants, "{path}"]
+  # The site's pages are held to the shape every document in this repository keeps: one H1, no
+  # skipped levels, tagged fences, an alignment row under each table header. Vale does not walk
+  # site/ — the CI job runs it over thesis/ and docs/ — so this is the only gate on that prose.
+  - id: site-house-style
+    kind: command
+    level: error
+    paths: "sites/**/*.md"
     command: [python3, scripts/house_style.py, invariants, "{path}"]
   # The contributor guide is held to the shape the README is (docs/markdown-style.md), in the mode
   # that checks the `Contributing to <repository>` heading and the environment → commands → commits

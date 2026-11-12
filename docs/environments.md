@@ -245,6 +245,167 @@ Package scripts are one-liners that need no `node_modules` paths:
 | `backlog` | `bunx --bun backlog` | backlog CLI (1.55.3) |
 | `board` / `browser` | `bunx --bun backlog board` / `… browser` | kanban / web UI |
 | `skills` | `bunx --bun skills` | skills CLI (1.7.4) |
+| `docs` | `bunx --bun myst` | MyST CLI (1.12.0), reached as `pixi run docs` |
+
+### The documentation site's dependencies
+
+`pixi run docs` builds the site (MyST, `mystmd` 1.12.0), and these are the libraries its pages will
+draw on. **One library per job.** Everything that duplicated a job was removed on purpose, because a
+second chart library is a second thing to learn, and the set has to survive a year of a thesis.
+
+| Job | Package | What it is for |
+|---|---|---|
+| Site | `mystmd` | the build: MyST Markdown, notebooks and JupyterLite-free static output |
+| Charts | `vega`, `vega-lite`, `vega-embed` | the statistics — confidence intervals, small multiples, layered and faceted specs, declared as JSON beside the results |
+| Terminal | `asciinema-player` | plays a recorded `.cast`: real output, real timing, re-recordable in CI |
+| Maps | `maplibre-gl`, `pmtiles` | task areas and spatial results as static vector tiles, no tile server |
+| Search | `pagefind` | indexes the *built* HTML after `myst build`; its JS API (`debouncedSearch`) feeds a custom UI |
+| Palette | `ninja-keys` | a VS Code-style command palette as a web component — no React, no build step |
+| Icons | `@vscode/codicons` | the actual VS Code icon font, so the palette's glyphs match its behaviour |
+| Styling | `unocss`, `@unocss/cli` | design tokens, and the one stylesheet MyST merges into `myst-theme.css` |
+
+Dropped for overlapping a job that is already taken: `@observablehq/plot`, `echarts`,
+`plotly.js-dist-min` and `chart.js` (all charts, behind Vega-Lite); `leaflet` and the four
+`@deck.gl/*` submodules (all maps, behind MapLibre — and `@deck.gl/arcgis` drags in close to 200 MB of
+`@arcgis/core`); `termynal` and `@xterm/xterm` (both terminals, behind a recorded cast, and xterm wants
+a pty that Pages cannot host); `apache-arrow`, which only pays off if the result tables outgrow JSON;
+`scrollama` and `plausible-tracker`, which no page has asked for yet. That took `node_modules` from
+1.7 GB to 1.1 GB, and from 440 packages to 144.
+
+Two more exclusions worth remembering. **Nothing here runs Python in the browser** — no JupyterLite (a
+MyST flag, not a package), no `pyodide`, no `thebe`, no `@jupyter-widgets/html-manager` — and QGIS
+could not run there anyway, being conda-only native code. And **mermaid, KaTeX and syntax highlighting
+are MyST's own**, as are the theme toggle, the built-in search and the GitHub link that
+`project.github` gives you: a palette is an addition to those, not a replacement.
+
+**`pagefind` runs after the build, not inside it**, and so does anything that injects JavaScript:
+`site.options.style` is MyST's only hook and it takes CSS, so a palette has to be added to the built
+pages by a post-build step. Both want a script of their own beside `scripts/readme.sh`.
+
+### Design tokens (UnoCSS)
+
+MyST's single styling hook is `site.options.style`: one stylesheet, merged into `myst-theme.css` at
+build time. `uno.config.ts` is where the tokens live — colours, a type scale, spacing, radii — and
+`pixi run site-css` turns them, plus only the utilities the content actually uses, into
+`assets/site.css`:
+
+```bash
+pixi run site-css        # uno.config.ts + the scanned content -> assets/site.css
+```
+
+| Piece | Where |
+|---|---|
+| Tokens, the theme mapping, the preflights | `uno.config.ts` |
+| The generated stylesheet | `assets/site.css` — never committed |
+| The line the MyST project needs | `site.options.style: assets/site.css` |
+| The globs the CLI scans | `cli.entry`, in the same config, so the task runs as a bare `unocss` |
+
+The tokens are emitted as custom properties on `:root`, overridden under `.dark` — the class the
+theme's own toggle puts on `html` — so a utility like `text-ink` or `bg-surface` follows the reader's
+theme with no second rule. The theme's typography is left alone: these tokens style the markup *we*
+write (raw HTML blocks, chart wrappers, the palette), not the article.
+
+Two things the next page has to respect. Markup that exists only at run time — the command palette,
+injected after the build — is scanned by nobody, so its classes belong in `safelist` as they are
+written. And `uno.config.ts` is one of the scanned patterns itself: the CLI writes nothing at all when
+every pattern matches zero files, and a `myst.yml` naming a stylesheet that was never generated is a
+broken build.
+
+### Where the site's content lives
+
+The site is one directory — `sites/` — and it carries its own config, its own stylesheet and its own
+`package.json`. The text it publishes stays where it is written.
+
+| Path | Holds |
+|---|---|
+| `sites/myst.yml` | the project: the table of contents, the template, the stylesheet hook |
+| `sites/uno.config.ts` | the design tokens, and the globs the stylesheet is generated from |
+| `sites/package.json` | the site's dependencies — a bun workspace of the root `package.json` |
+| `sites/*.md`, `sites/**/*.md` | the pages: the only MyST content in the repository |
+| `thesis/`, `docs/` | the text the pages pull in with `{include}` |
+
+`myst.yml` is inside `sites/`, which makes that directory the **project root** — so both site commands
+run there, and `pixi run docs` and `pixi run site-css` set `cwd = "sites"` to do it. A page reaches
+its text with `{include} ../../thesis/...`, a path that climbs out of the project.
+
+**That climb works for text and not for figures,** which was measured rather than assumed. A note
+included from `thesis/` renders, frontmatter and all; an image that note references is *not* copied
+into the build and disappears from the page with no warning — MyST copies the images that live inside
+the project and drops the rest. The same page under a root-level `myst.yml` copies the image
+(`_build/site/public/pic-<hash>.png`). So a note with a figure in it is published either by copying
+the image under `sites/public/` and pointing at it from the page, or by quoting the passage instead of
+including it. No note references a figure today — `thesis/img/` holds one SVG that nothing links to —
+so this is a constraint on the pages still to be written, not a defect in the ones that exist.
+
+Everything else about the shape is unchanged:
+
+- **Navigation is `project.toc`, an explicit list of files** — not a glob. `project.pages`, the key
+  for that in mystmd 0.x, is rejected by 1.12 with `config.project extra key ignored: pages`, and
+  `myst init --write-toc` only writes a table of contents where none exists: on a project that has
+  one it answers `Not writing the table of contents, it already exists!`. So **adding a page is two
+  steps** — write `sites/<name>.md`, then add it to `project.toc` by hand — and the order in the
+  sidebar is a decision rather than a directory listing.
+- **Publishing a note costs eight warnings on a cold build**: the include merges the note's
+  frontmatter into the page, and a thesis note carries the eight backlog keys — `id`, `type`,
+  `status`, `language`, `question`, `tasks`, `sources`, `updated_date`. A warm cache is silent.
+
+A page that publishes a note is a frontmatter block, a heading, and one directive:
+
+```markdown
+---
+title: Aim and contributions
+---
+
+# Aim and contributions
+
+Two sentences of framing that only the site needs.
+
+~~~{include} ../../thesis/framing/aim-and-contributions.md
+~~~
+```
+
+MyST reads a directive between tildes exactly as it reads one between backticks — both were tried
+against the same note, and both pull in the same eight frontmatter keys — and tildes are what lets
+this example sit inside a fenced block without closing it.
+
+The site is a **bun workspace**, so there is one `bun.lock` and one `bun install`: the root
+`package.json` keeps the repository's own tooling (`backlog.md`, `opencode-ai`, `skills`) and declares
+`workspaces: ["sites"]`. Bun does not hoist a workspace's dependencies to the root — they land in
+`sites/node_modules` — which is the other reason the site's commands run inside `sites/`.
+
+Two things the pages are and are not held to. `alint` keeps them to the house markdown shape
+(`site-house-style`, the same `invariants` the documents in `docs/` answer to), and it checks that
+every path and link in them resolves — a link in a published page rots in public. Vale does not walk
+`sites/`: the CI job lints `thesis/` and `docs/`, and site prose is full of directives that are not
+prose.
+
+### Running the site locally
+
+`myst start` runs two servers: the content server on 3100, which serves the parsed pages, and the
+theme's own app on 3000, which is the one to open. Both are the MyST CLI reached through the task:
+
+```sh
+pixi run site-css     # the stylesheet first — a build from a clean checkout has none
+pixi run docs start   # content server on 3100, the site on 3000
+```
+
+The theme is **fetched, not installed from npm**: the build queries `api.mystmd.org` for
+`book-theme` and unpacks it under `sites/_build/`. Where that host is unreachable — an airlocked host, or a
+sandbox with an allowlist — `myst start --template <path>` takes a local copy instead, and the built
+theme is a public repository:
+
+```sh
+git clone --depth 1 https://github.com/myst-templates/book-theme /tmp/book-theme
+pixi run docs start --template /tmp/book-theme
+```
+
+A local template is used where it stands, so `npm install` runs in it: the built theme's
+`package.json` is `{"type": "module"}` and its dependencies are already bundled, so there is nothing
+to install and the server starts in a couple of seconds.
+
+`myst start` also writes a markdown copy of every page under `sites/_build/site/public/`. That tree is
+generated, so `scripts/repo_facts.py` declares it exempt and `.alint.yml` ignores it — otherwise the
+linters review the build's own output as if it were prose.
 
 ### The README is rendered, not edited
 

@@ -1,0 +1,36 @@
+# MyST project configuration — https://mystmd.org/guide/frontmatter
+#
+# Two decisions are worth knowing before editing this file.
+#
+# 1. The project root is this directory, so the pages pull their text from `thesis/` with
+#    `{include} ../../thesis/...` — a path that reaches outside the project. The text resolves
+#    (measured), but a figure the included note references does not: MyST copies images that live
+#    inside the project and silently drops the rest. Any note with a figure in it needs either a
+#    copy of the image under `public/` or a page that quotes the passage instead.
+# 2. Navigation is this `toc` list, not a glob. `project.pages` was the key for that in mystmd 0.x
+#    and 1.12 rejects it — `⚠️ myst.yml 'config.project' extra key ignored: pages`. `myst init
+#    --write-toc` regenerates the list; afterwards it is hand-maintained, which is what makes the
+#    table of contents a decision instead of a directory listing.
+version: 1
+project:
+  id: 3033f253-bd83-4fd8-9105-67dcb7e30c5e
+  title: QGIS agent harness
+  description: >-
+    A pre-registered comparison of MCP tool use against PyQGIS code generation, and the harness
+    that runs it.
+  github: https://github.com/Archont561/qgis-agent-harness
+  toc:
+    - file: index.md
+    # Placeholder pages — scaffolding, deleted when the site has real content.
+    - title: Placeholder
+      children:
+        - file: demo/overview.md
+        - file: demo/tokens.md
+        - file: demo/numbers.md
+site:
+  template: book-theme
+  options:
+    # MyST's only styling hook: this file is merged into myst-theme.css at build time. It is
+    # generated from uno.config.ts by `pixi run site-css` and is not committed, so run that task
+    # before a build from a clean checkout.
+    style: assets/site.css
