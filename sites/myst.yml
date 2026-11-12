@@ -34,3 +34,6 @@ site:
     # generated from uno.config.ts by `pixi run site-css` and is not committed, so run that task
     # before a build from a clean checkout.
     style: assets/site.css
+    # Not decoration: the theme's prerenderer fetches /favicon.ico from the content server, and a
+    # 404 for it fails the whole build (`Invalid response for resource route /favicon.ico: 404`).
+    favicon: assets/favicon.ico

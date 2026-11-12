@@ -39,5 +39,7 @@ Each command carries a one-line `#` note instead of a paragraph: `lefthook.yml` 
 rule as the manifests (`config-comment-one-line`), so the reasoning behind a hook lives in this
 table and in [tests.md](tests.md), not in the YAML.
 
-Coverage gate and the two workflows are described in [tests.md](tests.md); the publisher belongs to
-[sandbox.md](sandbox.md).
+Coverage gate and the two test workflows are described in [tests.md](tests.md); the sandbox publisher
+belongs to [sandbox.md](sandbox.md). A third workflow publishes the MyST site to GitHub Pages on every
+push to `main` — and builds it without publishing on every pull request that touches `sites/` — and is
+described in [environments.md](environments.md) beside the site it publishes.

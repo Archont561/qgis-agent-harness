@@ -407,6 +407,34 @@ to install and the server starts in a couple of seconds.
 generated, so `scripts/repo_facts.py` declares it exempt and `.alint.yml` ignores it — otherwise the
 linters review the build's own output as if it were prose.
 
+### Publishing the site
+
+`.github/workflows/pages.yml` builds `sites/` and publishes it to GitHub Pages. Two jobs: `build`
+runs `pixi run site-css` and then `pixi run docs build --html` and uploads `sites/_build/html`;
+`deploy` publishes the artifact. On a pull request the second job is skipped, so **"the site builds"
+is a status a change has to keep** — the push that breaks it fails before it reaches main.
+
+Four things the workflow does that are not obvious, three of them measured rather than assumed:
+
+- **`BASE_URL` is what makes the site work once it is published.** MyST rewrites every href through
+  it: the site is served from a subpath (`/<repository>/`), and without it every link and asset
+  points at `/` and 404s. The workflow reads it from `github.event.repository.name` rather than
+  writing it out, so a fork publishes under its own name.
+- **A favicon is not decoration.** The theme's prerenderer fetches `/favicon.ico` from the content
+  server, and a 404 there fails the whole build with `Invalid response for resource route
+  /favicon.ico: 404` — so `sites/assets/favicon.ico` is committed and named in `site.options`.
+- **The build needs a node that the pixi environment does not have.** The `js` environment
+  deliberately ships no node, because bun runs the shebangs; but `myst build --html` shells out to
+  `node` twice — for its own version probe and to run the theme's prerenderer. The workflow
+  therefore installs one with `actions/setup-node`, at the version MyST's own generator asks for.
+- **The pixi tasks run the binaries through bun, not through `bun x --bun`.** That form puts a `node`
+  shim first on `PATH` and the shim is bun; the version probe then answers the way a REPL without a
+  script does, and the build dies before it writes a page. Both were tried.
+
+The theme is fetched from `api.mystmd.org` at build time, so the job needs the network — which a
+runner has and this sandbox does not. Where it matters, the local escape hatch is the same one
+[above](#running-the-site-locally): a copy of the theme and `myst start --template <path>`.
+
 ### The README is rendered, not edited
 
 `README.md` is generated from `.readme/README.md.ejs` by
