@@ -1,0 +1,107 @@
+name: Pages
+
+# Publishes the MyST site in `sites/` to GitHub Pages.
+#
+# Two jobs, because a build that cannot deploy still has to be proved: on a pull request the build
+# runs and the deploy is skipped, so "the site builds" is a status a change has to keep. Only a push
+# to main uploads an artifact and publishes it.
+#
+# The shape of this file is MyST's own (`myst init --gh-pages`) with the install replaced: that
+# generator runs `npm install -g mystmd`, which would ignore the version pinned in package.json and
+# silently build the site with whatever MyST was latest that morning. Here the pin is honoured,
+# because the CLI is the one `bun install` put in sites/node_modules.
+on:
+  push:
+    branches: [main]
+    paths:
+      # The pages, the config, the design tokens, the stylesheet's own globs.
+      - "sites/**"
+      # The manifests: a new mystmd or a new token set changes what the build produces.
+      - "package.json"
+      - "bun.lock"
+      - "pixi.toml"
+      - "pixi.lock"
+      - ".github/workflows/pages.yml"
+      # `thesis/**` and `docs/**` are not listed yet, because no page includes one of their notes.
+      # The day one does, they join this list: the site would otherwise keep publishing prose that
+      # changed underneath it.
+  pull_request:
+    paths:
+      - "sites/**"
+      - "package.json"
+      - "bun.lock"
+      - "pixi.toml"
+      - "pixi.lock"
+      - ".github/workflows/pages.yml"
+  # A rebuild on demand: a change to the theme, a Pages setting, or a thesis edit that did not
+  # match the paths above.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  # MyST rewrites every href through this: the site is served from a subpath, not a domain root, and
+  # without it every link and every asset points at `/` and 404s once it is published. Read from the
+  # repository name rather than written out, so a fork publishes under its own.
+  BASE_URL: /${{ github.event.repository.name }}
+
+concurrency:
+  # Deployments serialise; a pull request build must not queue behind one, which is why the ref is
+  # in the group name. cancel-in-progress is false for the reason the GitHub docs give: a deploy
+  # cancelled half-uploaded leaves Pages serving nothing at all.
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build the site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # The theme is rendered by a node program. `myst build --html` shells out to `node` twice —
+      # once for its own version probe, once to run the theme's prerenderer — and the pixi `js`
+      # environment deliberately has no node in it, because bun runs the shebangs. So the build
+      # installs one, at the version MyST's own workflow asks for.
+      - name: Set up Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24.x
+
+      - name: Set up Pixi
+        uses: prefix-dev/setup-pixi@v0.9.6
+        with:
+          environments: js
+
+      # The stylesheet is generated from uno.config.ts and is not committed, so it has to exist
+      # before the build: a site built without it publishes with none of the design tokens.
+      - name: Build the stylesheet
+        run: pixi run site-css
+
+      # `myst build --html`, run inside `sites/` by the task: the project root is where myst.yml is.
+      - name: Build the site
+        run: pixi run docs build --html
+
+      - name: Upload artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: sites/_build/html
+
+  deploy:
+    name: Deploy to Pages
+    needs: build
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
