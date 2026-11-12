@@ -14,5 +14,5 @@ directory when the site has content of its own.
 | [Design tokens](./tokens.md) | that `assets/site.css` reaches a rendered page, and follows the theme |
 | [Numbers](./numbers.md) | that the tables of results will line up in columns |
 
-Both pages are held to the same shape as everything else in `site/`: `alint` runs
+Both pages are held to the same shape as everything else in `sites/`: `alint` runs
 `scripts/house_style.py invariants` over them.

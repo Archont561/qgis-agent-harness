@@ -26,13 +26,14 @@ Nothing here is published: no package, no release, no version.
 
 ## How this site is built
 
-The pages live in `site/`; the text they publish stays in `thesis/` and is pulled in with
+The pages live in `sites/`; the text they publish stays in `thesis/` and is pulled in with
 `{include}`. Two commands, in this order — the second names a stylesheet the first generates:
 
 ```sh
-pixi run site-css          # uno.config.ts + the scanned content -> assets/site.css
-pixi run docs build --html # site/ -> _build/html
+pixi run site-css          # uno.config.ts + the scanned content -> sites/assets/site.css
+pixi run docs build --html # sites/ -> sites/_build/html
 ```
 
 `assets/site.css` carries the design tokens as custom properties, so the utilities the pages use
-follow the reader's light or dark theme without a second set of rules.
+follow the reader's light or dark theme without a second set of rules. What the reader is looking at
+is the second command's output, published by `.github/workflows/pages.yml` on every push to `main`.
